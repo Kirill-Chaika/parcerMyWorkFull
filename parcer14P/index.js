@@ -199,6 +199,7 @@ const arrLinkJabko14ProMax = [
     });
     
     console.log(arr3)
+    await page.setDefaultNavigationTimeout(0);
     }
     for (let i = 0; i < arrLinkSkay14Pro.length; i += 1) {
       await page.goto(arrLinkSkay14Pro[i]);
@@ -214,6 +215,7 @@ const arrLinkJabko14ProMax = [
     });
     
     console.log(arr1)
+    await page.setDefaultNavigationTimeout(0);
     }
     for (let i = 0; i < arrLinkIstore14Pro.length; i += 1) {
       await page.goto(arrLinkIstore14Pro[i]);
@@ -229,6 +231,7 @@ const arrLinkJabko14ProMax = [
     });
     
     console.log(arr4)
+    await page.setDefaultNavigationTimeout(0);
     }
     for (let i = 0; i < arrLinkJabko14Pro.length; i += 1) {
       await page.goto(arrLinkJabko14Pro[i]);
@@ -244,6 +247,7 @@ const arrLinkJabko14ProMax = [
     });
     
     console.log(arr2)
+    await page.setDefaultNavigationTimeout(0);
     }
 
 
@@ -276,6 +280,7 @@ const arrLinkJabko14ProMax = [
     });
     
     console.log(arr6)
+    await page.setDefaultNavigationTimeout(0);
     }
     for (let i = 0; i < arrLinkIstore14ProMax.length; i += 1) {
       await page.goto(arrLinkIstore14ProMax[i]);
@@ -291,6 +296,7 @@ const arrLinkJabko14ProMax = [
     });
     
     console.log(arr7)
+    await page.setDefaultNavigationTimeout(0);
     }
     for (let i = 0; i < arrLinkJabko14ProMax.length; i += 1) {
       await page.goto(arrLinkJabko14ProMax[i]);
@@ -306,6 +312,7 @@ const arrLinkJabko14ProMax = [
     });
     
     console.log(arr8)
+    await page.setDefaultNavigationTimeout(0);
     }
 
   }

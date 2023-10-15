@@ -138,6 +138,7 @@ async function f() {
     });
 
     console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
   }
 }
 f();

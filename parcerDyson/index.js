@@ -63,6 +63,7 @@ async function f() {
     });
 
     console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkJabkoDyson.length; i += 1) {
     await page.goto(arrLinkJabkoDyson[i]);
@@ -80,6 +81,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkTouchDyson.length; i += 1) {
     await page.goto(arrLinkTouchDyson[i]);
@@ -95,6 +97,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkStoreInUADyson.length; i += 1) {
     await page.goto(arrLinkStoreInUADyson[i]);
@@ -114,6 +117,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkEstoreDyson.length; i += 1) {
     await page.goto(arrLinkEstoreDyson[i]);
@@ -131,6 +135,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIpodRomDyson.length; i += 1) {
     await page.goto(arrLinkIpodRomDyson[i]);
@@ -150,6 +155,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkPCShopDyson.length; i += 1) {
     await page.goto(arrLinkPCShopDyson[i]);
@@ -169,6 +175,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIpeopleDyson.length; i += 1) {
     await page.goto(arrLinkIpeopleDyson[i]);
@@ -184,6 +191,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
 
   // for (let i = 0; i < arrLinkSotaDyson.length; i += 1) {

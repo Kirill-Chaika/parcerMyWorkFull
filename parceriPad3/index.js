@@ -334,6 +334,7 @@ async function f() {
     });
 
     console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkJabkoIPAD.length; i += 1) {
     await page.goto(arrLinkJabkoIPAD[i]);
@@ -351,6 +352,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
 }
 f();

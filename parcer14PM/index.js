@@ -268,6 +268,7 @@ async function f() {
     });
 
     console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkSkay14ProESIM.length; i += 1) {
     await page.goto(arrLinkSkay14ProESIM[i]);
@@ -285,6 +286,7 @@ async function f() {
     });
 
     console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIstore14ProESIM.length; i += 1) {
     await page.goto(arrLinkIstore14ProESIM[i]);
@@ -302,6 +304,7 @@ async function f() {
     });
 
     console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkJabko14ProESIM.length; i += 1) {
     await page.goto(arrLinkJabko14ProESIM[i]);
@@ -319,6 +322,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
 
   for (let i = 0; i < arrLinkMobilePlanet14ProMaxESIM.length; i += 1) {
@@ -337,6 +341,7 @@ async function f() {
     });
 
     console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkSkay14ProMaxESIM.length; i += 1) {
     await page.goto(arrLinkSkay14ProMaxESIM[i]);
@@ -354,6 +359,7 @@ async function f() {
     });
 
     console.log(arr6);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIstore14ProMaxESIM.length; i += 1) {
     await page.goto(arrLinkIstore14ProMaxESIM[i]);
@@ -371,6 +377,7 @@ async function f() {
     });
 
     console.log(arr7);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkJabko14ProMaxESIM.length; i += 1) {
     await page.goto(arrLinkJabko14ProMaxESIM[i]);
@@ -388,6 +395,7 @@ async function f() {
     });
 
     console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
   }
 
   for (let i = 0; i < arrLinkMobilePlanet13and12.length; i += 1) {
@@ -406,6 +414,7 @@ async function f() {
     });
 
     console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkSkay13and12.length; i += 1) {
     await page.goto(arrLinkSkay13and12[i]);
@@ -423,6 +432,7 @@ async function f() {
     });
 
     console.log(arr6);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIstore13and12.length; i += 1) {
     await page.goto(arrLinkIstore13and12[i]);
@@ -440,6 +450,7 @@ async function f() {
     });
 
     console.log(arr7);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkJabko13and12.length; i += 1) {
     await page.goto(arrLinkJabko13and12[i]);
@@ -457,6 +468,7 @@ async function f() {
     });
 
     console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
   }
 }
 f();

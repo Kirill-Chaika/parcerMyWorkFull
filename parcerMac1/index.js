@@ -145,6 +145,7 @@ const arrLinkSkayMac = [
     });
     
     console.log(arr3)
+    await page.setDefaultNavigationTimeout(0);
     }
     for (let i = 0; i < arrLinkSkayMac.length; i += 1) {
       await page.goto(arrLinkSkayMac[i]);
@@ -160,6 +161,7 @@ const arrLinkSkayMac = [
     });
     
     console.log(arr1)
+    await page.setDefaultNavigationTimeout(0);
     }
 
   }

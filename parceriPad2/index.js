@@ -178,6 +178,7 @@ async function f() {
     });
 
     console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
   }
 }
 f();
