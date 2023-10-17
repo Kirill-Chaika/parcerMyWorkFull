@@ -22,24 +22,56 @@ const arrLinkMobilePlanet = [
   "https://mobileplanet.ua/apple-iphone-14-512gb-midnight-mpww3-254636",
   "https://mobileplanet.ua/apple-iphone-14-512gb-yellow-mr513-272475",
 ];
+console.log(arrLinkMobilePlanet)
 
-async function f(mass, priceValue, namePosission) {
-  const browser = await puppeteer.launch({ headless: false });
-  const page = await browser.newPage();
 
+async function cycleParcePosition(mass,namePosition,pricePosition,nameCompany) {
   for (let i = 0; i < mass.length; i += 1) {
     await page.goto(mass[i]);
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(`${namePosission}`).innerText;
-      if (document.querySelector(`${priceValue}`) != null) {
-        return text2 + "MP: " + document.querySelector(`${priceValue}`).innerText;
+      let text2 = document.querySelector(`${namePosition}`).innerText;
+      if (document.querySelector(`${pricePosition}`) != null) {
+        return (
+          text2 + `${nameCompany}` + document.querySelector(`${pricePosition}`).innerText
+        );
       } else {
         return text2;
       }
     });
+
     console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
   }
 }
-f(arrLinkMobilePlanet, ".price-value", "h1");
+
+
+
+
+async function f() {
+  const browser = await puppeteer.launch({ headless: "new" });
+  const page = await browser.newPage();
+
+  // for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
+  //   await page.goto(arrLinkMobilePlanet[i]);
+  //   const n = await page.$("#txt");
+
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price-value") != null) {
+  //       return (
+  //         text2 + "MP1: " + document.querySelector(".price-value").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
+
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+
+  cycleParcePosition(arrLinkMobilePlanet,"h1",".price-value","MP2: ")
+}
+f();
