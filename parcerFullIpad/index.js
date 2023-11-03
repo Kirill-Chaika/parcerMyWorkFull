@@ -582,7 +582,7 @@ const arrLinkJabkoIPAD = [
     "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--purple-",
     "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--pink-",
     "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--starlight-"
-  ];
+];
 const arrLinkGroIPAD = [
   "https://grokholsky.com/ua/product/apple/ipad/ipad-2021/ipad-10-2-2021-wi-fi-64gb-silver-mk2l3/",
   "https://grokholsky.com/ua/product/apple/ipad/ipad-2021/ipad-10-2-2021-wi-fi-64gb-space-gray-mk2k3/",
