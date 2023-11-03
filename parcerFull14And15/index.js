@@ -1628,9 +1628,9 @@ async function f() {
 
     let arr2 = await page.evaluate(() => {
       let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
+      if (document.querySelector("p .price") != null) {
         return (
-          text2 + "Estore: " + document.querySelector(".price").innerText
+          text2 + "Estore: " + document.querySelector("p .price").innerText
         );
       } else {
         return text2;
@@ -1646,9 +1646,9 @@ async function f() {
 
     let arr2 = await page.evaluate(() => {
       let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
+      if (document.querySelector("p .price") != null) {
         return (
-          text2 + "Estore: " + document.querySelector(".price").innerText
+          text2 + "Estore: " + document.querySelector("p .price").innerText
         );
       } else {
         return text2;
