@@ -408,6 +408,59 @@ const puppeteer = require("puppeteer");
       'https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-256gb-yellow-mu1d3/'
       ];
 
+    const arrLinkYabko15Plus = [
+      'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-128gb-black',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-128gb-blue',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-128gb--green-',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-128gb-pink',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-128gb-yellow',
+
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb-black',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb--blue-',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb--green-',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb-pink',
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb-yellow'
+    ];
+    const arrLinkMP15Plus = [
+      'https://mobileplanet.ua/apple-iphone-15-plus-128gb-black-mu0y3-285372',
+  'https://mobileplanet.ua/apple-iphone-15-plus-128gb-blue-mu163-285373',
+  'https://mobileplanet.ua/apple-iphone-15-plus-128gb-green-mu173-285374',
+  'https://mobileplanet.ua/apple-iphone-15-plus-128gb-pink-mu103-285375',
+  'https://mobileplanet.ua/apple-iphone-15-plus-128gb-yellow-mu123-285376',
+
+  'https://mobileplanet.ua/apple-iphone-15-plus-256gb-black-mu183-285377',
+  'https://mobileplanet.ua/apple-iphone-15-plus-256gb-blue-mu1f3-285378',
+  'https://mobileplanet.ua/apple-iphone-15-plus-256gb-green-mu1g3-285379',
+  'https://mobileplanet.ua/apple-iphone-15-plus-256gb-pink-mu193-285380',
+  'https://mobileplanet.ua/apple-iphone-15-plus-256gb-yellow-mu1d3-285381'  
+    ];
+    const arrLinkIstore15Plus = [
+      'https://www.istore.ua/ua/item/apple-iphone-15-plus-128-gb-black/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-128-gb-blue/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-128-gb-green/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-128-gb-pink/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-128-gb-yellow/',
+
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-black/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-blue/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-green/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-pink/',
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-yellow/'
+    ];
+    const arrLinkEstore15Plus = [
+      'https://estore.ua/ua/iphone-15-plus-128gb-black/',
+  'https://estore.ua/ua/iphone-15-plus-128gb-blue/',
+  'https://estore.ua/ua/iphone-15-plus-128gb-green/',
+  'https://estore.ua/ua/iphone-15-plus-128gb-pink/',
+  'https://estore.ua/ua/iphone-15-plus-128gb-yellow/',
+
+  'https://estore.ua/ua/iphone-15-plus-256gb-black/',
+  'https://estore.ua/ua/iphone-15-plus-256gb-blue/',
+  'https://estore.ua/ua/iphone-15-plus-256gb-green/',
+  'https://estore.ua/ua/iphone-15-plus-256gb-pink/',
+  'https://estore.ua/ua/iphone-15-plus-256gb-yellow/'
+    ];  
+
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
@@ -652,5 +705,79 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+
+
+  for (let i = 0; i < arrLinkYabko15Plus.length; i += 1) {
+    await page.goto(arrLinkYabko15Plus[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMP15Plus.length; i += 1) {
+    await page.goto(arrLinkMP15Plus[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstore15Plus.length; i += 1) {
+    await page.goto(arrLinkIstore15Plus[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore15Plus.length; i += 1) {
+    await page.goto(arrLinkEstore15Plus[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p .price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 }
 f();
