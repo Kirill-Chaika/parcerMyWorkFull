@@ -602,9 +602,9 @@ const arrLinkMobilePlanet14Pro = [
 
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
-
+  
   for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
     await page.goto(arrLinkMobilePlanet[i]);
     const n = await page.$("#txt");
