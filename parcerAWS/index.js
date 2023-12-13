@@ -315,24 +315,6 @@ async function f() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
 
-  for (let i = 0; i < arrLinkMobilePlanetAWS.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetAWS[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
   for (let i = 0; i < arrLinkSkayAWS.length; i += 1) {
     await page.goto(arrLinkSkayAWS[i]);
     const n = await page.$("#txt");
@@ -349,24 +331,6 @@ async function f() {
     });
 
     console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkIstoreAWS.length; i += 1) {
-    await page.goto(arrLinkIstoreAWS[i]);
-    const n = await page.$("#txt");
-
-    let arr4 = await page.evaluate(() => {
-      let text3 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text3 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text3;
-      }
-    });
-
-    console.log(arr4);
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkJabkoAWS.length; i += 1) {
@@ -387,5 +351,42 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
+  for (let i = 0; i < arrLinkIstoreAWS.length; i += 1) {
+    await page.goto(arrLinkIstoreAWS[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text3 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text3 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text3;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetAWS.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetAWS[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  
 }
 f();
