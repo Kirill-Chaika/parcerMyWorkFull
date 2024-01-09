@@ -122,6 +122,12 @@ const arrLinkJabkoMac = [
   "https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-15-2023/macbook-air-15-retina--midnight--512gb--2023-",
   "https://jabko.ua/rus/mac/macbook-air/apple-macbook-air-15-2023/macbook-air-15-retina--starlight--512gb--2023-"
 ];
+// arrLinkSkayMacM3
+// arrLinkMobilePlanetMacM3
+// arrLinkIstoreMacM3
+// arrLinkGroMacM3
+
+
 
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
@@ -161,6 +167,80 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  
+  for (let i = 0; i < arrLinkSkayMacM3.length; i += 1) {
+    await page.goto(arrLinkSkayMacM3[i]);
+    const n = await page.$("#txt");
+
+    let arr1 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("#our_price_display") != null) {
+        return (
+          text2 + "S: " + document.querySelector("#our_price_display").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetMacM3.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetMacM3[i]);
+    const n = await page.$("#txt");
+
+    let arr5 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstoreMacM3.length; i += 1) {
+    await page.goto(arrLinkIstoreMacM3[i]);
+    const n = await page.$("#txt");
+
+    let arr7 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr7);
+    await page.setDefaultNavigationTimeout(0);
+  }
+    for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+    await page.goto(arrLinkGroMacM3[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p ins") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector("p ins").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
 }
