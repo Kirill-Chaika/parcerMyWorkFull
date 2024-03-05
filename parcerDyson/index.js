@@ -105,11 +105,11 @@ async function f() {
 
     let arr2 = await page.evaluate(() => {
       let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-new") != null) {
+      if (document.querySelector(".product-prices__row div") != null) {
         return (
           text2 +
           "StoreInUA: " +
-          document.querySelector(".product-price-new").innerText
+          document.querySelector(".product-prices__row div").innerText
         );
       } else {
         return text2;
