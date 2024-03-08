@@ -429,6 +429,8 @@ const arrLinkIstoreIPAD = [
   "https://www.istore.ua/catalog/item/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256gb-starlight"
 ];
 
+
+
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();

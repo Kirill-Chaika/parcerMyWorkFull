@@ -313,6 +313,18 @@ const arrLinkGroIPAD = [
   "https://grokholsky.com/ua/product/apple/ipad/ipad-mini-6/ipad-mini-6-wi-fi-cellular-256gb-starlight-mk8h3/"
 ];
 
+const arrLinkIpadMrFix = [
+  "https://www.mrfix.ua/ua/apple-ipad-pro-129-2022-wi-fi-cellular-128gb-space-gray-mp5x3-mp1x3/?utm_medium=cpc&utm_source=hotline&utm_campaign=Планшеты&utm_term=Apple+iPad+Pro+12.9+2022+Wi-Fi+%2B+Cellular+128GB+Space+Gray+%28MP5X3%2C+MP1X3%29&utm_id=hotline_386&utm_content=051713",
+  "https://www.mrfix.ua/ua/apple-ipad-pro-129-2022-wi-fi-cellular-128gb-silver-mp5y3-mp1y3/",
+  "https://www.mrfix.ua/ua/apple-ipad-109-2022-wi-fi-64gb-silver-mpq03/"
+];
+const arrLinkIpadBuyUA = [
+  "http://www.buy.ua/shop/1400216/1400748/1729323.html",
+  "http://www.buy.ua/shop/1400216/1400748/1729325.html",
+  "http://www.buy.ua/shop/1400216/1400750/1729365.html"
+];
+
+
 async function f() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
@@ -351,6 +363,39 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
+  for (let i = 0; i < arrLinkIpadMrFix.length; i += 1) {
+    await page.goto(arrLinkIpadMrFix[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return text2 + "Gro: " + document.querySelector(".price").innerText;
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIpadBuyUA.length; i += 1) {
+    await page.goto(arrLinkIpadBuyUA[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h2").innerText;
+      if (document.querySelector(".price-info strong") != null) {
+        return text2 + "Gro: " + document.querySelector(".price-info strong").innerText;
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
   
 }
 f()
