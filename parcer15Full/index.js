@@ -51,7 +51,13 @@ const puppeteer = require("puppeteer");
     'https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-256gb--blue-',
     'https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-256gb-green',
     'https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-256gb--pink-',
-    'https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-256gb-yellow'
+    'https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-256gb-yellow',
+
+    "https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-512gb-black",
+    "https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-512gb--blue-",
+    "https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-512gb-green",
+    "https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-512gb--pink-",
+    "https://jabko.ua/iphone/apple-iphone-15-/apple-iphone-15-512gb-yellow"
     ]
     const arrLinkMobilePlanet15ProAndProMax = [
     'https://mobileplanet.ua/apple-iphone-15-pro-128gb-blue-titanium-mtv03-285400',
@@ -102,7 +108,13 @@ const puppeteer = require("puppeteer");
     'https://mobileplanet.ua/apple-iphone-15-256gb-blue-mtp93-285365',
     'https://mobileplanet.ua/apple-iphone-15-256gb-green-mtpa3-285364',
     'https://mobileplanet.ua/apple-iphone-15-256gb-pink-mtp73-285363',
-    'https://mobileplanet.ua/apple-iphone-15-256gb-yellow-mtp83-285362'
+    'https://mobileplanet.ua/apple-iphone-15-256gb-yellow-mtp83-285362',
+
+    "https://mobileplanet.ua/ua/apple-iphone-15-512gb-black-mtpc3-285361",
+    "https://mobileplanet.ua/ua/apple-iphone-15-512gb-blue-mtpg3-285360",
+    "https://mobileplanet.ua/ua/apple-iphone-15-512gb-green-mtph3-285359",
+    "https://mobileplanet.ua/ua/apple-iphone-15-512gb-pink-mtpd3-285358",
+    "https://mobileplanet.ua/ua/apple-iphone-15-512gb-yellow-mtpf3-285357"
     ]
     const arrLinkIstore15ProAndProMax = [
     'https://www.istore.ua/catalog/item/apple-iphone-15-pro-128-gb-blue-titanium/',
@@ -154,7 +166,13 @@ const puppeteer = require("puppeteer");
     'https://www.istore.ua/catalog/item/apple-iphone-15-256-gb-blue/',
     'https://www.istore.ua/catalog/item/apple-iphone-15-256-gb-green/',
     'https://www.istore.ua/catalog/item/apple-iphone-15-256-gb-pink/',
-    'https://www.istore.ua/catalog/item/apple-iphone-15-256-gb-yellow/'
+    'https://www.istore.ua/catalog/item/apple-iphone-15-256-gb-yellow/',
+
+    "https://www.istore.ua/ua/item/apple-iphone-15-512-gb-black/",
+    "https://www.istore.ua/ua/item/apple-iphone-15-512-gb-blue/",
+    "https://www.istore.ua/ua/item/apple-iphone-15-512-gb-green/",
+    "https://www.istore.ua/ua/item/apple-iphone-15-512-gb-pink/",
+    "https://www.istore.ua/ua/item/apple-iphone-15-512-gb-yellow/"
     ]
     const arrLinkEstore15ProAndProMax = [
     'https://estore.ua/ua/iphone-15-pro-128gb-blue-titanium/',
@@ -393,6 +411,12 @@ const puppeteer = require("puppeteer");
       'https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-256gb-green-mtpa3/',
       'https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-256gb-pink-mtp73/',
       'https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-256gb-yellow-mtp83/',
+
+      "https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-512gb-black-mtpc3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-512gb-blue-mtpg3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-512gb-green-mtph3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-512gb-pink-mtpd3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15/iphone-15-512gb-yellow-mtpf3/",
       
       
       'https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-128gb-black-mu0y3/',
@@ -405,7 +429,13 @@ const puppeteer = require("puppeteer");
       'https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-256gb-blue-mu1f3/',
       'https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-256gb-green-mu1g3/',
       'https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-256gb-pink-mu193/',
-      'https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-256gb-yellow-mu1d3/'
+      'https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-256gb-yellow-mu1d3/',
+
+      "https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-512gb-black-mu1h3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-512gb-blue-mu1p3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-512gb-green-mu1q3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-512gb-pink-mu1j3/",
+      "https://grokholsky.com/product/apple/iphone/iphone-15-plus/iphone-15-plus-512gb-yellow-mu1m3/"
       ];
 
     const arrLinkYabko15Plus = [
@@ -419,7 +449,13 @@ const puppeteer = require("puppeteer");
   'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb--blue-',
   'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb--green-',
   'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb-pink',
-  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb-yellow'
+  'https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-256gb-yellow',
+
+  "https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-512gb-black",
+  "https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-512gb--blue-",
+  "https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-512gb--green-",
+  "https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-512gb-pink",
+  "https://jabko.ua/iphone/apple-iphone-15-plus/apple-iphone-15-plus-512gb-yellow"
     ];
     const arrLinkMP15Plus = [
       'https://mobileplanet.ua/apple-iphone-15-plus-128gb-black-mu0y3-285372',
@@ -432,7 +468,14 @@ const puppeteer = require("puppeteer");
   'https://mobileplanet.ua/apple-iphone-15-plus-256gb-blue-mu1f3-285378',
   'https://mobileplanet.ua/apple-iphone-15-plus-256gb-green-mu1g3-285379',
   'https://mobileplanet.ua/apple-iphone-15-plus-256gb-pink-mu193-285380',
-  'https://mobileplanet.ua/apple-iphone-15-plus-256gb-yellow-mu1d3-285381'  
+  'https://mobileplanet.ua/apple-iphone-15-plus-256gb-yellow-mu1d3-285381',
+  
+  
+  "https://mobileplanet.ua/ua/apple-iphone-15-plus-512gb-black-mu1h3-285382",
+  "https://mobileplanet.ua/ua/apple-iphone-15-plus-512gb-blue-mu1p3-285383",
+  "https://mobileplanet.ua/ua/apple-iphone-15-plus-512gb-green-mu1q3-285384",
+  "https://mobileplanet.ua/ua/apple-iphone-15-plus-512gb-pink-mu1j3-285385",
+  "https://mobileplanet.ua/ua/apple-iphone-15-plus-512gb-yellow-mu1m3-285386"
     ];
     const arrLinkIstore15Plus = [
       'https://www.istore.ua/ua/item/apple-iphone-15-plus-128-gb-black/',
@@ -445,7 +488,14 @@ const puppeteer = require("puppeteer");
   'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-blue/',
   'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-green/',
   'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-pink/',
-  'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-yellow/'
+  'https://www.istore.ua/ua/item/apple-iphone-15-plus-256-gb-yellow/',
+
+
+  "https://www.istore.ua/ua/item/apple-iphone-15-plus-512-gb-black/",
+  "https://www.istore.ua/ua/item/apple-iphone-15-plus-512-gb-blue/",
+  "https://www.istore.ua/ua/item/apple-iphone-15-plus-512-gb-green/",
+  "https://www.istore.ua/ua/item/apple-iphone-15-plus-512-gb-pink/",
+  "https://www.istore.ua/ua/item/apple-iphone-15-plus-512-gb-yellow/"
     ];
     const arrLinkEstore15Plus = [
       'https://estore.ua/ua/iphone-15-plus-128gb-black/',
