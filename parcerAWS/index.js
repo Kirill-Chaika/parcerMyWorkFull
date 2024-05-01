@@ -511,9 +511,9 @@ async function f() {
 
     let arr1 = await page.evaluate(() => {
       let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("#our_price_display") != null) {
+      if (document.querySelector(".products-item-cost") != null) {
         return (
-          text2 + "S: " + document.querySelector("#our_price_display").innerText
+          text2 + "S: " + document.querySelector(".products-item-cost").innerText
         );
       } else {
         return;
