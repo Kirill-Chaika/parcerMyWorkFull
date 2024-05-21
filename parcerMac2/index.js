@@ -145,7 +145,31 @@ const arrLinkJabkoMac = [
   "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-midnight-512gb-8-cpu--10-gpu-8gb-ram-with-apple-m3-mryv3",
   "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-space-gray-512gb-8-cpu--10-gpu-8gb-ram-with-apple-m3-mryn3",
   "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-starlight-512gb-8-cpu--10-gpu-8gb-ram-with-apple-m3-mryt3",
-  "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-silver-512gb-8-cpu--10-gpu-8gb-ram-with-apple-m3-mryq3"
+  "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-silver-512gb-8-cpu--10-gpu-8gb-ram-with-apple-m3-mryq3",
+
+
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-512gb-8-cpu-10-gpu-8gb-ram-space-gray-2023-mtl73",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-512gb-8-cpu-10-gpu-8gb-ram-silver-2023-mr7j3",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-1tb-8-cpu-10-gpu-8gb-ram-space-gray-2023-mtl83",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-1tb-8-cpu-10-gpu-8gb-ram-silver-2023-mr7k3",
+
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-pro-512gb-11-cpu-14-gpu-18gb-ram-space-black-2023-mrx33",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-pro-512gb-11-cpu-14-gpu-18gb-ram-silver-2023-mrx63",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-pro-1tb-12-cpu-18-gpu-18gb-ram-space-black-2023-mrx43",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-pro-1tb-12-cpu-18-gpu-18gb-ram-silver-2023-mrx73",
+
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-max-1tb-14-cpu-30-gpu-36gb-ram-space-black-2023-mrx53",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m3/apple-macbook-pro-14-apple-m3-max-1tb-14-cpu-30-gpu-36gb-ram-silver-2023-mrx83",
+
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-pro-512gb-12-cpu-18-gpu-18gb-ram-space-black-2023-mrw13",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-pro-512gb-12-cpu-18-gpu-18gb-ram-silver-2023-mrw43",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-pro-512gb-12-cpu-18-gpu-36gb-ram-space-black-2023-mrw23",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-pro-512gb-12-cpu-18-gpu-36gb-ram-silver-2023-mrw63",
+
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-14-cpu-30-gpu-36gb-ram-space-black-2023-mrw33",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-14-cpu-30-gpu-36gb-ram-silver-2023-mrw73",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-16-cpu-40-gpu-48gb-ram-space-black-2023-muw63",
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-16-cpu-40-gpu-48gb-ram-silver-2023-muw73"
 ];
 
 const arrLinkSkayMacM3 = [
