@@ -363,38 +363,38 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkIpadMrFix.length; i += 1) {
-    await page.goto(arrLinkIpadMrFix[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkIpadMrFix.length; i += 1) {
+  //   await page.goto(arrLinkIpadMrFix[i]);
+  //   const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return text2 + "Gro: " + document.querySelector(".price").innerText;
-      } else {
-        return text2;
-      }
-    });
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price") != null) {
+  //       return text2 + "Gro: " + document.querySelector(".price").innerText;
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkIpadBuyUA.length; i += 1) {
-    await page.goto(arrLinkIpadBuyUA[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkIpadBuyUA.length; i += 1) {
+  //   await page.goto(arrLinkIpadBuyUA[i]);
+  //   const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h2").innerText;
-      if (document.querySelector(".price-info strong") != null) {
-        return text2 + "Gro: " + document.querySelector(".price-info strong").innerText;
-      } else {
-        return text2;
-      }
-    });
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h2").innerText;
+  //     if (document.querySelector(".price-info strong") != null) {
+  //       return text2 + "Gro: " + document.querySelector(".price-info strong").innerText;
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
 
   
 }
