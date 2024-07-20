@@ -669,7 +669,7 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
+      let text2 = document.querySelector(".sku").innerText;
       if (document.querySelector(".product-price-value") != null) {
         return (
           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
@@ -687,7 +687,7 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
+      let text2 = document.querySelector(".sku").innerText;
       if (document.querySelector(".product-price-value") != null) {
         return (
           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
@@ -705,7 +705,7 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
+      let text2 = document.querySelector(".sku").innerText;
       if (document.querySelector(".product-price-value") != null) {
         return (
           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
@@ -723,7 +723,7 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
+      let text2 = document.querySelector(".sku").innerText;
       if (document.querySelector(".product-price-value") != null) {
         return (
           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
