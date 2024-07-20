@@ -664,60 +664,60 @@ async function f() {
 
 
 
-  for (let i = 0; i < arrLinkGro14andPlus.length; i += 1) {
-    await page.goto(arrLinkGro14andPlus[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkGro14andPlus.length; i += 1) {
+  //   await page.goto(arrLinkGro14andPlus[i]);
+  //   const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector(".sku").innerText;
+  //     if (document.querySelector(".product-price-value") != null) {
+  //       return (
+  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkGro14ProAndMax.length; i += 1) {
-    await page.goto(arrLinkGro14ProAndMax[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkGro14ProAndMax.length; i += 1) {
+  //   await page.goto(arrLinkGro14ProAndMax[i]);
+  //   const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector(".sku").innerText;
+  //     if (document.querySelector(".product-price-value") != null) {
+  //       return (
+  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkGro14ProAndMaxEsim.length; i += 1) {
-    await page.goto(arrLinkGro14ProAndMaxEsim[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkGro14ProAndMaxEsim.length; i += 1) {
+  //   await page.goto(arrLinkGro14ProAndMaxEsim[i]);
+  //   const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector(".sku").innerText;
+  //     if (document.querySelector(".product-price-value") != null) {
+  //       return (
+  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
   for (let i = 0; i < arrLinkGro15ProAndMax.length; i += 1) {
     await page.goto(arrLinkGro15ProAndMax[i]);
     const n = await page.$("#txt");
