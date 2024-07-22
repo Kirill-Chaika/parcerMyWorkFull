@@ -364,7 +364,7 @@ const puppeteer = require("puppeteer");
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-128gb-blue-titanium-mtv03/',
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-128gb-black-titanium-mtuv3/',
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-128gb-natural-titanium-mtux3/',
-      'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-128gb-white-titanium-mtuw3/',
+      
       
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-256gb-blue-titanium-mtv63/',
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-256gb-black-titanium-mtv13/',
@@ -380,7 +380,6 @@ const puppeteer = require("puppeteer");
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-1tb-black-titanium-mtvc3/',
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-1tb-natural-titanium-mtvf3/',
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro/iphone-15-pro-1tb-white-titanium-mtvd3/',
-      
       
       
       'https://grokholsky.com/product/apple/iphone/iphone-15-pro-max/iphone-15-pro-max-256gb-blue-titanium-mu7a3/',
