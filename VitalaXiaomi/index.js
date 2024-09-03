@@ -2,6 +2,7 @@ console.log("Hello world");
 
 const puppeteer = require("puppeteer");
 
+
 const arrLinkSkayGooglePixel = [
   "https://skay.ua/google-pixel/71440-google-pixel-8a-8128gb-obsidian-us.html",
   "https://skay.ua/google-pixel/71441-google-pixel-8a-8128gb-bay-us.html",
