@@ -237,8 +237,6 @@ const arrLinkIstoreIpadNew = [
 
     "https://www.istore.ua/ua/item/apple-ipad-pro-11-2024-wi-fi-2-tb-m4-space-black/",
     "https://www.istore.ua/ua/item/apple-ipad-pro-11-2024-wi-fi-cellular-2-tb-m4-silver/",
-    "https://www.istore.ua/ua/item/apple-ipad-pro-11-2024-wi-fi-cellular-2-tb-m4-space-black/",
-    "https://www.istore.ua/ua/item/apple-ipad-pro-11-2024-wi-fi-cellular-2-tb-m4-silver/",
     "https://www.istore.ua/ua/item/apple-ipad-pad-pro-13-m4-2-tb-wi-fi-space-black/",
     "https://www.istore.ua/ua/item/apple-ipad-pad-pro-13-m4-2-tb-wi-fi-silver/",
     "https://www.istore.ua/ua/item/apple-ipad-pad-pro-13-m4-2-tb-wi-fi-cellular-space-black/",
