@@ -59,7 +59,17 @@ const arrLinkIstoreMac = [
   "https://www.istore.ua/catalog/item/apple-macbook-air-15-2023-g-512-gb-m2-space-gray/",
   "https://www.istore.ua/catalog/item/apple-macbook-air-15-2023-g-512-gb-m2-silver/",
   "https://www.istore.ua/catalog/item/apple-macbook-air-15-2023-g-512-gb-m2-midnight/",
-  "https://www.istore.ua/catalog/item/apple-macbook-air-15-2023-g-512-gb-m2-starlight/"
+  "https://www.istore.ua/catalog/item/apple-macbook-air-15-2023-g-512-gb-m2-starlight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-16gb-512gb-m3-midnight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-16gb-512gb-space-gray/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-16gb-512gb-starlight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-16gb-512gb-silver/",
+
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-512gb-midnight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-512gb-space-gray/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-512gb-starlight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-512gb-silver/",
+
 ];
 const arrLinkJabkoMac = [
   "https://jabko.ua/rus/mac/macbook-air/macbook-air--2020--with-apple-m1/macbook-air-13-retina--space-gray--256gb--mgn63--2020--apple-m1-",
@@ -169,181 +179,208 @@ const arrLinkJabkoMac = [
   "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-14-cpu-30-gpu-36gb-ram-space-black-2023-mrw33",
   "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-14-cpu-30-gpu-36gb-ram-silver-2023-mrw73",
   "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-16-cpu-40-gpu-48gb-ram-space-black-2023-muw63",
-  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-16-cpu-40-gpu-48gb-ram-silver-2023-muw73"
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m3/apple-macbook-pro-16-apple-m3-max-1tb-16-cpu-40-gpu-48gb-ram-silver-2023-muw73",
+  "https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-midnight-512gb-8-cpu-10-gpu-16gb-ram-apple-m3-mxcv3",
+  "https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-space-gray-512gb-8-cpu-10-gpu-16gb-ram-apple-m3-mxcr3",
+  "https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-starlight-512gb-8-cpu-10-gpu-16gb-ram-apple-m3-mxcu3",
+  "https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-silver-512gb-8-cpu-10-gpu-16gb-ram-apple-m3-mxct3",
+
+  "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-midnight-512gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mxd43",
+  "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-space-gray-512gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mxd13",
+  "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-starlight-512gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mxd33",
+  "https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-silver-512gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mxd23",
 ];
 
 const arrLinkSkayMacM3 = [
   "https://skay.ua/uk/macbook-pro-2023/67562-apple-macbook-pro-14-m3-ship-8512gb-mtl73-2023-space-gray.html?search_query=MTL73&results=1",
-"https://skay.ua/uk/macbook-pro-2023/67563-apple-macbook-pro-14-m3-ship-8512gb-mr7j3-2023-silver.html?search_query=MR7J3&results=1",
-"https://skay.ua/uk/macbook-pro-2023/67564-apple-macbook-pro-14-m3-ship-81tb-mtl83-2023-space-gray.html",
-"https://skay.ua/uk/macbook-pro-2023/67565-apple-macbook-pro-14-m3-ship-81tb-mr7k3-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67563-apple-macbook-pro-14-m3-ship-8512gb-mr7j3-2023-silver.html?search_query=MR7J3&results=1",
+  "https://skay.ua/uk/macbook-pro-2023/67564-apple-macbook-pro-14-m3-ship-81tb-mtl83-2023-space-gray.html",
+  "https://skay.ua/uk/macbook-pro-2023/67565-apple-macbook-pro-14-m3-ship-81tb-mr7k3-2023-silver.html",
 
-"https://skay.ua/uk/macbook-pro-2023/67580-apple-macbook-pro-14-m3-pro-ship-18512gb-mrx33-2023-space-black.html",
-"https://skay.ua/uk/macbook-pro-2023/67581-apple-macbook-pro-14-m3-pro-ship-18512gb-mrx63-2023-silver.html",
-"https://skay.ua/uk/macbook-pro-2023/67698-apple-macbook-pro-14-m3-pro-ship-181tb-mrx43-2023-space-black.html",
-"https://skay.ua/uk/macbook-pro-2023/67699-apple-macbook-pro-14-m3-pro-ship-181tb-mrx73-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67580-apple-macbook-pro-14-m3-pro-ship-18512gb-mrx33-2023-space-black.html",
+  "https://skay.ua/uk/macbook-pro-2023/67581-apple-macbook-pro-14-m3-pro-ship-18512gb-mrx63-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67698-apple-macbook-pro-14-m3-pro-ship-181tb-mrx43-2023-space-black.html",
+  "https://skay.ua/uk/macbook-pro-2023/67699-apple-macbook-pro-14-m3-pro-ship-181tb-mrx73-2023-silver.html",
 
-"https://skay.ua/uk/macbook-pro-2023/67700-apple-macbook-pro-14-m3-max-ship-361tb-mrx53-2023-space-black.html",
-"https://skay.ua/uk/macbook-pro-2023/67701-apple-macbook-pro-14-m3-max-ship-361tb-mrx83-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67700-apple-macbook-pro-14-m3-max-ship-361tb-mrx53-2023-space-black.html",
+  "https://skay.ua/uk/macbook-pro-2023/67701-apple-macbook-pro-14-m3-max-ship-361tb-mrx83-2023-silver.html",
 
-"https://skay.ua/uk/macbook-pro-2023/67702-apple-macbook-pro-16-m3-pro-ship-18512gb-mrw13-2023-space-black.html",
-"https://skay.ua/uk/macbook-pro-2023/67703-apple-macbook-pro-16-m3-pro-ship-18512gb-mrw43-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67702-apple-macbook-pro-16-m3-pro-ship-18512gb-mrw13-2023-space-black.html",
+  "https://skay.ua/uk/macbook-pro-2023/67703-apple-macbook-pro-16-m3-pro-ship-18512gb-mrw43-2023-silver.html",
 
-"https://skay.ua/uk/macbook-pro-2023/67704-apple-macbook-pro-16-m3-pro-ship-36512gb-mrw23-2023-space-black.html",
-"https://skay.ua/uk/macbook-pro-2023/67705-apple-macbook-pro-16-m3-pro-ship-36512gb-mrw63-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67704-apple-macbook-pro-16-m3-pro-ship-36512gb-mrw23-2023-space-black.html",
+  "https://skay.ua/uk/macbook-pro-2023/67705-apple-macbook-pro-16-m3-pro-ship-36512gb-mrw63-2023-silver.html",
 
-"https://skay.ua/uk/macbook-pro-2023/67746-apple-macbook-pro-16-m3-max-ship-361tb-mrw33-2023-space-black.html",
-"https://skay.ua/uk/macbook-pro-2023/67747-apple-macbook-pro-16-m3-max-ship-361tb-mrw73-2023-silver.html",
-"https://skay.ua/uk/macbook-pro-2023/67750-apple-macbook-pro-16-m3-max-ship-481tb-muw63-2023-space-black.html",
-"https://skay.ua/uk/macbook-pro-2023/67751-apple-macbook-pro-16-m3-max-ship-481tb-muw73-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67746-apple-macbook-pro-16-m3-max-ship-361tb-mrw33-2023-space-black.html",
+  "https://skay.ua/uk/macbook-pro-2023/67747-apple-macbook-pro-16-m3-max-ship-361tb-mrw73-2023-silver.html",
+  "https://skay.ua/uk/macbook-pro-2023/67750-apple-macbook-pro-16-m3-max-ship-481tb-muw63-2023-space-black.html",
+  "https://skay.ua/uk/macbook-pro-2023/67751-apple-macbook-pro-16-m3-max-ship-481tb-muw73-2023-silver.html",
 ];
 const arrLinkMobilePlanetMacM3 = [
   'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-late-2023-mtl73-293850',
-'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mr7j3-293842',
-'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-late-2023-mtl83-293851',
-'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mr7k3-293843',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mr7j3-293842',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-late-2023-mtl83-293851',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mr7k3-293843',
 
-'https://mobileplanet.ua/apple-macbook-pro-14-space-black-late-2023-mrx33-293847',
-'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mrx63-293844',
-'https://mobileplanet.ua/apple-macbook-pro-14-space-black-late-2023-mrx43-293848',
-'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mrx73-293845',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-black-late-2023-mrx33-293847',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mrx63-293844',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-black-late-2023-mrx43-293848',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mrx73-293845',
 
-'https://mobileplanet.ua/apple-macbook-pro-14-space-black-late-2023-mrx53-293849',
-'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mrx83-293846',
-
-
-'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-mrw13-293856',
-'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-mrw43-293852',
-
-'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-mrw23-293857',
-'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-mrw63-293853',
-
-'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-mrw33-293858',
-'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-mrw73-293854',
-'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-muw63-293859',
-'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-muw73-293855',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-black-late-2023-mrx53-293849',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-late-2023-mrx83-293846',
 
 
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-mrw13-293856',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-mrw43-293852',
 
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-midnight-2024-mr-308332",
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-space-gray-2024-308355",
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-starlight-2024-m-308367",
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-silver-2024-mrxq-308343",
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-mrw23-293857',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-mrw63-293853',
 
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-midnight-2024-mr-308333",
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-space-gray-2024-308356",
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-starlight-2024-m-308368",
-"https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-silver-2024-mrxr-308344",
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-mrw33-293858',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-mrw73-293854',
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-black-late-2023-muw63-293859',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-late-2023-muw73-293855',
 
 
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-midnight-2024-mryu-308379",
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-space-gray-2024-mr-308403",
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-starlight-2024-mry-308415",
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-silver-2024-mryp3-308391",
 
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-midnight-2024-mryv-308380",
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-space-gray-2024-mr-308404",
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-starlight-2024-mry-308416",
-"https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-silver-2024-mryq3-308392"
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-midnight-2024-mr-308332",
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-space-gray-2024-308355",
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-starlight-2024-m-308367",
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-256gb-silver-2024-mrxq-308343",
+
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-midnight-2024-mr-308333",
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-space-gray-2024-308356",
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-starlight-2024-m-308368",
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-8-512gb-silver-2024-mrxr-308344",
+
+
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-midnight-2024-mryu-308379",
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-space-gray-2024-mr-308403",
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-starlight-2024-mry-308415",
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-256gb-silver-2024-mryp3-308391",
+
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-midnight-2024-mryv-308380",
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-space-gray-2024-mr-308404",
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-starlight-2024-mry-308416",
+  "https://mobileplanet.ua/apple-macbook-air-15-m3-8-512gb-silver-2024-mryq3-308392",
+  "https://mobileplanet.ua/ua/apple-macbook-air-13-6-m3-16-512gb-midni-308334",
+  "https://mobileplanet.ua/ua/apple-macbook-air-13-6-m3-16-512gb-space-308357",
+  "https://mobileplanet.ua/ua/apple-macbook-air-13-6-m3-16-512gb-starl-308369",
+  "https://mobileplanet.ua/ua/apple-macbook-air-13-6-m3-16-512gb-silve-308345",
+
+  "https://mobileplanet.ua/ua/apple-macbook-air-15-m3-16-512gb-midnigh-308381",
+  "https://mobileplanet.ua/ua/apple-macbook-air-15-m3-16-512gb-space-g-308405",
+  "https://mobileplanet.ua/ua/apple-macbook-air-15-m3-16-512gb-starlig-308417",
+  "https://mobileplanet.ua/ua/apple-macbook-air-15-m3-16-512gb-silver-308393",
 ];
 
 const arrLinkIstoreMacM3 = [
   'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-512-gb-space-gray-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-512-gb-silver-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-1tb-space-gray-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-1tb-silver-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-512-gb-silver-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-1tb-space-gray-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-1tb-silver-2023/',
 
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-512-gb-space-black-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-512-gb-silver-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-1-tb-space-black-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-1-tb-silver-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-512-gb-space-black-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-512-gb-silver-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-1-tb-space-black-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-pro-1-tb-silver-2023/',
 
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-max-1-tb-space-black-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-max-1-tb-silver-2023/',
-
-
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-512-gb-space-black-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-18gb-512gb-silver-2023/',
-
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-32gb-512-gb-space-black-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-32gb-512-gb-silver-2023/',
-
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-36gb-1tb-space-black-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-36gb-1tb-silver-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-48gb-1tb-space-black-2023/',
-'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-48gb-1tb-silver-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-max-1-tb-space-black-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-14-apple-m3-max-1-tb-silver-2023/',
 
 
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-512-gb-space-black-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-18gb-512gb-silver-2023/',
+
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-32gb-512-gb-space-black-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-pro-32gb-512-gb-silver-2023/',
+
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-36gb-1tb-space-black-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-36gb-1tb-silver-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-48gb-1tb-space-black-2023/',
+  'https://www.istore.ua/ua/item/macbook-pro-16-apple-m3-max-48gb-1tb-silver-2023/',
 
 
-"https://www.istore.ua/ua/item/apple-macbook-air-13-8gb-256gb-m3-midnight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-256gb-space-gray/",
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-256gb-starlight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-256gb-silver/",
-
-"https://www.istore.ua/ua/item/apple-macbook-air-13-8gb-512gb-m3-midnight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-512gb-space-gray/",
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-512gb-starlight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-512gb-silver/",
 
 
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-midnight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-space-gray/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-starlight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-silver/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-8gb-256gb-m3-midnight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-256gb-space-gray/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-256gb-starlight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-256gb-silver/",
 
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-midnight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-space-gray/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-starlight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-silver/"
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-8gb-512gb-m3-midnight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-512gb-space-gray/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-512gb-starlight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-8gb-512gb-silver/",
+
+
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-midnight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-space-gray/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-starlight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-256gb-silver/",
+
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-midnight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-space-gray/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-starlight/",
+  "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-8gb-512gb-silver/"
 ];
 const arrLinkGroMacM3 = [
   'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-gray-late-2023-mtl73/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mr7j3/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-gray-late-2023-mtl83/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mr7k3/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mr7j3/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-gray-late-2023-mtl83/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mr7k3/',
 
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-black-late-2023-mrx33/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mrx63/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-black-late-2023-mrx43/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mrx73/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-black-late-2023-mrx33/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mrx63/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-black-late-2023-mrx43/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mrx73/',
 
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-black-late-2023-mrx53/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mrx83/',
-
-
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-mrw13/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-mrw43/',
-
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-mrw23/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-mrw63/',
-
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-mrw33/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-mrw73/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-muw63/',
-'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-muw73/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-space-black-late-2023-mrx53/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-14-silver-late-2023-mrx83/',
 
 
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-midnight-mrxv3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-space-gray-mrxn3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-starlight-mrxt3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-silver-mrxq3/",
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-mrw13/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-mrw43/',
 
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-midnight-mrxw3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-space-gray-mrxp3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-starlight-mrxu3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-silver-mrxr3/",
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-mrw23/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-mrw63/',
+
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-mrw33/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-mrw73/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-space-black-late-2023-muw63/',
+  'https://grokholsky.com/product/apple/mac/macbook/noutbuk-apple-macbook-pro-16-silver-late-2023-muw73/',
 
 
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-midnight-mryu3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-space-gray-mrym3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-starlight-mryr3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-silver-mryp3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-midnight-mrxv3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-space-gray-mrxn3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-starlight-mrxt3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-silver-mrxq3/",
 
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-midnight-mryv3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-space-gray-mryn3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-starlight-mryt3/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-silver-mryq3/"
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-midnight-mrxw3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-space-gray-mrxp3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-starlight-mrxu3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-silver-mrxr3/",
+
+
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-midnight-mryu3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-space-gray-mrym3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-starlight-mryr3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-silver-mryp3/",
+
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-midnight-mryv3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-space-gray-mryn3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-starlight-mryt3/",
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-silver-mryq3/",
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-midnight-mxcv3/",
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-space-gray-mxcr3/",
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-starlight-mxcu3/",
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-136-m3-2024/macbook-air-136-m3-2024-silver-mxct3/",
+
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-midnight-mxd43/",
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-space-gray-mxd13/",
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-starlight-mxd33/",
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-silver-mxd23/",
 ];
 
 
@@ -390,7 +427,7 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
-  
+
   for (let i = 0; i < arrLinkSkayMacM3.length; i += 1) {
     await page.goto(arrLinkSkayMacM3[i]);
     const n = await page.$("#txt");
@@ -445,7 +482,7 @@ async function f() {
     console.log(arr7);
     await page.setDefaultNavigationTimeout(0);
   }
-    for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
     await page.goto(arrLinkGroMacM3[i]);
     const n = await page.$("#txt");
 
