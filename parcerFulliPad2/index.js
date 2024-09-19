@@ -57,31 +57,6 @@ const arrLinkJabkoIPAD = [
   "https://jabko.ua/rus/ipad/ipad-air-10-5/apple-ipad-air--2022-/apple-ipad-air--256gb--wi-fi---lte--pink--2022-",
   "https://jabko.ua/rus/ipad/ipad-air-10-5/apple-ipad-air--2022-/apple-ipad-air--256gb--wi-fi---lte--starlight--2022-",
 
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--128gb--silver--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/apple-ipad-pro-11-2020--128gb--space-gray--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--128gb--silver--wi-fi---lte",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--128gb--space-gray--wi-fi---lte",
-
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--256gb--silver--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--256gb--space-gray--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--256gb--silver--wi-fi---lte",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--256gb--space-gray--wi-fi---lte",
-
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--512gb--silver--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--512gb--space-gray--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--512gb--silver--wi-fi---lte",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--512gb--space-gray--wi-fi---lte",
-
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--1tb--silver--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--1tb--space-gray--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--1tb--silver--wi-fi---lte",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--1tb--space-gray--wi-fi---lte",
-
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--2tb--silver--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--2tb--space-gray--wi-fi-",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--2tb--silver--wi-fi---lte",
-  "https://jabko.ua/rus/ipad/apple-ipad-pro/ipad-pro-11-/planshet-apple-ipad-pro-11-2021--2tb--space-gray--wi-fi---lte",
-
   "https://jabko.ua/rus/ipad/apple-ipad-pro/apple-ipad-pro-11--2022-/planshet-apple-ipad-pro-11-2022--128gb--silver--wi-fi--m2-",
   "https://jabko.ua/rus/ipad/apple-ipad-pro/apple-ipad-pro-11--2022-/planshet-apple-ipad-pro-11-2022--128gb--space-gray--wi-fi-m2",
   "https://jabko.ua/rus/ipad/apple-ipad-pro/apple-ipad-pro-11--2022-/planshet-apple-ipad-pro-11-2022--128gb--silver--wi-fi---lte--m2-",
@@ -328,23 +303,6 @@ const arrLinkIpadBuyUA = [
 async function f() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
-
-  for (let i = 0; i < arrLinkGroIPAD.length; i += 1) {
-    await page.goto(arrLinkGroIPAD[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return text2 + "Gro: " + document.querySelector(".product-price-value").innerText;
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
   for (let i = 0; i < arrLinkJabkoIPAD.length; i += 1) {
     await page.goto(arrLinkJabkoIPAD[i]);
     const n = await page.$("#txt");
@@ -363,6 +321,24 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
+  
+  for (let i = 0; i < arrLinkGroIPAD.length; i += 1) {
+    await page.goto(arrLinkGroIPAD[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return text2 + "Gro: " + document.querySelector(".product-price-value").innerText;
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  
   // for (let i = 0; i < arrLinkIpadMrFix.length; i += 1) {
   //   await page.goto(arrLinkIpadMrFix[i]);
   //   const n = await page.$("#txt");
