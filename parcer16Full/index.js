@@ -495,9 +495,9 @@ async function f() {
 
         let arr2 = await page.evaluate(() => {
           let text2 = document.querySelector("h1").innerText;
-          if (document.querySelector("p .price") != null) {
+          if (document.querySelector(".regular-price") != null) {
             return (
-              text2 + "Estore: " + document.querySelector("p .price").innerText
+              text2 + "Estore: " + document.querySelector(".regular-price").innerText
             );
           } else {
             return text2;
@@ -515,7 +515,7 @@ async function f() {
             let text2 = document.querySelector("h1").innerText;
             if (document.querySelector(".price") != null) {
                 return (
-                    text2 + "Estore: " + document.querySelector(".price").innerText
+                    text2 + "CRS: " + document.querySelector(".price").innerText
                 );
             } else {
                 return text2;
