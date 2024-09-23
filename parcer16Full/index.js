@@ -490,9 +490,87 @@ const arrLinkCts16IPHiNfo = [
   "https://www.ctrs.com.ua/smartfony/iphone-16-pro-max-1tb-desert-titanium-apple-752247.html",
 ];
 
+const arrLinkiPeople16 = [
+  "https://www.ipeople.in.ua/products/apple-iphone-16-128gb-black-mye73",
+"https://www.ipeople.in.ua/products/apple-iphone-16-128gb-ultramarine",
+"https://www.ipeople.in.ua/products/apple-iphone-16-128gb-white-mye93",
+"https://www.ipeople.in.ua/products/apple-iphone-16-128gb-pink-myea3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-128gb-teal-myed3",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-256gb-black-myee3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-256gb-ultramarine-myeh3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-256gb-white-myef3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-256gb-pink-myeg3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-256gb-teal-myej3",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-black-myek3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-ultramarine-myer3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-white-myep3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-pink-myeq3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-teal-myeu3",
+
+
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-128gb-black-mxvu3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-128gb-ultramarine-mxvx3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-128gb-black-mxvu3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-128gb-pink-mxvw3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-128gb-teal-mxvy3",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-black-mxwn3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-ultramarine-mxy23",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-white-mxwv3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-pink",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-teal-mxy53",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-black-my1p3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-ultramarine-my2d3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-white-my1x3",
+"https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Plus+512GB+Pink+%28MY253%29",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-teal-my2j3",
+
+
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-128gb-natural-titanium-myng3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-128gb-black-titanium-mynd3",
+"https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Pro+128GB+White+Titanium+%28MYNE3%29",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-128gb-desert-titanium",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-256gb-natural-titanium-mynl3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-256gb-black-titanium",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-256gb-white-titanium",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-256gb-desert-titanium",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-512gb-natural-titanium-mynq3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-512gb-black-titanium-mynm3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-512gb-white-titanium-mynn3",
+"https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Pro+512GB+Desert+Titanium+%28MYNP3%29",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-1tb-natural-titanium-mynx3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-1tb-black-titanium-mynr3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-1tb-white-titanium-mynt3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-1tb-desert-titanium-mynw3",
+
+
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-256gb-natural-titanium",
+"https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Pro+Max+256GB+Black+Titanium+%28MYWV3%29",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-256gb-white-titanium-myww3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-256gb-desert-titanium-mywx3",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-512gb-natural-titanium-myx33",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-512gb-black-titanium-myx03",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-512gb-white-titanium-myx13",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-512gb-desert-titanium-myx23",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-1tb-natural-titanium-myx73",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-1tb-black-titanium-myx43",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-1tb-white-titanium-myx53",
+"https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-1tb-desert-titanium-myx63",
+];
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
 
@@ -604,6 +682,25 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
+  for (let i = 0; i < arrLinkiPeople16.length; i += 1) {
+    await page.goto(arrLinkiPeople16[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".usd").innerText;
+      if (document.querySelector(".usd") != null) {
+        return (
+          text2 + "iPeople: " + document.querySelector(".usd").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
   for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
     await page.goto(arrLinkCts16IPHiNfo[i]);
     const n = await page.$("#txt");
