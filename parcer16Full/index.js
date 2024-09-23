@@ -570,7 +570,7 @@ const arrLinkiPeople16 = [
 ];
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: "true" });
   const page = await browser.newPage();
 
 
