@@ -2,6 +2,69 @@ console.log("Hello world");
 
 const puppeteer = require("puppeteer");
 
+
+const arrLinkMobilePlanetMac = [
+  'https://mobileplanet.ua/apple-macbook-air-13-space-gray-mgn63-20-193343',
+  'https://mobileplanet.ua/apple-macbook-air-13-space-gray-mgn73-20-193345',
+  'https://mobileplanet.ua/apple-macbook-air-13-silver-mgn93-2020-193342',
+  'https://mobileplanet.ua/apple-macbook-air-13-silver-mgna3-2020-193344',
+  'https://mobileplanet.ua/apple-macbook-air-13-gold-mgnd3-2020-193341',
+  
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-space-gray-mlx-253143',
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-space-gray-mlx-253327',
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-silver-mlxy3-2-253326',
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-silver-mly03-2-253142',
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-starlight-mly1-253144',
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-starlight-mly2-253328',
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-midnight-mly33-253140',
+  'https://mobileplanet.ua/apple-macbook-air-13-6-m2-midnight-mly43-253141',
+
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-2021-mkgp3-237453',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-2021-mkgq3-237454',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-mkgr3-2021-238146',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-mkgt3-2021-238139',
+
+  'https://mobileplanet.ua/Apple-MacBook-Pro-16-Space-Gray-MVVJ2-20-142026',
+
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-gray-2021-mk183-237455',
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-gray-mk193-2021-238000',
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-gray-mk1a3-2021-238001',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-mk1e3-2021-237970',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-mk1f3-2021-237971',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-mk1h3-2021-237972',
+
+  'https://mobileplanet.ua/apple-macbook-pro-13-space-gray-myd82-20-190626',
+  'https://mobileplanet.ua/apple-macbook-pro-13-m1-space-gray-myd92-190757',
+  'https://mobileplanet.ua/apple-macbook-pro-13-silver-myda2-2020-190627',
+  'https://mobileplanet.ua/apple-macbook-pro-13-m1-silver-mydc2-202-190758',
+
+  'https://mobileplanet.ua/apple-macbook-pro-13-m2-space-gray-mneh3-252071',
+  'https://mobileplanet.ua/apple-macbook-pro-13-m2-space-gray-mnej3-252073',
+  'https://mobileplanet.ua/apple-macbook-pro-13-m2-silver-mnep3-252072',
+  'https://mobileplanet.ua/apple-macbook-pro-13-m2-silver-mneq3-252074',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-2023-mphe3-265267',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-2023-mphf3-265268',
+  'https://mobileplanet.ua/apple-macbook-pro-14-space-gray-2023-mphg3-265269',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-2023-mphh3-265264',
+  'https://mobileplanet.ua/apple-macbook-pro-14-silver-2023-mphk3-265266',
+
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-gray-2023-mnw83-265273',
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-gray-2023-mnw93-265274',
+  'https://mobileplanet.ua/apple-macbook-pro-16-space-gray-2023-mnwa3-265275',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-2023-mnwe3-265272',
+  'https://mobileplanet.ua/apple-macbook-pro-16-silver-2023-mnwc3-265270',
+
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-space-gray-2023-mqkp3-273143',
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-silver-2023-mqkr3-273141',
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-midnight-2023-mqkw3-273139',
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-starlight-2023-mqku3-273145',
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-space-gray-2023-mqkq3-273144',
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-silver-2023-mqkt3-273142',
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-midnight-2023-mqkx3-273140',
+  'https://mobileplanet.ua/apple-macbook-air-15-m2-starlight-2023-mqkv3-273146'
+];
+
+
 const arrLinkIstoreMac = [
   "https://www.istore.ua/catalog/item/apple-macbook-air-2020-g-256-gb-m1-seryy-kosmos/",
   "https://www.istore.ua/catalog/item/apple-macbook-air-2020-g-512-gb-m1-seryy-kosmos/",
@@ -389,6 +452,22 @@ const arrLinkGroMacM3 = [
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
+  for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetMac[i]);
+    const n = await page.$("#txt");
+
+  let arr3 = await page.evaluate(() => {
+    
+    let text2 = document.querySelector("h1").innerText;
+    if(document.querySelector(".price-value") != null){
+      return text2 + 'MP: ' + document.querySelector(".price-value").innerText
+    } else {return text2}
+    
+  });
+  
+  console.log(arr3)
+  await page.setDefaultNavigationTimeout(0);
+  }
 
   for (let i = 0; i < arrLinkIstoreMac.length; i += 1) {
     await page.goto(arrLinkIstoreMac[i]);

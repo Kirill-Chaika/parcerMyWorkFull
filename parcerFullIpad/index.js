@@ -453,24 +453,24 @@ async function f() {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkSkayIPAD.length; i += 1) {
-    await page.goto(arrLinkSkayIPAD[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkSkayIPAD.length; i += 1) {
+  //   await page.goto(arrLinkSkayIPAD[i]);
+  //   const n = await page.$("#txt");
 
-    let arr1 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-prices .products-item-cost") != null) {
-        return (
-          text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
-        );
-      } else {
-        return;
-      }
-    });
+  //   let arr1 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-prices .products-item-cost") != null) {
+  //       return (
+  //         text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
+  //       );
+  //     } else {
+  //       return;
+  //     }
+  //   });
 
-    console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr1);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
   for (let i = 0; i < arrLinkIstoreIPAD.length; i += 1) {
     await page.goto(arrLinkIstoreIPAD[i]);
     const n = await page.$("#txt");

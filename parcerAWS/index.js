@@ -673,24 +673,24 @@ async function f() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
 
-  for (let i = 0; i < arrLinkSkayAWS.length; i += 1) {
-    await page.goto(arrLinkSkayAWS[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkSkayAWS.length; i += 1) {
+  //   await page.goto(arrLinkSkayAWS[i]);
+  //   const n = await page.$("#txt");
 
-    let arr1 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-prices .products-item-cost") != null) {
-        return (
-          text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
-        );
-      } else {
-        return;
-      }
-    });
+  //   let arr1 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-prices .products-item-cost") != null) {
+  //       return (
+  //         text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
+  //       );
+  //     } else {
+  //       return;
+  //     }
+  //   });
 
-    console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr1);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
   for (let i = 0; i < arrLinkJabkoAWS.length; i += 1) {
     await page.goto(arrLinkJabkoAWS[i]);
     const n = await page.$("#txt");
