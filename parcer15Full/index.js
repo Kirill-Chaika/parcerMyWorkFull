@@ -622,6 +622,9 @@ async function f() {
     console.log(arr4);
     await page.setDefaultNavigationTimeout(0);
   }
+
+
+  
   // for (let i = 0; i < arrLinkEstore15ProAndProMax.length; i += 1) {
   //   await page.goto(arrLinkEstore15ProAndProMax[i]);
   //   const n = await page.$("#txt");
@@ -809,6 +812,8 @@ async function f() {
     console.log(arr4);
     await page.setDefaultNavigationTimeout(0);
   }
+
+
   // for (let i = 0; i < arrLinkEstore15Plus.length; i += 1) {
   //   await page.goto(arrLinkEstore15Plus[i]);
   //   const n = await page.$("#txt");
