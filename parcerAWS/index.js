@@ -912,243 +912,243 @@ async function f() {
 
 
 
-  // for (let i = 0; i < arrLinkMobilePlanetAWS2Gen.length; i += 1) {
-  //   await page.goto(arrLinkMobilePlanetAWS2Gen[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkMobilePlanetAWS2Gen.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetAWS2Gen[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-value") != null) {
-  //       return (
-  //         text2 + "MP: " + document.querySelector(".price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkIstoreAWS2Gen.length; i += 1) {
-  //   await page.goto(arrLinkIstoreAWS2Gen[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstoreAWS2Gen.length; i += 1) {
+    await page.goto(arrLinkIstoreAWS2Gen[i]);
+    const n = await page.$("#txt");
 
-  //   let arr4 = await page.evaluate(() => {
-  //     let text3 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product_price ") != null) {
-  //       return (
-  //         text3 + "I: " + document.querySelector(".product_price ").innerText
-  //       );
-  //     } else {
-  //       return text3;
-  //     }
-  //   });
+    let arr4 = await page.evaluate(() => {
+      let text3 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text3 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text3;
+      }
+    });
 
-  //   console.log(arr4);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkGroAWS2Gen.length; i += 1) {
-  //   await page.goto(arrLinkGroAWS2Gen[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroAWS2Gen.length; i += 1) {
+    await page.goto(arrLinkGroAWS2Gen[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".sku").innerText;
-  //     if (document.querySelector(".product-price-value") != null) {
-  //       return (
-  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 
-  // for (let i = 0; i < arrLinkJabkoAWSSE.length; i += 1) {
-  //   await page.goto(arrLinkJabkoAWSSE[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkJabkoAWSSE.length; i += 1) {
+    await page.goto(arrLinkJabkoAWSSE[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-new__uah") != null) {
-  //       return (
-  //         text2 + "J: " + document.querySelector(".price-new__uah").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkIstoreAWSSE.length; i += 1) {
-  //   await page.goto(arrLinkIstoreAWSSE[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstoreAWSSE.length; i += 1) {
+    await page.goto(arrLinkIstoreAWSSE[i]);
+    const n = await page.$("#txt");
 
-  //   let arr4 = await page.evaluate(() => {
-  //     let text3 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product_price ") != null) {
-  //       return (
-  //         text3 + "I: " + document.querySelector(".product_price ").innerText
-  //       );
-  //     } else {
-  //       return text3;
-  //     }
-  //   });
+    let arr4 = await page.evaluate(() => {
+      let text3 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text3 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text3;
+      }
+    });
 
-  //   console.log(arr4);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkMobilePlanetAWSSE.length; i += 1) {
-  //   await page.goto(arrLinkMobilePlanetAWSSE[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetAWSSE.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetAWSSE[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-value") != null) {
-  //       return (
-  //         text2 + "MP: " + document.querySelector(".price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkGroAWSSE.length; i += 1) {
-  //   await page.goto(arrLinkGroAWSSE[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroAWSSE.length; i += 1) {
+    await page.goto(arrLinkGroAWSSE[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".sku").innerText;
-  //     if (document.querySelector(".product-price-value") != null) {
-  //       return (
-  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkEstoreAWSSE.length; i += 1) {
-  //   await page.goto(arrLinkEstoreAWSSE[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreAWSSE.length; i += 1) {
+    await page.goto(arrLinkEstoreAWSSE[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector("p .price") != null) {
-  //       return (
-  //         text2 + "Estore: " + document.querySelector("p .price").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p .price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
-  // for (let i = 0; i < arrLinkiPeopleAws9Lte.length; i += 1) {
-  //   await page.goto(arrLinkiPeopleAws9Lte[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkiPeopleAws9Lte.length; i += 1) {
+    await page.goto(arrLinkiPeopleAws9Lte[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".usd").innerText;
-  //     if (document.querySelector(".usd") != null) {
-  //       return (
-  //         text2 + "iPeople: " + document.querySelector(".usd").innerText
-  //       );
-  //     } else {
-  //       return;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".usd").innerText;
+      if (document.querySelector(".usd") != null) {
+        return (
+          text2 + "iPeople: " + document.querySelector(".usd").innerText
+        );
+      } else {
+        return;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkEstoreAws9Lte.length; i += 1) {
-  //   await page.goto(arrLinkEstoreAws9Lte[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreAws9Lte.length; i += 1) {
+    await page.goto(arrLinkEstoreAws9Lte[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector("p .price") != null) {
-  //       return (
-  //         text2 + "Estore: " + document.querySelector("p .price").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p .price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkMobilePlanetAws9Lte.length; i += 1) {
-  //   await page.goto(arrLinkMobilePlanetAws9Lte[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetAws9Lte.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetAws9Lte[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-value") != null) {
-  //       return (
-  //         text2 + "MP: " + document.querySelector(".price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkGroAws9Lte.length; i += 1) {
-  //   await page.goto(arrLinkGroAws9Lte[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroAws9Lte.length; i += 1) {
+    await page.goto(arrLinkGroAws9Lte[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".sku").innerText;
-  //     if (document.querySelector(".product-price-value") != null) {
-  //       return (
-  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkIpeopleAws10.length; i += 1) {
-  //   await page.goto(arrLinkIpeopleAws10[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIpeopleAws10.length; i += 1) {
+    await page.goto(arrLinkIpeopleAws10[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".usd").innerText;
-  //     if (document.querySelector(".usd") != null) {
-  //       return (
-  //         text2 + "iPeople: " + document.querySelector(".usd").innerText
-  //       );
-  //     } else {
-  //       return;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".usd").innerText;
+      if (document.querySelector(".usd") != null) {
+        return (
+          text2 + "iPeople: " + document.querySelector(".usd").innerText
+        );
+      } else {
+        return;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 
 
