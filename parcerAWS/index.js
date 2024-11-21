@@ -827,7 +827,11 @@ const arrLinkEstoreAWS10andUltra2024 = [
   "https://estore.ua/ua/apple-watch-series-10-46mm-rose-gold-aluminium-case-with-light-blush-sport-band-ml-mwwu3/?q=mwwu3",
   "https://estore.ua/ua/apple-watch-series-10-46mm-rose-gold-aluminium-case-with-plum-sport-loop-mwwv3/?q=mwwv3",
 
-  "https://estore.ua/ua/apple-watch-ultra-2-black-titanium-case-with-black-ocean-band/?q=mx4p3",
+  
+];
+
+const arrLinkEstoreAWS10andUltra2024Two = [
+"https://estore.ua/ua/apple-watch-ultra-2-black-titanium-case-with-black-ocean-band/?q=mx4p3",
 
   "https://estore.ua/ua/apple-watch-ultra-2-black-titanium-case-with-black-titanium-milanese-loop-small-mx4w3/?q=mx4w3",
   "https://estore.ua/ua/apple-watch-ultra-2-black-titanium-case-with-milanese-loop-medium-mx5u3/?q=mx5u3",
@@ -1198,6 +1202,24 @@ async function f() {
       if (document.querySelector("p .price") != null) {
         return (
           text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreAWS10andUltra2024Two.length; i += 1) {
+    await page.goto(arrLinkEstoreAWS10andUltra2024Two[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".price").innerText
         );
       } else {
         return text2;
