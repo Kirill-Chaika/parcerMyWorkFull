@@ -668,45 +668,33 @@ const arrLinkGroAws9Lte = [
 
 
 const arrLinkIpeopleAws10 = [
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-silver-aluminum-case-with-light-blush-sport-band---sm-mxln3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-silver-aluminum-case-with-light-blush-sport-band---ml-mxlp3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-rose-gold-aluminum-case-with-starlight-sport-band---sm-mxll3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-rose-gold-aluminum-case-with-starlight-sport-band---ml-mwx23",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-jet-black-aluminum-case-with-black-sport-band---sm-mxlj3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-jet-black-aluminum-case-with-black-sport-band---ml-mxlk3",
-
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-silver-aluminum-case-with-light-blush-sport-band---sm-mxm83",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-silver-aluminum-case-with-light-blush-sport-band---ml-mxm93",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-rose-gold-aluminum-case-with-starlight-sport-band---sm-mxm63",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-rose-gold-aluminum-case-with-starlight-sport-band---ml-mxm73",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---ml-mwwq3",
-
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-42mm-slate-titanium-case-with-slate-milanese-loop-mx053",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-42mm-natural-titanium-case-with-natural-milanese-loop-mwxf3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-42mm-gold-titanium-case-with-gold-milanese-loop-mx083",
-
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-46mm-slate-titanium-case-with-slate-milanese-loop---sm-mc7r4",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-46mm-slate-titanium-case-with-slate-milanese-loop---ml-mwyw3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-46mm-natural-titanium-case-with-natural-milanese-loop---ml-mwyc3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-46mm-gold-titanium-case-with-gold-milanese-loop---sm-mc7t4",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps--cellular-46mm-gold-titanium-case-with-gold-milanese-loop---ml-mx003",
-
-
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---sm-mx4w3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---ml-mx5u3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---xl-mx5v3",
-
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-ocean-band-mx4p3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-navy-ocean-band-mypa3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-ice-blue-ocean-band-myp83",
-
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---sm-mx4u3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---ml-mx4v3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-green-trail-loop---sm-myq33",
-
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-green-trail-loop---ml-myq43",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-blue-trail-loop---sm-myq73",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-blue-trail-loop---ml-myq83",
+  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-alu-case-w-denim-sport-band---sm-mwwa3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-alu-case-w-denim-sport-band---ml-mwwc3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwd3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-jet-black-alu-case-w-black-sport-band---sm-mwwe3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-jet-black-aluminum-case-with-black-sport-band---ml-mxlk3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-jet-black-alu-case-w-ink-sport-loop-mwwg3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---sm-mwwh3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---ml-mwwj3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---sm-mwwl3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---ml-mwwm3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwn3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---sm-mwwp3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---ml-mwwq3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-jet-black-aluminum-case-w-ink-sport-loop-mwwr3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-rose-gold-alu-case-w-light-blush-sport-band---sm-mwwt3",
+"https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-rose-gold-alu-case-w-light-blush-sport-band---ml-mwwu3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-ocean-band-mx4p3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---sm-mx4w3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---ml-mx5u3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---xl-mx5v3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---m-mx4r3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---l-mx4t3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---sm-mx4u3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---ml-mx4v3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---sm-mx4m3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---ml-mx5r3",
+"https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---xl-mx5t3",
 ]
 
 const arrLinkJabkoAWS10andUltra2024 = [
@@ -1135,24 +1123,7 @@ async function f() {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkIpeopleAws10.length; i += 1) {
-    await page.goto(arrLinkIpeopleAws10[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".usd").innerText;
-      if (document.querySelector(".usd") != null) {
-        return (
-          text2 + "iPeople: " + document.querySelector(".usd").innerText
-        );
-      } else {
-        return;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  
 
 
 
