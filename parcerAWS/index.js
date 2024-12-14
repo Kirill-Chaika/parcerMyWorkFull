@@ -898,6 +898,99 @@ const arrLinkGroAWS10andUltra2024 = [
   "https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-2/smart-godinnik-apple-watch-ultra-2-gps-cellular-49mm-natural-titan-case-w-blue-trail-loop-m-l-mx4l3/",
 ];
 
+
+const arrLinkJabkoAWSSE2024 = [
+  "https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-silver-aluminium-case-with-denim-sport-band-sm-mxec3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-silver-aluminium-case-with-denim-sport-band-ml-mxed3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-silver-aluminium-case-with-blue-cloud-sport-loop-mxee3-2024",
+
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-midnight-aluminium-case-with-midnight-sport-band-sm-mxe73-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-midnight-aluminium-case-with-midnight-sport-band-ml-mxe93-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-midnight-aluminium-case-with-ink-sport-loop-mxea3-2024",
+
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-starlight-aluminium-case-with-starlight-sport-band-sm-mxef3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-40mm-starlight-aluminium-case-with-starlight-sport-band-ml-mxeg3-2024",
+
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-starlight-aluminium-case-with-starlight-sport-band-sm-mxeu3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-starlight-aluminium-case-with-starlight-sport-band-ml-mxev3-2024",
+
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-silver-aluminium-case-with-denim-sport-band-sm-mxeq3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-silver-aluminium-case-with-denim-sport-band-ml-mxer3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-silver-aluminium-case-with-blue-cloud-sport-loop-mxet3-2024",
+
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-sm-mxej3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-ml-mxek3-2024",
+"https://jabko.ua/apple-watch/apple-watch-se-2/apple-watch-se-2-gps-44mm-midnight-aluminium-case-with-ink-sport-loop-mxep3-2024",
+];
+const arrLinkMobilePlanetSE2024 = [
+  "https://mobileplanet.ua/ua/apple-watch-se-2-gps-40mm-silver-alumini-328336",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-40mm-silver-alumini-328341",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-40mm-silver-alumini-328344",
+
+"https://mobileplanet.ua/ua/apple-watch-series-se2-gps-40mm-midnight-327688",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-40mm-midnight-alumi-328339",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-40mm-midnight-alumi-328343",
+
+"https://mobileplanet.ua/ua/apple-watch-series-se2-gps-40mm-starligh-327689",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-40mm-starlight-alum-328342",
+
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-44mm-starlight-alu-328355",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-44mm-starlight-alum-327690",
+
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-44mm-silver-alumini-328353",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-44mm-silver-alumini-328351",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-44mm-silver-alumini-328348",
+
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-44mm-midnight-alumi-328349",
+"https://mobileplanet.ua/ua/apple-watch-se-2-gps-44mm-midnight-alumi-328345",
+];
+const arrLinkGroAWSSE2024 = [
+  "https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-silver-aluminium-case-w-denim-sport-band-s-m-mxec3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-silver-aluminium-case-w-denim-sport-band-m-l-mxed3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-silver-aluminium-case-w-blue-cloud-sport-loop-mxee3/",
+
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-midnight-alu-case-w-midnight-sport-band-s-m-mxe73/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-midnight-aluminium-case-w-midnight-sport-band-m-l-mxe93/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-midnight-aluminium-case-w-ink-sport-loop-mxea3/",
+
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-starlight-aluminium-case-w-starlight-sport-band-s-m-mxef3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-40mm-starlight-aluminium-case-w-starlight-sport-band-m-l-mxeg3/",
+
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-starlight-alu-case-w-starlight-sport-band-s-m-mxeu3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-starlight-aluminium-case-w-starlight-sport-band-m-l-mxev3/",
+
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-silver-aluminium-case-w-denim-sport-band-s-m-mxeq3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-silver-aluminium-case-w-denim-sport-band-m-l-mxer3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-silver-aluminium-case-w-blue-cloud-sport-loop-mxet3/",
+
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-midnight-aluminium-case-w-midnight-sport-band-s-m-mxej3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-midnight-aluminium-case-w-midnight-sport-band-m-l-mxek3/",
+"https://grokholsky.com/ua/product/apple/apple-watch/apple-watch-series-se-2/smart-godinnik-apple-watch-se-2-gps-44mm-midnight-aluminium-case-w-ink-sport-loop-mxep3/",
+];
+const arrLinkEstoreAWSSE2024 = [
+  "https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-silver-aluminium-case-with-denim-sport-band-sm-mxec3/?q=mxec3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-silver-aluminium-case-with-denim-sport-band-ml-mxed3/?q=mxed3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-silver-aluminium-case-with-blue-cloud-sport-loop-mxee3/?q=mxee3",
+
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-midnight-aluminium-case-with-midnight-sport-band-sm-mxe73/?q=mxe73",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-midnight-aluminium-case-with-midnight-sport-band-ml-mxe93/?q=mxe93",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-midnight-aluminium-case-with-ink-sport-loop-mxea3/?q=mxea3",
+
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-starlight-aluminium-case-with-starlight-sport-band-sm-mxef3/?q=mxef3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-40mm-starlight-aluminium-case-with-starlight-sport-band-ml-mxeg3/?q=mxeg3",
+
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-starlight-aluminium-case-with-starlight-sport-band-sm-mxeu3/?q=mxeu3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-starlight-aluminium-case-with-starlight-sport-band-ml-mxev3/?q=mxev3",
+
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-silver-aluminium-case-with-denim-sport-band-sm-mxeq3/?q=mxeq3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-silver-aluminium-case-with-denim-sport-band-ml-mxer3/?q=mxer3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-silver-aluminium-case-with-blue-cloud-sport-loop-mxet3/?q=mxet3",
+
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-sm-mxej3/?q=mxej3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-ml-mxek3/?q=mxek3",
+"https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-midnight-aluminium-case-with-ink-sport-loop-mxep3/?q=mxep3",
+];
+
 async function f() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
@@ -1125,9 +1218,6 @@ async function f() {
   }
   
 
-
-
-
   for (let i = 0; i < arrLinkJabkoAWS10andUltra2024.length; i += 1) {
     await page.goto(arrLinkJabkoAWS10andUltra2024[i]);
     const n = await page.$("#txt");
@@ -1218,5 +1308,80 @@ async function f() {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
+
+  for (let i = 0; i < arrLinkJabkoAWSSE2024.length; i += 1) {
+    await page.goto(arrLinkJabkoAWSSE2024[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetSE2024.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetSE2024[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroAWSSE2024.length; i += 1) {
+    await page.goto(arrLinkGroAWSSE2024[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreAWSSE2024.length; i += 1) {
+    await page.goto(arrLinkEstoreAWSSE2024[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p .price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+
 }
 f();
