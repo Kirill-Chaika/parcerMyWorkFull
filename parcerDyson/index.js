@@ -106,152 +106,154 @@ const arrLinkIpodRomDyson = [
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
-  for (let i = 0; i < arrLinkSkayDyson.length; i += 1) {
-    await page.goto(arrLinkSkayDyson[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkSkayDyson.length; i += 1) {
+  //   await page.goto(arrLinkSkayDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr1 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("#our_price_display") != null) {
-        return (
-          text2 + "S: " + document.querySelector("#our_price_display").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr1 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector("#our_price_display") != null) {
+  //       return (
+  //         text2 + "S: " + document.querySelector("#our_price_display").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkJabkoDyson.length; i += 1) {
-    await page.goto(arrLinkJabkoDyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr1);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkJabkoDyson.length; i += 1) {
+  //   await page.goto(arrLinkJabkoDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price-new__uah") != null) {
+  //       return (
+  //         text2 + "J: " + document.querySelector(".price-new__uah").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkTouchDyson.length; i += 1) {
-    await page.goto(arrLinkTouchDyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkTouchDyson.length; i += 1) {
+  //   await page.goto(arrLinkTouchDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return text2 + "Touch: " + document.querySelector(".price").innerText;
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price") != null) {
+  //       return text2 + "Touch: " + document.querySelector(".price").innerText;
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkStoreInUADyson.length; i += 1) {
-    await page.goto(arrLinkStoreInUADyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkStoreInUADyson.length; i += 1) {
+  //   await page.goto(arrLinkStoreInUADyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-prices__row div") != null) {
-        return (
-          text2 +
-          "StoreInUA: " +
-          document.querySelector(".product-prices__row div").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-prices__row div") != null) {
+  //       return (
+  //         text2 +
+  //         "StoreInUA: " +
+  //         document.querySelector(".product-prices__row div").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkEstoreDyson.length; i += 1) {
-    await page.goto(arrLinkEstoreDyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkEstoreDyson.length; i += 1) {
+  //   await page.goto(arrLinkEstoreDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("p .price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector("p .price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector("p .price") != null) {
+  //       return (
+  //         text2 + "Estore: " + document.querySelector("p .price").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkIpodRomDyson.length; i += 1) {
-    await page.goto(arrLinkIpodRomDyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkIpodRomDyson.length; i += 1) {
+  //   await page.goto(arrLinkIpodRomDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price__item") != null) {
-        return (
-          text2 +
-          "IpodRom: " +
-          document.querySelector(".product-price__item").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-price__item") != null) {
+  //       return (
+  //         text2 +
+  //         "IpodRom: " +
+  //         document.querySelector(".product-price__item").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkPCShopDyson.length; i += 1) {
-    await page.goto(arrLinkPCShopDyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkPCShopDyson.length; i += 1) {
+  //   await page.goto(arrLinkPCShopDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-info__price") != null) {
-        return (
-          text2 +
-          "PCShop: " +
-          document.querySelector(".product-info__price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-info__price") != null) {
+  //       return (
+  //         text2 +
+  //         "PCShop: " +
+  //         document.querySelector(".product-info__price").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkIpeopleDyson.length; i += 1) {
-    await page.goto(arrLinkIpeopleDyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkIpeopleDyson.length; i += 1) {
+  //   await page.goto(arrLinkIpeopleDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector(".header h3").innerText;
-      if (document.querySelector(".uah") != null) {
-        return text2 + "Ipeople: " + document.querySelector(".uah").innerText;
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector(".header h3").innerText;
+  //     if (document.querySelector(".uah") != null) {
+  //       return text2 + "Ipeople: " + document.querySelector(".uah").innerText;
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+
+  //////Good
 
   // for (let i = 0; i < arrLinkSotaDyson.length; i += 1) {
   //   await page.goto(arrLinkSotaDyson[i]);
@@ -271,20 +273,20 @@ async function f() {
 
   //   console.log(arr12);
   // }
-  // for (let i = 0; i < arrLinkTIDyson.length; i += 1) {
-  //   await page.goto(arrLinkTIDyson[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkTIDyson.length; i += 1) {
+    await page.goto(arrLinkTIDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-uah") != null) {
-  //       return text2 + "TI: " + document.querySelector(".price-uah").innerText;
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-uah") != null) {
+        return text2 + "TI: " + document.querySelector(".price-uah").innerText;
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  // }
+    console.log(arr2);
+  }
 }
 f();
