@@ -569,6 +569,158 @@ const arrLinkiPeople16 = [
 "https://www.ipeople.in.ua/products/apple-iphone-16-pro-max-1tb-desert-titanium-myx63",
 ];
 
+const arrLinkYua16 = [
+  "https://y.ua/apple-iphone-16-128gb-black-mye73/p1350345/",
+"https://y.ua/apple-iphone-16-128gb-ultramarine-myec3/p1350346/",
+"https://y.ua/apple-iphone-16-128gb-white-mye93/p1350347/",
+"https://y.ua/apple-iphone-16-128gb-pink-myea3/p1350348/",
+"https://y.ua/apple-iphone-16-128gb-teal-myed3/p1350349/",
+
+"https://y.ua/apple-iphone-16-256gb-black/p1350350/",
+"https://y.ua/apple-iphone-16-256gb-ultramarine/p1350351/",
+"https://y.ua/apple-iphone-16-256gb-white/p1350352/",
+"https://y.ua/apple-iphone-16-256gb-pink/p1350353/",
+"https://y.ua/apple-iphone-16-256gb-teal/p1350354/",
+
+"https://y.ua/apple-iphone-16-512gb-black/p1350355/",
+"https://y.ua/apple-iphone-16-512gb-ultramarine/p1350356/",
+"https://y.ua/apple-iphone-16-512gb-white/p1350357/",
+"https://y.ua/apple-iphone-16-512gb-pink/p1350358/",
+"https://y.ua/apple-iphone-16-512gb-teal/p1350359/",
+
+"https://y.ua/apple-iphone-16-plus-128gb-black-1350360/p1350360/",
+"https://y.ua/apple-iphone-16-plus-128gb-ultramarine/p1350361/",
+"https://y.ua/apple-iphone-16-plus-128gb-black-1350360/p1350360/",
+"https://y.ua/apple-iphone-16-plus-128gb-pink-1350363/p1350363/",
+"https://y.ua/uk/apple-iphone-16-plus-128gb-teal/p1350364/",
+
+"https://y.ua/uk/apple-iphone-16-plus-256gb-black/p1350365/",
+"https://y.ua/uk/apple-iphone-16-plus-256gb-ultramarine/p1350366/",
+"https://y.ua/uk/apple-iphone-16-plus-256gb-white/p1350367/",
+"https://y.ua/uk/apple-iphone-16-plus-256gb-pink/p1350368/",
+"https://y.ua/uk/apple-iphone-16-plus-256gb-teal/p1350369/",
+
+"https://y.ua/uk/apple-iphone-16-plus-512gb-black/p1350370/",
+"https://y.ua/uk/apple-iphone-16-plus-512gb-ultramarine/p1350371/",
+"https://y.ua/uk/apple-iphone-16-plus-512gb-white/p1350372/",
+"https://y.ua/uk/apple-iphone-16-plus-512gb-pink/p1350373/",
+"https://y.ua/uk/apple-iphone-16-plus-512gb-teal/p1350374/",
+
+"https://y.ua/uk/apple-iphone-16-pro-128gb-natural-titanium-myng3/p1350376/",
+"https://y.ua/uk/apple-iphone-16-pro-128gb-black-titanium-mynd3/p1350375/",
+"https://y.ua/uk/apple-iphone-16-pro-128gb-white-titanium-myne3/p1350378/",
+"https://y.ua/uk/apple-iphone-16-pro-128gb-desert-titanium-mynf3/p1350377/",
+
+"https://y.ua/uk/apple-iphone-16-pro-256gb-natural-titanium-mynl3/p1350380/",
+"https://y.ua/uk/apple-iphone-16-pro-256gb-black-titanium-mynh3/p1350379/",
+"https://y.ua/uk/apple-iphone-16-pro-256gb-white-titanium-mynj3/p1350382/",
+"https://y.ua/uk/apple-iphone-16-pro-256gb-desert-titanium-mynk3/p1350381/",
+
+"https://y.ua/uk/apple-iphone-16-pro-512gb-natural-titanium-mynq3/p1350384/",
+"https://y.ua/uk/apple-iphone-16-pro-512gb-black-titanium-mynm3/p1350383/",
+"https://y.ua/uk/apple-iphone-16-pro-512gb-white-titanium-mynn3/p1350386/",
+"https://y.ua/uk/apple-iphone-16-pro-512gb-desert-titanium-mynp3/p1350385/",
+
+"https://y.ua/uk/apple-iphone-16-pro-1tb-natural-titanium-mynx3/p1350388/",
+"https://y.ua/uk/apple-iphone-16-pro-1tb-black-titanium-mynr3/p1350387/",
+"https://y.ua/uk/apple-iphone-16-pro-1tb-white-titanium-mynt3/p1350390/",
+"https://y.ua/uk/apple-iphone-16-pro-1tb-desert-titanium-mynw3/p1350389/",
+
+
+"https://y.ua/uk/apple-iphone-16-pro-max-256gb-natural-titanium-mywy3/p1350392/",
+"https://y.ua/uk/apple-iphone-16-pro-max-256gb-black-titanium-mywv3/p1350391/",
+"https://y.ua/uk/apple-iphone-16-pro-max-256gb-white-titanium-myww3/p1350394/",
+"https://y.ua/uk/apple-iphone-16-pro-max-256gb-desert-titanium-mywx3/p1350393/",
+
+"https://y.ua/uk/apple-iphone-16-pro-max-512gb-natural-titanium-myx33/p1350396/",
+"https://y.ua/uk/apple-iphone-16-pro-max-512gb-black-titanium-myx03/p1350395/",
+"https://y.ua/uk/apple-iphone-16-pro-max-512gb-white-titanium-myx13/p1350398/",
+"https://y.ua/uk/apple-iphone-16-pro-max-512gb-desert-titanium-myx23/p1350397/",
+
+"https://y.ua/uk/apple-iphone-16-pro-max-1tb-natural-titanium-myx73/p1350400/",
+"https://y.ua/uk/apple-iphone-16-pro-max-1tb-black-titanium-myx43/p1350399/",
+"https://y.ua/uk/apple-iphone-16-pro-max-1tb-white-titanium-myx53/p1350402/",
+"https://y.ua/uk/apple-iphone-16-pro-max-1tb-desert-titanium-myx63/p1350401/",
+];
+
+const arrLinkYabloki16 = [
+  "https://yabloki.ua/iphone-16-128-gb-black.html",
+"https://yabloki.ua/iphone-16-128-gb-ultramarine.html",
+"https://yabloki.ua/iphone-16-128-gb-white.html",
+"https://yabloki.ua/iphone-16-128-gb-pink.html",
+"https://yabloki.ua/iphone-16-128-gb-teal.html",
+
+"https://yabloki.ua/iphone-16-256-gb-black.html",
+"https://yabloki.ua/iphone-16-256-gb-ultramarine.html",
+"https://yabloki.ua/iphone-16-256-gb-white.html",
+"https://yabloki.ua/iphone-16-256-gb-pink.html",
+"https://yabloki.ua/iphone-16-256-gb-teal.html",
+
+"https://yabloki.ua/iphone-16-512-gb-black.html",
+"https://yabloki.ua/iphone-16-512-gb-ultramarine.html",
+"https://yabloki.ua/iphone-16-512-gb-white.html",
+"https://yabloki.ua/iphone-16-512-gb-pink.html",
+"https://yabloki.ua/iphone-16-512-gb-teal.html",
+
+
+"https://yabloki.ua/iphone-16-plus-128-gb-black.html",
+"https://yabloki.ua/iphone-16-plus-128-gb-ultramarine.html",
+"https://yabloki.ua/iphone-16-plus-128-gb-white.html",
+"https://yabloki.ua/iphone-16-plus-128-gb-pink.html",
+"https://yabloki.ua/iphone-16-plus-128-gb-teal.html",
+
+"https://yabloki.ua/iphone-16-plus-256-gb-black.html",
+"https://yabloki.ua/iphone-16-plus-256-gb-ultramarine.html",
+"https://yabloki.ua/iphone-16-plus-256-gb-white.html",
+"https://yabloki.ua/iphone-16-plus-256-gb-pink.html",
+"https://yabloki.ua/iphone-16-plus-256-gb-teal.html",
+
+"https://yabloki.ua/iphone-16-plus-512-gb-black.html",
+"https://yabloki.ua/iphone-16-plus-512-gb-ultramarine.html",
+"https://yabloki.ua/iphone-16-plus-512-gb-white.html",
+"https://yabloki.ua/iphone-16-plus-512-gb-pink.html",
+"https://yabloki.ua/iphone-16-plus-512-gb-teal.html",
+
+
+"https://yabloki.ua/iphone-16-pro-128-gb-natural-titanium.html",
+"https://yabloki.ua/iphone-16-pro-128-gb-black-titanium.html",
+"https://yabloki.ua/iphone-16-pro-128-gb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-128-gb-desert-titanium.html",
+
+"https://yabloki.ua/iphone-16-pro-256-gb-natural-titanium.html",
+"https://yabloki.ua/iphone-16-pro-256-gb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-256-gb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-256-gb-natural-titanium.html",
+
+"https://yabloki.ua/iphone-16-pro-512-gb-natural-titanium.html",
+"https://yabloki.ua/iphone-16-pro-512-gb-black-titanium.html",
+"https://yabloki.ua/iphone-16-pro-512-gb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-512-gb-desert-titanium.html",
+
+"https://yabloki.ua/iphone-16-pro-1-tb-natural-titanium.html",
+"https://yabloki.ua/iphone-16-pro-1-tb-black-titanium.html",
+"https://yabloki.ua/iphone-16-pro-1-tb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-1-tb-desert-titanium.html",
+
+
+"https://yabloki.ua/iphone-16-pro-max-256-gb-natural-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-256-gb-black-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-256-gb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-256-gb-desert-titanium.html",
+
+"https://yabloki.ua/iphone-16-pro-max-512-gb-natural-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-512-gb-black-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-512-gb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-512-gb-desert-titanium.html",
+
+"https://yabloki.ua/iphone-16-pro-max-1-tb-natural-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-1tb-black-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-1-tb-white-titanium.html",
+"https://yabloki.ua/iphone-16-pro-max-1-tb-desert-titanium.html",
+];
+
+
+
 async function f() {
   const browser = await puppeteer.launch({ headless: "true" });
   const page = await browser.newPage();
@@ -698,6 +850,46 @@ async function f() {
     });
 
     console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+
+
+  for (let i = 0; i < arrLinkYua16.length; i += 1) {
+    await page.goto(arrLinkYua16[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "Yua: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
+    await page.goto(arrLinkYabloki16[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price-title") != null) {
+        return (
+          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
 
