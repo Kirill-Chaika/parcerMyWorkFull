@@ -446,7 +446,145 @@ const arrLinkGroMacM3 = [
   "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-2024/macbook-air-15-m3-2024-silver-mxd23/",
 ];
 
+const arrLinkJabkoMacM4 = [
+  "https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-512gb-10cpu--10gpu-16gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-512gb-10cpu--10gpu-16gb-ram-silver-2024",
 
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-16gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-16gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-24gb-ram-silver-2024",
+
+
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-512gb-12cpu--16gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-512gb-12cpu--16gpu-24gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-1tb-14cpu--20gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-1tb-14cpu--20gpu-24gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-silver-2024", 
+
+
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-24gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-48gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-48gb-ram-silver-2024", 
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-16cpu--40gpu-48gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-16cpu--40gpu-48gb-ram-silver-2024", 
+];
+const arrLinkIStoreMacM4 = [
+  "https://www.istore.ua/ua/item/macbook-pro-m4-14-16-512gb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-14-16-512gb-silver-2024/",
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-14-16-1tb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-14-16-1tb-silver-2024/",
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-14-24-1tb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-14-24-1tb-silver-2024/",
+
+
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-14-24-512gb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-14-24-512gb-silver-2024/",
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-14-24-1tb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-14-24-1tb-silver-2024/",
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-max-14-36-1tb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-max-14-36-1tb-silver-2024/", 
+
+
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-16-24-512gb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-16-24-512gb-silver-2024/",
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-16-48-512gb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-pro-16-48-512gb-silver-2024/", 
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-max-16-36-1tb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-max-16-36-1tb-silver-2024/",
+
+"https://www.istore.ua/ua/item/macbook-pro-m4-max-16-48-1tb-space-black-2024/",
+"https://www.istore.ua/ua/item/macbook-pro-m4-max-16-48-1tb-silver-2024/", 
+];
+const arrLinkMobilePlanetMacM4 = [
+  "https://mobileplanet.ua/apple-macbook-pro-14-m4-16-512gb-space-black-late-328647",
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-16-512gb-silver-late-2024-328641",
+
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-16-1tb-space-black-late-20-328648",
+
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-24-1tb-space-black-late-20-328646",
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-24-1tb-silver-late-2024-mc-328640",
+
+
+
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-24-512gb-space-black-late-328649",
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-24-512gb-silver-late-2024-328643",
+
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-24-1tb-space-black-late-20-328650",
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-24-1tb-silver-late-2024-mx-328644",
+
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-36-1tb-space-black-late-20-328651",
+"https://mobileplanet.ua/apple-macbook-pro-14-m4-36-1tb-silver-late-2024-mx-328645", 
+
+
+
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-24-512gb-space-black-late-328656",
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-24-512gb-silver-late-2024-328652",
+
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-48-512gb-space-black-late-328657",
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-48-512gb-silver-late-2024-328653", 
+
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-36-1tb-space-black-late-20-328658",
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-36-1tb-silver-late-2024-mx-328654",
+
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-48-1tb-space-black-late-20-328659",
+"https://mobileplanet.ua/apple-macbook-pro-16-m4-48-1tb-silver-late-2024-mx-328655", 
+];
+const arrLinkGroMacM4 = [
+  "https://grokholsky.com/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-space-black-mw2u3/",
+"https://grokholsky.com/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-silver-mw2w3/",
+
+"https://grokholsky.com/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-space-black-mw2v3/",
+"https://grokholsky.com/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-silver-mw2x3/",
+
+"https://grokholsky.com/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-space-black-mcx04/",
+"https://grokholsky.com/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-silver-mcx14/",
+
+
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-space-black-mx2h3/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-silver-mx2e3/",
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-space-black-mx2j3/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-silver-mx2f3/",
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-space-black-mx2k3/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m4-late-2024/noutbuk-apple-macbook-pro-14-late-2024-silver-mx2g3/", 
+
+
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-space-black-mx2x3/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-silver-mx2t3/",
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-space-black-mx2y3/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-silver-mx2u3/", 
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-space-black-mx303/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-silver-mx2v3/",
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-space-black-mx313/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-silver-mx2w3/", 
+];
 
 
 async function f() {
@@ -579,5 +717,81 @@ async function f() {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
+
+
+  for (let i = 0; i < arrLinkJabkoMacM4.length; i += 1) {
+    await page.goto(arrLinkJabkoMacM4[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIStoreMacM4.length; i += 1) {
+    await page.goto(arrLinkIStoreMacM4[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetMacM4.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetMacM4[i]);
+    const n = await page.$("#txt");
+
+    let arr5 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroMacM4.length; i += 1) {
+    await page.goto(arrLinkGroMacM4[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+
 }
 f();
