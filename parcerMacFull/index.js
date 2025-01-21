@@ -645,24 +645,24 @@ async function f() {
   }
 
 
-  for (let i = 0; i < arrLinkSkayMacM3.length; i += 1) {
-    await page.goto(arrLinkSkayMacM3[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkSkayMacM3.length; i += 1) {
+  //   await page.goto(arrLinkSkayMacM3[i]);
+  //   const n = await page.$("#txt");
 
-    let arr1 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-prices .products-item-cost") != null) {
-        return (
-          text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr1 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-prices .products-item-cost") != null) {
+  //       return (
+  //         text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr1);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
   for (let i = 0; i < arrLinkMobilePlanetMacM3.length; i += 1) {
     await page.goto(arrLinkMobilePlanetMacM3[i]);
     const n = await page.$("#txt");
