@@ -429,10 +429,36 @@ const arrLinkIstoreIPAD = [
   "https://www.istore.ua/catalog/item/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256gb-starlight"
 ];
 
-
+const arrLinkJabkoStarlink = [
+  "https://jabko.ua/gadzheti-i-drugoe/tehnika-dlja-doma/starlink/suputnykovyi-modem-starlink-internet-satellite-v3",
+"https://jabko.ua/gadzheti-i-drugoe/tehnika-dlja-doma/starlink/suputnykovyi-modem-starlink-internet-satellite-mini",
+];
+const arrLinkEstoreStarlink = [
+  "https://estore.ua/ua/sputnikovyj-modem-starlink-internet-satellite-3gen-garantija-12-mes/?q=starlink",
+"https://estore.ua/ua/sputnikovyiy-modem-starlink-internet-satellite-mini-garantiya-3-mes/?q=starlink",
+];
+const arrLinkiPeopleStarlink = [
+  "https://www.ipeople.in.ua/products/suputnikovij-modem-starlink-internet-satellite-3gen-bez-akauntu-",
+"https://www.ipeople.in.ua/products/starlink-internet-satellite-mini-bez-akauntu",
+];
+const arrLinkiDIDIStarlink = [
+  "https://didi.ua/uk/starlink-internet-satellite-3gen/p187176/",
+"https://didi.ua/uk/starlink-internet-satellite-mini/p188041/",
+];
+const arrLinkiAstoreStarlink = [
+  "https://astore.org.ua/tovary-dlya-blehkauta/starlink/sputnikovyj-modem-spacex-starlink-gen3-rev4-standard-kit-bez-akaunta",
+"https://astore.org.ua/tovary-dlya-blehkauta/starlink/sputnikovyj-modem-spacex-starlink-mini-kit-bez-akkaunta",
+];
+const arrLinkiPulsePadStarlink = [
+  "https://pulsepad.com.ua/products/suputnikovij-modem-starlink-internet-satellite-3gen",
+];
+const arrLinkiChinaGadjetStarlink = [
+  "https://www.china-gadgets.com.ua/products/suputnikovij-modem-starlink-internet-satellite-3gen-",
+"https://www.china-gadgets.com.ua/products/suputnikovij-modem-starlink-internet-satellite-mini",
+];
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({ headless: "true" });
   const page = await browser.newPage();
 
   for (let i = 0; i < arrLinkMobilePlanetIPAD.length; i += 1) {
@@ -453,24 +479,6 @@ async function f() {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
-  // for (let i = 0; i < arrLinkSkayIPAD.length; i += 1) {
-  //   await page.goto(arrLinkSkayIPAD[i]);
-  //   const n = await page.$("#txt");
-
-  //   let arr1 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product-prices .products-item-cost") != null) {
-  //       return (
-  //         text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
-  //       );
-  //     } else {
-  //       return;
-  //     }
-  //   });
-
-  //   console.log(arr1);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
   for (let i = 0; i < arrLinkIstoreIPAD.length; i += 1) {
     await page.goto(arrLinkIstoreIPAD[i]);
     const n = await page.$("#txt");
@@ -489,5 +497,155 @@ async function f() {
     console.log(arr4);
     await page.setDefaultNavigationTimeout(0);
   }
+
+  // for (let i = 0; i < arrLinkSkayIPAD.length; i += 1) {
+  //   await page.goto(arrLinkSkayIPAD[i]);
+  //   const n = await page.$("#txt");
+
+  //   let arr1 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-prices .products-item-cost") != null) {
+  //       return (
+  //         text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
+  //       );
+  //     } else {
+  //       return;
+  //     }
+  //   });
+
+  //   console.log(arr1);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  
+
+
+  for (let i = 0; i < arrLinkJabkoStarlink.length; i += 1) {
+    await page.goto(arrLinkJabkoStarlink[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreStarlink.length; i += 1) {
+    await page.goto(arrLinkEstoreStarlink[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p .price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkiPeopleStarlink.length; i += 1) {
+    await page.goto(arrLinkiPeopleStarlink[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".usd").innerText;
+      if (document.querySelector(".usd") != null) {
+        return (
+          text2 + "iPeople: " + document.querySelector(".usd").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  // for (let i = 0; i < arrLinkiDIDIStarlink.length; i += 1) {
+  //   await page.goto(arrLinkiDIDIStarlink[i]);
+  //   const n = await page.$("#txt");
+
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector(".h1").innerText;
+  //     if (document.querySelector(".product-price") != null) {
+  //       return (
+  //         text2 + "DIDI: " + document.querySelector(".product-price").innerText
+  //       );
+  //     } else {
+  //       return ;
+  //     }
+  //   });
+
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  for (let i = 0; i < arrLinkiAstoreStarlink.length; i += 1) {
+    await page.goto(arrLinkiAstoreStarlink[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".usd_price") != null) {
+        return (
+          text2 + "Astore: " + document.querySelector(".usd_price").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkiPulsePadStarlink.length; i += 1) {
+    await page.goto(arrLinkiPulsePadStarlink[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".page-title").innerText;
+      if (document.querySelector(".fn_price") != null) {
+        return (
+          text2 + "PulsePad: " + document.querySelector(".fn_price").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkiChinaGadjetStarlink.length; i += 1) {
+    await page.goto(arrLinkiChinaGadjetStarlink[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".product-name").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "ChinaGadjet: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
 }
 f();
