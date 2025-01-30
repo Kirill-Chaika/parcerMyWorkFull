@@ -775,20 +775,20 @@ const arrLinkiPeopleAWS10andUltra2024 = [
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-ocean-band-mx4p3",
 
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---sm-mx4w3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---ml-mx5u3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---xl-mx5v3",
+  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---ml-mx5u3",
+  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---xl-mx5v3",
 
 
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---m-mx4r3",
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---l-mx4t3",
 
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---sm-mx4u3",
+  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---sm-mx4u3",
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---ml-mx4v3",
 
 
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---sm-mx4m3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---ml-mx5r3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---xl-mx5t3",
+  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---sm-mx4m3",
+  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---ml-mx5r3",
+  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---xl-mx5t3",
 ];
 const arrLinkEstoreAWS10andUltra2024 = [
   "https://estore.ua/ua/apple-watch-series-10-silver-aluminium-case-with-sport-band/?q=mwwa3",
