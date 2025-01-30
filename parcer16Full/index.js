@@ -507,7 +507,7 @@ const arrLinkiPeople16 = [
 "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-ultramarine-myer3",
 "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-white-myep3",
 "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-pink-myeq3",
-"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-teal-myeu3",
+// "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-teal-myeu3",
 
 
 
