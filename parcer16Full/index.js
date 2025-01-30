@@ -524,9 +524,9 @@ const arrLinkiPeople16 = [
 "https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-teal-mxy53",
 
 "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-black-my1p3",
-"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-ultramarine-my2d3",
-"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-white-my1x3",
-"https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Plus+512GB+Pink+%28MY253%29",
+// "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-ultramarine-my2d3",
+// "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-white-my1x3",
+// "https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Plus+512GB+Pink+%28MY253%29",
 "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-teal-my2j3",
 
 
