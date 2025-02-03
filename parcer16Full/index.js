@@ -873,25 +873,25 @@ async function f() {
   //   console.log(arr2);
   //   await page.setDefaultNavigationTimeout(0);
   // }
+  // for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
+  //   await page.goto(arrLinkYabloki16[i]);
+  //   const n = await page.$("#txt");
 
-  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
-    await page.goto(arrLinkYabloki16[i]);
-    const n = await page.$("#txt");
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-price-title") != null) {
+  //       return (
+  //         text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
 
   // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
   //   await page.goto(arrLinkCts16IPHiNfo[i]);
