@@ -1,6 +1,13 @@
 console.log("Hello world");
 
 const puppeteer = require("puppeteer");
+// const puppeteer = require('puppeteer-extra');
+// const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+// puppeteer.use(StealthPlugin());
+
+
+
+
 
 const arrLinkJabko16IPH = [
   "https://jabko.ua/iphone/apple-iphone-16/apple-iphone-16-128gb-black",
