@@ -586,6 +586,79 @@ const arrLinkGroMacM4 = [
 "https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-16-m4-late-2024/noutbuk-apple-macbook-pro-16-late-2024-silver-mx2w3/", 
 ];
 
+const arrLinkJabkoMac16Ram = [
+  "https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-midnight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7x4-2024",
+"https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-space-gray-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7u4-2024",
+"https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-starlight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7w4-2024",
+"https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-silver-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7v4-2024",
+
+
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-midnight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8k4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-space-gray-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8g4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-starlight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8j4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-silver-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8h4-2024",
+
+	
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-midnight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9g4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-space-gray-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9d4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-starlight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9f4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-silver-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9e4-2024",
+];
+const arrLinkIStoreMac16Ram = [
+  "https://www.istore.ua/ua/item/apple-macbook-air-2022-g-256ssd-m2-8cpu-16gb-midnight-custom-z160000az/",
+"https://www.istore.ua/ua/item/apple-macbook-air-2022-g-256ssd-m2-8cpu-16gb-space-grey-custom-z15s000d1/",
+"https://www.istore.ua/ua/item/apple-macbook-air-2022-g-256ssd-m2-8cpu-16gb-starlight-custom-z15y000b5/",
+"https://www.istore.ua/ua/item/apple-macbook-air-2022-g-256ssd-m2-8cpu-16gb-silver-custom-z15w000aw/",
+
+
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-16gb-256gb-midnight-custom-z1bc0015s-mc8k4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-16gb-256tb-space-gray-custom-z1b60016j-mc8g4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-16gb-256gb-starlight-custom-z1ba0017j-mc8j4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-16gb-256gb-silver-custom-mc8h4/",
+
+
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-256gb-midnight-custom-z1bv0006k-mc9g4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-2566gb-space-gray-custom-z1bp0006m-mc9d4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-256gb-starlight-custom-z1bt00067-mc9f4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-16gb-256gb-silver-custom-z1br00067-mc9e4/",
+];
+const arrLinkMobilePlanetMac16Ram = [
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m2-16-256gb-midnight-late-2-328620",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m2-16-256gb-space-gray-late-328626",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m2-16-256gb-starlight-late-328629",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m2-16-256gb-silver-late-202-328623",
+
+
+"https://mobileplanet.ua/apple-macbook-air-13-6-m3-16-256gb-midnight-late-2-328621",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m3-16-space-gray-late-2024-328627",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m3-16-256gb-starlight-late-328630",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m3-16-256gb-silver-late-202-328624",
+
+	
+"https://mobileplanet.ua/apple-macbook-air-15-m3-16-256gb-midnight-late-202-328632",
+"https://mobileplanet.ua/apple-macbook-air-15-m3-16-256gb-space-gray-late-2-328636",
+"https://mobileplanet.ua/apple-macbook-air-15-m3-16-256gb-starlight-late-20-328638",
+"https://mobileplanet.ua/apple-macbook-air-15-m3-16-256gb-silver-late-2024-328634",
+];
+const arrLinkGroMac16Ram = [
+  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-midnight-mc7x4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-space-gray-mc7u4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-starlight-mc7w4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-silver-mc7v4/",
+
+
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-midnight-mc8k4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-space-gray-mc8g4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-starlight-mc8j4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-silver-mc8h4/",
+
+	
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-midnight-mc9g4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-space-gray-mc9d4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-starlight-mc9f4/",
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-silver-mc9e4/",
+];
+
 
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
@@ -792,6 +865,78 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+  for (let i = 0; i < arrLinkJabkoMac16Ram.length; i += 1) {
+    await page.goto(arrLinkJabkoMac16Ram[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIStoreMac16Ram.length; i += 1) {
+    await page.goto(arrLinkIStoreMac16Ram[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetMac16Ram.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetMac16Ram[i]);
+    const n = await page.$("#txt");
+
+    let arr5 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroMac16Ram.length; i += 1) {
+    await page.goto(arrLinkGroMac16Ram[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 }
 f();
