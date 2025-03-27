@@ -727,6 +727,89 @@ const arrLinkYabloki16 = [
 ];
 
 
+const arrLinkJabko16eIPH = [
+  "https://jabko.ua/iphone/apple-iphone-16e/apple-iphone-16e-128gb-white",
+"https://jabko.ua/iphone/apple-iphone-16e/apple-iphone-16e-128gb-black",
+
+"https://jabko.ua/iphone/apple-iphone-16e/apple-iphone-16e-256gb-white",
+"https://jabko.ua/iphone/apple-iphone-16e/apple-iphone-16e-256gb-black",
+
+"https://jabko.ua/iphone/apple-iphone-16e/apple-iphone-16e-512gb-white",
+"https://jabko.ua/iphone/apple-iphone-16e/apple-iphone-16e-512gb-black",
+];
+const arrLinkIstore16eIPH = [
+  "https://www.istore.ua/ua/item/iphone-16e-128gb-white-md1r4/",
+"https://www.istore.ua/ua/item/iphone-16e-128gb-black-md1q4/",
+
+"https://www.istore.ua/ua/item/iphone-16e-256gb-white/",
+"https://www.istore.ua/ua/item/iphone-16e-256gb-black-md1t4/",
+
+"https://www.istore.ua/ua/item/iphone-16e-512gb-white/",
+"https://www.istore.ua/ua/item/iphone-16e-512gb-black/",
+];
+const arrLinkMobilePlanet16eIPH = [
+  "https://mobileplanet.ua/apple-iphone-16e-128gb-white-md1r4-338355",
+"https://mobileplanet.ua/apple-iphone-16e-128gb-black-md1q4-338350",
+
+"https://mobileplanet.ua/apple-iphone-16e-256gb-white-md1w4-338361",
+"https://mobileplanet.ua/apple-iphone-16e-256gb-black-md1t4-338356",
+
+"https://mobileplanet.ua/apple-iphone-16e-512gb-white-md274-338367",
+"https://mobileplanet.ua/apple-iphone-16e-512gb-black-md1x4-338362",
+];
+const arrLinkGro16eIPH = [
+  "https://grokholsky.com/product/apple/iphone/iphone-16e/smartfon-apple-iphone-16e-128gb-white-md1r4/",
+"https://grokholsky.com/product/apple/iphone/iphone-16e/smartfon-apple-iphone-16e-128gb-black-md1q4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-16e/smartfon-apple-iphone-16e-256gb-white-md1w4/",
+"https://grokholsky.com/product/apple/iphone/iphone-16e/smartfon-apple-iphone-16e-256gb-black-md1t4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-16e/smartfon-apple-iphone-16e-512gb-white-md274/",
+"https://grokholsky.com/product/apple/iphone/iphone-16e/smartfon-apple-iphone-16e-512gb-black-md1x4/",
+];
+
+const arrLinkEstore16eIPH = [
+  "https://estore.ua/ua/iphone-16e-128gb-white/?q=md1r4",
+"https://estore.ua/ua/iphone-16e-128gb-black/",
+
+"https://estore.ua/ua/iphone-16e-256gb-white/",
+"https://estore.ua/ua/iphone-16e-256gb-black/",
+
+"https://estore.ua/ua/iphone-16e-512gb-white/",
+"https://estore.ua/ua/iphone-16e-512gb-black/",
+];
+const arrLinkiPeople16e = [
+  "https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-white-md1r4",
+"https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-black-md1q4",
+
+"https://www.ipeople.in.ua/products/apple-iphone-16e-256gb-white-md1w4",
+"https://www.ipeople.in.ua/products/apple-iphone-16e-256gb-black-md1t4",
+];
+const arrLinkYua16e = [
+  "https://y.ua/uk/apple-iphone-16e-128gb-white/p1418925/",
+"https://y.ua/uk/apple-iphone-16e-128gb-black/p1418924/",
+
+"https://y.ua/uk/apple-iphone-16e-256gb-white/p1418927/",
+"https://y.ua/uk/apple-iphone-16e-256gb-black/p1418926/",
+
+"https://y.ua/uk/apple-iphone-16e-512gb-white/p1418929/",
+"https://y.ua/uk/apple-iphone-16e-512gb-black/p1418928/",
+];
+const arrLinkYabloki16e = [
+  "https://yabloki.ua/iphone-16e-128gb-white.html",
+"https://yabloki.ua/iphone-16e-128gb-black.html",
+
+"https://yabloki.ua/iphone-16e-256gb-white.html",
+"https://yabloki.ua/iphone-16e-256gb-black.html",
+
+"https://yabloki.ua/iphone-16e-512gb-white.html",
+"https://yabloki.ua/iphone-16e-512gb-black.html",
+
+];
+
+
+
+
 
 async function f() {
   const browser = await puppeteer.launch({ headless: "true" });
@@ -860,64 +943,208 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+  for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
+    await page.goto(arrLinkJabko16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstore16eIPH.length; i += 1) {
+    await page.goto(arrLinkIstore16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet16eIPH.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGro16eIPH.length; i += 1) {
+    await page.goto(arrLinkGro16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore16eIPH.length; i += 1) {
+    await page.goto(arrLinkEstore16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".regular-price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".regular-price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkiPeople16e.length; i += 1) {
+    await page.goto(arrLinkiPeople16e[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".usd").innerText;
+      if (document.querySelector(".usd") != null) {
+        return (
+          text2 + "iPeople: " + document.querySelector(".usd").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 
-  // for (let i = 0; i < arrLinkYua16.length; i += 1) {
-  //   await page.goto(arrLinkYua16[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkYua16.length; i += 1) {
+    await page.goto(arrLinkYua16[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price") != null) {
-  //       return (
-  //         text2 + "Yua: " + document.querySelector(".price").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "Yua: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
-  //   await page.goto(arrLinkYabloki16[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
+    await page.goto(arrLinkYabloki16[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product-price-title") != null) {
-  //       return (
-  //         text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price-title") != null) {
+        return (
+          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYua16e.length; i += 1) {
+    await page.goto(arrLinkYua16e[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "Yua: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYabloki16e.length; i += 1) {
+    await page.goto(arrLinkYabloki16e[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price-title") != null) {
+        return (
+          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 
-  // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
-  //   await page.goto(arrLinkCts16IPHiNfo[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
+    await page.goto(arrLinkCts16IPHiNfo[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".Description_block__cKP9f") != null) {
-  //       return (
-  //         text2 + "CRS: " + document.querySelector(".Description_block__cKP9f").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".Description_block__cKP9f") != null) {
+        return (
+          text2 + "CRS: " + document.querySelector(".Description_block__cKP9f").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 
 }
