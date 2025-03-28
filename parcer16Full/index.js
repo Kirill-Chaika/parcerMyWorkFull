@@ -1053,98 +1053,98 @@ async function f() {
   }
 
 
-  for (let i = 0; i < arrLinkYua16.length; i += 1) {
-    await page.goto(arrLinkYua16[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkYua16.length; i += 1) {
+  //   await page.goto(arrLinkYua16[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price") != null) {
+  //       return (
+  //         text2 + "Yua: " + document.querySelector(".price").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
-    await page.goto(arrLinkYabloki16[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
+  //   await page.goto(arrLinkYabloki16[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-price-title") != null) {
+  //       return (
+  //         text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYua16e.length; i += 1) {
-    await page.goto(arrLinkYua16e[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkYua16e.length; i += 1) {
+  //   await page.goto(arrLinkYua16e[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price") != null) {
+  //       return (
+  //         text2 + "Yua: " + document.querySelector(".price").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYabloki16e.length; i += 1) {
-    await page.goto(arrLinkYabloki16e[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkYabloki16e.length; i += 1) {
+  //   await page.goto(arrLinkYabloki16e[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-price-title") != null) {
+  //       return (
+  //         text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
 
 
-  for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
-    await page.goto(arrLinkCts16IPHiNfo[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
+  //   await page.goto(arrLinkCts16IPHiNfo[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".Description_block__cKP9f") != null) {
-        return (
-          text2 + "CRS: " + document.querySelector(".Description_block__cKP9f").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".Description_block__cKP9f") != null) {
+  //       return (
+  //         text2 + "CRS: " + document.querySelector(".Description_block__cKP9f").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
 
 
 }
