@@ -659,6 +659,177 @@ const arrLinkGroMac16Ram = [
 "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-silver-mc9e4/",
 ];
 
+const arrLinkJabkoMacAirM4 = [
+  "https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-midnight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8q4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-space-gray-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8m4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-starlight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8p4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-silver-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8n4-2024", 
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-midnight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9l4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-space-gray-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9h4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-starlight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9k4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-silver-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9j4-2024", 
+
+
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-midnight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw123",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-sky-blue-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc6t4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-starlight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2024-mw0y3",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-silver-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw0w3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-midnight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw133",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-sky-blue-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc6u4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-starlight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw103",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-silver-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw0x3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-midnight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6c4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-sky-blue-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-starlight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6a4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-silver-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc654", 
+
+
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-midnight-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1l3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-sky-blue-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc7a4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-starlight-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1j3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-silver-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1g3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-midnight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1m3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-sky-blue-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc7c4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-starlight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1k3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-silver-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1h3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-midnight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6l4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-sky-blue-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc7d4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-starlight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6k4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-silver-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6j4",
+];
+const arrLinkIStoreMacAirM4 = [
+  "https://www.istore.ua/ua/item/apple-macbook-air-13-m3-24gb-512gb-midnight-custom-z1bc00147-mc8q4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-24gb-512gb-space-gray-custom/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-24gb-512gb-starligh-custom-z1ba00160-mc8p4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m3-24gb-512gb-silver-custom-z1b80015n-mc8n4/", 
+
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-24gb-512gb-midnight-custom-z1bv0006n-mc9l4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-24gb-512tb-space-gray-custom-z1bp000md-mc9h4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-24gb-512gb-starlight-custom-z1bt000l2-mc9k4-mc9k4-mc9k4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m3-24gb-512gb-silver-custom-z1br000kl-mc9j4/", 
+
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-sky-blue-mc6t4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-starlight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-silver/", 
+
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-512gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-512gb-sky-blue-mc6u4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-512gb-starlight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-512gb-silver/", 
+
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-sky-blue-mc6v4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-starlight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-silver/", 
+
+
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-sky-blue-mc7a4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-starlight-mw1j3/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-silver/", 
+
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-sky-blue-mc7c4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-starlight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-silver/", 
+
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-sky-blue-mc7d4/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-starlight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-silver/", 
+]
+const arrLinkMobilePlanetMacAirM4 = [
+  "https://mobileplanet.ua/apple-macbook-air-13-6-m3-24-512gb-midnight-late-2-328622",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m3-24-512gb-space-gray-late-328628",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m3-24-512gb-starlight-late-328631",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m3-24-512gb-silver-late-202-328625", 
+
+"https://mobileplanet.ua/apple-macbook-air-15-m3-24-512gb-midnight-2024-z1b-308386",
+"https://mobileplanet.ua/apple-macbook-air-15-m3-24-512gb-space-g-336505",
+"https://mobileplanet.ua/apple-macbook-air-15-m3-24-512gb-starlight-2024-z1-308425",
+"https://mobileplanet.ua/apple-macbook-air-15-m3-24-512gb-silver-336504", 
+
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-256gb-midnight-2025-m-338619",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-256gb-sky-blue-2025-m-338624",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-256gb-starlight-2025-338628",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-256gb-silver-2025-mw0-338622", 
+
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-512gb-midnight-2025-m-338620",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-512gb-sky-blue-2025-m-338625",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-512gb-starlight-2025-338629",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-16-512gb-silver-2025-mw0-338623", 
+
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-24-512gb-midnight-2025-m-338618",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-24-512gb-sky-blue-2025-m-338626",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-24-512gb-starlight-2025-338627",
+"https://mobileplanet.ua/apple-macbook-air-13-6-m4-24-512gb-silver-2025-mc6-338621", 
+
+
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-256gb-midnight-2025-mw1-338631",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-256gb-sky-blue-2025-mc7-338636",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-256gb-starlight-2025-mw-338640",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-256gb-silver-2025-mw1g3-338634", 
+
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-512gb-midnight-2025-mw1-338632",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-512gb-sky-blue-2025-mc7-338637",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-512gb-starlight-2025-mw-338641",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-16-512gb-silver-2025-mw1h3-338635", 
+
+"https://mobileplanet.ua/apple-macbook-air-15-m4-24-512gb-midnight-2025-mc6-338630",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-24-512gb-sky-blue-2025-mc7-338638",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-24-512gb-starlight-2025-mc-338639",
+"https://mobileplanet.ua/apple-macbook-air-15-m4-24-512gb-silver-2025-mc6j4-338633", 
+]
+const arrLinkGroMacAirM4 = [
+  "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-midnight-mc8q4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-space-gray-mc8m4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-starlight-mc8p4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m3-late-2024/noutbuk-apple-macbook-air-13-6-late-2024-silver-mc8n4/", 
+
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-midnight-mc9l4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-space-gray-mc9h4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-starlight-mc9k4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m3-late-2024/noutbuk-apple-macbook-air-15-late-2024-silver-mc9j4/", 
+
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-midnight-mw123/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-sky-blue-mc6t4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-starlight-mw0y3/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-silver-mw0w3/", 
+
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-midnight-mw133/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-sky-blue-mc6u4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-starlight-mw103/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-silver-mw0x3/", 
+
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-midnight-mc6c4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-sky-blue-mc6v4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-starlight-mc6a4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-13-6-m4-2025/noutbuk-apple-macbook-air-13-6-2025-silver-mc654/", 
+
+
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-midnight-mw1l3/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-sky-blue-mc7a4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-starlight-mw1j3/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-silver-mw1g3/", 
+
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-midnight-mw1m3/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-sky-blue-mc7c4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-starlight-mw1k3/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-silver-mw1h3/", 
+
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-midnight-mc6l4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-sky-blue-mc7d4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-starlight-mc6k4/",
+"https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-silver-mc6j4/", 
+]
+
+
+
 
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
@@ -921,6 +1092,79 @@ async function f() {
   }
   for (let i = 0; i < arrLinkGroMac16Ram.length; i += 1) {
     await page.goto(arrLinkGroMac16Ram[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  for (let i = 0; i < arrLinkJabkoMacAirM4.length; i += 1) {
+    await page.goto(arrLinkJabkoMacAirM4[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIStoreMacAirM4.length; i += 1) {
+    await page.goto(arrLinkIStoreMacAirM4[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetMacAirM4.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetMacAirM4[i]);
+    const n = await page.$("#txt");
+
+    let arr5 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroMacAirM4.length; i += 1) {
+    await page.goto(arrLinkGroMacAirM4[i]);
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
