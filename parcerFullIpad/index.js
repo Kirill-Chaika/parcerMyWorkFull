@@ -461,42 +461,42 @@ async function f() {
   const browser = await puppeteer.launch({ headless: "true" });
   const page = await browser.newPage();
 
-  for (let i = 0; i < arrLinkMobilePlanetIPAD.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetIPAD[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkMobilePlanetIPAD.length; i += 1) {
+  //   await page.goto(arrLinkMobilePlanetIPAD[i]);
+  //   const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return;
-      }
-    });
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price-value") != null) {
+  //       return (
+  //         text2 + "MP: " + document.querySelector(".price-value").innerText
+  //       );
+  //     } else {
+  //       return;
+  //     }
+  //   });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkIstoreIPAD.length; i += 1) {
-    await page.goto(arrLinkIstoreIPAD[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkIstoreIPAD.length; i += 1) {
+  //   await page.goto(arrLinkIstoreIPAD[i]);
+  //   const n = await page.$("#txt");
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return;
-      }
-    });
+  //   let arr4 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product_price ") != null) {
+  //       return (
+  //         text2 + "I: " + document.querySelector(".product_price ").innerText
+  //       );
+  //     } else {
+  //       return;
+  //     }
+  //   });
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr4);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
 
   // for (let i = 0; i < arrLinkSkayIPAD.length; i += 1) {
   //   await page.goto(arrLinkSkayIPAD[i]);
@@ -516,7 +516,24 @@ async function f() {
   //   console.log(arr1);
   //   await page.setDefaultNavigationTimeout(0);
   // }
-  
+  // for (let i = 0; i < arrLinkiDIDIStarlink.length; i += 1) {
+  //   await page.goto(arrLinkiDIDIStarlink[i]);
+  //   const n = await page.$("#txt");
+
+  //   let arr3 = await page.evaluate(() => {
+  //     let text2 = document.querySelector(".h1").innerText;
+  //     if (document.querySelector(".product-price") != null) {
+  //       return (
+  //         text2 + "DIDI: " + document.querySelector(".product-price").innerText
+  //       );
+  //     } else {
+  //       return ;
+  //     }
+  //   });
+
+  //   console.log(arr3);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
 
 
   for (let i = 0; i < arrLinkJabkoStarlink.length; i += 1) {
@@ -574,24 +591,7 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
-  // for (let i = 0; i < arrLinkiDIDIStarlink.length; i += 1) {
-  //   await page.goto(arrLinkiDIDIStarlink[i]);
-  //   const n = await page.$("#txt");
-
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".h1").innerText;
-  //     if (document.querySelector(".product-price") != null) {
-  //       return (
-  //         text2 + "DIDI: " + document.querySelector(".product-price").innerText
-  //       );
-  //     } else {
-  //       return ;
-  //     }
-  //   });
-
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+  
   for (let i = 0; i < arrLinkiAstoreStarlink.length; i += 1) {
     await page.goto(arrLinkiAstoreStarlink[i]);
     const n = await page.$("#txt");
