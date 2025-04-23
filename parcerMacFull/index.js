@@ -828,7 +828,83 @@ const arrLinkGroMacAirM4 = [
 "https://grokholsky.com/product/apple/mac/apple-macbook-air/macbook-air-15-m4-2025/noutbuk-apple-macbook-air-15-2025-silver-mc6j4/", 
 ]
 
+const arrLinkJabkoMacMini = [
+  "https://jabko.ua/mac/mac-mini/apple-mac-mini-",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--512gb--mgnr3--2020",
 
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--256gb-with-apple-m2-2023",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--512gb-with-apple-m2-2023",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--512gb-with-apple-m2-pro-2023",
+
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-256gb-10-cpu--10-gpu-16gb-unified-memory-silver-2024-mu9d3",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-512gb-10-cpu--10-gpu-16gb-unified-memory-silver-2024-mu9e3",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-512gb-10-cpu--10-gpu-24gb-unified-memory-silver-2024-mcyt4",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-pro-512gb-12-cpu--16-gpu-24gb-unified-memory-silver-2024-mcx44",
+
+"https://jabko.ua/mac/mac-studio/apple-mac-studio-12-core-cpu-30-core-gpu-16-core-neural-engine-32gb-ram-512gb-apple-m2-max-2023-",
+"https://jabko.ua/mac/mac-studio/apple-mac-studio-with-apple-m3-ultra-1tb-28-cpu--60-gpu--32-core-neural-engine-96gb-ram-2025-mu973",
+"https://jabko.ua/mac/mac-studio/apple-mac-studio-with-apple-m4-max-512gb-14-cpu--32-gpu--16-core-neural-engine-36gb-ram-2025-mu963",
+
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-adjustable-stand--standard-glass---mk0u3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-height-adjustable-stand--standard-glass---mk0q3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-adjustable-stand--nano-texture-glass---mmyw3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-vesa-mount-adapter--nano-texture-glass---mmyx3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-height-adjustable-stand--nano-texture-glass---mmyv3-",
+];
+const arrLinkIStoreMacMini = [
+  "https://www.istore.ua/ua/item/kompyuter-apple-mac-mini-m1-512gb-2020/",
+"https://www.istore.ua/ua/item/kompyuter-apple-mac-mini-m1-512gb-mgnt3-2020/",
+
+"https://www.istore.ua/ua/item/apple-mac-mini-m2-512gb-silver-2023/",
+"https://www.istore.ua/ua/item/apple-mac-mini-m2-512gb-mmfj3-silver-2023/",
+"https://www.istore.ua/ua/item/apple-mac-mini-m2-pro-512gb-silver-2023/",
+
+"https://www.istore.ua/ua/item/apple-mac-mini-m4-16-256gb-silver-2024/",
+"https://www.istore.ua/ua/item/apple-mac-mini-m4-16-512gb-silver-2024/",
+"https://www.istore.ua/ua/item/apple-mac-mini-m4-24-512gb-silver-2024/",
+"https://www.istore.ua/ua/item/apple-mac-mini-m4-pro-24-512gb-silver-2024/",
+
+"https://www.istore.ua/ua/item/apple-studio-display-27-standard-glass/",
+
+"https://www.istore.ua/ua/item/apple-studio-display-27-nano-texture-glass/",
+];
+const arrLinkMobilePlanetMacMini = [
+  "https://mobileplanet.ua/apple-mac-mini-2023-mnh73-265600",
+
+"https://mobileplanet.ua/apple-mac-mini-m4-mu9d3-328710",
+"https://mobileplanet.ua/apple-mac-mini-m4-mu9e3-328711",
+"https://mobileplanet.ua/apple-mac-mini-m4-mcyt4-328709",
+"https://mobileplanet.ua/apple-mac-mini-m4-pro-mcx44-328712",
+
+"https://mobileplanet.ua/apple-mac-studio-m2-max-2023-mqh73-275544",
+"https://mobileplanet.ua/apple-mac-studio-2025-m3-ultra-96-1tb-mu973-340426",
+"https://mobileplanet.ua/apple-mac-studio-2025-m4-max-36-512gb-mu963-340427",
+
+"https://mobileplanet.ua/apple-studio-display-with-tilt-adjustable-stand-st-252720",
+];
+const arrLinkGroMacMini = [
+  "https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-2020-m1/mac-mini-2020-m1-mgnr3/",
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-2020-m1/mac-mini-2020-m1-mgnt3/",
+
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-m2-2023/mac-mini-2023-mmfj3/",
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-m2-2023/mac-mini-2023-mmfk3/",
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-m2-2023/mac-mini-2023-mnh73/",
+
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-m4-2024/nettop-apple-mac-mini-m4-mu9d3/",
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-m4-2024/nettop-apple-mac-mini-m4-mu9e3/",
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-m4-2024/nettop-apple-mac-mini-m4-mcyt4/",
+"https://grokholsky.com/product/apple/mac/mac-mini/mac-mini-m4-2024/nettop-apple-mac-mini-m4-pro-mcx44/",
+
+"https://grokholsky.com/product/apple/mac/mac-studio/mac-studio-m2-max-2023/mac-studio-m2-max-2023-mqh73/",
+"https://grokholsky.com/product/apple/mac/mac-studio/mac-studio-2025/nettop-apple-mac-studio-2025-m3-ultra-mu973/",
+"https://grokholsky.com/product/apple/mac/mac-studio/mac-studio-2025/nettop-apple-mac-studio-2025-m4-max-mu963/",
+
+"https://grokholsky.com/product/apple/mac/monitory/studio-display-with-tilt-adjustable-stand-standard-glass-mk0u3/",
+"https://grokholsky.com/product/apple/mac/monitory/studio-display-with-tilt-height-adjustable-stand-standard-glass-mk0q3/",
+"https://grokholsky.com/product/apple/mac/monitory/studio-display-with-tilt-adjustable-stand-nano-texture-glass-mmyw3/",
+"https://grokholsky.com/product/apple/mac/monitory/studio-display-with-vesa-mount-adapter-nano-texture-glass-mmyx3/",
+"https://grokholsky.com/product/apple/mac/monitory/studio-display-with-tilt-height-adjustable-stand-nano-texture-glass-mmyv3/",
+];
 
 
 async function f() {
@@ -889,24 +965,7 @@ async function f() {
   }
 
 
-  // for (let i = 0; i < arrLinkSkayMacM3.length; i += 1) {
-  //   await page.goto(arrLinkSkayMacM3[i]);
-  //   const n = await page.$("#txt");
 
-  //   let arr1 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product-prices .products-item-cost") != null) {
-  //       return (
-  //         text2 + "S: " + document.querySelector(".product-prices .products-item-cost").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
-
-  //   console.log(arr1);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
   for (let i = 0; i < arrLinkMobilePlanetMacM3.length; i += 1) {
     await page.goto(arrLinkMobilePlanetMacM3[i]);
     const n = await page.$("#txt");
@@ -1165,6 +1224,79 @@ async function f() {
   }
   for (let i = 0; i < arrLinkGroMacAirM4.length; i += 1) {
     await page.goto(arrLinkGroMacAirM4[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  for (let i = 0; i < arrLinkJabkoMacMini.length; i += 1) {
+    await page.goto(arrLinkJabkoMacMini[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIStoreMacMini.length; i += 1) {
+    await page.goto(arrLinkIStoreMacMini[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetMacMini.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetMacMini[i]);
+    const n = await page.$("#txt");
+
+    let arr5 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroMacMini.length; i += 1) {
+    await page.goto(arrLinkGroMacMini[i]);
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
