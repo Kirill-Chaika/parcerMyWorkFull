@@ -725,7 +725,7 @@ const arrLinkIStoreMacAirM4 = [
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-midnight/",
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-sky-blue-mc6v4/",
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-starlight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-silver/", 
+// "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-silver/", 
 
 
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-midnight/",
@@ -740,8 +740,8 @@ const arrLinkIStoreMacAirM4 = [
 
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-midnight/",
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-sky-blue-mc7d4/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-starlight/",
-"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-silver/", 
+// "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-starlight/",
+// "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-silver/", 
 ]
 const arrLinkMobilePlanetMacAirM4 = [
   "https://mobileplanet.ua/apple-macbook-air-13-6-m3-24-512gb-midnight-late-2-328622",
