@@ -816,105 +816,252 @@ async function f() {
   const page = await browser.newPage();
 
 
-  // for (let i = 0; i < arrLinkJabko16IPH.length; i += 1) {
-  //   await page.goto(arrLinkJabko16IPH[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkJabko16IPH.length; i += 1) {
+    await page.goto(arrLinkJabko16IPH[i]);
+    const n = await page.$("#txt");
 
-  //   let arr8 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-new__uah") != null) {
-  //       return (
-  //         text2 + "J: " + document.querySelector(".price-new__uah").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr8);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkIstore16IPH.length; i += 1) {
-  //   await page.goto(arrLinkIstore16IPH[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstore16IPH.length; i += 1) {
+    await page.goto(arrLinkIstore16IPH[i]);
+    const n = await page.$("#txt");
 
-  //   let arr4 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product_price ") != null) {
-  //       return (
-  //         text2 + "I: " + document.querySelector(".product_price ").innerText
-  //       );
-  //     } else {
-  //       return;
-  //     }
-  //   });
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return;
+      }
+    });
 
-  //   console.log(arr4);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkMobilePlanet16IPH.length; i += 1) {
-  //   await page.goto(arrLinkMobilePlanet16IPH[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet16IPH.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet16IPH[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-value") != null) {
-  //       return (
-  //         text2 + "MP: " + document.querySelector(".price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
-  //   await page.goto(arrLinkGro16IPH[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
+    await page.goto(arrLinkGro16IPH[i]);
+    const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".sku").innerText;
-  //     if (document.querySelector(".product-price-value") != null) {
-  //       return (
-  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkEstore16IPH.length; i += 1) {
-  //   await page.goto(arrLinkEstore16IPH[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore16IPH.length; i += 1) {
+    await page.goto(arrLinkEstore16IPH[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".regular-price") != null) {
-  //       return (
-  //         text2 + "Estore: " + document.querySelector(".regular-price").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".regular-price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".regular-price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkCts16IPH.length; i += 1) {
-  //   await page.goto(arrLinkCts16IPH[i]);
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkCts16IPH.length; i += 1) {
+    await page.goto(arrLinkCts16IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "CRS: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkiPeople16.length; i += 1) {
+    await page.goto(arrLinkiPeople16[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".usd").innerText;
+      if (document.querySelector(".usd") != null) {
+        return (
+          text2 + "iPeople: " + document.querySelector(".usd").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
+    await page.goto(arrLinkJabko16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstore16eIPH.length; i += 1) {
+    await page.goto(arrLinkIstore16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet16eIPH.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGro16eIPH.length; i += 1) {
+    await page.goto(arrLinkGro16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore16eIPH.length; i += 1) {
+    await page.goto(arrLinkEstore16eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".regular-price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".regular-price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkiPeople16e.length; i += 1) {
+    await page.goto(arrLinkiPeople16e[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".usd").innerText;
+      if (document.querySelector(".usd") != null) {
+        return (
+          text2 + "iPeople: " + document.querySelector(".usd").innerText
+        );
+      } else {
+        return ;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+
+  // for (let i = 0; i < arrLinkYua16.length; i += 1) {
+  //   await page.goto(arrLinkYua16[i]);
   //   const n = await page.$("#txt");
 
   //   let arr2 = await page.evaluate(() => {
   //     let text2 = document.querySelector("h1").innerText;
   //     if (document.querySelector(".price") != null) {
   //       return (
-  //         text2 + "CRS: " + document.querySelector(".price").innerText
+  //         text2 + "Yua: " + document.querySelector(".price").innerText
   //       );
   //     } else {
   //       return text2;
@@ -924,106 +1071,15 @@ async function f() {
   //   console.log(arr2);
   //   await page.setDefaultNavigationTimeout(0);
   // }
-  // for (let i = 0; i < arrLinkiPeople16.length; i += 1) {
-  //   await page.goto(arrLinkiPeople16[i]);
-  //   const n = await page.$("#txt");
-
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".usd").innerText;
-  //     if (document.querySelector(".usd") != null) {
-  //       return (
-  //         text2 + "iPeople: " + document.querySelector(".usd").innerText
-  //       );
-  //     } else {
-  //       return ;
-  //     }
-  //   });
-
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-
-  // for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
-  //   await page.goto(arrLinkJabko16eIPH[i]);
-  //   const n = await page.$("#txt");
-
-  //   let arr8 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-new__uah") != null) {
-  //       return (
-  //         text2 + "J: " + document.querySelector(".price-new__uah").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
-
-  //   console.log(arr8);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkIstore16eIPH.length; i += 1) {
-  //   await page.goto(arrLinkIstore16eIPH[i]);
-  //   const n = await page.$("#txt");
-
-  //   let arr4 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product_price ") != null) {
-  //       return (
-  //         text2 + "I: " + document.querySelector(".product_price ").innerText
-  //       );
-  //     } else {
-  //       return;
-  //     }
-  //   });
-
-  //   console.log(arr4);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkMobilePlanet16eIPH.length; i += 1) {
-  //   await page.goto(arrLinkMobilePlanet16eIPH[i]);
-  //   const n = await page.$("#txt");
-
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-value") != null) {
-  //       return (
-  //         text2 + "MP: " + document.querySelector(".price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
-
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkGro16eIPH.length; i += 1) {
-  //   await page.goto(arrLinkGro16eIPH[i]);
-  //   const n = await page.$("#txt");
-
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".sku").innerText;
-  //     if (document.querySelector(".product-price-value") != null) {
-  //       return (
-  //         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
-
-  //   console.log(arr3);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkEstore16eIPH.length; i += 1) {
-  //   await page.goto(arrLinkEstore16eIPH[i]);
+  // for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
+  //   await page.goto(arrLinkYabloki16[i]);
   //   const n = await page.$("#txt");
 
   //   let arr2 = await page.evaluate(() => {
   //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".regular-price") != null) {
+  //     if (document.querySelector(".product-price-title") != null) {
   //       return (
-  //         text2 + "Estore: " + document.querySelector(".regular-price").innerText
+  //         text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
   //       );
   //     } else {
   //       return text2;
@@ -1033,98 +1089,42 @@ async function f() {
   //   console.log(arr2);
   //   await page.setDefaultNavigationTimeout(0);
   // }
-  // for (let i = 0; i < arrLinkiPeople16e.length; i += 1) {
-  //   await page.goto(arrLinkiPeople16e[i]);
+  // for (let i = 0; i < arrLinkYua16e.length; i += 1) {
+  //   await page.goto(arrLinkYua16e[i]);
   //   const n = await page.$("#txt");
 
-  //   let arr3 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".usd").innerText;
-  //     if (document.querySelector(".usd") != null) {
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price") != null) {
   //       return (
-  //         text2 + "iPeople: " + document.querySelector(".usd").innerText
+  //         text2 + "Yua: " + document.querySelector(".price").innerText
   //       );
   //     } else {
-  //       return ;
+  //       return text2;
   //     }
   //   });
 
-  //   console.log(arr3);
+  //   console.log(arr2);
   //   await page.setDefaultNavigationTimeout(0);
   // }
+  // for (let i = 0; i < arrLinkYabloki16e.length; i += 1) {
+  //   await page.goto(arrLinkYabloki16e[i]);
+  //   const n = await page.$("#txt");
 
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".product-price-title") != null) {
+  //       return (
+  //         text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-  for (let i = 0; i < arrLinkYua16.length; i += 1) {
-    await page.goto(arrLinkYua16[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
-    await page.goto(arrLinkYabloki16[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYua16e.length; i += 1) {
-    await page.goto(arrLinkYua16e[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYabloki16e.length; i += 1) {
-    await page.goto(arrLinkYabloki16e[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
 
 
   // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
