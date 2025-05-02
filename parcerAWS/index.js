@@ -761,9 +761,9 @@ const arrLinkiPeopleAWS10andUltra2024 = [
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---sm-mwwh3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---ml-mwwj3",
 
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---sm-mwwl3",
+  // "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---sm-mwwl3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---ml-mwwm3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwn3",
+  // "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwn3",
 
   "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---sm-mwwp3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---ml-mwwq3",
