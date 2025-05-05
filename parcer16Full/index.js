@@ -812,7 +812,7 @@ const arrLinkYabloki16e = [
 
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "true" });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
 

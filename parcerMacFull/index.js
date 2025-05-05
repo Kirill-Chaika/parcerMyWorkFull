@@ -908,24 +908,9 @@ const arrLinkGroMacMini = [
 
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
-  for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetMac[i]);
-    const n = await page.$("#txt");
-
-  let arr3 = await page.evaluate(() => {
-    
-    let text2 = document.querySelector("h1").innerText;
-    if(document.querySelector(".price-value") != null){
-      return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-    } else {return text2}
-    
-  });
   
-  console.log(arr3)
-  await page.setDefaultNavigationTimeout(0);
-  }
 
   for (let i = 0; i < arrLinkIstoreMac.length; i += 1) {
     await page.goto(arrLinkIstoreMac[i]);
@@ -963,7 +948,22 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
+  for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetMac[i]);
+    const n = await page.$("#txt");
 
+  let arr3 = await page.evaluate(() => {
+    
+    let text2 = document.querySelector("h1").innerText;
+    if(document.querySelector(".price-value") != null){
+      return text2 + 'MP: ' + document.querySelector(".price-value").innerText
+    } else {return text2}
+    
+  });
+  
+  console.log(arr3)
+  await page.setDefaultNavigationTimeout(0);
+  }
 
 
   for (let i = 0; i < arrLinkMobilePlanetMacM3.length; i += 1) {
