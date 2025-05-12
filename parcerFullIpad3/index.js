@@ -613,7 +613,7 @@ const arrLinkEstoreIpadNew = [
 ];
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: "true" });
   const page = await browser.newPage();
   for (let i = 0; i < arrLinkJabkoIPAD.length; i += 1) {
     await page.goto(arrLinkJabkoIPAD[i]);
