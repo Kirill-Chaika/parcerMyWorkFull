@@ -39,7 +39,7 @@ const arrLinkTouchDyson = [
   "https://touch.com.ua/ua/item/dyson-supersonic-hd11-professional-edition-nickel-nickel-392966-01-fen/"
 ];
 const arrLinkStoreInUADyson = [
-  "https://storeinua.com/ua/krasa-ta-zdorovya/dohliad-za-volossiam-ua/feni/fen-dyson-hd07-supersonic-black-nickel-386816-01.html",
+  "https://storeinua.com/products/fen-dyson-hd07-supersonic-blacknickel-386816-01/",
   "https://storeinua.com/ua/krasa-ta-zdorovya/dohliad-za-volossiam-ua/feni/fen-dyson-hd07-supersonic-blue-blush-gift-edition-2023-460555-01.html",
   "https://storeinua.com/ua/krasa-ta-zdorovya/dohliad-za-volossiam-ua/feni/fen-dyson-supersonic-hd07-nikel-fuchsia-ua.html",
   "https://storeinua.com/ua/krasa-ta-zdorovya/dohliad-za-volossiam-ua/feni/fen-dyson-hd07-supersonic-nickel-copper-389922-01.html",
@@ -50,17 +50,8 @@ const arrLinkStoreInUADyson = [
   "https://storeinua.com/ua/krasa-ta-zdorovya/dohliad-za-volossiam-ua/feni/fen-dyson-hd07-supersonic-origin-black-nickel-475202-01.html"
 ];
 const arrLinkEstoreDyson = [
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-black-nickel-garantija-3-mes/?q=386816-01",
-  "https://estore.ua/ua/fen-dyson-supersonic-ceramic-pop-508245-01-garantija-3-mes/?q=508245-01",
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-blueblush-gift-edition-2023-460555-01-garantiya-3-mes/?q=460555-01",
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-hair-dryer-iron-fuchsia-garantija-3-mes/?q=386732-01",
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-nickel-copper-389922-01-garantija-3-mes/?q=389922-01",
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-blueblush-gift-edition-2023-460555-01-garantiya-3-mes/?q=460555-01",
-  "https://estore.ua/ua/fen-dyson-supersonic-ceramic-pop-508245-01-garantija-3-mes/?q=508272-01",
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-prussian-blue-rich-copper-412525-01-garantija-3-mes/?q=412525-01",
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-limited-edition-vinca-blue-rose-426081-01-garantija-3-mes/?q=426081-01",
-  "https://estore.ua/ua/fen-dyson-hd07-supersonic-origin-blacknickel-475202-01-garantiya-3-mes/?q=475202-01",
-  "https://estore.ua/ua/fen-dyson-supersonic-hd11-professional-edition-nickelnickel-392966-01-garantiya-3-mes/?q=392966-01"
+  "https://estore.ua/ua/multistayler-dyson-airwrap-id-multi-styler-and-dryer-straight-to-wavyceramic-patinatopaz-533598-01-garantiya-3-mes/?q=dyson",
+  
 ];
 const arrLinkTIDyson = [
   "https://ti.ua/ua/apple-iphone-15-pro-128-gb-black-titanium-kupit.html",
@@ -104,60 +95,60 @@ const arrLinkIpodRomDyson = [
 ];
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
-  // for (let i = 0; i < arrLinkSkayDyson.length; i += 1) {
-  //   await page.goto(arrLinkSkayDyson[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkSkayDyson.length; i += 1) {
+    await page.goto(arrLinkSkayDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr1 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector("#our_price_display") != null) {
-  //       return (
-  //         text2 + "S: " + document.querySelector("#our_price_display").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr1 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("#our_price_display") != null) {
+        return (
+          text2 + "S: " + document.querySelector("#our_price_display").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr1);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkJabkoDyson.length; i += 1) {
-  //   await page.goto(arrLinkJabkoDyson[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkJabkoDyson.length; i += 1) {
+    await page.goto(arrLinkJabkoDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price-new__uah") != null) {
-  //       return (
-  //         text2 + "J: " + document.querySelector(".price-new__uah").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkTouchDyson.length; i += 1) {
-  //   await page.goto(arrLinkTouchDyson[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkTouchDyson.length; i += 1) {
+    await page.goto(arrLinkTouchDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price") != null) {
-  //       return text2 + "Touch: " + document.querySelector(".price").innerText;
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return text2 + "Touch: " + document.querySelector(".price").innerText;
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
   // for (let i = 0; i < arrLinkStoreInUADyson.length; i += 1) {
   //   await page.goto(arrLinkStoreInUADyson[i]);
   //   const n = await page.$("#txt");
@@ -178,64 +169,64 @@ async function f() {
   //   console.log(arr2);
   //   await page.setDefaultNavigationTimeout(0);
   // }
-  // for (let i = 0; i < arrLinkEstoreDyson.length; i += 1) {
-  //   await page.goto(arrLinkEstoreDyson[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkEstoreDyson.length; i += 1) {
+    await page.goto(arrLinkEstoreDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector("p .price") != null) {
-  //       return (
-  //         text2 + "Estore: " + document.querySelector("p .price").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p .price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkIpodRomDyson.length; i += 1) {
-  //   await page.goto(arrLinkIpodRomDyson[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIpodRomDyson.length; i += 1) {
+    await page.goto(arrLinkIpodRomDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product-price__item") != null) {
-  //       return (
-  //         text2 +
-  //         "IpodRom: " +
-  //         document.querySelector(".product-price__item").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price__item") != null) {
+        return (
+          text2 +
+          "IpodRom: " +
+          document.querySelector(".product-price__item").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
-  // for (let i = 0; i < arrLinkPCShopDyson.length; i += 1) {
-  //   await page.goto(arrLinkPCShopDyson[i]);
-  //   const n = await page.$("#txt");
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkPCShopDyson.length; i += 1) {
+    await page.goto(arrLinkPCShopDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".product-info__price") != null) {
-  //       return (
-  //         text2 +
-  //         "PCShop: " +
-  //         document.querySelector(".product-info__price").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-info__price") != null) {
+        return (
+          text2 +
+          "PCShop: " +
+          document.querySelector(".product-info__price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
   // for (let i = 0; i < arrLinkIpeopleDyson.length; i += 1) {
   //   await page.goto(arrLinkIpeopleDyson[i]);
   //   const n = await page.$("#txt");
@@ -255,24 +246,24 @@ async function f() {
 
   //////Good
 
-  // for (let i = 0; i < arrLinkSotaDyson.length; i += 1) {
-  //   await page.goto(arrLinkSotaDyson[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkSotaDyson.length; i += 1) {
+    await page.goto(arrLinkSotaDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr12 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if(document.getElementById("status") != null){
-  //       let idPost=document.getElementById("status").innerHTML;
-  //   }
-  //     if (document.querySelector(".price-new") != null) {
-  //       return text2 + "Sota: " + document.querySelector(".price-new").innerText;
-  //     } else {
-  //       return;
-  //     }
-  //   });
+    let arr12 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if(document.getElementById("status") != null){
+        let idPost=document.getElementById("status").innerHTML;
+    }
+      if (document.querySelector(".price-new") != null) {
+        return text2 + "Sota: " + document.querySelector(".price-new").innerText;
+      } else {
+        return;
+      }
+    });
 
-  //   console.log(arr12);
-  // }
+    console.log(arr12);
+  }
   for (let i = 0; i < arrLinkTIDyson.length; i += 1) {
     await page.goto(arrLinkTIDyson[i]);
     const n = await page.$("#txt");
