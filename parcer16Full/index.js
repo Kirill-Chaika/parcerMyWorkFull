@@ -779,8 +779,8 @@ const arrLinkEstore16eIPH = [
 "https://estore.ua/ua/iphone-16e-512gb-black/",
 ];
 const arrLinkiPeople16e = [
-  "https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-white-md1r4",
-"https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-black-md1q4",
+//   "https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-white-md1r4",
+// "https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-black-md1q4",
 
 "https://www.ipeople.in.ua/products/apple-iphone-16e-256gb-white-md1w4",
 "https://www.ipeople.in.ua/products/apple-iphone-16e-256gb-black-md1t4",
