@@ -992,7 +992,7 @@ const arrLinkEstoreAWSSE2024 = [
 ];
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "true" });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
 
