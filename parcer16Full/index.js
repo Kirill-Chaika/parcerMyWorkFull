@@ -325,7 +325,7 @@ const arrLinkGro16IPH = [
 const arrLinkEstore16IPH = [
   "https://estore.ua/ua/iphone-16-128gb-black/?q=mye73",
   "https://estore.ua/ua/iphone-16-128gb-soft-peach/?q=myec3",
-  "https://estore.ua/ua/iphone-16-128gb-purple/?q=mye93",
+  // "https://estore.ua/ua/iphone-16-128gb-purple/?q=mye93",
   "https://estore.ua/ua/iphone-16-128gb-pink/?q=myea3",
   "https://estore.ua/ua/iphone-16-128gb-ocean-blue/?q=myed3",
 
