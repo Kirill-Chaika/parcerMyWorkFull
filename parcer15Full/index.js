@@ -116,7 +116,7 @@ const arrLinkMobilePlanet15 = [
   "https://mobileplanet.ua/ua/apple-iphone-15-512gb-yellow-mtpf3-285357"
 ]
 const arrLinkIstore15ProAndProMax = [
-  // 'https://www.istore.ua/catalog/item/apple-iphone-15-pro-128-gb-blue-titanium/',
+  'https://www.istore.ua/catalog/item/apple-iphone-15-pro-128-gb-blue-titanium/',
   'https://www.istore.ua/catalog/item/apple-iphone-15-pro-128-gb-space-black/',
   'https://www.istore.ua/catalog/item/apple-iphone-15-pro-128-gb-natural-titanium/',
   'https://www.istore.ua/catalog/item/apple-iphone-15-pro-128-gb-white-titanium/',
