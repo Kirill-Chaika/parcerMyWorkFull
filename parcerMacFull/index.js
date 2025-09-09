@@ -712,10 +712,10 @@ const arrLinkIStoreMacAirM4 = [
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-24gb-512gb-starlight-custom-z1bt000l2-mc9k4-mc9k4-mc9k4/",
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m3-24gb-512gb-silver-custom-z1br000kl-mc9j4/", 
 
-"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-midnight-mw123/",
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-sky-blue-mc6t4/",
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-starlight/",
-// "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-silver/", 
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-256gb-silver-mw0w3/", 
 
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-512gb-midnight/",
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-16-512gb-sky-blue-mc6u4/",
