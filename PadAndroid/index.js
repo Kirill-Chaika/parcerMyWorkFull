@@ -159,7 +159,7 @@ async function f() {
 
       let text2 = document.querySelector("h1").innerText;
       if (document.querySelector(".p-trade-price .p-trade-price__current") != null) {
-        return text2 + 'SKAY: ' + document.querySelector(".p-trade-price .p-trade-price__current").innerText
+        return text2 + 'Xiaomi: ' + document.querySelector(".p-trade-price .p-trade-price__current").innerText
       } else { return }
 
     });
