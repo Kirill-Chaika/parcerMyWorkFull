@@ -807,6 +807,180 @@ const arrLinkYabloki16e = [
 
 ];
 
+const arrLinkJabko17IPH = [
+  "https://jabko.ua/product/apple-iphone-17-pro-256gb-orange",
+"https://jabko.ua/product/apple-iphone-17-pro-256gb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-256gb-gray",
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-512gb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-512gb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-512gb-gray",
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-1tb-orange",
+"https://jabko.ua/product/apple-iphone-17-pro-1tb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-1tb-gray",
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-max-256gb-orange",
+"https://jabko.ua/product/apple-iphone-17-pro-max-256gb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-max-256gb-gray",
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-max-512gb-orange",
+"https://jabko.ua/product/apple-iphone-17-pro-max-512gb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-max-512gb-gray",
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-max-1tb-orange",
+"https://jabko.ua/product/apple-iphone-17-pro-max-1tb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-max-1tb-gray",
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-max-2tb-orange",
+"https://jabko.ua/product/apple-iphone-17-pro-max-2tb-dark-blue",
+"https://jabko.ua/product/apple-iphone-17-pro-max-1tb-gray_5zxg",
+]
+const arrLinkMobilePlanet17IPH = [
+  "https://mobileplanet.ua/apple-iphone-17-pro-256gb-cosmic-orange-mg8h4-354248",
+"https://mobileplanet.ua/apple-iphone-17-pro-256gb-deep-blue-mg8j4-354249",
+"https://mobileplanet.ua/apple-iphone-17-pro-256gb-silver-mg8g4-354256",
+ 
+"https://mobileplanet.ua/apple-iphone-17-pro-512gb-deep-blue-mg8n4-354258",
+"https://mobileplanet.ua/apple-iphone-17-pro-512gb-deep-blue-mg8n4-354258",
+"https://mobileplanet.ua/apple-iphone-17-pro-512gb-silver-mg8k4-354265",
+ 
+"https://mobileplanet.ua/apple-iphone-17-pro-1tb-cosmic-orange-mg8q4-354239",
+"https://mobileplanet.ua/apple-iphone-17-pro-1tb-deep-blue-mg8r4-354240",
+"https://mobileplanet.ua/apple-iphone-17-pro-1tb-silver-mg8p4-354247",
+
+"https://mobileplanet.ua/apple-iphone-17-pro-max-256gb-cosmic-orange-mfyn4-354275",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-256gb-deep-blue-mfyp4-354276",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-256gb-silver-mfym4-354283",
+ 
+"https://mobileplanet.ua/apple-iphone-17-pro-max-512gb-cosmic-orange-mfyt4-354293",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-512gb-deep-blue-mfyu4-354294",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-512gb-silver-mfyq4-354301",
+ 
+"https://mobileplanet.ua/apple-iphone-17-pro-max-1tb-cosmic-orange-mfyw4-354266",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-1tb-deep-blue-mfyx4-354267",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-1tb-silver-mfyv4-354274",
+ 
+"https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-cosmic-orange-mg004-354284",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-deep-blue-mg014-354285",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-silver-mfyy4-354292",
+]
+const arrLinkGro17IPH = [
+  "https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-cosmic-orange-mg8h4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-deep-blue-mg8j4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-silver-mg8g4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-512gb-deep-blue-mg8n4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-512gb-deep-blue-mg8n4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-512gb-silver-mg8k4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-1tb-cosmic-orange-mg8q4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-1tb-deep-blue-mg8r4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-1tb-silver-mg8p4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-256gb-cosmic-orange-mfyn4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-256gb-deep-blue-mfyp4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-256gb-silver-mfym4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-512gb-cosmic-orange-mfyt4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-512gb-deep-blue-mfyu4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-512gb-silver-mfyq4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-1tb-cosmic-orange-mfyw4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-1tb-deep-blue-mfyx4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-1tb-silver-mfyv4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-cosmic-orange-mg004/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-deep-blue-mg014/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-silver-mfyy4/",
+]
+const arrLinkEstore17IPH = [
+  "https://estore.ua/ua/iphone-17-pro-256gb-cosmic-orange-mg8h4/?q=mg8h4",
+"https://estore.ua/ua/iphone-17-pro-256gb-deep-blue-mg8j4/?q=mg8j4",
+"https://estore.ua/ua/iphone-17-pro-256gb-silver-mg8g4/?q=mg8g4",
+ 
+"https://estore.ua/ua/iphone-17-pro-512gb-cosmic-orange-mg8n4/?q=mg8n4",
+"https://estore.ua/ua/iphone-17-pro-512gb-deep-blue-mg8n4/?q=mg8n4",
+"https://estore.ua/ua/iphone-17-pro-512gb-silver-mg8k4/?q=mg8k4",
+ 
+"https://estore.ua/ua/iphone-17-pro-1tb-cosmic-orange-mg8q4/?q=mg8q4",
+"https://estore.ua/ua/iphone-17-pro-1tb-deep-blue-mg8r4/?q=mg8r4",
+"https://estore.ua/ua/iphone-17-pro-1tb-silver-mg8p4/?q=mg8p4",
+ 
+"https://estore.ua/ua/iphone-17-pro-max-256gb-cosmic-orange-mfyn4/?q=mfyn4",
+"https://estore.ua/ua/iphone-17-pro-max-256gb-deep-blue-mfyp4/?q=mfyp4",
+"https://estore.ua/ua/iphone-17-pro-max-256gb-silver-mfym4/?q=mfym4",
+ 
+"https://estore.ua/ua/iphone-17-pro-max-512gb-cosmic-orange-mfyt4/?q=mfyt4",
+"https://estore.ua/ua/iphone-17-pro-max-512gb-deep-blue-mfyu4/?q=mfyu4",
+"https://estore.ua/ua/iphone-17-pro-max-512gb-silver-mfyq4/?q=mfyq4",
+ 
+"https://estore.ua/ua/iphone-17-pro-max-1tb-cosmic-orange-mfyw/?q=mfyw",
+"https://estore.ua/ua/iphone-17-pro-max-1tb-deep-blue-mfyx4/?q=mfyx4",
+"https://estore.ua/ua/iphone-17-pro-max-1tb-silver-mfyv4/?q=mfyv4",
+ 
+"https://estore.ua/ua/iphone-17-pro-max-2tb-cosmic-orange/?q=mg004",
+"https://estore.ua/ua/iphone-17-pro-max-2tb-deep-blue/?q=mg014",
+"https://estore.ua/ua/iphone-17-pro-max-2tb-silver/?q=mfyy4",
+]
+const arrLinkYua17 = [
+  "https://y.ua/apple-iphone-17-pro-256gb-cosmic-orange/p1441914/",
+"https://y.ua/apple-iphone-17-pro-256gb-deep-blue/p1441913/",
+"https://y.ua/apple-iphone-17-pro-256gb-silver/p1441915/",
+ 
+"https://y.ua/apple-iphone-17-pro-512gb-cosmic-orange/p1441917/",
+"https://y.ua/apple-iphone-17-pro-512gb-deep-blue/p1441916/",
+"https://y.ua/apple-iphone-17-pro-512gb-silver/p1441918/",
+ 
+"https://y.ua/apple-iphone-17-pro-1tb-cosmic-orange/p1441920/",
+"https://y.ua/apple-iphone-17-pro-1tb-deep-blue/p1441919/",
+"https://y.ua/apple-iphone-17-pro-1tb-silver/p1441921/",
+ 
+"https://y.ua/apple-iphone-17-pro-max-256gb-cosmic-orange/p1441923/",
+"https://y.ua/apple-iphone-17-pro-max-256gb-deep-blue/p1441922/",
+"https://y.ua/apple-iphone-17-pro-max-256gb-silver/p1441924/",
+ 
+"https://y.ua/apple-iphone-17-pro-max-512gb-cosmic-orange/p1441926/",
+"https://y.ua/apple-iphone-17-pro-max-512gb-deep-blue/p1441925/",
+"https://y.ua/apple-iphone-17-pro-max-512gb-silver/p1441927/",
+ 
+"https://y.ua/apple-iphone-17-pro-max-1tb-cosmic-orange/p1441929/",
+"https://y.ua/apple-iphone-17-pro-max-1tb-deep-blue/p1441928/",
+"https://y.ua/apple-iphone-17-pro-max-1tb-silver/p1441930/",
+ 
+"https://y.ua/apple-iphone-17-pro-max-2tb-cosmic-orange/p1441932/",
+"https://y.ua/apple-iphone-17-pro-max-2tb-deep-blue/p1441931/",
+"https://y.ua/apple-iphone-17-pro-max-2tb-silver/p1441933/",
+]
+const arrLinkYabloki17 = [
+  "https://yabloki.ua/iphone-17-pro-256-gb-cosmic-orange.html",
+"https://yabloki.ua/iphone-17-pro-256-gb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-256-gb-white-silver.html",
+ 
+"https://yabloki.ua/iphone-17-pro-512-gb-dark-titanium.html",
+"https://yabloki.ua/iphone-17-pro-512-gb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-512-gb-silver.html",
+ 
+"https://yabloki.ua/iphone-17-pro-1-tb-cosmic-orange.html",
+"https://yabloki.ua/iphone-17-pro-1-tb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-1-tb-silver.html",
+ 
+"https://yabloki.ua/iphone-17-pro-max-256-gb-orange.html",
+"https://yabloki.ua/iphone-17-pro-max-256-gb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-max-256-gb-silver.html",
+ 
+"https://yabloki.ua/iphone-17-pro-max-512-gb-orange.html",
+"https://yabloki.ua/iphone-17-pro-max-512-gb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-max-512-gb-silver.html",
+ 
+"https://yabloki.ua/iphone-17-pro-max-1-tb-orange.html",
+"https://yabloki.ua/iphone-17-pro-max-1-tb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-max-1-tb-silver.html",
+ 
+"https://yabloki.ua/iphone-17-pro-max-2-tb-orange.html",
+"https://yabloki.ua/iphone-17-pro-max-2-tb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-max-2-tb-silver.html",
+]
 
 
 
@@ -1125,6 +1299,117 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
+
+  for (let i = 0; i < arrLinkJabko17IPH.length; i += 1) {
+    await page.goto(arrLinkJabko17IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet17IPH.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet17IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGro17IPH.length; i += 1) {
+    await page.goto(arrLinkGro17IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore17IPH.length; i += 1) {
+    await page.goto(arrLinkEstore17IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".regular-price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".regular-price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYua17.length; i += 1) {
+    await page.goto(arrLinkYua17[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price .regular") != null) {
+        return (
+          text2 + "Yua: " + document.querySelector(".price .regular").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+   for (let i = 0; i < arrLinkYabloki17.length; i += 1) {
+    await page.goto(arrLinkYabloki17[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price-title") != null) {
+        return (
+          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  
 
 
   // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
