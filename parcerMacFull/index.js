@@ -908,7 +908,7 @@ const arrLinkGroMacMini = [
 
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "true" });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
   
   for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
