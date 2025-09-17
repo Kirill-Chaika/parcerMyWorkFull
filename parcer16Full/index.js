@@ -981,6 +981,64 @@ const arrLinkYabloki17 = [
 "https://yabloki.ua/iphone-17-pro-max-2-tb-deep-blue.html",
 "https://yabloki.ua/iphone-17-pro-max-2-tb-silver.html",
 ]
+const arrLinkCts17IPH = [
+  "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-cosmic-orange-apple-775206.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-deep-blue-apple-775207.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-silver-apple-775202.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-512gb-cosmic-orange-apple-775208.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-512gb-deep-blue-apple-775210.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-512gb-silver-apple-775213.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-1tb-cosmic-orange-apple-775216.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-1tb-deep-blue-apple-775217.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-1tb-silver-apple-775219.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-256gb-cosmic-orange-apple-775224.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-256gb-deep-blue-apple-775226.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-256gb-silver-apple-775229.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-cosmic-orange-apple-775233.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-deep-blue-apple-775235.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-silver-apple-775237.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-cosmic-orange-apple-775239.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-deep-blue-apple-775240.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-silver-apple-775241.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-cosmic-orange-apple-775242.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-deep-blue-apple-775243.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-silver-apple-775244.html",
+]
+const arrLinkCts17IPHinfo = [
+  "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-cosmic-orange-apple-775206.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-deep-blue-apple-775207.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-silver-apple-775202.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-512gb-cosmic-orange-apple-775208.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-512gb-deep-blue-apple-775210.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-512gb-silver-apple-775213.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-1tb-cosmic-orange-apple-775216.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-1tb-deep-blue-apple-775217.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-1tb-silver-apple-775219.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-256gb-cosmic-orange-apple-775224.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-256gb-deep-blue-apple-775226.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-256gb-silver-apple-775229.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-cosmic-orange-apple-775233.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-deep-blue-apple-775235.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-silver-apple-775237.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-cosmic-orange-apple-775239.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-deep-blue-apple-775240.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-silver-apple-775241.html",
+ 
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-cosmic-orange-apple-775242.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-deep-blue-apple-775243.html",
+"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-silver-apple-775244.html",
+]
 
 
 
@@ -1399,6 +1457,42 @@ async function f() {
       if (document.querySelector(".product-price-title") != null) {
         return (
           text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+   for (let i = 0; i < arrLinkCts17IPH.length; i += 1) {
+    await page.goto(arrLinkCts17IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "CRS: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkCts17IPHinfo.length; i += 1) {
+    await page.goto(arrLinkCts17IPHinfo[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".Price_buttonWrapper__QsXNG") != null) {
+        return (
+          text2 + "CRS: " + document.querySelector(".Price_buttonWrapper__QsXNG").innerText
         );
       } else {
         return text2;
