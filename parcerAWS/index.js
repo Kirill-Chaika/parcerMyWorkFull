@@ -991,6 +991,100 @@ const arrLinkEstoreAWSSE2024 = [
 "https://estore.ua/ua/apple-watch-se-2-2024-gps-44mm-midnight-aluminium-case-with-ink-sport-loop-mxep3/?q=mxep3",
 ];
 
+const arrLinkJabkoAWS11Serios2025 = [
+  "https://jabko.ua/product/apple-watch-series-11-gps-42mm-jet-black-aluminum-case-with-black-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-42mm-jet-black-aluminum-case-with-black-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-11-gps-42mm-space-gray-aluminum-case-with-black-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-42mm-space-gray-aluminum-case-with-black-sport-band-ml",
+ 
+"https://jabko.ua/product/apple-watch-series-11-gps-42mm-silver-aluminum-case-with-purple-fog-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-42mm-silver-aluminum-case-with-purple-fog-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-11-gps-42mm-rose-gold-aluminum-case-with-light-blush-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-42mm-rose-gold-aluminum-case-with-light-blush-sport-band-ml",
+
+ 
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-jet-black-aluminum-case-with-black-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-jet-black-aluminum-case-with-black-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-space-gray-aluminum-case-with-black-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-space-gray-aluminum-case-with-black-sport-band-ml",
+
+ 
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-silver-aluminum-case-with-purple-fog-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-silver-aluminum-case-with-purple-fog-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-rose-gold-aluminum-case-with-light-blush-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-11-gps-46mm-rose-gold-aluminum-case-with-light-blush-sport-band-ml",
+]
+const arrLinkMobilePlanet11Serios2025 = [
+  "https://mobileplanet.ua/apple-watch-series-11-gps-42mm-jet-black-alu-case-354776",
+"https://mobileplanet.ua/apple-watch-series-11-gps-42mm-jet-black-alu-case-354775",
+"https://mobileplanet.ua/apple-watch-series-11-gps-42mm-space-grey-alu-case-354782",
+"https://mobileplanet.ua/apple-watch-series-11-gps-42mm-space-grey-alu-case-354781",
+ 
+"https://mobileplanet.ua/apple-watch-series-11-gps-42mm-silver-alu-case-w-p-354780",
+"https://mobileplanet.ua/apple-watch-series-11-gps-42mm-silver-alu-case-w-p-354779",
+"https://mobileplanet.ua/apple-watch-series-11-gps-42mm-rose-gold-alu-case-354778",
+"https://mobileplanet.ua/apple-watch-series-11-gps-42mm-rose-gold-alu-case-354777",
+
+ 
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-jet-black-alu-case-354784",
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-jet-black-alu-case-354783",
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-space-grey-alu-case-354791",
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-space-grey-alu-case-354790",
+ 
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-silver-alu-case-w-p-354789",
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-silver-alu-case-w-p-354788",
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-rose-gold-alu-case-354787",
+"https://mobileplanet.ua/apple-watch-series-11-gps-46mm-rose-gold-alu-case-354786",
+]
+const arrLinkGroAWS10and11Serios2025 = [
+   
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-jet-black-alu-case-w-black-s-band-s-m-meqt4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-jet-black-alu-case-w-black-s-band-m-l-mequ4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-space-grey-alu-case-w-black-s-band-s-m-meqw4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-space-grey-alu-case-w-black-s-band-m-l-meqx4/",
+ 
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-silver-alu-case-w-purple-fog-s-band-s-m-meu64/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-silver-alu-case-w-purple-fog-s-band-m-l-meu74/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-rose-gold-alu-case-w-light-blush-s-band-s-m-meu04/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-42mm-rose-gold-alu-case-w-light-blush-s-band-m-l-meu44/",
+
+ 
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-jet-black-alu-case-w-black-s-band-s-m-meuw4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-jet-black-alu-case-w-black-s-band-m-l-meux4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-space-grey-alu-case-w-black-s-band-s-m-mev04/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-space-grey-alu-case-w-black-s-band-m-l-mev44/",
+
+ 
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-silver-alu-case-w-purple-fog-s-band-s-m-mev94/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-silver-alu-case-w-purple-fog-s-band-m-l-meva4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-rose-gold-alu-case-w-light-blush-s-band-s-m-mev64/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-series-11/smart-godinnik-apple-watch-series-11-gps-46mm-rose-gold-alu-case-w-light-blush-s-band-m-l-mev74/",
+]
+const arrLinkEstoreAWS11Serios2025 = [
+  "https://estore.ua/ua/apple-watch-11-42mm-jet-black-aluminium-case-with-sport-band/?q=meqt4",
+"https://estore.ua/ua/apple-watch-series-11-42mm-jet-black-aluminium-case-with-sport-band-m-l/?q=mequ4",
+"https://estore.ua/ua/apple-watch-11-42mm-space-gray-aluminium-case-with-sport-band-sm/?q=meqw4",
+"https://estore.ua/ua/apple-watch-11-42mm-space-gray-aluminium-case-with-sport-band-ml/?q=meqx4",
+ 
+"https://estore.ua/ua/apple-watch-series-11-42mm-silver-aluminium-case-with-purple-fog-sport-band-s-m-meu64/?q=meu64",
+"https://estore.ua/ua/apple-watch-series-11-42mm-silver-aluminium-case-with-purple-fog-sport-band-m-l-meu74/?q=meu74",
+"https://estore.ua/ua/apple-watch-11-42mm-rose-gold-aluminium-case-with-sport-band/?q=meu04",
+"https://estore.ua/ua/apple-watch-series-11-42mm-rose-gold-aluminium-case-with-sport-band-m-l/?q=meu44",
+
+ 
+"https://estore.ua/ua/apple-watch-11-46mm-jet-black-aluminium-case-with-sport-band/?q=meuw4",
+"https://estore.ua/ua/apple-watch-series-11-46mm-jet-black-aluminium-case-with-sport-band-m-l/?q=meux4",
+"https://estore.ua/ua/apple-watch-11-46mm-space-gray-aluminium-case-with-sport-band-sm/?q=mev04",
+"https://estore.ua/ua/apple-watch-11-46mm-space-gray-aluminium-case-with-sport-band-ml/?q=mev44",
+ 
+"https://estore.ua/ua/apple-watch-series-11-46mm-silver-aluminium-case-with-purple-fog-sport-band-s-m-mev94/?q=mev94",
+"https://estore.ua/ua/apple-watch-series-11-46mm-silver-aluminium-case-with-purple-fog-sport-band-m-l-meva4/?q=meva4",
+"https://estore.ua/ua/apple-watch-11-46mm-rose-gold-aluminium-case-with-sport-band/?q=mev64",
+"https://estore.ua/ua/apple-watch-series-11-46mm-rose-gold-aluminium-case-with-sport-band-m-l/?q=mev74",
+]
+
+
+
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -1218,6 +1312,14 @@ async function f() {
   // }
   
 
+
+
+
+
+
+
+
+
   for (let i = 0; i < arrLinkJabkoAWS10andUltra2024.length; i += 1) {
     await page.goto(arrLinkJabkoAWS10andUltra2024[i]);
     const n = await page.$("#txt");
@@ -1382,6 +1484,78 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+  for (let i = 0; i < arrLinkJabkoAWS11Serios2025.length; i += 1) {
+    await page.goto(arrLinkJabkoAWS11Serios2025[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet11Serios2025.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet11Serios2025[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  } 
+  for (let i = 0; i < arrLinkGroAWS10and11Serios2025.length; i += 1) {
+    await page.goto(arrLinkGroAWS10and11Serios2025[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreAWS11Serios2025.length; i += 1) {
+    await page.goto(arrLinkEstoreAWS11Serios2025[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 }
 f();
