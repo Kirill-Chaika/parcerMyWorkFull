@@ -1039,7 +1039,36 @@ const arrLinkCts17IPHinfo = [
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-deep-blue-apple-775243.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-silver-apple-775244.html",
 ]
+const arrLinkSkay17IPH = [
 
+"https://skay.ua/iphone-17-pro/80210-apple-iphone-17-pro-256gb-cosmic-orange-mg8h4.html",
+"https://skay.ua/iphone-17-pro/80208-apple-iphone-17-pro-256gb-deep-blue-mg8j4.html",
+"https://skay.ua/iphone-17-pro/80209-apple-iphone-17-pro-256gb-silver-mg8g4.html",
+ 
+"https://skay.ua/iphone-17-pro/80243-apple-iphone-17-pro-512gb-cosmic-orange-mg8m4.html",
+"https://skay.ua/iphone-17-pro/80241-apple-iphone-17-pro-512gb-deep-blue-mg8n4.html?search_query=MG8N4&fast_search=fs",
+"https://skay.ua/iphone-17-pro/80242-apple-iphone-17-pro-512gb-silver-mg8k4.html",
+ 
+"https://skay.ua/iphone-17-pro/80246-apple-iphone-17-pro-1tb-cosmic-orange-mg8q4.html",
+"https://skay.ua/iphone-17-pro/80244-apple-iphone-17-pro-1tb-deep-blue-mg8r4.html",
+"https://skay.ua/iphone-17-pro/80245-apple-iphone-17-pro-1tb-silver-mg8p4.html",
+ 
+"https://skay.ua/iphone-17-pro-max/80217-apple-iphone-17-pro-max-256gb-cosmic-orange-mfyn4.html?search_query=MFYN4&fast_search=fs",
+"https://skay.ua/iphone-17-pro-max/80215-apple-iphone-17-pro-max-256gb-deep-blue-mfyp4.html",
+"https://skay.ua/iphone-17-pro-max/80216-apple-iphone-17-pro-max-256gb-silver.html",
+ 
+"https://skay.ua/iphone-17-pro-max/80249-apple-iphone-17-pro-max-512gb-cosmic-orange-mfyt4.html",
+"https://skay.ua/iphone-17-pro-max/80247-apple-iphone-17-pro-max-512gb-deep-blue-mfyu4.html",
+"https://skay.ua/iphone-17-pro-max/80248-apple-iphone-17-pro-max-512gb-silver-mfyq4.html",
+ 
+"https://skay.ua/iphone-17-pro-max/80252-apple-iphone-17-pro-max-1tb-cosmic-orange-mfyw.html",
+"https://skay.ua/iphone-17-pro-max/80250-apple-iphone-17-pro-max-1tb-deep-blue-mfyx4.html",
+"https://skay.ua/iphone-17-pro-max/80251-apple-iphone-17-pro-max-1tb-silver-mfyv4.html",
+ 
+"https://skay.ua/iphone-17-pro-max/80255-apple-iphone-17-pro-max-2tb-cosmic-orange-mg004.html",
+"https://skay.ua/iphone-17-pro-max/80253-apple-iphone-17-pro-max-2tb-deep-blue-mg014.html",
+"https://skay.ua/iphone-17-pro-max/80254-apple-iphone-17-pro-max-2tb-silver-mfyy4.html",
+]
 
 
 
@@ -1502,7 +1531,24 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
+   for (let i = 0; i < arrLinkSkay17IPH.length; i += 1) {
+    await page.goto(arrLinkSkay17IPH[i]);
+    const n = await page.$("#txt");
 
+    let arr1 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".products-item-cost") != null) {
+        return (
+          text2 + "S: " + document.querySelector(".products-item-cost").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
+  }
   
 
 
