@@ -97,42 +97,42 @@ const arrLinkIpodRomDyson = [
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
-  for (let i = 0; i < arrLinkSkayDyson.length; i += 1) {
-    await page.goto(arrLinkSkayDyson[i]);
-    const n = await page.$("#txt");
+  // for (let i = 0; i < arrLinkSkayDyson.length; i += 1) {
+  //   await page.goto(arrLinkSkayDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr1 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("#our_price_display") != null) {
-        return (
-          text2 + "S: " + document.querySelector("#our_price_display").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr1 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector("#our_price_display") != null) {
+  //       return (
+  //         text2 + "S: " + document.querySelector("#our_price_display").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkJabkoDyson.length; i += 1) {
-    await page.goto(arrLinkJabkoDyson[i]);
-    const n = await page.$("#txt");
+  //   console.log(arr1);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
+  // for (let i = 0; i < arrLinkJabkoDyson.length; i += 1) {
+  //   await page.goto(arrLinkJabkoDyson[i]);
+  //   const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  //   let arr2 = await page.evaluate(() => {
+  //     let text2 = document.querySelector("h1").innerText;
+  //     if (document.querySelector(".price-new__uah") != null) {
+  //       return (
+  //         text2 + "J: " + document.querySelector(".price-new__uah").innerText
+  //       );
+  //     } else {
+  //       return text2;
+  //     }
+  //   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  //   console.log(arr2);
+  //   await page.setDefaultNavigationTimeout(0);
+  // }
   for (let i = 0; i < arrLinkTouchDyson.length; i += 1) {
     await page.goto(arrLinkTouchDyson[i]);
     const n = await page.$("#txt");
@@ -227,22 +227,22 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  // for (let i = 0; i < arrLinkIpeopleDyson.length; i += 1) {
-  //   await page.goto(arrLinkIpeopleDyson[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkIpeopleDyson.length; i += 1) {
+    await page.goto(arrLinkIpeopleDyson[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector(".header h3").innerText;
-  //     if (document.querySelector(".uah") != null) {
-  //       return text2 + "Ipeople: " + document.querySelector(".uah").innerText;
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector(".header h3").innerText;
+      if (document.querySelector(".uah") != null) {
+        return text2 + "Ipeople: " + document.querySelector(".uah").innerText;
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
   //////Good
 

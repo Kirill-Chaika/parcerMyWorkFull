@@ -145,7 +145,10 @@ const arrLinkCtsSamsPad = [
 "https://www.ctrs.com.ua/planshety/samsung-galaxy-tab-active-5-wi-fi-128gb-blackgreen-sm-x300nzgaeuc-743381.html",
 "https://www.ctrs.com.ua/planshety/samsung-galaxy-tab-active-5-5g-128gb-blackgreen-sm-x306bzgaeuc-743380.html",
  ]
-
+const arrLinkSotaXiaomi = []
+const arrLinkTouchXiaomi = []
+const arrLinkIpodRomXiaomi = []
+const arrLinkMobilePlanetXiaomi = []
 
 async function f() {
   const browser = await puppeteer.launch({ headless: "new" });
@@ -205,6 +208,77 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  
+  for (let i = 0; i < arrLinkSotaXiaomi.length; i += 1) {
+    await page.goto(arrLinkSotaXiaomi[i]);
+    const n = await page.$("#txt");
+
+    let arr12 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if(document.getElementById("status") != null){
+        let idPost=document.getElementById("status").innerHTML;
+    }
+      if (document.querySelector(".price-new") != null) {
+        return text2 + "Sota: " + document.querySelector(".price-new").innerText;
+      } else {
+        return;
+      }
+    });
+
+    console.log(arr12);
+  }
+  for (let i = 0; i < arrLinkTouchXiaomi.length; i += 1) {
+    await page.goto(arrLinkTouchXiaomi[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return text2 + "Touch: " + document.querySelector(".price").innerText;
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIpodRomXiaomi.length; i += 1) {
+    await page.goto(arrLinkIpodRomXiaomi[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price__item") != null) {
+        return (
+          text2 +
+          "IpodRom: " +
+          document.querySelector(".product-price__item").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetXiaomi.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetXiaomi[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
 }
 f()
