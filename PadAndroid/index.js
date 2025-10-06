@@ -145,13 +145,139 @@ const arrLinkCtsSamsPad = [
 "https://www.ctrs.com.ua/planshety/samsung-galaxy-tab-active-5-wi-fi-128gb-blackgreen-sm-x300nzgaeuc-743381.html",
 "https://www.ctrs.com.ua/planshety/samsung-galaxy-tab-active-5-5g-128gb-blackgreen-sm-x306bzgaeuc-743380.html",
  ]
-const arrLinkSotaXiaomi = []
-const arrLinkTouchXiaomi = []
-const arrLinkIpodRomXiaomi = []
-const arrLinkMobilePlanetXiaomi = []
+const arrLinkSotaXiaomi = [
+  "https://sota.store/ua/planshet-xiaomi-pad-7-wifi-8-128gb-gray-vhu5476eu-ua-205225.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-wifi-8-128gb-blue-eu-208501.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-wifi-8-128gb-green-vhu5364eu-no-adapter-eu-209255.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-wifi-8-256gb-gray-vhu5498eu-vhu5241eu-no-adapter-eu-209495.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-wifi-8-256gb-blue-vhu5363eu-vhu5280eu-no-adapter-eu-209456.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-wifi-8-256gb-green-vhu5368eu-vhu5318eu-no-adapter-eu-209496.html",
+
+ 
+"https://sota.store/ua/planshet-xiaomi-pad-7-pro-wifi-8-256gb-gray-vhu5412eu-no-adapter-eu-209782.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-pro-wifi-8-256gb-blue-vhu5438eu-no-adapter-eu-210256.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-pro-wifi-8-256gb-green-vhu5443eu-no-adapter-eu-210255.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-pro-wifi-12-512gb-gray-vhu5422eu-ua-205241.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-pro-wifi-8-256gb-green-vhu5443eu-no-adapter-eu-210255.html",
+"https://sota.store/ua/planshet-xiaomi-pad-7-pro-wifi-8-256gb-blue-vhu5438eu-no-adapter-eu-210256.html",
+
+ 
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-2-wifi-4-128gb-graphite-gray-vhu5659eu-eu-215707.html",
+ 
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-2-wifi-4-128gb-mint-green-vhu5875eu-eu-215709.html",
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-2-wifi-8-256gb-graphite-gray-vhu5631eu-eu-215708.html",
+ 
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-2-wifi-8-256gb-mint-green-vhu5897eu-eu-215710.html",
+ 
+"https://sota.store/ua/xiaomi-redmi-pad-pro-6-128gb-wifi-gray-no-adapter-eu-182129.html",
+"https://sota.store/ua/xiaomi-redmi-pad-pro-6-128gb-wifi-green-no-adapter-eu-182128.html",
+"https://sota.store/ua/xiaomi-redmi-pad-pro-8-256gb-wifi-green-no-adapter-eu-184949.html",
+"https://sota.store/ua/xiaomi-redmi-pad-pro-5g-8-256gb-mint-green-vhu4819eu-ua-186859.html",
+
+ 
+
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-se-8-7-4-64gb-graphite-gray-eu-189431.html",
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-se-8-7-4-128gb-graphite-gray-eu-194132.html",
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-se-8-7-4-128gb-sky-blue-eu-194133.html",
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-se-8-7-6-128gb-graphite-gray-vhu4926eu-eu-188488.html",
+"https://sota.store/ua/xiaomi-redmi-pad-se-8-7-6-128gb-sky-blue-eu-187097.html",
+"https://sota.store/ua/planshet-xiaomi-redmi-pad-se-8-7-6-128gb-mint-green-eu-188564.html",
+]
+const arrLinkTouchXiaomi = [
+  "https://touch.com.ua/ua/item/xiaomi-pad-7-8-128gb-gray-with-adapter-global-eu/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-8-128gb-sky-blue-global-eu-129459-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-8-128gb-green-global-eu-129461-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-8-256gb-gray-global-eu-129463-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-8-256gb-sky-blue-with-adapter-global-eu/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-8-256gb-green-with-adapter-global-eu/",
+
+ 
+"https://touch.com.ua/ua/item/xiaomi-pad-7-pro-8-256gb-gray-global-eu-129468-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-pro-8-256gb-blue-global-eu-129471-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-pro-8-256gb-green-with-adapter-global-eu/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-pro-12-512gb-gray-with-adapter-global-eu-137430-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-pro-12-512gb-blue-with-adapter-global-eu/",
+"https://touch.com.ua/ua/item/xiaomi-pad-7-pro-12-512gb-green-with-adapter-global-eu/",
+
+ 
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-2-4-128gb-wi-fi-graphite-gray-137977-planshety-plansheti/",
+ 
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-2-4-128gb-wi-fi-mint-green-137979-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-2-8-256gb-wi-fi-graphite-gray-137980-planshety-plansheti/",
+"https://touch.com.ua/ua/item/planshet-redmi-pad-2-8-256gb-wi-fi-lavender-purple-global-eu-vhu5920eu/",
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-2-8-256gb-wi-fi-mint-green-137981-planshety-plansheti/",
+
+ 
+
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-se-8-7-4-64gb-graphite-gray-global-eu-113914-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-se-8-7-4-128gb-graphite-gray-global-eu-113918-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-se-8-7-4-128gb-sky-blue-global-eu-113919-planshety-plansheti/",
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-se-8-7-6-128gb-graphite-gray-global-eu-117817-smartfony-smartfoni/",
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-se-8-7-6-128gb-sky-blue-global-eu-117818-smartfony-smartfoni/",
+"https://touch.com.ua/ua/item/xiaomi-redmi-pad-se-8-7-6-128gb-mint-green-global-eu-117819-smartfony-smartfoni/",
+]
+const arrLinkIpodRomXiaomi = [
+  "https://ipodrom.ua/planshet-xiaomi-pad-7-8-128gb-gray-vhu5476eu/?utm_medium=cpc&utm_source=hotline&utm_campaign=Планшеты&utm_term=Xiaomi+Pad+7+8%2F128GB+Gray+%28VHU5476EU%29&utm_id=hotline_386&utm_content=6559",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-8-128gb-sky-blue-vhu5367eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-8-128gb-green-vhu5364eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-8-256gb-gray-vhu5498eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-8-256gb-sky-blue-vhu5363eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-8-256gb-green-vhu5368eu/",
+
+ 
+"https://ipodrom.ua/planshet-xiaomi-pad-7-pro-8-256gb-gray-vhu5412eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-pro-8-256gb-blue-vhu5438eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-pro-8-256gb-green-vhu5443eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-pro-12-512gb-gray-vhu5422eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-pro-12-512gb-blue-vhu5445eu/",
+"https://ipodrom.ua/planshet-xiaomi-pad-7-pro-12-512gb-green-vhu5439eu/",
+
+ 
+"https://ipodrom.ua/planshet-xiaomi-redmi-pad-pro-6-128gb-graphite-gray-vhu4737eu/",
+"https://ipodrom.ua/planshet-xiaomi-redmi-pad-pro-6-128gb-mint-green-vhu4725eu/",
+"https://ipodrom.ua/planshet-xiaomi-redmi-pad-pro-8-256gb-mint-green-vhu4729eu/",
+]
+const arrLinkMobilePlanetXiaomi = [
+  "https://mobileplanet.ua/xiaomi-pad-7-8-128gb-gray-vhu5476eu-339481",
+"https://mobileplanet.ua/xiaomi-pad-7-8-128gb-sky-blue-vhu5367eu-339483",
+"https://mobileplanet.ua/xiaomi-pad-7-8-128gb-green-vhu5364eu-339482",
+"https://mobileplanet.ua/xiaomi-pad-7-8-256gb-gray-vhu5498eu-339484",
+"https://mobileplanet.ua/xiaomi-pad-7-8-256gb-sky-blue-vhu5363eu-339486",
+"https://mobileplanet.ua/xiaomi-pad-7-8-256gb-green-vhu5368eu-339485",
+
+ 
+"https://mobileplanet.ua/xiaomi-pad-7-pro-8-256gb-gray-vhu5412eu-339491",
+"https://mobileplanet.ua/xiaomi-pad-7-pro-8-256gb-blue-vhu5438eu-339490",
+"https://mobileplanet.ua/xiaomi-pad-7-pro-8-256gb-green-vhu5443eu-339492",
+"https://mobileplanet.ua/xiaomi-pad-7-pro-12-512gb-gray-vhu5422eu-339488",
+"https://mobileplanet.ua/xiaomi-pad-7-pro-12-512gb-blue-vhu5445eu-339487",
+"https://mobileplanet.ua/xiaomi-pad-7-pro-12-512gb-green-vhu5439eu-339489",
+
+ 
+"https://mobileplanet.ua/xiaomi-redmi-pad-2-4-128gb-wi-fi-graphit-346222",
+ 
+"https://mobileplanet.ua/xiaomi-redmi-pad-2-4-128gb-wi-fi-mint-gr-356588",
+"https://mobileplanet.ua/xiaomi-redmi-pad-2-8-256gb-wi-fi-graphit-346223",
+"https://mobileplanet.ua/xiaomi-redmi-pad-2-8-256gb-wi-fi-lavende-352491",
+"https://mobileplanet.ua/xiaomi-redmi-pad-2-8-256gb-wi-fi-mint-gr-352492",
+
+ 
+"https://mobileplanet.ua/xiaomi-redmi-pad-pro-6-128gb-gray-europe-315958",
+"https://mobileplanet.ua/xiaomi-redmi-pad-pro-6-128gb-green-europ-315959",
+"https://mobileplanet.ua/xiaomi-redmi-pad-pro-8-256gb-green-europ-315962",
+ 
+ 
+
+"https://mobileplanet.ua/xiaomi-redmi-pad-se-8-7-4-64gb-wi-fi-gra-328207",
+"https://mobileplanet.ua/xiaomi-redmi-pad-se-8-7-4-128gb-wi-fi-gr-321662",
+"https://mobileplanet.ua/xiaomi-redmi-pad-se-8-7-4-128gb-wi-fi-sk-321663",
+"https://mobileplanet.ua/xiaomi-redmi-pad-se-8-7-6-128gb-wi-fi-gr-321670",
+ 
+"https://mobileplanet.ua/xiaomi-redmi-pad-se-8-7-6-128gb-wi-fi-au-321665",
+]
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
   for (let i = 0; i < arrLinkXiaomiPad.length; i += 1) {
