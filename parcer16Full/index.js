@@ -1071,6 +1071,188 @@ const arrLinkSkay17IPH = [
 ]
 
 
+const arrLinkJabko17IPHeSim = [
+  "https://jabko.ua/product/apple-iphone-17-pro-256gb-orange-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-256gb-dark-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-256gb-gray-e-sim",
+
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-512gb-orange-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-512gb-dark-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-512gb-gray-e-sim",
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-1tb-orange-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-1tb-dark-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-1tb-gray-e-sim",
+
+ 
+"https://jabko.ua/product/apple-iphone-17-pro-max-256gb-orange-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-256gb-dark-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-256gb-gray-e-sim",
+
+"https://jabko.ua/product/apple-iphone-17-pro-max-512gb-orange-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-512gb-dark-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-512gb-gray-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-1tb-orange-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-1tb-dark-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-1tb-gray-e-sim",
+
+"https://jabko.ua/product/apple-iphone-17-pro-max-2tb-orange-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-2tb-dark-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-pro-max-2tb-gray-e-sim",
+
+
+
+"https://jabko.ua/product/apple-iphone-17-air-256gb-black-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-256gb-light-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-256gb-white-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-256gb-light-gold-e-sim",
+
+"https://jabko.ua/product/apple-iphone-17-air-512gb-black-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-512gb-light-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-512gb-white-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-512gb-light-gold-e-sim",
+
+"https://jabko.ua/product/apple-iphone-17-air-128gb-black-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-128gb-light-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-128gb-white-e-sim",
+"https://jabko.ua/product/apple-iphone-17-air-128gb-light-gold-e-sim",
+]
+const arrLinkMobilePlanet17IPHeSim = [
+  "https://mobileplanet.ua/apple-iphone-17-pro-256gb-esim-cosmic-orange-mg7l4-354253",
+"https://mobileplanet.ua/apple-iphone-17-pro-256gb-esim-deep-blue-mg7m4-354254",
+"https://mobileplanet.ua/apple-iphone-17-pro-256gb-esim-silver-mg7k4-354255",
+
+"https://mobileplanet.ua/apple-iphone-17-pro-512gb-esim-cosmic-orange-mg7p4-354262",
+"https://mobileplanet.ua/apple-iphone-17-pro-512gb-esim-deep-blue-mg7q4-354263",
+"https://mobileplanet.ua/apple-iphone-17-pro-512gb-esim-silver-mg7n4-354264",
+
+"https://mobileplanet.ua/apple-iphone-17-pro-1tb-esim-cosmic-orange-mg7t4-354244",
+"https://mobileplanet.ua/apple-iphone-17-pro-1tb-esim-deep-blue-mg7u4-354245",
+"https://mobileplanet.ua/apple-iphone-17-pro-1tb-esim-silver-mg7r4-354246",
+
+"https://mobileplanet.ua/apple-iphone-17-pro-max-256gb-esim-cosmic-orange-m-354280",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-256gb-esim-deep-blue-mfxj4-354281",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-256gb-esim-silver-mfxg4-354282",
+
+"https://mobileplanet.ua/apple-iphone-17-pro-max-512gb-esim-cosmic-orange-m-354298",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-512gb-esim-deep-blue-mfxm4-354299",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-512gb-esim-silver-mfxk4-354300",
+
+"https://mobileplanet.ua/apple-iphone-17-pro-max-1tb-esim-cosmic-orange-mfx-354271",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-1tb-esim-deep-blue-mfxq4-354272",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-1tb-esim-silver-mfxn4-354273",
+
+"https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-esim-cosmic-orange-mfx-354289",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-esim-deep-blue-mfxu4-354290",
+"https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-esim-silver-mfxr4-354291",
+
+"https://mobileplanet.ua/apple-iphone-air-256gb-space-black-mg314-354323",
+"https://mobileplanet.ua/apple-iphone-air-256gb-sky-blue-mg364-354320",
+"https://mobileplanet.ua/apple-iphone-air-256gb-cloud-white-mg334-354314",
+"https://mobileplanet.ua/apple-iphone-air-256gb-light-gold-mg344-354317",
+
+"https://mobileplanet.ua/apple-iphone-air-512gb-space-black-mg374-354335",
+"https://mobileplanet.ua/apple-iphone-air-512gb-sky-blue-mg3c4-354332",
+"https://mobileplanet.ua/apple-iphone-air-512gb-cloud-white-mg394-354326",
+"https://mobileplanet.ua/apple-iphone-air-512gb-light-gold-mg3a4-354329",
+
+"https://mobileplanet.ua/apple-iphone-air-1tb-space-black-mg3d4-354311",
+"https://mobileplanet.ua/apple-iphone-air-1tb-sky-blue-mg3g4-354308",
+"https://mobileplanet.ua/apple-iphone-air-1tb-cloud-white-mg3e4-354302",
+"https://mobileplanet.ua/apple-iphone-air-1tb-light-gold-mg3f4-354305",
+]
+const arrLinkGro17IPHeSim = [
+  "https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-esim-cosmic-orange-mg7l4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-esim-deep-blue-mg7m4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-esim-silver-mg7k4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-512gb-esim-cosmic-orange-mg7p4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-512gb-esim-deep-blue-mg7q4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-512gb-esim-silver-mg7n4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-1tb-esim-cosmic-orange-mg7t4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-1tb-esim-deep-blue-mg7u4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-1tb-esim-silver-mg7r4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-256gb-esim-cosmic-orange-mfxh4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-256gb-esim-deep-blue-mfxj4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-256gb-esim-silver-mfxg4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-512gb-esim-cosmic-orange-mfxl4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-512gb-esim-deep-blue-mfxm4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-512gb-esim-silver-mfxk4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-1tb-esim-cosmic-orange-mfxp4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-1tb-esim-deep-blue-mfxq4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-1tb-esim-silver-mfxn4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-esim-cosmic-orange-mfxt4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-esim-deep-blue-mfxu4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-esim-silver-mfxr4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-256gb-space-black-mg314-mg184-mg2l4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-256gb-sky-blue-mg364-mg1d4-mg2p4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-256gb-cloud-white-mg334-mg194-mg2m4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-256gb-light-gold-mg344-mg1a4-mg2n4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-512gb-space-black-mg374-mg1e4-mg2q4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-512gb-sky-blue-mg3c4-mg1j4-mg2v4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-512gb-cloud-white-mg394-mg1g4-mg2t4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-512gb-light-gold-mg3a4-mg1h4-mg2u4/",
+
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-1tb-space-black-mg3d4-mg1l4-mg2w4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-1tb-sky-blue-mg3g4-mg1q4-mg304/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-1tb-cloud-white-mg3e4-mg1n4-mg2x4/",
+"https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-1tb-light-gold-mg3f4-mg1p4-mg2y4/",
+
+]
+const arrLinkEstore17IPHeSim = [
+"https://estore.ua/ua/iphone-17-pro-256gb-cosmic-orange-esim-mg7l4/?q=mg7l4",
+"https://estore.ua/ua/iphone-17-pro-256gb-deep-blue-esim-mg7m4/?q=mg7m4",
+"https://estore.ua/ua/iphone-17-pro-256gb-silver-esim-mg7k4/?q=mg7k4",
+
+
+"https://estore.ua/ua/iphone-17-pro-512gb-cosmic-orange-esim-mg7p4/?q=mg7p4",
+"https://estore.ua/ua/iphone-17-pro-512gb-deep-blue-esim-mg7q4/?q=mg7q4",
+"https://estore.ua/ua/iphone-17-pro-512gb-silver-esim-mg7n4/?q=mg7n4",
+
+"https://estore.ua/ua/iphone-17-pro-1tb-cosmic-orange-esim-mg7t4/?q=mg7t4",
+"https://estore.ua/ua/iphone-17-pro-1tb-deep-blue-esim-mg7u4/?q=mg7u4",
+"https://estore.ua/ua/iphone-17-pro-1tb-silver-esim-mg7r4/?q=mg7r4",
+
+"https://estore.ua/ua/iphone-17-pro-max-256gb-cosmic-orange-esim-mfxh4/?q=mfxh4",
+"https://estore.ua/ua/iphone-17-pro-max-256gb-deep-blue-esim-mfxj4/?q=mfxj4",
+"https://estore.ua/ua/iphone-17-pro-max-512gb-silver-esim-mfxk4-48819/?q=mfxg4",
+
+"https://estore.ua/ua/iphone-17-pro-max-512gb-cosmic-orange-esim-mfxl4/?q=mfxl4",
+"https://estore.ua/ua/iphone-17-pro-max-512gb-deep-blue-esim-mfxm4/?q=mfxm4",
+"https://estore.ua/ua/iphone-17-pro-max-512gb-silver-esim-mfxk4/?q=mfxk4",
+
+"https://estore.ua/ua/iphone-17-pro-max-1tb-cosmic-orange-esim-mfxp4/?q=mfxp4",
+"https://estore.ua/ua/iphone-17-pro-max-1tb-deep-blue-esim-mfxq4/?q=mfxq4",
+"https://estore.ua/ua/iphone-17-pro-max-1tb-silver-esim-mfxn4/?q=mfxn4",
+
+"https://estore.ua/ua/iphone-17-pro-max-2tb-cosmic-orange-esim-mfxt4/?q=mfxt4",
+"https://estore.ua/ua/iphone-17-pro-max-2tb-deep-blue-esim-mfxu4/?q=mfxu4",
+"https://estore.ua/ua/iphone-17-pro-max-2tb-silver-esim-mfxr4/?q=mfxr4",
+
+"https://estore.ua/ua/iphone-17-air-256gb-space-black-mg2l4/?q=mg2l4",
+"https://estore.ua/ua/iphone-17-air-256gb-sky-blue-mg2p4/?q=mg2p4",
+"https://estore.ua/ua/iphone-17-air-256gb-cloud-white-mg2m4/?q=mg2m4",
+"https://estore.ua/ua/iphone-17-air-256gb-light-gold-mg2n4/?q=mg2n4",
+
+"https://estore.ua/ua/iphone-17-air-512gb-space-black-mg2q4/?q=mg2q4",
+"https://estore.ua/ua/iphone-17-air-512gb-sky-blue-mg2v4/?q=mg2v4",
+"https://estore.ua/ua/iphone-17-air-512gb-cloud-white-mg2t4/?q=mg2t4",
+"https://estore.ua/ua/iphone-17-air-512gb-light-gold-mg2u4/?q=mg2u4",
+
+"https://estore.ua/ua/iphone-17-air-1tb-space-black-mg2w4/?q=mg2w4",
+"https://estore.ua/ua/iphone-17-air-1tb-sky-blue-mg304/?q=mg304",
+"https://estore.ua/ua/iphone-17-air-1tb-cloud-white-mg2x4/?q=mg2x4",
+"https://estore.ua/ua/iphone-17-air-1tb-light-gold-mg2y4/?q=mg2y4",
+]
+
 
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
@@ -1550,6 +1732,78 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
   
+  for (let i = 0; i < arrLinkJabko17IPHeSim.length; i += 1) {
+    await page.goto(arrLinkJabko17IPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet17IPHeSim.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet17IPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGro17IPHeSim.length; i += 1) {
+    await page.goto(arrLinkGro17IPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore17IPHeSim.length; i += 1) {
+    await page.goto(arrLinkEstore17IPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".regular-price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".regular-price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 
   // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
