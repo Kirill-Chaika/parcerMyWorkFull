@@ -1084,6 +1084,139 @@ const arrLinkEstoreAWS11Serios2025 = [
 ]
 
 
+const arrLinkJabkoAWSUltraSE32025 = [
+  "https://jabko.ua/product/apple-watch-se-3-gps-40mm-midnight-aluminum-case-with-midnight-sport-band-sm",
+"https://jabko.ua/product/apple-watch-se-3-gps-40mm-midnight-aluminum-case-with-midnight-sport-band-ml",
+"https://jabko.ua/product/apple-watch-se-3-gps-40mm-starlight-aluminum-case-with-starlight-sport-band-sm",
+"https://jabko.ua/product/apple-watch-se-3-gps-40mm-starlight-aluminum-case-with-starlight-sport-band-ml",
+
+"https://jabko.ua/product/apple-watch-se-3-gps-44mm-midnight-aluminum-case-with-midnight-sport-band-sm",
+"https://jabko.ua/product/apple-watch-se-3-gps-44mm-midnight-aluminum-case-with-midnight-sport-band-ml",
+"https://jabko.ua/product/apple-watch-se-3-gps-44mm-starlight-aluminum-case-with-starlight-sport-band-sm",
+"https://jabko.ua/product/apple-watch-se-3-gps-44mm-starlight-aluminum-case-with-starlight-sport-band-ml",
+
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-anchor-blue-ocean-band",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-black-ocean-band",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-blackcharcoal-trail-loop---sm",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-blackcharcoal-trail-loop---ml",
+
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-black-alpine-loop---small",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-black-alpine-loop---medium",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-black-alpine-loop---large",
+
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-bluebright-blue-trail-loop---sm",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-bluebright-blue-trail-loop---ml",
+
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-light-blue-alpine-loop---small",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-light-blue-alpine-loop---medium",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-light-blue-alpine-loop---large",
+
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---small",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---medium",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---large",
+
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-black-titanium-milanese-loop---small",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-black-titanium-milanese-loop---medium",
+"https://jabko.ua/product/apple-watch-ultra-3-gps--lte-49mm-black-titanium-case-with-black-titanium-milanese-loop---large",
+]
+const arrLinkMobilePlanetUltraSE32025 = [
+  "https://mobileplanet.ua/apple-watch-se-3-gps-40mm-midnight-alu-case-w-midn-354720",
+"https://mobileplanet.ua/apple-watch-se-3-gps-40mm-starlight-alu-case-w-sta-354722",
+"https://mobileplanet.ua/apple-watch-se-3-gps-44mm-midnight-alu-case-w-midn-354723",
+"https://mobileplanet.ua/apple-watch-se-3-gps-44mm-starlight-alu-case-w-sta-354725",
+
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-natural-tit-354813",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354796",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354801",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354800",
+
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354795",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354794",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354793",
+
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-natural-tit-354820",
+
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-natural-tit-354825",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-natural-tit-354824",
+
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-natural-tit-354828",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-natural-tit-354827",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-natural-tit-354826",
+
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354799",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354798",
+"https://mobileplanet.ua/apple-watch-ultra-3-gps-cellular-49mm-black-tit-ca-354797",
+]
+const arrLinkGroAWS10andUltraSE32025 = [
+  "https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-40mm-midnight-alu-case-w-midnight-s-band-s-m-meh94/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-40mm-midnight-alu-case-w-midnight-s-band-m-l-mehc4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-40mm-starlight-alu-case-w-starlight-s-band-s-m-meh34/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-40mm-starlight-alu-case-w-starlight-s-band-m-l-meh54/",
+
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-44mm-midnight-alu-case-w-midnight-s-band-s-m-mehn4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-44mm-midnight-alu-case-w-midnight-s-band-m-l-mehq4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-44mm-starlight-alu-case-w-starlight-s-band-s-m-mehg4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-se-3/smart-godinnik-apple-watch-se-3-gps-44mm-starlight-alu-case-w-starlight-s-band-m-l-mehj4/",
+
+
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-anchor-blue-ocean-band-mewh4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-ocean-band-mf0j4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-charcoal-trail-loop-s-m-mf1d4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-charcoal-trail-loop-m-l-mf1h4/",
+
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-alpine-loop-small-mf0q4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-alpine-loop-medium-mf0v4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-alpine-loop-large-mf0x4/",
+
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-blue-bright-blue-trail-loop-s-m-mewr4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-blue-bright-blue-trail-loop-m-l-mewu4/",
+
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-light-blue-alpine-loop-small-mewk4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-light-blue-alpine-loop-medium-mewm4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-light-blue-alpine-loop-large-mewp4/",
+
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-natural-tit-milanese-loop-small-meww4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-natural-tit-milanese-loop-medium-mewy4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-natural-tit-case-w-natural-tit-milanese-loop-large-mf0e4/",
+
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-tit-milanese-loop-small-mf1n4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-tit-milanese-loop-medium-mf1q4/",
+"https://grokholsky.com/product/apple/apple-watch/apple-watch-ultra-3/smart-godinnik-apple-watch-ultra-3-gps-cellular-49mm-black-tit-case-w-black-tit-milanese-loop-large-mf1t4/",
+]
+const arrLinkEstoreAWSUltraSE32025 = [
+  "https://estore.ua/ua/apple-watch-se-3-gps-40mm-midnight-aluminium-case-with-sport-band/?q=meh94",
+"https://estore.ua/ua/apple-watch-se-3-gps-40mm-midnight-aluminum-case-with-midnight-sport-band-m-l-mehc4/?q=mehc4",
+"https://estore.ua/ua/apple-watch-se-3-gps-40mm-starlight-aluminium-case-with-sport-band/?q=meh34",
+"https://estore.ua/ua/apple-watch-se-3-gps-40mm-starlight-aluminium-case-with-starlight-sport-band-m-l-meh54/",
+
+"https://estore.ua/ua/apple-watch-se-3-gps-44mm-midnight-aluminium-case-with-sport-band/",
+"https://estore.ua/ua/apple-watch-se-3-gps-44mm-midnight-aluminium-case-with-midnight-sport-band-m-l-mehq4/?q=mehq4",
+"https://estore.ua/ua/apple-watch-se-3-gps-44mm-starlight-aluminium-case-with-sport-band/?q=mehg4",
+"https://estore.ua/ua/apple-watch-se-3-gps-44mm-starlight-aluminium-case-with-starlight-sport-band-m-l-mehj4/?q=mehj4",
+
+"https://estore.ua/ua/apple-watch-ultra-3-titanium-case-with-blue-ocean-band/?q=mewh4",
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-ocean-band/?q=mf0j4",
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-charcoal-trail-loop-s-m-mf1d4/?q=mf1d4",
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-blackcharcoal-trail-loop/",
+
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-alpine-loop/?q=mf0q4",
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-alpine-loop-medium-mf0v4/?q=mf0v4",
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-alpine-loop-large-mf0x4/?q=mf0x4",
+
+"https://estore.ua/ua/apple-watch-ultra-3-natural-titanium-case-with-blue-bright-blue-trail-loop-s-m-mewr4/?q=mewr4",
+"https://estore.ua/ua/apple-watch-ultra-3-titanium-case-with-blueblack-trail-loop/?q=mewu4",
+
+"https://estore.ua/ua/apple-watch-ultra-3-titanium-case-with-blue-alpine-loop/?q=mewk4",
+"https://estore.ua/ua/apple-watch-ultra-3-natural-titanium-case-with-light-blue-alpine-loop-medium-mewm4/?q=mewm4",
+"https://estore.ua/ua/apple-watch-ultra-3-natural-titanium-case-with-light-blue-alpine-loop-large-mewp4/",
+
+"https://estore.ua/ua/apple-watch-ultra-3-natural-titanium-case-with-natural-titanium-milanese-loop-small-meww4/?q=meww4",
+"https://estore.ua/ua/apple-watch-ultra-3-natural-titanium-case-with-natural-titanium-milanese-loop-medium-mewy4/?q=mewy4",
+"https://estore.ua/ua/apple-watch-ultra-3-natural-titanium-case-with-natural-titanium-milanese-loop-large-mf0e4/",
+
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-titanium-milanese-loop-small-mf1n4/?q=mf1n4",
+"https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-titanium-milanese-loop-medium-mf1q4/?q=mf1q4",
+]
 
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
@@ -1540,6 +1673,79 @@ async function f() {
   }
   for (let i = 0; i < arrLinkEstoreAWS11Serios2025.length; i += 1) {
     await page.goto(arrLinkEstoreAWS11Serios2025[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  for (let i = 0; i < arrLinkJabkoAWSUltraSE32025.length; i += 1) {
+    await page.goto(arrLinkJabkoAWSUltraSE32025[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetUltraSE32025.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetUltraSE32025[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  } 
+  for (let i = 0; i < arrLinkGroAWS10andUltraSE32025.length; i += 1) {
+    await page.goto(arrLinkGroAWS10andUltraSE32025[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreAWSUltraSE32025.length; i += 1) {
+    await page.goto(arrLinkEstoreAWSUltraSE32025[i]);
     const n = await page.$("#txt");
 
     let arr2 = await page.evaluate(() => {
