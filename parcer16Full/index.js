@@ -957,12 +957,12 @@ const arrLinkYabloki17 = [
 "https://yabloki.ua/iphone-17-pro-256-gb-deep-blue.html",
 "https://yabloki.ua/iphone-17-pro-256-gb-white-silver.html",
  
-"https://yabloki.ua/iphone-17-pro-512-gb-dark-titanium.html",
+"https://yabloki.ua/iphone-17-pro-512-gb-orange-now.html",
 "https://yabloki.ua/iphone-17-pro-512-gb-deep-blue.html",
 "https://yabloki.ua/iphone-17-pro-512-gb-silver.html",
  
 "https://yabloki.ua/iphone-17-pro-1-tb-cosmic-orange.html",
-"https://yabloki.ua/iphone-17-pro-1-tb-deep-blue.html",
+"https://yabloki.ua/iphone-17-pro-1-tb-navy-now.html",
 "https://yabloki.ua/iphone-17-pro-1-tb-silver.html",
  
 "https://yabloki.ua/iphone-17-pro-max-256-gb-orange.html",
