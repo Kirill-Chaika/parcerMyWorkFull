@@ -752,7 +752,7 @@ const arrLinkJabkoAWS10andUltra2024 = [
 const arrLinkiPeopleAWS10andUltra2024 = [
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-alu-case-w-denim-sport-band---sm-mwwa3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-alu-case-w-denim-sport-band---ml-mwwc3",
-  // "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwd3",
+  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwd3",
 
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-jet-black-alu-case-w-black-sport-band---sm-mwwe3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-jet-black-aluminum-case-with-black-sport-band---ml-mxlk3",
@@ -761,9 +761,9 @@ const arrLinkiPeopleAWS10andUltra2024 = [
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---sm-mwwh3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---ml-mwwj3",
 
-  // "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---sm-mwwl3",
+  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---sm-mwwl3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---ml-mwwm3",
-  // "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwn3",
+  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwn3",
 
   "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---sm-mwwp3",
   "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---ml-mwwq3",
@@ -775,20 +775,20 @@ const arrLinkiPeopleAWS10andUltra2024 = [
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-ocean-band-mx4p3",
 
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---sm-mx4w3",
-  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---ml-mx5u3",
-  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---xl-mx5v3",
+  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---ml-mx5u3",
+  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---xl-mx5v3",
 
 
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---m-mx4r3",
   "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---l-mx4t3",
 
-  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---sm-mx4u3",
-  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---ml-mx4v3",
+  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---sm-mx4u3",
+  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---ml-mx4v3",
 
 
-  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---sm-mx4m3",
-  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---ml-mx5r3",
-  // "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---xl-mx5t3",
+  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---sm-mx4m3",
+  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---ml-mx5r3",
+  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---xl-mx5t3",
 ];
 const arrLinkEstoreAWS10andUltra2024 = [
   "https://estore.ua/ua/apple-watch-series-10-silver-aluminium-case-with-sport-band/?q=mwwa3",
@@ -1476,15 +1476,15 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".usd").innerText;
-      if (document.querySelector(".usd") != null) {
-        return (
-          text2 + "iPeople: " + document.querySelector(".usd").innerText
-        );
-      } else {
-        return;
-      }
-    });
+  const usd = document.querySelector(".usd");
+
+  if (usd) {
+    const text2 = usd.innerText.trim();
+    return `${text2} iPeople: ${usd.innerText.trim()}`;
+  } else {
+    return "⚠️ Нет .usd";
+  }
+});
 
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
@@ -1494,15 +1494,20 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("p .price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector("p .price").innerText
-        );
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
       } else {
         return text2;
       }
-    });
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
 
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
@@ -1512,15 +1517,20 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector(".price").innerText
-        );
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
       } else {
         return text2;
       }
-    });
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
 
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
@@ -1676,15 +1686,20 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector(".price").innerText
-        );
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
       } else {
         return text2;
       }
-    });
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
 
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
@@ -1749,15 +1764,20 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector(".price").innerText
-        );
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
       } else {
         return text2;
       }
-    });
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
 
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);

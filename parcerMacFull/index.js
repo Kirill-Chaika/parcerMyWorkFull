@@ -725,7 +725,7 @@ const arrLinkIStoreMacAirM4 = [
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-midnight/",
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-sky-blue-mc6v4/",
 "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-starlight/",
-// "https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-silver/", 
+"https://www.istore.ua/ua/item/apple-macbook-air-13-m4-24-512gb-silver/", 
 
 
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-midnight/",
@@ -733,15 +733,15 @@ const arrLinkIStoreMacAirM4 = [
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-starlight-mw1j3/",
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-256gb-silver/", 
 
-// "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-midnight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-midnight/",
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-sky-blue-mc7c4/",
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-starlight/",
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-16-512gb-silver/", 
 
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-midnight/",
 "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-sky-blue-mc7d4/",
-// "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-starlight/",
-// "https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-silver/", 
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-starlight/",
+"https://www.istore.ua/ua/item/apple-macbook-air-15-m4-24-512gb-silver/", 
 ]
 const arrLinkMobilePlanetMacAirM4 = [
   "https://mobileplanet.ua/apple-macbook-air-13-6-m3-24-512gb-midnight-late-2-328622",
@@ -1191,15 +1191,20 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  const h1 = document.querySelector("h1");
+  const price = document.querySelector(".product_price");
+
+  if (h1) {
+    const text2 = h1.innerText.trim();
+    if (price) {
+      return `${text2} I: ${price.innerText.trim()}`;
+    } else {
+      return text2;
+    }
+  } else {
+    return "⚠️ Нет H1";
+  }
+});
 
     console.log(arr4);
     await page.setDefaultNavigationTimeout(0);
