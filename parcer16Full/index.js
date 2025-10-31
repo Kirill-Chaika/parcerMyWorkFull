@@ -1391,6 +1391,44 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+  for (let i = 0; i < arrLinkYua16.length; i += 1) {
+    await page.goto(arrLinkYua16[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price .regular") != null) {
+        return (
+          text2 + "Yua: " + document.querySelector(".price .regular").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
+    await page.goto(arrLinkYabloki16[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price-title") != null) {
+        return (
+          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  
   for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
     await page.goto(arrLinkJabko16eIPH[i]);
     const n = await page.$("#txt");
@@ -1506,42 +1544,7 @@ async function f() {
   }
 
 
-  for (let i = 0; i < arrLinkYua16.length; i += 1) {
-    await page.goto(arrLinkYua16[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price .regular") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price .regular").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
-    await page.goto(arrLinkYabloki16[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  
   for (let i = 0; i < arrLinkYua16e.length; i += 1) {
     await page.goto(arrLinkYua16e[i]);
     const n = await page.$("#txt");
