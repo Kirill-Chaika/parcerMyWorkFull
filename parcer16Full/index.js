@@ -510,11 +510,11 @@ const arrLinkiPeople16 = [
 "https://www.ipeople.in.ua/products/apple-iphone-16-256gb-pink-myeg3",
 "https://www.ipeople.in.ua/products/apple-iphone-16-256gb-teal-myej3",
 
-// "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-black-myek3",
-// "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-ultramarine-myer3",
-// "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-white-myep3",
-// "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-pink-myeq3",
-// "https://www.ipeople.in.ua/products/apple-iphone-16-512gb-teal-myeu3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-black-myek3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-ultramarine-myer3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-white-myep3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-pink-myeq3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-512gb-teal-myeu3",
 
 
 
@@ -530,11 +530,11 @@ const arrLinkiPeople16 = [
 "https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-pink",
 "https://www.ipeople.in.ua/products/apple-iphone-16-plus-256gb-teal-mxy53",
 
-// "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-black-my1p3",
-// "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-ultramarine-my2d3",
-// "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-white-my1x3",
-// "https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Plus+512GB+Pink+%28MY253%29",
-// "https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-teal-my2j3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-black-my1p3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-ultramarine-my2d3",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-white-my1x3",
+"https://www.ipeople.in.ua/products?keyword=Apple+iPhone+16+Plus+512GB+Pink+%28MY253%29",
+"https://www.ipeople.in.ua/products/apple-iphone-16-plus-512gb-teal-my2j3",
 
 
 
@@ -779,8 +779,8 @@ const arrLinkEstore16eIPH = [
 "https://estore.ua/ua/iphone-16e-512gb-black/",
 ];
 const arrLinkiPeople16e = [
-//   "https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-white-md1r4",
-// "https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-black-md1q4",
+  "https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-white-md1r4",
+"https://www.ipeople.in.ua/products/apple-iphone-16e-128gb-black-md1q4",
 
 "https://www.ipeople.in.ua/products/apple-iphone-16e-256gb-white-md1w4",
 "https://www.ipeople.in.ua/products/apple-iphone-16e-256gb-black-md1t4",
@@ -1377,15 +1377,15 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".usd").innerText;
-      if (document.querySelector(".usd") != null) {
-        return (
-          text2 + "iPeople: " + document.querySelector(".usd").innerText
-        );
-      } else {
-        return ;
-      }
-    });
+  const usd = document.querySelector(".usd");
+
+  if (usd) {
+    const text2 = usd.innerText.trim();
+    return `${text2} iPeople: ${text2}`;
+  } else {
+    return "⚠️ Нет .usd";
+  }
+});
 
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
@@ -1491,15 +1491,15 @@ async function f() {
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".usd").innerText;
-      if (document.querySelector(".usd") != null) {
-        return (
-          text2 + "iPeople: " + document.querySelector(".usd").innerText
-        );
-      } else {
-        return ;
-      }
-    });
+  const usd = document.querySelector(".usd");
+
+  if (usd) {
+    const text2 = usd.innerText.trim();
+    return `${text2} iPeople: ${text2}`;
+  } else {
+    return "⚠️ Нет .usd";
+  }
+});
 
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
