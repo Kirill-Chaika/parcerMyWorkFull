@@ -956,7 +956,7 @@ async function f() {
           text2 + "J: " + document.querySelector(".price-new__uah").innerText
         );
       } else {
-        return text2;
+        return "⚠️ Нет H1";
       }
     });
 
