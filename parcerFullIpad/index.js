@@ -547,7 +547,7 @@ async function f() {
           text2 + "J: " + document.querySelector(".price-new__uah").innerText
         );
       } else {
-        return text2;
+        return "Нет";
       }
     });
 
@@ -565,7 +565,7 @@ async function f() {
           text2 + "Estore: " + document.querySelector("p .price").innerText
         );
       } else {
-        return text2;
+        return "Нет";
       }
     });
 
@@ -583,7 +583,7 @@ async function f() {
           text2 + "iPeople: " + document.querySelector(".usd").innerText
         );
       } else {
-        return ;
+        return "Нет";
       }
     });
 
@@ -603,7 +603,7 @@ async function f() {
           text2 + "Astore: " + document.querySelector(".usd_price").innerText
         );
       } else {
-        return ;
+        return "Нет";
       }
     });
 
@@ -621,7 +621,7 @@ async function f() {
           text2 + "PulsePad: " + document.querySelector(".fn_price").innerText
         );
       } else {
-        return ;
+        return "Нет";
       }
     });
 
@@ -629,23 +629,28 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkiChinaGadjetStarlink.length; i += 1) {
-    await page.goto(arrLinkiChinaGadjetStarlink[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkiChinaGadjetStarlink[i]);
+  const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".product-name").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "ChinaGadjet: " + document.querySelector(".price").innerText
-        );
+  let arr3 = await page.evaluate(() => {
+    const name = document.querySelector(".product-name");
+    const price = document.querySelector(".price");
+
+    if (name) {
+      const text2 = name.innerText.trim();
+      if (price) {
+        return `${text2} ChinaGadjet: ${price.innerText.trim()}`;
       } else {
-        return ;
+        return `${text2} ChinaGadjet: нет цены`;
       }
-    });
+    } else {
+      return "⚠️ Нет .product-name";
+    }
+  });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  console.log(arr3);
+  await page.setDefaultNavigationTimeout(0);
+}
 
 }
 f();
