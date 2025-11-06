@@ -807,7 +807,7 @@ const arrLinkYabloki16e = [
 
 ];
 
-const arrLinkJabko17IPH = [
+const arrLinkJabko17ProIPH = [
   "https://jabko.ua/product/apple-iphone-17-pro-256gb-orange",
 "https://jabko.ua/product/apple-iphone-17-pro-256gb-dark-blue",
 "https://jabko.ua/product/apple-iphone-17-pro-256gb-gray",
@@ -836,7 +836,7 @@ const arrLinkJabko17IPH = [
 "https://jabko.ua/product/apple-iphone-17-pro-max-2tb-dark-blue",
 "https://jabko.ua/product/apple-iphone-17-pro-max-1tb-gray_5zxg",
 ]
-const arrLinkMobilePlanet17IPH = [
+const arrLinkMobilePlanet17ProIPH = [
   "https://mobileplanet.ua/apple-iphone-17-pro-256gb-cosmic-orange-mg8h4-354248",
 "https://mobileplanet.ua/apple-iphone-17-pro-256gb-deep-blue-mg8j4-354249",
 "https://mobileplanet.ua/apple-iphone-17-pro-256gb-silver-mg8g4-354256",
@@ -865,7 +865,7 @@ const arrLinkMobilePlanet17IPH = [
 "https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-deep-blue-mg014-354285",
 "https://mobileplanet.ua/apple-iphone-17-pro-max-2tb-silver-mfyy4-354292",
 ]
-const arrLinkGro17IPH = [
+const arrLinkGro17ProIPH = [
   "https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-cosmic-orange-mg8h4/",
 "https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-deep-blue-mg8j4/",
 "https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-silver-mg8g4/",
@@ -894,7 +894,7 @@ const arrLinkGro17IPH = [
 "https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-deep-blue-mg014/",
 "https://grokholsky.com/ua/product/apple/iphone/iphone-17-pro-max/smartfon-apple-iphone-17-pro-max-2tb-silver-mfyy4/",
 ]
-const arrLinkEstore17IPH = [
+const arrLinkEstore17ProIPH = [
   "https://estore.ua/ua/iphone-17-pro-256gb-cosmic-orange-mg8h4/?q=mg8h4",
 "https://estore.ua/ua/iphone-17-pro-256gb-deep-blue-mg8j4/?q=mg8j4",
 "https://estore.ua/ua/iphone-17-pro-256gb-silver-mg8g4/?q=mg8g4",
@@ -923,7 +923,7 @@ const arrLinkEstore17IPH = [
 "https://estore.ua/ua/iphone-17-pro-max-2tb-deep-blue/?q=mg014",
 "https://estore.ua/ua/iphone-17-pro-max-2tb-silver/?q=mfyy4",
 ]
-const arrLinkYua17 = [
+const arrLinkYua17Pro = [
   "https://y.ua/apple-iphone-17-pro-256gb-cosmic-orange/p1441914/",
 "https://y.ua/apple-iphone-17-pro-256gb-deep-blue/p1441913/",
 "https://y.ua/apple-iphone-17-pro-256gb-silver/p1441915/",
@@ -952,7 +952,7 @@ const arrLinkYua17 = [
 "https://y.ua/apple-iphone-17-pro-max-2tb-deep-blue/p1441931/",
 "https://y.ua/apple-iphone-17-pro-max-2tb-silver/p1441933/",
 ]
-const arrLinkYabloki17 = [
+const arrLinkYabloki17Pro = [
   "https://yabloki.ua/iphone-17-pro-256-gb-cosmic-orange.html",
 "https://yabloki.ua/iphone-17-pro-256-gb-deep-blue.html",
 "https://yabloki.ua/iphone-17-pro-256-gb-white-silver.html",
@@ -981,7 +981,7 @@ const arrLinkYabloki17 = [
 "https://yabloki.ua/iphone-17-pro-max-2-tb-deep-blue.html",
 "https://yabloki.ua/iphone-17-pro-max-2-tb-silver.html",
 ]
-const arrLinkCts17IPH = [
+const arrLinkCts17ProIPH = [
   "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-cosmic-orange-apple-775206.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-deep-blue-apple-775207.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-silver-apple-775202.html",
@@ -1010,7 +1010,7 @@ const arrLinkCts17IPH = [
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-deep-blue-apple-775243.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-silver-apple-775244.html",
 ]
-const arrLinkCts17IPHinfo = [
+const arrLinkCts17ProIPHinfo = [
   "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-cosmic-orange-apple-775206.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-deep-blue-apple-775207.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-silver-apple-775202.html",
@@ -1039,7 +1039,7 @@ const arrLinkCts17IPHinfo = [
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-deep-blue-apple-775243.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-2tb-silver-apple-775244.html",
 ]
-const arrLinkSkay17IPH = [
+const arrLinkSkay17ProIPH = [
 
 "https://skay.ua/iphone-17-pro/80210-apple-iphone-17-pro-256gb-cosmic-orange-mg8h4.html",
 "https://skay.ua/iphone-17-pro/80208-apple-iphone-17-pro-256gb-deep-blue-mg8j4.html",
@@ -1071,7 +1071,7 @@ const arrLinkSkay17IPH = [
 ]
 
 
-const arrLinkJabko17IPHeSim = [
+const arrLinkJabko17ProIPHeSim = [
   "https://jabko.ua/product/apple-iphone-17-pro-256gb-orange-e-sim",
 "https://jabko.ua/product/apple-iphone-17-pro-256gb-dark-blue-e-sim",
 "https://jabko.ua/product/apple-iphone-17-pro-256gb-gray-e-sim",
@@ -1118,7 +1118,7 @@ const arrLinkJabko17IPHeSim = [
 "https://jabko.ua/product/apple-iphone-17-air-128gb-white-e-sim",
 "https://jabko.ua/product/apple-iphone-17-air-128gb-light-gold-e-sim",
 ]
-const arrLinkMobilePlanet17IPHeSim = [
+const arrLinkMobilePlanet17ProIPHeSim = [
   "https://mobileplanet.ua/apple-iphone-17-pro-256gb-esim-cosmic-orange-mg7l4-354253",
 "https://mobileplanet.ua/apple-iphone-17-pro-256gb-esim-deep-blue-mg7m4-354254",
 "https://mobileplanet.ua/apple-iphone-17-pro-256gb-esim-silver-mg7k4-354255",
@@ -1162,7 +1162,7 @@ const arrLinkMobilePlanet17IPHeSim = [
 "https://mobileplanet.ua/apple-iphone-air-1tb-cloud-white-mg3e4-354302",
 "https://mobileplanet.ua/apple-iphone-air-1tb-light-gold-mg3f4-354305",
 ]
-const arrLinkGro17IPHeSim = [
+const arrLinkGro17ProIPHeSim = [
   "https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-esim-cosmic-orange-mg7l4/",
 "https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-esim-deep-blue-mg7m4/",
 "https://grokholsky.com/product/apple/iphone/iphone-17-pro/smartfon-apple-iphone-17-pro-256gb-esim-silver-mg7k4/",
@@ -1207,7 +1207,7 @@ const arrLinkGro17IPHeSim = [
 "https://grokholsky.com/product/apple/iphone/iphone-17-air/smartfon-apple-iphone-air-1tb-light-gold-mg3f4-mg1p4-mg2y4/",
 
 ]
-const arrLinkEstore17IPHeSim = [
+const arrLinkEstore17ProIPHeSim = [
 "https://estore.ua/ua/iphone-17-pro-256gb-cosmic-orange-esim-mg7l4/?q=mg7l4",
 "https://estore.ua/ua/iphone-17-pro-256gb-deep-blue-esim-mg7m4/?q=mg7m4",
 "https://estore.ua/ua/iphone-17-pro-256gb-silver-esim-mg7k4/?q=mg7k4",
@@ -1252,6 +1252,138 @@ const arrLinkEstore17IPHeSim = [
 "https://estore.ua/ua/iphone-17-air-1tb-cloud-white-mg2x4/?q=mg2x4",
 "https://estore.ua/ua/iphone-17-air-1tb-light-gold-mg2y4/?q=mg2y4",
 ]
+
+const arrLinkJabko17IPH = [
+  "https://jabko.ua/product/apple-iphone-17-256gb-black",
+"https://jabko.ua/product/apple-iphone-17-256gb-white",
+"https://jabko.ua/product/apple-iphone-17-256gb-light-blue",
+"https://jabko.ua/product/apple-iphone-17-256gb-green",
+"https://jabko.ua/product/apple-iphone-17-256gb-purple",
+ 
+"https://jabko.ua/product/apple-iphone-17-512gb-black",
+"https://jabko.ua/product/apple-iphone-17-512gb-white",
+"https://jabko.ua/product/apple-iphone-17-512gb-light-blue",
+"https://jabko.ua/product/apple-iphone-17-512gb-green",
+"https://jabko.ua/product/apple-iphone-17-512gb-purple",
+
+ 
+"https://jabko.ua/product/apple-iphone-17-256gb-black-e-sim",
+"https://jabko.ua/product/apple-iphone-17-256gb-white-e-sim",
+"https://jabko.ua/product/apple-iphone-17-256gb-light-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-256gb-green-e-sim",
+"https://jabko.ua/product/apple-iphone-17-256gb-purple-e-sim",
+
+ 
+"https://jabko.ua/product/apple-iphone-17-512gb-black-e-sim",
+"https://jabko.ua/product/apple-iphone-17-512gb-white-e-sim",
+"https://jabko.ua/product/apple-iphone-17-512gb-light-blue-e-sim",
+"https://jabko.ua/product/apple-iphone-17-512gb-green-e-sim",
+"https://jabko.ua/product/apple-iphone-17-512gb-purple-e-sim",
+]
+const arrLinkMobilePlanet17IPH = [
+  "https://mobileplanet.ua/apple-iphone-17-256gb-black-mg6j4-354209",
+"https://mobileplanet.ua/apple-iphone-17-256gb-white-mg6k4-354223",
+"https://mobileplanet.ua/apple-iphone-17-256gb-mist-blue-mg6l4-354221",
+"https://mobileplanet.ua/apple-iphone-17-256gb-sage-mg6n4-354222",
+"https://mobileplanet.ua/apple-iphone-17-256gb-lavender-mg6m4-354220",
+
+"https://mobileplanet.ua/apple-iphone-17-512gb-black-mg6p4-354224",
+"https://www.google.com/",
+"https://mobileplanet.ua/apple-iphone-17-512gb-mist-blue-mg6t4-354236",
+"https://www.google.com/",
+"https://www.google.com/",
+
+"https://mobileplanet.ua/apple-iphone-17-256gb-esim-black-mg464-354215",
+"https://mobileplanet.ua/apple-iphone-17-256gb-esim-white-mg474-354219",
+"https://mobileplanet.ua/apple-iphone-17-256gb-esim-mist-blue-mg484-354217",
+"https://mobileplanet.ua/apple-iphone-17-256gb-esim-sage-mg4a4-354218",
+"https://mobileplanet.ua/apple-iphone-17-256gb-esim-lavender-mg494-354216",
+
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/"
+
+]
+const arrLinkGro17IPH = [
+  "https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-black-mg6j4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-white-mg6k4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-mist-blue-mg6l4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-sage-mg6n4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-lavender-mg6m4/",
+
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-black-mg6p4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-white-mg6q4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-mist-blue-mg6t4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-sage-mg6v4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-lavender-mg6u4/",
+
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-esim-black-mg464/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-esim-white-mg474/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-esim-mist-blue-mg484/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-esim-sage-mg4a4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-256gb-esim-lavender-mg494/",
+
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-esim-black-mg4e4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-esim-white-mg4f4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-esim-mist-blue-mg4h4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-esim-sage-mg4q4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17/smartfon-apple-iphone-17-512gb-esim-lavender-mg4j4/"
+]
+
+const arrLinkEstore17IPH = [
+"https://estore.ua/ua/iphone-17-256gb-black-mg6j4/?q=mg6j4",
+"https://estore.ua/ua/iphone-17-256gb-white/?q=mg6k4",
+"https://estore.ua/ua/iphone-17-256gb-mist-blue-mg6l4/?q=mg6l4",
+"https://estore.ua/ua/iphone-17-256gb-sage-mg6n4/?q=mg6n4",
+"https://estore.ua/ua/iphone-17-256gb-lavender-mg6m4/?q=mg6m4",
+ 
+"https://estore.ua/ua/iphone-17-512gb-black-mg6p4/?q=mg6p4",
+"https://estore.ua/ua/iphone-17-512gb-white-mg6q4/?q=mg6q4",
+"https://estore.ua/ua/iphone-17-512gb-mist-blue-mg6t4/?q=mg6t4",
+"https://estore.ua/ua/iphone-17-512gb-sage-mg6v4/?q=mg6v4",
+"https://estore.ua/ua/iphone-17-512gb-lavender-mg6u4/?q=mg6u4",
+
+"https://estore.ua/ua/iphone-17-256gb-black-esim-mg464/?q=mg464",
+"https://estore.ua/ua/iphone-17-256gb-white-esim-mg474/?q=mg474",
+"https://estore.ua/ua/iphone-17-256gb-mist-blue-esim-mg484/?q=mg484",
+"https://estore.ua/ua/iphone-17-256gb-sage-esim-mg4a4/?q=mg4a4",
+"https://estore.ua/ua/iphone-17-256gb-lavender-esim-mg494/?q=mg494",
+
+"https://estore.ua/ua/iphone-17-512gb-black-esim-mg4e4/?q=mg4e4",
+"https://estore.ua/ua/iphone-17-512gb-white-esim-mg4f4/?q=mg4f4",
+"https://estore.ua/ua/iphone-17-512gb-mist-blue-esim-mg4h4/?q=mg4h4",
+"https://estore.ua/ua/iphone-17-512gb-sage-esim-mg4q4/?q=mg4q4",
+"https://estore.ua/ua/iphone-17-512gb-lavender-esim-mg4j4/",
+]
+const arrLinkYabloki17 = [
+"https://yabloki.ua/iphone-17-256-gb-black-now.html",
+"https://yabloki.ua/iphone-17-256gb-white-now.html",
+"https://yabloki.ua/iphone-17-256-gb-purple-lavender-now.html",
+"https://yabloki.ua/iphone-17-256-gb-green-now.html",
+"https://yabloki.ua/iphone-17-256-gb-purple-now.html",
+
+"https://yabloki.ua/iphone-17-512-gb-black-now.html",
+"https://yabloki.ua/iphone-17-512gb-white-now.html",
+"https://yabloki.ua/iphone-17-512-gb-purple-lavender-now.html",
+"https://yabloki.ua/iphone-17-512-gb-green-now.html",
+"https://yabloki.ua/iphone-17-512-gb-purple-now.html",
+
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+]
+
+
 
 
 async function f() {
@@ -1582,6 +1714,252 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+  for (let i = 0; i < arrLinkJabko17ProIPH.length; i += 1) {
+    await page.goto(arrLinkJabko17ProIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet17ProIPH.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet17ProIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGro17ProIPH.length; i += 1) {
+    await page.goto(arrLinkGro17ProIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore17ProIPH.length; i += 1) {
+    await page.goto(arrLinkEstore17ProIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
+      } else {
+        return text2;
+      }
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYua17Pro.length; i += 1) {
+    await page.goto(arrLinkYua17Pro[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price .regular") != null) {
+        return (
+          text2 + "Yua: " + document.querySelector(".price .regular").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+   for (let i = 0; i < arrLinkYabloki17Pro.length; i += 1) {
+    await page.goto(arrLinkYabloki17Pro[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-price-title") != null) {
+        return (
+          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+   for (let i = 0; i < arrLinkCts17ProIPH.length; i += 1) {
+    await page.goto(arrLinkCts17ProIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "CRS: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkCts17ProIPHinfo.length; i += 1) {
+    await page.goto(arrLinkCts17ProIPHinfo[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".Price_buttonWrapper__QsXNG") != null) {
+        return (
+          text2 + "CRS: " + document.querySelector(".Price_buttonWrapper__QsXNG").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+   for (let i = 0; i < arrLinkSkay17ProIPH.length; i += 1) {
+    await page.goto(arrLinkSkay17ProIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr1 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".products-item-cost") != null) {
+        return (
+          text2 + "S: " + document.querySelector(".products-item-cost").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  
+  for (let i = 0; i < arrLinkJabko17ProIPHeSim.length; i += 1) {
+    await page.goto(arrLinkJabko17ProIPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr8 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr8);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanet17ProIPHeSim.length; i += 1) {
+    await page.goto(arrLinkMobilePlanet17ProIPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGro17ProIPHeSim.length; i += 1) {
+    await page.goto(arrLinkGro17ProIPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore17ProIPHeSim.length; i += 1) {
+    await page.goto(arrLinkEstore17ProIPHeSim[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
+      } else {
+        return text2;
+      }
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
   for (let i = 0; i < arrLinkJabko17IPH.length; i += 1) {
     await page.goto(arrLinkJabko17IPH[i]);
     const n = await page.$("#txt");
@@ -1593,7 +1971,7 @@ async function f() {
           text2 + "J: " + document.querySelector(".price-new__uah").innerText
         );
       } else {
-        return text2;
+        return "text2";
       }
     });
 
@@ -1611,7 +1989,7 @@ async function f() {
           text2 + "MP: " + document.querySelector(".price-value").innerText
         );
       } else {
-        return text2;
+        return "text2";
       }
     });
 
@@ -1629,7 +2007,7 @@ async function f() {
           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
         );
       } else {
-        return text2;
+        return "text2";
       }
     });
 
@@ -1659,25 +2037,7 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkYua17.length; i += 1) {
-    await page.goto(arrLinkYua17[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price .regular") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price .regular").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-   for (let i = 0; i < arrLinkYabloki17.length; i += 1) {
+  for (let i = 0; i < arrLinkYabloki17.length; i += 1) {
     await page.goto(arrLinkYabloki17[i]);
     const n = await page.$("#txt");
 
@@ -1688,141 +2048,9 @@ async function f() {
           text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
         );
       } else {
-        return text2;
+        return "text2";
       }
     });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-   for (let i = 0; i < arrLinkCts17IPH.length; i += 1) {
-    await page.goto(arrLinkCts17IPH[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "CRS: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkCts17IPHinfo.length; i += 1) {
-    await page.goto(arrLinkCts17IPHinfo[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".Price_buttonWrapper__QsXNG") != null) {
-        return (
-          text2 + "CRS: " + document.querySelector(".Price_buttonWrapper__QsXNG").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-   for (let i = 0; i < arrLinkSkay17IPH.length; i += 1) {
-    await page.goto(arrLinkSkay17IPH[i]);
-    const n = await page.$("#txt");
-
-    let arr1 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".products-item-cost") != null) {
-        return (
-          text2 + "S: " + document.querySelector(".products-item-cost").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  
-  for (let i = 0; i < arrLinkJabko17IPHeSim.length; i += 1) {
-    await page.goto(arrLinkJabko17IPHeSim[i]);
-    const n = await page.$("#txt");
-
-    let arr8 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr8);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkMobilePlanet17IPHeSim.length; i += 1) {
-    await page.goto(arrLinkMobilePlanet17IPHeSim[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkGro17IPHeSim.length; i += 1) {
-    await page.goto(arrLinkGro17IPHeSim[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkEstore17IPHeSim.length; i += 1) {
-    await page.goto(arrLinkEstore17IPHeSim[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
-
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
 
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
