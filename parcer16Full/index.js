@@ -2046,24 +2046,26 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkYabloki17.length; i += 1) {
-    await page.goto(arrLinkYabloki17[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkYabloki17.length; i++) {
+  try {
+    await page.goto(arrLinkYabloki17[i], { waitUntil: 'domcontentloaded', timeout: 0 });
 
     let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return "text2";
-      }
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".product-price-title");
+
+      if (!h1) return "Нет заголовка";
+      if (!price) return `${h1.innerText} — нет цены`;
+
+      return `${h1.innerText} Yabloki: ${price.innerText}`;
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+  } catch (err) {
+    console.log("❌ Ошибка на странице:", arrLinkYabloki17[i]);
+    console.log(err.message);
   }
+}
 
 
   // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
