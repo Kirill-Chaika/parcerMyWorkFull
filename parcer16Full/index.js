@@ -1809,24 +1809,22 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-   for (let i = 0; i < arrLinkYabloki17Pro.length; i += 1) {
-    await page.goto(arrLinkYabloki17Pro[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkYabloki17Pro.length; i++) {
+  await page.goto(arrLinkYabloki17Pro[i], { waitUntil: 'domcontentloaded', timeout: 0 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr2 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".product-price-title");
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    if (!h1) return "Нет h1";
+    if (!price) return `${h1.innerText} — нет цены`;
+
+    return `${h1.innerText} Yabloki: ${price.innerText}`;
+  });
+
+  console.log(arr2);
+  await page.setDefaultNavigationTimeout(0);
+}
    for (let i = 0; i < arrLinkCts17ProIPH.length; i += 1) {
     await page.goto(arrLinkCts17ProIPH[i]);
     const n = await page.$("#txt");
