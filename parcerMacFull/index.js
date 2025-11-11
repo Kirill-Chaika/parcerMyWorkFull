@@ -907,6 +907,133 @@ const arrLinkGroMacMini = [
 ];
 
 
+const arrLinkJabkoMacStatus = [
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-512gb-10cpu--10gpu-16gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-512gb-10cpu--10gpu-16gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-16gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-16gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-1tb-10cpu--10gpu-24gb-ram-silver-2024",
+
+
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-512gb-12cpu--16gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-512gb-12cpu--16gpu-24gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-1tb-14cpu--20gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-pro-1tb-14cpu--20gpu-24gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-14-apple-m4/apple-macbook-pro-14-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-silver-2024", 
+
+
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-24gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-24gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-48gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-pro-512gb-14cpu--20gpu-48gb-ram-silver-2024", 
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-14cpu--32gpu-36gb-ram-silver-2024",
+
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-16cpu--40gpu-48gb-ram-space-black-2024",
+"https://jabko.ua/mac/macbook-pro/macbook-pro-16-apple-m4/apple-macbook-pro-16-with-apple-m4-max-1tb-16cpu--40gpu-48gb-ram-silver-2024",
+
+
+
+
+
+  "https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-midnight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7x4-2024",
+"https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-space-gray-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7u4-2024",
+"https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-starlight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7w4-2024",
+"https://jabko.ua/mac/macbook-air/apple-macbook-air-m2-2022/macbook-air-13-retina-silver-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m2-mc7v4-2024",
+
+
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-midnight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8k4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-space-gray-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8g4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-starlight-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8j4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-silver-256gb-8-cpu--8-gpu-16gb-ram-with-apple-m3-mc8h4-2024",
+
+  
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-midnight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9g4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-space-gray-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9d4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-starlight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9f4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-silver-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m3-mc9e4-2024",
+
+
+
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-midnight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8q4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-space-gray-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8m4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-starlight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8p4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-2024-apple-m3/macbook-air-13-retina-silver-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc8n4-2024", 
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-midnight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9l4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-space-gray-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9h4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-starlight-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9k4-2024",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2024-apple-m3/macbook-air-15-retina-silver-512gb-8-cpu--10-gpu-24gb-ram-with-apple-m3-mc9j4-2024", 
+
+
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-midnight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw123",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-sky-blue-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc6t4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-starlight-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2024-mw0y3",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-silver-256gb-8-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw0w3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-midnight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw133",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-sky-blue-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc6u4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-starlight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw103",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-silver-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw0x3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-midnight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6c4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-sky-blue-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-starlight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6a4",
+"https://jabko.ua/mac/macbook-air/macbook-air-13-2025-apple-m4/macbook-air-13-retina-silver-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc654", 
+
+
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-midnight-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1l3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-sky-blue-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc7a4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-starlight-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1j3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-silver-256gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1g3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-midnight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1m3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-sky-blue-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mc7c4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-starlight-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1k3",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-silver-512gb-10-cpu--10-gpu-16gb-ram-with-apple-m4-2025-mw1h3", 
+
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-midnight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6l4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-sky-blue-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc7d4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-starlight-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6k4",
+"https://jabko.ua/mac/macbook-air/macbook-air-15-2025-apple-m4/macbook-air-15-retina-silver-512gb-10-cpu--10-gpu-24gb-ram-with-apple-m4-2025-mc6j4",
+
+
+
+
+
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--512gb--mgnr3--2020",
+
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--256gb-with-apple-m2-2023",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--512gb-with-apple-m2-2023",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini--512gb-with-apple-m2-pro-2023",
+
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-256gb-10-cpu--10-gpu-16gb-unified-memory-silver-2024-mu9d3",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-512gb-10-cpu--10-gpu-16gb-unified-memory-silver-2024-mu9e3",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-512gb-10-cpu--10-gpu-24gb-unified-memory-silver-2024-mcyt4",
+"https://jabko.ua/mac/mac-mini/apple-mac-mini-with-apple-m4-pro-512gb-12-cpu--16-gpu-24gb-unified-memory-silver-2024-mcx44",
+
+"https://jabko.ua/mac/mac-studio/apple-mac-studio-12-core-cpu-30-core-gpu-16-core-neural-engine-32gb-ram-512gb-apple-m2-max-2023-",
+"https://jabko.ua/mac/mac-studio/apple-mac-studio-with-apple-m3-ultra-1tb-28-cpu--60-gpu--32-core-neural-engine-96gb-ram-2025-mu973",
+"https://jabko.ua/mac/mac-studio/apple-mac-studio-with-apple-m4-max-512gb-14-cpu--32-gpu--16-core-neural-engine-36gb-ram-2025-mu963",
+
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-adjustable-stand--standard-glass---mk0u3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-height-adjustable-stand--standard-glass---mk0q3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-adjustable-stand--nano-texture-glass---mmyw3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-vesa-mount-adapter--nano-texture-glass---mmyx3-",
+"https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-height-adjustable-stand--nano-texture-glass---mmyv3-",
+]
+
+
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -1319,5 +1446,24 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+
+  for (let i = 0; i < arrLinkJabkoMacStatus.length; i += 1) {
+    await page.goto(arrLinkJabkoMacStatus[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-info__flex-status") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".product-info__flex-status").innerText
+        );
+      } else {
+        return "⚠️ Нет H1";
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 }
 f();

@@ -612,6 +612,194 @@ const arrLinkEstoreIpadNew = [
 "https://estore.ua/ua/ipad-wi-fi-cellular-512gb-yellow-md7r4-2025/?q=md7r4",
 ];
 
+const arrLinkJabkoIPADStatus = [
+ "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi-blue-m3-2025-mc9x4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi-space-gray-m3-2025-mc9w4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi-starlight-m3-2025-mc9y4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi-purple-m3-2025-mca04",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi--lte-blue-m3-2025-mcfw4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi--lte-space-gray-m3-2025-mcfv4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi--lte-starlight-m3-2025-mcfx4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-128gb-wi-fi--lte-purple-m3-2025-mcfy4",
+
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi-blue-m3-2025-mca34",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi-space-gray-m3-2025-mca14",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi-starlight-m3-2025-mca44",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi-purple-m3-2025-mca64",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi--lte-blue-m3-2025-mcg14",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi--lte-space-gray-m3-2025-mcg04",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi--lte-starlight-m3-2025-mcg24",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-256gb-wi-fi--lte-purple-m3-2025-mcg34",
+
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi-blue-m3-2025-mca94",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi-space-gray-m3-2025-mca74",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi-starlight-m3-2025-mcaa4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi-purple-m3-2025-mcae4",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi--lte-blue-m3-2025-mcg54",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi--lte-space-gray-m3-2025-mcg44",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi--lte-starlight-m3-2025-mcg64",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-512gb-wi-fi--lte-purple-m3-2025-mcg74",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi-blue-m3-2025-mcaj4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi-space-gray-m3-2025-mcah4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi-starlight-m3-2025-mcaq4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi-purple-m3-2025-mcau4",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi--lte-blue-m3-2025-mcg94",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi--lte-space-gray-m3-2025-mcg84",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi--lte-starlight-m3-2025-mcga4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2025/apple-ipad-air-11-1tb-wi-fi--lte-purple-m3-2025-mcgc4",
+
+
+
+
+
+
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi-blue-m3-2025-mcnj4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi-space-gray-2025-mcnh4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi-starlight-m3-2025-mcnk4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi-purple-m3-2025-mcnl4",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi--lte-blue-m3-2025-mcj24",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi--lte-space-gray-2025-mcj14",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi--lte-starlight-m3-2025-mcj34",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-128gb-wi-fi--lte-purple-m3-2025-mcj44",
+
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi-blue-m3-2025-mcnp4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi-space-gray-2025-mcnn4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi-starlight-m3-2025-mcnq4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi-purple-m3-2025-mcnr4",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi--lte-blue-m3-2025-mcj64",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi--lte-space-gray-2025-mcj54",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi--lte-starlight-m3-2025-mcj74",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-256gb-wi-fi--lte-purple-m3-2025-mcj84",
+
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi-blue-m3-2025-mcnw4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi-space-gray-2025-mcnt4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi-starlight-m3-2025-mcnx4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi-purple-m3-2025-mcny4",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi--lte-blue-m3-2025-mcja4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi--lte-space-gray-2025-mcj94",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi--lte-starlight-m3-2025-mcjc4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-512gb-wi-fi--lte-purple-m3-2025-mcjd4",
+
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi-blue-m3-2025-mcq14",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi-space-gray-2025-mcq04",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi-starlight-m3-2025-mcq24",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi-purple-m3-2025-mcq34",
+
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi--lte-blue-m3-2025-mcjf4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi--lte-space-gray-2025-mcje4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi--lte-starlight-m3-2025-mcjg4",
+"https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2025/apple-ipad-air-13-1tb-wi-fi--lte-purple-m3-2025-mcjh4",
+
+
+
+
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi-blue-2025-md4a4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi-silver-2025-md3y4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi-pink-2025-md4e4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi-yellow-2025-md4d4",
+
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi--lte-blue-2025-md7g4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi--lte-silver-2025-md7f4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi--lte-pink-2025-md7j4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-128gb-wi-fi--lte-yellow-2025-md7h4",
+
+
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi-blue-2025-md4h4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi-silver-2025-md4g4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi-pink-2025-md4p4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi-yellow-2025-md4j4",
+
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi--lte-blue-2025-md7l4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi--lte-silver-2025-md7k4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi--lte-pink-2025-md7n4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-256gb-wi-fi--lte-yellow-2025-md7m4",
+
+
+
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi-blue-2025-md4y4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi-silver-2025-md4q4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi-pink-2025-md5c4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi-yellow-2025-md5a4",
+
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi--lte-blue-2025-md7q4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi--lte-silver-2025-md7p4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi--lte-pink-2025-md7t4",
+"https://jabko.ua/ipad/apple-ipad/apple-ipad-11-2025/apple-ipad-11-512gb-wi-fi--lte-yellow-2025-md7r4",
+
+
+"https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-256gb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-256gb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-256gb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-256gb-silver-wi-fi--lte-m4",
+
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-512gb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-512gb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-512gb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-512gb-silver-wi-fi--lte-m4",
+
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-1tb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-1tb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-1tb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-1tb-silver-wi-fi--lte-m4",
+
+
+
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-256gb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-256gb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-256gb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-256gb-silver-wi-fi--lte-m4",
+
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-512gb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-512gb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-512gb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-512gb-silver-wi-fi--lte-m4",
+
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-1tb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-1tb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-1tb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-1tb-silver-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi-blue-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi-purple-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi-starlight-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi-space-gray-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi--lte-blue-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi--lte-purple-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi--lte-starlight-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-11-2024/apple-ipad-air-11-1tb-wi-fi--lte-space-gray-2024",
+
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi-blue-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi-purple-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi-starlight-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi-space-gray-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi--lte-blue-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi--lte-purple-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi--lte-starlight-2024",
+  "https://jabko.ua/ipad/ipad-air-10-5/apple-ipad-air-13-2024/apple-ipad-air-13-1tb-wi-fi--lte-space-gray-2024",
+
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-2tb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-2tb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-2tb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-11-2024/planshet-apple-ipad-pro-11-2024-2tb-silver-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-2tb-space-black-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-2tb-silver-wi-fi-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-2tb-space-black-wi-fi--lte-m4",
+  "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-2tb-silver-wi-fi--lte-m4",
+];
+
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -704,6 +892,25 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+
+  for (let i = 0; i < arrLinkJabkoIPADStatus.length; i += 1) {
+    await page.goto(arrLinkJabkoIPADStatus[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product-info__flex-status") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".product-info__flex-status").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 }
 f()
