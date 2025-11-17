@@ -1037,7 +1037,9 @@ const arrLinkJabkoMacStatus = [
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
-  
+  await page.setDefaultNavigationTimeout(0);
+  await page.setDefaultTimeout(0);
+
   for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
     await page.goto(arrLinkMobilePlanetMac[i]);
     const n = await page.$("#txt");
@@ -1055,23 +1057,24 @@ async function f() {
   await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIstoreMac.length; i += 1) {
-    await page.goto(arrLinkIstoreMac[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkIstoreMac[i], {
+    waitUntil: "domcontentloaded",
+    timeout: 0
+  });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr4 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".product_price");
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = h1 ? h1.innerText : "Нет H1";
+    const priceText = price ? price.innerText : "Нет цены";
+
+    return `${title} I: ${priceText}`;
+  });
+
+  console.log(arr4);
+  await page.setDefaultNavigationTimeout(0);
+}
   for (let i = 0; i < arrLinkJabkoMac.length; i += 1) {
     await page.goto(arrLinkJabkoMac[i]);
     const n = await page.$("#txt");
@@ -1111,24 +1114,21 @@ async function f() {
     console.log(arr5);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkIstoreMacM3.length; i += 1) {
-    await page.goto(arrLinkIstoreMacM3[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkIstoreMacM3.length; i++) {
+  await page.goto(arrLinkIstoreMacM3[i], { waitUntil: "domcontentloaded", timeout: 0 });
 
-    let arr7 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr7 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".product_price");
 
-    console.log(arr7);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = h1 ? h1.innerText : "Нет H1";
+    const priceText = price ? price.innerText : "Нет цены";
+
+    return `${title} I: ${priceText}`;
+  });
+
+  console.log(arr7);
+}
   for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
     await page.goto(arrLinkGroMacM3[i]);
     const n = await page.$("#txt");
@@ -1167,24 +1167,21 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkIStoreMacM4.length; i += 1) {
-    await page.goto(arrLinkIStoreMacM4[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkIStoreMacM4.length; i++) {
+  await page.goto(arrLinkIStoreMacM4[i], { waitUntil: "domcontentloaded", timeout: 0 });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr4 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".product_price");
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = h1 ? h1.innerText : "Нет H1";
+    const priceText = price ? price.innerText : "Нет цены";
+
+    return `${title} I: ${priceText}`;
+  });
+
+  console.log(arr4);
+}
   for (let i = 0; i < arrLinkMobilePlanetMacM4.length; i += 1) {
     await page.goto(arrLinkMobilePlanetMacM4[i]);
     const n = await page.$("#txt");
@@ -1240,24 +1237,21 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkIStoreMac16Ram.length; i += 1) {
-    await page.goto(arrLinkIStoreMac16Ram[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkIStoreMac16Ram.length; i++) {
+  await page.goto(arrLinkIStoreMac16Ram[i], { waitUntil: "domcontentloaded", timeout: 0 });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr4 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".product_price");
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = h1 ? h1.innerText : "Нет H1";
+    const priceText = price ? price.innerText : "Нет цены";
+
+    return `${title} I: ${priceText}`;
+  });
+
+  console.log(arr4);
+}
   for (let i = 0; i < arrLinkMobilePlanetMac16Ram.length; i += 1) {
     await page.goto(arrLinkMobilePlanetMac16Ram[i]);
     const n = await page.$("#txt");
