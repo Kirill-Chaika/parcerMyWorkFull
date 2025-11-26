@@ -1442,22 +1442,30 @@ async function f() {
 
 
   for (let i = 0; i < arrLinkJabkoMacStatus.length; i += 1) {
-    await page.goto(arrLinkJabkoMacStatus[i]);
-    const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-info__flex-status") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".product-info__flex-status").innerText
-        );
-      } else {
-        return "⚠️ Нет H1";
-      }
+  try {
+    await page.goto(arrLinkJabkoMacStatus[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 60000
     });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+  } catch (e) {
+    console.log("Ошибка загрузки:", arrLinkJabkoMacStatus[i], e.message);
+    continue;
   }
+
+  let arr2 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const status = document.querySelector(".product-info__flex-status");
+
+    if (!h1) return "⚠️ Нет H1 на странице";
+
+    return status
+      ? `${h1.innerText} J: ${status.innerText}`
+      : `${h1.innerText} J: ❌ Нет статуса`;
+  });
+
+  console.log(arr2);
+  await page.waitForTimeout(500); // задержка чтобы не банили
+}
 }
 f();
