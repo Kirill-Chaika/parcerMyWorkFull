@@ -1695,24 +1695,29 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkYabloki16e.length; i += 1) {
-    await page.goto(arrLinkYabloki16e[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkYabloki16e.length; i++) {
+  try {
+    await page.goto(arrLinkYabloki16e[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000
+    });
 
     let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
-        );
-      } else {
-        return text2;
-      }
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".product-price-title");
+
+      const title = h1 ? h1.innerText : "⚠️ Нет заголовка";
+      const priceText = price ? price.innerText : "нет цены";
+
+      return `${title} Yabloki: ${priceText}`;
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+  } catch (err) {
+    console.log("❌ Ошибка при загрузке:", arrLinkYabloki16e[i]);
+    console.log(err.message);
   }
+}
 
   for (let i = 0; i < arrLinkJabko17ProIPH.length; i += 1) {
     await page.goto(arrLinkJabko17ProIPH[i]);
