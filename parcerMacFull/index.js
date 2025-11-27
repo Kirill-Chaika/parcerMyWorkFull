@@ -1441,31 +1441,32 @@ async function f() {
   }
 
 
-  for (let i = 0; i < arrLinkJabkoMacStatus.length; i += 1) {
-
+  for (let i = 0; i < arrLinkJabkoMacStatus.length; i++) {
   try {
     await page.goto(arrLinkJabkoMacStatus[i], {
       waitUntil: "domcontentloaded",
-      timeout: 60000
+      timeout: 20000
     });
-  } catch (e) {
-    console.log("Ошибка загрузки:", arrLinkJabkoMacStatus[i], e.message);
-    continue;
+
+    let arr2 = await page.evaluate(() => {
+      const h1 = document.querySelector("h1");
+      const status = document.querySelector(".product-info__flex-status");
+
+      const title = h1 ? h1.innerText : "⚠️ Нет H1";
+      const stat = status ? status.innerText : "нет статуса";
+
+      return `${title} J: ${stat}`;
+    });
+
+    console.log(arr2);
+
+    // задержка чтобы не банили
+    await new Promise(r => setTimeout(r, 500));
+
+  } catch (err) {
+    console.log("❌ Ошибка:", arrLinkJabkoMacStatus[i]);
+    console.log(err.message);
   }
-
-  let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const status = document.querySelector(".product-info__flex-status");
-
-    if (!h1) return "⚠️ Нет H1 на странице";
-
-    return status
-      ? `${h1.innerText} J: ${status.innerText}`
-      : `${h1.innerText} J: ❌ Нет статуса`;
-  });
-
-  console.log(arr2);
-  await page.waitForTimeout(500); // задержка чтобы не банили
 }
 }
 f();
