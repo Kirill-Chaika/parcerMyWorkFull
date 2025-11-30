@@ -1046,6 +1046,7 @@ const arrLinkJabkoMacM5 = [
 const arrLinkIStoreM5 = [
   "https://www.istore.ua/ua/item/macbook-pro-m5-14-16-512gb-space-black-2025/",
 "https://www.istore.ua/ua/item/macbook-pro-m5-14-16-512gb-silver-2025/",
+
 "https://www.istore.ua/ua/item/macbook-pro-m5-14-16-1-tb-space-black-2025/",
 "https://www.istore.ua/ua/item/macbook-pro-m5-14-16-1-tb-silver-2025/",
 
@@ -1064,13 +1065,13 @@ const arrLinkMobilePlanetM5 = [
 "https://mobileplanet.ua/apple-macbook-pro-14-late-2025-silver-mde64-359804",
 ]
 const arrLinkGroM5 = [
-  "https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde04/"
-"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-silver-mde44/"
+  "https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde04/",
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-silver-mde44/",
 
-"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde14/"
-"https://www.google.com/"
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde14/",
+"https://www.google.com/",
 
-"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde34/"
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde34/",
 "https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-silver-mde64/"
 ]
 

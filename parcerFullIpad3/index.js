@@ -800,6 +800,138 @@ const arrLinkJabkoIPADStatus = [
   "https://jabko.ua/ipad/apple-ipad-pro/apple-ipad-pro-13-2024/planshet-apple-ipad-pro-13-2024-2tb-silver-wi-fi--lte-m4",
 ];
 
+const arrLinkJabkoIPADM5 = [
+  "https://jabko.ua/product/apple-ipad-pro-11-2025-256gb-space-black-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-256gb-silver-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-256gb-space-black-wi-fi--lte-m5",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-256gb-silver-wi-fi--lte-m5",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-512gb-space-black-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-512gb-silver-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-512gb-space-black-wi-fi--lte-m5",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-512gb-silver-wi-fi--lte-m5",
+
+"https://jabko.ua/product/apple-ipad-pro-11-2025-1tb-space-black-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-1tb-silver-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-1tb-space-black-wi-fi--lte-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-1tb-silver-wi-fi--lte-m5-standard-glass",
+
+"https://jabko.ua/product/apple-ipad-pro-11-2025-2tb-space-black-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-2tb-silver-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-2tb-space-black-wi-fi--lte-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-11-2025-2tb-silver-wi-fi--lte-m5-standard-glass",
+
+
+
+"https://jabko.ua/product/apple-ipad-pro-13-2025-256gb-space-black-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-256gb-silver-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-256gb-space-black-wi-fi--lte-m5",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-256gb-silver-wi-fi--lte-m5",
+
+"https://jabko.ua/product/apple-ipad-pro-13-2025-512gb-space-black-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-512gb-silver-wi-fi-m5",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-512gb-space-black-wi-fi--lte-m5",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-512gb-silver-wi-fi--lte-m5",
+
+"https://jabko.ua/product/apple-ipad-pro-13-2025-1tb-space-black-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-1tb-silver-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-1tb-space-black-wi-fi--lte-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-1tb-silver-wi-fi--lte-m5-standard-glass",
+
+"https://jabko.ua/product/apple-ipad-pro-13-2025-2tb-space-black-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-2tb-silver-wi-fi-m5-standard-glass",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-2tb-space-black-wi-fi--lte-m5-nano-texture-glass",
+"https://jabko.ua/product/apple-ipad-pro-13-2025-2tb-silver-wi-fi--lte-m5-standard-glass",
+];
+
+const arrLinkIstoreIpadNewM5 = [
+ 
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+ 
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+ 
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+ 
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+
+
+ 
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-256-gb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-256-gb-m5-silver/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-256-gb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-256-gb-m5-silver/",
+
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-512-gb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-512-gb-m5-silver/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-512-gb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-512-gb-m5-silver/",
+
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-1-tb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-1-tb-m5-silver/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-1-tb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-1-tb-m5-silver/",
+
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-2-tb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-2-tb-m5-silver/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-2-tb-m5-space-black/",
+"https://www.istore.ua/ua/item/apple-ipad-pro-13-2025-wi-fi-cellular-2-tb-m5-silver/",
+];
+
+const arrLinkGroIPADM5 = [
+  "https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-256gb-space-black-mdwk4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-256gb-silver-mdwl4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-cellular-256gb-space-black-me2n4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-cellular-256gb-silver-me2p4/",
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-512gb-space-black-mdwm4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-512gb-silver-mdwn4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-pad-pro-11-2025-wi-fi-cellular-512gb-space-black-me2q4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-cellular-512gb-silver-me2t4/",
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-1tb-space-black-mdwp4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-1tb-silver-mdwq4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-cellular-1tb-space-black-me2u4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-cellular-1tb-silver-me2v4/",
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-2tb-space-black-mdwu4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-2tb-silver-mdwv4/",
+"https://www.google.com/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-11-2025/planshet-apple-ipad-pro-11-2025-wi-fi-cellular-2tb-silver-me6a4/",
+
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-256gb-space-black-mdyj4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-256gb-silver-mdyk4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-256gb-space-black-me7w4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-256gb-silver-me7x4/",
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-512gb-space-black-mdyl4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-512gb-silver-mdym4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-512gb-space-black-me7y4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-512gb-silver-me8c4/",
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-1tb-space-black-mdyn4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-1tb-silver-mdyp4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-1tb-space-black-me8d4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-1tb-silver-me8f4/",
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-2tb-space-black-mdyt4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-2tb-silver-mdyu4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2024-wi-fi-cellular-2tb-space-black-me8j4/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-2tb-silver-me8k4/",
+];
+
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -909,6 +1041,59 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+  for (let i = 0; i < arrLinkJabkoIPADM5.length; i += 1) {
+    await page.goto(arrLinkJabkoIPADM5[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIstoreIpadNewM5.length; i += 1) {
+    await page.goto(arrLinkIstoreIpadNewM5[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroIPADM5.length; i += 1) {
+    await page.goto(arrLinkGroIPADM5[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return text2 + "Gro: " + document.querySelector(".product-price-value").innerText;
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
 
