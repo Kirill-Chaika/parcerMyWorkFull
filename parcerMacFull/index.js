@@ -1033,6 +1033,47 @@ const arrLinkJabkoMacStatus = [
 "https://jabko.ua/mac/mac-studio/monitor-apple-studio-display-with-tilt-height-adjustable-stand--nano-texture-glass---mmyv3-",
 ]
 
+const arrLinkJabkoMacM5 = [
+  "https://jabko.ua/product/apple-macbook-pro-14-with-apple-m5-512gb-10cpu--10gpu-16gb-ram-space-black-2025-mde04",
+"https://jabko.ua/product/apple-macbook-pro-14-with-apple-m5-512gb-10cpu--10gpu-16gb-ram-silver-2025-mde44",
+ "https://jabko.ua/product/apple-macbook-pro-14-with-apple-m5-1tb-10cpu--10gpu-16gb-ram-space-black-2025-mde14",
+"https://jabko.ua/product/apple-macbook-pro-14-with-apple-m5-1tb-10cpu--10gpu-16gb-ram-silver-2025-mde54",
+ 
+"https://jabko.ua/product/apple-macbook-pro-14-with-apple-m5-1tb-10cpu--10gpu-24gb-ram-space-black-2025-mde34",
+"https://jabko.ua/product/apple-macbook-pro-14-with-apple-m5-1tb-10cpu--10gpu-24gb-ram-silver-2025-mde64",
+]
+
+const arrLinkIStoreM5 = [
+  "https://www.istore.ua/ua/item/macbook-pro-m5-14-16-512gb-space-black-2025/",
+"https://www.istore.ua/ua/item/macbook-pro-m5-14-16-512gb-silver-2025/",
+"https://www.istore.ua/ua/item/macbook-pro-m5-14-16-1-tb-space-black-2025/",
+"https://www.istore.ua/ua/item/macbook-pro-m5-14-16-1-tb-silver-2025/",
+
+"https://www.istore.ua/ua/item/macbook-pro-m5-14-24-1-tb-space-black-2025/",
+"https://www.istore.ua/ua/item/macbook-pro-m5-14-24-1-tb-silver-2025/",
+]
+
+const arrLinkMobilePlanetM5 = [
+  "https://mobileplanet.ua/apple-macbook-pro-14-late-2025-space-black-mde04-359805",
+"https://mobileplanet.ua/apple-macbook-pro-14-late-2025-silver-mde44-359802",
+ 
+"https://mobileplanet.ua/apple-macbook-pro-14-late-2025-space-black-mde14-359806",
+"https://mobileplanet.ua/apple-macbook-pro-14-late-2025-silver-mde54-359803",
+ 
+"https://mobileplanet.ua/apple-macbook-pro-14-late-2025-space-black-mde34-359807",
+"https://mobileplanet.ua/apple-macbook-pro-14-late-2025-silver-mde64-359804",
+]
+const arrLinkGroM5 = [
+  "https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde04/"
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-silver-mde44/"
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde14/"
+"https://www.google.com/"
+
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-space-black-mde34/"
+"https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-silver-mde64/"
+]
+
 
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
@@ -1468,5 +1509,80 @@ async function f() {
     console.log(err.message);
   }
 }
+
+for (let i = 0; i < arrLinkJabkoMacM5.length; i += 1) {
+    await page.goto(arrLinkJabkoMacM5[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-new__uah") != null) {
+        return (
+          text2 + "J: " + document.querySelector(".price-new__uah").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkIStoreM5.length; i += 1) {
+    await page.goto(arrLinkIStoreM5[i]);
+    const n = await page.$("#txt");
+
+    let arr4 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".product_price ") != null) {
+        return (
+          text2 + "I: " + document.querySelector(".product_price ").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetM5.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetM5[i]);
+    const n = await page.$("#txt");
+
+    let arr5 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr5);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroM5.length; i += 1) {
+    await page.goto(arrLinkGroM5[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
+
 }
 f();
