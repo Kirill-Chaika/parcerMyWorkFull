@@ -1509,79 +1509,55 @@ async function f() {
     console.log("❌ Ошибка:", arrLinkJabkoMacStatus[i]);
     console.log(err.message);
   }
-}
+  }
 
-for (let i = 0; i < arrLinkJabkoMacM5.length; i += 1) {
-    await page.goto(arrLinkJabkoMacM5[i]);
-    const n = await page.$("#txt");
+  for (let link of arrLinkJabkoMacM5) {
+  await page.goto(link);
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr2 = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText || "NO TITLE";
+    const price = document.querySelector(".price-new__uah")?.innerText;
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(arr2);
   }
   for (let i = 0; i < arrLinkIStoreM5.length; i += 1) {
-    await page.goto(arrLinkIStoreM5[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkIStoreM5[i], { waitUntil: "domcontentloaded" });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr4 = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText || "NO TITLE";
+    const price = document.querySelector(".product_price")?.innerText;
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
+    return price ? `${title} I: ${price}` : title;
+  });
+
+  console.log(arr4);
   }
   for (let i = 0; i < arrLinkMobilePlanetM5.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetM5[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkMobilePlanetM5[i], { waitUntil: "domcontentloaded" });
 
-    let arr5 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr5 = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText || "NO TITLE";
+    const price = document.querySelector(".price-value")?.innerText;
 
-    console.log(arr5);
-    await page.setDefaultNavigationTimeout(0);
+    return price ? `${title} MP: ${price}` : title;
+  });
+
+  console.log(arr5);
   }
   for (let i = 0; i < arrLinkGroM5.length; i += 1) {
-    await page.goto(arrLinkGroM5[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkGroM5[i], { waitUntil: "domcontentloaded" });
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr3 = await page.evaluate(() => {
+    const sku = document.querySelector(".sku")?.innerText || "NO SKU";
+    const price = document.querySelector(".product-price-value")?.innerText;
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
+    return price ? `${sku} Gro: ${price}` : sku;
+  });
+
+  console.log(arr3);
   }
 
 
