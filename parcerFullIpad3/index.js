@@ -1063,39 +1063,41 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIstoreIpadNewM5.length; i += 1) {
-    await page.goto(arrLinkIstoreIpadNewM5[i]);
-    const n = await page.$("#txt");
+    await page.goto(arrLinkIstoreIpadNewM5[i], { waitUntil: "domcontentloaded" });
 
     let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return;
-      }
+        // h1 может отсутствовать
+        const h1 = document.querySelector("h1");
+        const title = h1 ? h1.innerText.trim() : "NO TITLE";
+
+        // price может отсутствовать или загружаться позже
+        const priceEl = document.querySelector(".product_price");
+        const price = priceEl ? priceEl.innerText.trim() : null;
+
+        if (!price) return null; // если нет цены
+        return `${title} I: ${price}`;
     });
 
     console.log(arr4);
+
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkGroIPADM5.length; i += 1) {
+  for (let i = 0; i < arrLinkGroIPADM5.length; i++) {
     await page.goto(arrLinkGroIPADM5[i]);
-    const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return text2 + "Gro: " + document.querySelector(".product-price-value").innerText;
+      let text2 = document.querySelector(".sku")?.innerText || "NO SKU";
+
+      let price = document.querySelector(".product-price-value");
+      if (price) {
+        return text2 + " Gro: " + price.innerText;
       } else {
         return text2;
       }
     });
 
     console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+}
 
 }
 f()
