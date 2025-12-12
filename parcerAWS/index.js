@@ -1609,23 +1609,17 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkEstoreAWSSE2024.length; i += 1) {
-    await page.goto(arrLinkEstoreAWSSE2024[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkEstoreAWSSE2024[i], { waitUntil: "domcontentloaded" });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("p .price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector("p .price").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr2 = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText || "NO TITLE";
+    const price = document.querySelector("p .price")?.innerText;
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    return price ? `${title} Estore: ${price}` : title;
+  });
+
+  console.log(arr2);
+}
 
   for (let i = 0; i < arrLinkJabkoAWS11Serios2025.length; i += 1) {
     await page.goto(arrLinkJabkoAWS11Serios2025[i]);
