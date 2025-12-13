@@ -1562,35 +1562,41 @@ async function f() {
 
   
   for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
-  await page.goto(arrLinkJabko16eIPH[i], { waitUntil: "domcontentloaded" });
+  await page.goto(arrLinkJabko16eIPH[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-  let arr8 = await page.evaluate(() => {
-    const title = document.querySelector("h1")?.innerText || "NO TITLE";
-    const price = document.querySelector(".price-new__uah")?.innerText;
+  const result = await page.evaluate(() => {
+    const title =
+      document.querySelector("h1")?.innerText ||
+      document.querySelector(".sku")?.innerText ||
+      "NO TITLE";
+
+    const price =
+      document.querySelector(".price-new__uah")?.innerText ||
+      document.querySelector(".product-price-title")?.innerText ||
+      document.querySelector(".product-price-value")?.innerText ||
+      null;
 
     return price ? `${title} J: ${price}` : title;
   });
 
-  console.log(arr8);
+  console.log(result);
 }
   for (let i = 0; i < arrLinkIstore16eIPH.length; i += 1) {
-    await page.goto(arrLinkIstore16eIPH[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkIstore16eIPH[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return;
-      }
-    });
+  let arr4 = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText || "NO TITLE";
+    const price = document.querySelector(".product_price")?.innerText;
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    return price ? `${title} I: ${price}` : title;
+  });
+
+  console.log(arr4);
+}
   for (let i = 0; i < arrLinkMobilePlanet16eIPH.length; i += 1) {
     await page.goto(arrLinkMobilePlanet16eIPH[i]);
     const n = await page.$("#txt");
