@@ -1562,23 +1562,17 @@ async function f() {
 
   
   for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
-    await page.goto(arrLinkJabko16eIPH[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkJabko16eIPH[i], { waitUntil: "domcontentloaded" });
 
-    let arr8 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr8 = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText || "NO TITLE";
+    const price = document.querySelector(".price-new__uah")?.innerText;
 
-    console.log(arr8);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(arr8);
+}
   for (let i = 0; i < arrLinkIstore16eIPH.length; i += 1) {
     await page.goto(arrLinkIstore16eIPH[i]);
     const n = await page.$("#txt");
