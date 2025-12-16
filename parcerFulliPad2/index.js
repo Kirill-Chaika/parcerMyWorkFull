@@ -943,23 +943,24 @@ async function f() {
 }
 
   for (let i = 0; i < arrLinkIstoreIpadNew.length; i += 1) {
-    await page.goto(arrLinkIstoreIpadNew[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkIstoreIpadNew[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return;
-      }
-    });
+  const result = await page.evaluate(() => {
+    const title =
+      document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const price =
+      document.querySelector(".product_price")?.innerText?.trim();
+
+    if (!price) return `${title} — нет цены`;
+
+    return `${title} I: ${price}`;
+  });
+
+  console.log(result);
+}
 
   for (let i = 0; i < arrLinkGroIpadNew.length; i += 1) {
     await page.goto(arrLinkGroIpadNew[i]);
