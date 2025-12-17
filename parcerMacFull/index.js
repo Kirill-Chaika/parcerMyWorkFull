@@ -1512,16 +1512,27 @@ async function f() {
   }
 
   for (let link of arrLinkJabkoMacM5) {
-  await page.goto(link);
+  try {
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 0,
+    });
 
-  let arr2 = await page.evaluate(() => {
-    const title = document.querySelector("h1")?.innerText || "NO TITLE";
-    const price = document.querySelector(".price-new__uah")?.innerText;
+    const result = await page.evaluate(() => {
+      const title =
+        document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
 
-    return price ? `${title} J: ${price}` : title;
-  });
+      const price =
+        document.querySelector(".price-new__uah")?.innerText?.trim();
 
-  console.log(arr2);
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
+    });
+
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", link);
+    console.log(err.message);
+  }
   }
   for (let i = 0; i < arrLinkIStoreM5.length; i += 1) {
   await page.goto(arrLinkIStoreM5[i], { waitUntil: "domcontentloaded" });
