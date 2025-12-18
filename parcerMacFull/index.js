@@ -1427,24 +1427,21 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkIStoreMacMini.length; i += 1) {
-    await page.goto(arrLinkIStoreMacMini[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkIStoreMacMini.length; i++) {
+  await page.goto(arrLinkIStoreMacMini[i], {
+    waitUntil: "domcontentloaded",
+    timeout: 0,
+  });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  const result = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
+    const price = document.querySelector(".product_price")?.innerText?.trim();
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    return price ? `${title} I: ${price}` : title;
+  });
+
+  console.log(result);
+}
   for (let i = 0; i < arrLinkMobilePlanetMacMini.length; i += 1) {
     await page.goto(arrLinkMobilePlanetMacMini[i]);
     const n = await page.$("#txt");
