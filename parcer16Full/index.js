@@ -1409,24 +1409,26 @@ async function f() {
     console.log(arr8);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkIstore16IPH.length; i += 1) {
-    await page.goto(arrLinkIstore16IPH[i]);
-    const n = await page.$("#txt");
+  for (let link of arrLinkIstore16IPH) {
+  try {
+    await page.goto(link, { waitUntil: "domcontentloaded" });
 
-    let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return;
-      }
+    const result = await page.evaluate(() => {
+      const title =
+        document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
+
+      const price =
+        document.querySelector(".product_price")?.innerText?.trim();
+
+      return price ? `${title} I: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", link);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkMobilePlanet16IPH.length; i += 1) {
     await page.goto(arrLinkMobilePlanet16IPH[i]);
     const n = await page.$("#txt");
