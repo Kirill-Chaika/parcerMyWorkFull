@@ -1389,7 +1389,24 @@ const arrLinkYabloki17 = [
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
+for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
+    await page.goto(arrLinkGro16IPH[i]);
+    const n = await page.$("#txt");
 
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
   
   for (let i = 0; i < arrLinkJabko16IPH.length; i += 1) {
     await page.goto(arrLinkJabko16IPH[i]);
@@ -1429,24 +1446,29 @@ async function f() {
     console.log(err.message);
   }
 }
-  for (let i = 0; i < arrLinkMobilePlanet16IPH.length; i += 1) {
-    await page.goto(arrLinkMobilePlanet16IPH[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  for (let link of arrLinkMobilePlanet16IPH) {
+  try {
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 0,
     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
+    const result = await page.evaluate(() => {
+      const title =
+        document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
+
+      const price =
+        document.querySelector(".price-value")?.innerText?.trim();
+
+      return price ? `${title} MP: ${price}` : `${title} — нет цены`;
+    });
+
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", link);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     await page.goto(arrLinkGro16IPH[i]);
     const n = await page.$("#txt");
