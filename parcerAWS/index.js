@@ -1572,24 +1572,29 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkMobilePlanetSE2024.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetSE2024[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  for (let link of arrLinkMobilePlanetSE2024) {
+  try {
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 0,
     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
+    const result = await page.evaluate(() => {
+      const title =
+        document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
+
+      const price =
+        document.querySelector(".price-value")?.innerText?.trim();
+
+      return price ? `${title} MP: ${price}` : `${title} — нет цены`;
+    });
+
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", link);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkGroAWSSE2024.length; i += 1) {
     await page.goto(arrLinkGroAWSSE2024[i]);
     const n = await page.$("#txt");
