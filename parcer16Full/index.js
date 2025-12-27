@@ -1447,27 +1447,18 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   }
 }
   for (let link of arrLinkMobilePlanet16IPH) {
-  try {
-    await page.goto(link, {
-      waitUntil: "domcontentloaded",
-      timeout: 0,
-    });
+  await page.goto(link, { timeout: 0 });
 
-    const result = await page.evaluate(() => {
-      const title =
-        document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
+  let result = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".price-value");
 
-      const price =
-        document.querySelector(".price-value")?.innerText?.trim();
+    if (!h1 && !price) return "❌ MP: страница без товара";
 
-      return price ? `${title} MP: ${price}` : `${title} — нет цены`;
-    });
+    return `${h1?.innerText || "Товар"} MP: ${price?.innerText || "нет цены"}`;
+  });
 
-    console.log(result);
-  } catch (err) {
-    console.log("❌ Ошибка страницы:", link);
-    console.log(err.message);
-  }
+  console.log(result);
 }
   for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     await page.goto(arrLinkGro16IPH[i]);
