@@ -1082,6 +1082,60 @@ async function f() {
   await page.setDefaultNavigationTimeout(0);
   await page.setDefaultTimeout(0);
 
+  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+    await page.goto(arrLinkGroMacM3[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+    await page.goto(arrLinkGroMacM3[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+    await page.goto(arrLinkGroMacM3[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
   for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
     await page.goto(arrLinkMobilePlanetMac[i]);
     const n = await page.$("#txt");
