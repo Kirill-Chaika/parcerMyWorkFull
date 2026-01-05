@@ -537,23 +537,25 @@ async function f() {
 
 
   for (let i = 0; i < arrLinkJabkoStarlink.length; i += 1) {
-    await page.goto(arrLinkJabkoStarlink[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoStarlink[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr8 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return "Нет";
-      }
+    const result = await page.evaluate(() => {
+      // Функция очистки текста
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr8);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoStarlink[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkEstoreStarlink.length; i += 1) {
     await page.goto(arrLinkEstoreStarlink[i]);
     const n = await page.$("#txt");
