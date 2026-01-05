@@ -1987,8 +1987,8 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     await page.setDefaultNavigationTimeout(0);
   }
 
-  for (let i = 0; i < arrLinkJabko17ProIPH.length; i += 1) {
-  await page.goto(arrLinkJabko17ProIPH[i], {
+  for (let i = 0; i < arrLinkJabko17IPH.length; i += 1) {
+  await page.goto(arrLinkJabko17IPH[i], {
     waitUntil: "domcontentloaded",
   });
 
