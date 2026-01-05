@@ -936,23 +936,26 @@ async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
   for (let i = 0; i < arrLinkJabkoIPAD.length; i += 1) {
-    await page.goto(arrLinkJabkoIPAD[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkJabkoIPAD[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  const result = await page.evaluate(() => {
+    const clean = (t) =>
+      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = clean(document.querySelector("h1")?.innerText);
+    const price = clean(
+      document.querySelector(".price-new__uah")?.innerText
+    );
+
+    if (!title) return "❌ J: страница без товара";
+
+    return price ? `${title} J: ${price}` : `${title} — нет цены`;
+  });
+
+  console.log(result);
+}
   for (let i = 0; i < arrLinkIstoreIpadNew.length; i += 1) {
     await page.goto(arrLinkIstoreIpadNew[i]);
     const n = await page.$("#txt");
@@ -1025,43 +1028,49 @@ async function f() {
   }
 
 
-  for (let i = 0; i < arrLinkJabkoIPADStatus.length; i += 1) {
-    await page.goto(arrLinkJabkoIPADStatus[i]);
-    const n = await page.$("#txt");
+ for (let i = 0; i < arrLinkJabkoIPADStatus.length; i += 1) {
+  await page.goto(arrLinkJabkoIPADStatus[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-info__flex-status") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".product-info__flex-status").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  const result = await page.evaluate(() => {
+    const clean = (t) =>
+      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = clean(document.querySelector("h1")?.innerText);
+    const status = clean(
+      document.querySelector(".product-info__flex-status")?.innerText
+    );
+
+    if (!title) return "❌ J: страница без товара";
+
+    return status ? `${title} J: ${status}` : title;
+  });
+
+  console.log(result);
+}
 
   for (let i = 0; i < arrLinkJabkoIPADM5.length; i += 1) {
-    await page.goto(arrLinkJabkoIPADM5[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkJabkoIPADM5[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  const result = await page.evaluate(() => {
+    const clean = (t) =>
+      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = clean(document.querySelector("h1")?.innerText);
+    const price = clean(
+      document.querySelector(".price-new__uah")?.innerText
+    );
+
+    if (!title) return "❌ J: страница без товара";
+
+    return price ? `${title} J: ${price}` : `${title} — нет цены`;
+  });
+
+  console.log(result);
+}
   for (let i = 0; i < arrLinkIstoreIpadNewM5.length; i += 1) {
     await page.goto(arrLinkIstoreIpadNewM5[i], { waitUntil: "domcontentloaded" });
 

@@ -1454,23 +1454,24 @@ async function f() {
 
 
   for (let i = 0; i < arrLinkJabkoAWS10andUltra2024.length; i += 1) {
-    await page.goto(arrLinkJabkoAWS10andUltra2024[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoAWS10andUltra2024[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoAWS10andUltra2024[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i += 1) {
     await page.goto(arrLinkiPeopleAWS10andUltra2024[i]);
     const n = await page.$("#txt");
@@ -1555,23 +1556,24 @@ async function f() {
   }
 
   for (let i = 0; i < arrLinkJabkoAWSSE2024.length; i += 1) {
-    await page.goto(arrLinkJabkoAWSSE2024[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoAWSSE2024[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoAWSSE2024[i]);
+    console.log(err.message);
   }
+}
   for (let link of arrLinkMobilePlanetSE2024) {
   try {
     await page.goto(link, {
@@ -1627,23 +1629,24 @@ async function f() {
 }
 
   for (let i = 0; i < arrLinkJabkoAWS11Serios2025.length; i += 1) {
-    await page.goto(arrLinkJabkoAWS11Serios2025[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoAWS11Serios2025[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoAWS11Serios2025[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkMobilePlanet11Serios2025.length; i += 1) {
     await page.goto(arrLinkMobilePlanet11Serios2025[i]);
     const n = await page.$("#txt");
@@ -1705,23 +1708,24 @@ async function f() {
   }
 
   for (let i = 0; i < arrLinkJabkoAWSUltraSE32025.length; i += 1) {
-    await page.goto(arrLinkJabkoAWSUltraSE32025[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoAWSUltraSE32025[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoAWSUltraSE32025[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkMobilePlanetUltraSE32025.length; i += 1) {
     await page.goto(arrLinkMobilePlanetUltraSE32025[i]);
     const n = await page.$("#txt");

@@ -1409,23 +1409,23 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   }
   
   for (let i = 0; i < arrLinkJabko16IPH.length; i += 1) {
-    await page.goto(arrLinkJabko16IPH[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkJabko16IPH[i], { waitUntil: "domcontentloaded" });
 
-    let arr8 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr8 = await page.evaluate(() => {
+    const normalize = (text) =>
+      text
+        ?.replace(/\n+/g, " ")   // убираем переносы строк
+        .replace(/\s+/g, " ")    // убираем лишние пробелы
+        .trim();
 
-    console.log(arr8);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = normalize(document.querySelector("h1")?.innerText);
+    const price = normalize(document.querySelector(".price-new__uah")?.innerText);
+
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(arr8);
+}
   for (let link of arrLinkIstore16IPH) {
   try {
     await page.goto(link, { waitUntil: "domcontentloaded" });
@@ -1582,16 +1582,23 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   });
 
   const result = await page.evaluate(() => {
-    const title =
+    const clean = (t) =>
+      t
+        ?.replace(/\n+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+
+    const title = clean(
       document.querySelector("h1")?.innerText ||
       document.querySelector(".sku")?.innerText ||
-      "NO TITLE";
+      "NO TITLE"
+    );
 
-    const price =
+    const price = clean(
       document.querySelector(".price-new__uah")?.innerText ||
       document.querySelector(".product-price-title")?.innerText ||
-      document.querySelector(".product-price-value")?.innerText ||
-      null;
+      document.querySelector(".product-price-value")?.innerText
+    );
 
     return price ? `${title} J: ${price}` : title;
   });
@@ -1734,24 +1741,25 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   }
 }
 
-  for (let i = 0; i < arrLinkJabko17ProIPH.length; i += 1) {
-    await page.goto(arrLinkJabko17ProIPH[i]);
-    const n = await page.$("#txt");
+ for (let i = 0; i < arrLinkJabko17ProIPH.length; i += 1) {
+  await page.goto(arrLinkJabko17ProIPH[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr8 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  const result = await page.evaluate(() => {
+    const clean = (t) =>
+      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    console.log(arr8);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = clean(document.querySelector("h1")?.innerText);
+    const price = clean(
+      document.querySelector(".price-new__uah")?.innerText
+    );
+
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(result);
+}
   for (let i = 0; i < arrLinkMobilePlanet17ProIPH.length; i += 1) {
     await page.goto(arrLinkMobilePlanet17ProIPH[i]);
     const n = await page.$("#txt");
@@ -1901,23 +1909,24 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   }
   
   for (let i = 0; i < arrLinkJabko17ProIPHeSim.length; i += 1) {
-    await page.goto(arrLinkJabko17ProIPHeSim[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkJabko17ProIPHeSim[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr8 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  const result = await page.evaluate(() => {
+    const clean = (text) =>
+      text?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    console.log(arr8);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = clean(document.querySelector("h1")?.innerText);
+    const price = clean(
+      document.querySelector(".price-new__uah")?.innerText
+    );
+
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(result);
+}
   for (let i = 0; i < arrLinkMobilePlanet17ProIPHeSim.length; i += 1) {
     await page.goto(arrLinkMobilePlanet17ProIPHeSim[i]);
     const n = await page.$("#txt");
@@ -1978,24 +1987,25 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     await page.setDefaultNavigationTimeout(0);
   }
 
-  for (let i = 0; i < arrLinkJabko17IPH.length; i += 1) {
-    await page.goto(arrLinkJabko17IPH[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkJabko17ProIPH.length; i += 1) {
+  await page.goto(arrLinkJabko17ProIPH[i], {
+    waitUntil: "domcontentloaded",
+  });
 
-    let arr8 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return "text2";
-      }
-    });
+  const result = await page.evaluate(() => {
+    const clean = (t) =>
+      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    console.log(arr8);
-    await page.setDefaultNavigationTimeout(0);
-  }
+    const title = clean(document.querySelector("h1")?.innerText);
+    const price = clean(
+      document.querySelector(".price-new__uah")?.innerText
+    );
+
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(result);
+}
  for (let i = 0; i < arrLinkMobilePlanet17IPH.length; i += 1) {
   try {
     await page.goto(arrLinkMobilePlanet17IPH[i], { waitUntil: "domcontentloaded" });

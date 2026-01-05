@@ -1172,23 +1172,24 @@ async function f() {
   await page.setDefaultNavigationTimeout(0);
 }
   for (let i = 0; i < arrLinkJabkoMac.length; i += 1) {
-    await page.goto(arrLinkJabkoMac[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoMac[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return "⚠️ Нет H1";
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMac[i]);
+    console.log(err.message);
   }
+}
   
 
 
@@ -1246,23 +1247,22 @@ async function f() {
 
 
   for (let i = 0; i < arrLinkJabkoMacM4.length; i += 1) {
-    await page.goto(arrLinkJabkoMacM4[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoMacM4[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMacM4[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkIStoreMacM4.length; i++) {
   await page.goto(arrLinkIStoreMacM4[i], { waitUntil: "domcontentloaded", timeout: 0 });
 
@@ -1316,23 +1316,22 @@ async function f() {
   }
 
   for (let i = 0; i < arrLinkJabkoMac16Ram.length; i += 1) {
-    await page.goto(arrLinkJabkoMac16Ram[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoMac16Ram[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMac16Ram[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkIStoreMac16Ram.length; i++) {
   await page.goto(arrLinkIStoreMac16Ram[i], { waitUntil: "domcontentloaded", timeout: 0 });
 
@@ -1386,23 +1385,22 @@ async function f() {
   }
 
   for (let i = 0; i < arrLinkJabkoMacAirM4.length; i += 1) {
-    await page.goto(arrLinkJabkoMacAirM4[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoMacAirM4[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMacAirM4[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkIStoreMacAirM4.length; i += 1) {
     await page.goto(arrLinkIStoreMacAirM4[i]);
     const n = await page.$("#txt");
@@ -1464,23 +1462,22 @@ async function f() {
   }
 
   for (let i = 0; i < arrLinkJabkoMacMini.length; i += 1) {
-    await page.goto(arrLinkJabkoMacMini[i]);
-    const n = await page.$("#txt");
+  try {
+    await page.goto(arrLinkJabkoMacMini[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-new__uah") != null) {
-        return (
-          text2 + "J: " + document.querySelector(".price-new__uah").innerText
-        );
-      } else {
-        return text2;
-      }
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMacMini[i]);
+    console.log(err.message);
   }
+}
   for (let i = 0; i < arrLinkIStoreMacMini.length; i++) {
   await page.goto(arrLinkIStoreMacMini[i], {
     waitUntil: "domcontentloaded",
@@ -1536,55 +1533,39 @@ async function f() {
 
   for (let i = 0; i < arrLinkJabkoMacStatus.length; i++) {
   try {
-    await page.goto(arrLinkJabkoMacStatus[i], {
-      waitUntil: "domcontentloaded",
-      timeout: 20000
-    });
-
-    let arr2 = await page.evaluate(() => {
-      const h1 = document.querySelector("h1");
-      const status = document.querySelector(".product-info__flex-status");
-
-      const title = h1 ? h1.innerText : "⚠️ Нет H1";
-      const stat = status ? status.innerText : "нет статуса";
-
-      return `${title} J: ${stat}`;
-    });
-
-    console.log(arr2);
-
-    // задержка чтобы не банили
-    await new Promise(r => setTimeout(r, 500));
-
-  } catch (err) {
-    console.log("❌ Ошибка:", arrLinkJabkoMacStatus[i]);
-    console.log(err.message);
-  }
-  }
-
-  for (let link of arrLinkJabkoMacM5) {
-  try {
-    await page.goto(link, {
-      waitUntil: "domcontentloaded",
-      timeout: 0,
-    });
+    await page.goto(arrLinkJabkoMacStatus[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
     const result = await page.evaluate(() => {
-      const title =
-        document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const status = clean(document.querySelector(".product-info__flex-status")?.innerText);
+      return status ? `${title} J: ${status}` : `${title} — нет статуса`;
+    });
 
-      const price =
-        document.querySelector(".price-new__uah")?.innerText?.trim();
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMacStatus[i]);
+    console.log(err.message);
+  }
+}
 
+  for (let i = 0; i < arrLinkJabkoMacM5.length; i++) {
+  try {
+    await page.goto(arrLinkJabkoMacM5[i], { waitUntil: "domcontentloaded", timeout: 0 });
+
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
       return price ? `${title} J: ${price}` : `${title} — нет цены`;
     });
 
     console.log(result);
   } catch (err) {
-    console.log("❌ Ошибка страницы:", link);
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMacM5[i]);
     console.log(err.message);
   }
-  }
+}
   for (let i = 0; i < arrLinkIStoreM5.length; i += 1) {
   await page.goto(arrLinkIStoreM5[i], { waitUntil: "domcontentloaded" });
 
