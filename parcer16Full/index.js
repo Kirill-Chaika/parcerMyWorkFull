@@ -1519,24 +1519,40 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   //   console.log(arr2);
   //   await page.setDefaultNavigationTimeout(0);
   // }
-  for (let i = 0; i < arrLinkiPeople16.length; i += 1) {
-    await page.goto(arrLinkiPeople16[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkiPeople16.length; i++) {
+  const link = arrLinkiPeople16[i];
 
-    let arr3 = await page.evaluate(() => {
-  const usd = document.querySelector(".usd");
+  try {
+    const response = await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-  if (usd) {
-    const text2 = usd.innerText.trim();
-    return `${text2} iPeople: ${text2}`;
-  } else {
-    return "⚠️ Нет .usd";
+    // если сайт не ответил
+    if (!response || !response.ok()) {
+      console.log(`❌ Не работает или не открылся: ${link}`);
+      continue;
+    }
+
+    // ждём body (если редирект — тут не упадёт)
+    await page.waitForSelector("body", { timeout: 5000 });
+
+    const result = await page.evaluate(() => {
+      const usd = document.querySelector(".usd");
+      if (!usd) return "⚠️ Нет .usd";
+
+      return `iPeople: ${usd.innerText.replace(/\s+/g, " ").trim()}`;
+    });
+
+    console.log(result);
+
+    // антибан / антиразрыв
+    await new Promise(r => setTimeout(r, 600));
+
+  } catch (err) {
+    console.log(`❌ Не работает или не открылся: ${link}`);
   }
-});
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+}
 
   for (let i = 0; i < arrLinkYua16.length; i += 1) {
     await page.goto(arrLinkYua16[i]);
@@ -1678,24 +1694,31 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkiPeople16e.length; i += 1) {
-    await page.goto(arrLinkiPeople16e[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkiPeople16e.length; i++) {
+  const link = arrLinkiPeople16e[i];
 
-    let arr3 = await page.evaluate(() => {
-  const usd = document.querySelector(".usd");
+  try {
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-  if (usd) {
-    const text2 = usd.innerText.trim();
-    return `${text2} iPeople: ${text2}`;
-  } else {
-    return "⚠️ Нет .usd";
+    await page.waitForSelector("body", { timeout: 10000 });
+
+    const result = await page.evaluate(() => {
+      const usd = document.querySelector(".usd");
+      if (!usd) return "⚠️ Нет .usd";
+
+      return `iPeople: ${usd.innerText.replace(/\s+/g, " ").trim()}`;
+    });
+
+    console.log(result);
+    await new Promise(r => setTimeout(r, 500));
+
+  } catch (err) {
+    console.log(`❌ Не работает или не открылся: ${link}`);
   }
-});
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+}
 
 
   
