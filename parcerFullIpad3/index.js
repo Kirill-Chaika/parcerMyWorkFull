@@ -935,26 +935,34 @@ const arrLinkGroIPADM5 = [
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
-  for (let i = 0; i < arrLinkJabkoIPAD.length; i += 1) {
-  await page.goto(arrLinkJabkoIPAD[i], {
-    waitUntil: "domcontentloaded",
-  });
+  for (let i = 0; i < arrLinkJabkoIPAD.length; i++) {
+  try {
+    await page.goto(arrLinkJabkoIPAD[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-  const result = await page.evaluate(() => {
-    const clean = (t) =>
-      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+          : "";
 
-    const title = clean(document.querySelector("h1")?.innerText);
-    const price = clean(
-      document.querySelector(".price-new__uah")?.innerText
-    );
+      const title = clean(document.querySelector("h1")?.innerText);
+      if (!title) return "❌ J: страница без товара";
 
-    if (!title) return "❌ J: страница без товара";
+      const price = clean(
+        document.querySelector(".price-new__uah")?.innerText
+      );
 
-    return price ? `${title} J: ${price}` : `${title} — нет цены`;
-  });
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
+    });
 
-  console.log(result);
+    if (result && result.trim()) console.log(result);
+
+  } catch {
+    console.log(`❌ J: не открылся ${arrLinkJabkoIPAD[i]}`);
+  }
 }
   for (let i = 0; i < arrLinkIstoreIpadNew.length; i += 1) {
     await page.goto(arrLinkIstoreIpadNew[i]);
@@ -1028,48 +1036,64 @@ async function f() {
   }
 
 
- for (let i = 0; i < arrLinkJabkoIPADStatus.length; i += 1) {
-  await page.goto(arrLinkJabkoIPADStatus[i], {
-    waitUntil: "domcontentloaded",
-  });
+ for (let i = 0; i < arrLinkJabkoIPADStatus.length; i++) {
+  try {
+    await page.goto(arrLinkJabkoIPADStatus[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-  const result = await page.evaluate(() => {
-    const clean = (t) =>
-      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+          : "";
 
-    const title = clean(document.querySelector("h1")?.innerText);
-    const status = clean(
-      document.querySelector(".product-info__flex-status")?.innerText
-    );
+      const title = clean(document.querySelector("h1")?.innerText);
+      if (!title) return "❌ J: страница без товара";
 
-    if (!title) return "❌ J: страница без товара";
+      const status = clean(
+        document.querySelector(".product-info__flex-status")?.innerText
+      );
 
-    return status ? `${title} J: ${status}` : title;
-  });
+      return status ? `${title} J: ${status}` : title;
+    });
 
-  console.log(result);
+    if (result && result.trim()) console.log(result);
+
+  } catch {
+    console.log(`❌ J: не открылся ${arrLinkJabkoIPADStatus[i]}`);
+  }
 }
 
-  for (let i = 0; i < arrLinkJabkoIPADM5.length; i += 1) {
-  await page.goto(arrLinkJabkoIPADM5[i], {
-    waitUntil: "domcontentloaded",
-  });
+  for (let i = 0; i < arrLinkJabkoIPADM5.length; i++) {
+  try {
+    await page.goto(arrLinkJabkoIPADM5[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-  const result = await page.evaluate(() => {
-    const clean = (t) =>
-      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+          : "";
 
-    const title = clean(document.querySelector("h1")?.innerText);
-    const price = clean(
-      document.querySelector(".price-new__uah")?.innerText
-    );
+      const title = clean(document.querySelector("h1")?.innerText);
+      if (!title) return "❌ J: страница без товара";
 
-    if (!title) return "❌ J: страница без товара";
+      const price = clean(
+        document.querySelector(".price-new__uah")?.innerText
+      );
 
-    return price ? `${title} J: ${price}` : `${title} — нет цены`;
-  });
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
+    });
 
-  console.log(result);
+    if (result && result.trim()) console.log(result);
+
+  } catch {
+    console.log(`❌ J: не открылся ${arrLinkJabkoIPADM5[i]}`);
+  }
 }
   for (let i = 0; i < arrLinkIstoreIpadNewM5.length; i += 1) {
     await page.goto(arrLinkIstoreIpadNewM5[i], { waitUntil: "domcontentloaded" });
