@@ -400,22 +400,22 @@ const arrLinkEstore16IPH = [
 
 
 const arrLinkCts16IPH = [
-  "https://www.ctrs.com.ua/smartfony/iphone-16-128gb-black-apple-752183.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-256gb-black-apple-752186.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-512gb-black-apple-752192.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
 
-  "https://www.ctrs.com.ua/smartfony/iphone-16-plus-128gb-black-apple-752201.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-plus-256gb-black-apple-752206.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-plus-512gb-black-apple-752211.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
 
-  "https://www.ctrs.com.ua/smartfony/iphone-16-pro-128gb-black-titanium-apple-752249.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-pro-256gb-black-titanium-apple-752218.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-pro-512gb-black-titanium-apple-752224.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-pro-1tb-black-titanium-apple-752228.html",
 
-  "https://www.ctrs.com.ua/smartfony/iphone-16-pro-max-256gb-black-titanium-apple-752236.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-pro-max-512gb-black-titanium-apple-752240.html",
-  "https://www.ctrs.com.ua/smartfony/iphone-16-pro-max-1tb-black-titanium-apple-752244.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
 ];
 
 const arrLinkCts16IPHiNfo = [
@@ -1501,24 +1501,24 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  // for (let i = 0; i < arrLinkCts16IPH.length; i += 1) {
-  //   await page.goto(arrLinkCts16IPH[i]);
-  //   const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkCts16IPH.length; i += 1) {
+    await page.goto(arrLinkCts16IPH[i]);
+    const n = await page.$("#txt");
 
-  //   let arr2 = await page.evaluate(() => {
-  //     let text2 = document.querySelector("h1").innerText;
-  //     if (document.querySelector(".price") != null) {
-  //       return (
-  //         text2 + "CRS: " + document.querySelector(".price").innerText
-  //       );
-  //     } else {
-  //       return text2;
-  //     }
-  //   });
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price") != null) {
+        return (
+          text2 + "CRS: " + document.querySelector(".price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
 
-  //   console.log(arr2);
-  //   await page.setDefaultNavigationTimeout(0);
-  // }
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
   for (let i = 0; i < arrLinkiPeople16.length; i++) {
   const link = arrLinkiPeople16[i];
 
@@ -1876,42 +1876,73 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   console.log(arr2);
   await page.setDefaultNavigationTimeout(0);
 }
-   for (let i = 0; i < arrLinkCts17ProIPH.length; i += 1) {
-    await page.goto(arrLinkCts17ProIPH[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "CRS: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
+   for (let i = 0; i < arrLinkCts17ProIPH.length; i++) {
+  try {
+    await page.goto(arrLinkCts17ProIPH[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkCts17ProIPHinfo.length; i += 1) {
-    await page.goto(arrLinkCts17ProIPHinfo[i]);
-    const n = await page.$("#txt");
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t
+              .replace(/\n+/g, " ")
+              .replace(/\s+/g, " ")
+              .replace(/Швидка покупка/gi, "")
+              .replace(/Передзамовити.*/gi, "Передзамовити")
+              .trim()
+          : "";
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".Price_buttonWrapper__QsXNG") != null) {
-        return (
-          text2 + "CRS: " + document.querySelector(".Price_buttonWrapper__QsXNG").innerText
-        );
-      } else {
-        return text2;
-      }
+      const title = clean(document.querySelector("h1")?.innerText);
+      if (!title) return "";
+
+      const priceRaw = document.querySelector(".price");
+      const price = clean(priceRaw?.innerText);
+
+      return price ? `${title} CRS: ${price}` : `${title} CRS: Передзамовити`;
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    if (result && result.trim()) console.log(result);
+
+  } catch {
+    console.log(`❌ CRS: не открылся ${arrLinkCts17ProIPH[i]}`);
   }
+}
+  for (let i = 0; i < arrLinkCts17ProIPHinfo.length; i++) {
+  try {
+    await page.goto(arrLinkCts17ProIPHinfo[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
+
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t
+              .replace(/\n+/g, " ")
+              .replace(/\s+/g, " ")
+              .replace(/Швидка покупка/gi, "")
+              .replace(/Купити/gi, "Купити")
+              .replace(/Передзамовити.*/gi, "Передзамовити")
+              .trim()
+          : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+      if (!title) return "";
+
+      const priceRaw = document.querySelector(".Price_buttonWrapper__QsXNG");
+      const price = clean(priceRaw?.innerText);
+
+      return price ? `${title} CRS: ${price}` : `${title} CRS: Передзамовити`;
+    });
+
+    if (result && result.trim()) console.log(result);
+
+  } catch {
+    console.log(`❌ CRS: не открылся ${arrLinkCts17ProIPHinfo[i]}`);
+  }
+}
    for (let i = 0; i < arrLinkSkay17ProIPH.length; i += 1) {
     await page.goto(arrLinkSkay17ProIPH[i]);
     const n = await page.$("#txt");
