@@ -1501,24 +1501,41 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkCts16IPH.length; i += 1) {
-    await page.goto(arrLinkCts16IPH[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkCts16IPH.length; i++) {
+  const link = arrLinkCts16IPH[i];
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "CRS: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 15000,
     });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+          : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+      const price = clean(document.querySelector(".price")?.innerText);
+
+      // если это не товар (google, редирект, пустая страница)
+      if (!title || title.length < 3) {
+        return "❌ CRS: страница без товара";
+      }
+
+      return price ? `${title} CRS: ${price}` : `${title} CRS: нет цены`;
+    });
+
+    // печатаем ТОЛЬКО если строка нормальная
+    if (result && result.trim()) {
+      console.log(result);
+    }
+
+  } catch (err) {
+    console.log(`❌ CRS: не открылся ${link}`);
   }
+}
   for (let i = 0; i < arrLinkiPeople16.length; i++) {
   const link = arrLinkiPeople16[i];
 
