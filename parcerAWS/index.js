@@ -1446,7 +1446,24 @@ async function f() {
   
 
 
+ for (let i = 0; i < arrLinkGroAWS10andUltra2024.length; i += 1) {
+    await page.goto(arrLinkGroAWS10andUltra2024[i]);
+    const n = await page.$("#txt");
 
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
 
 
 
@@ -1472,24 +1489,45 @@ async function f() {
     console.log(err.message);
   }
 }
-  for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i += 1) {
-    await page.goto(arrLinkiPeopleAWS10andUltra2024[i]);
-    const n = await page.$("#txt");
+//  for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i++) {
+//   const link = arrLinkiPeopleAWS10andUltra2024[i];
 
-    let arr3 = await page.evaluate(() => {
-  const usd = document.querySelector(".usd");
+//   try {
+//     const response = await page.goto(link, {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000,
+//     });
 
-  if (usd) {
-    const text2 = usd.innerText.trim();
-    return `${text2} iPeople: ${usd.innerText.trim()}`;
-  } else {
-    return "⚠️ Нет .usd";
-  }
-});
+//     if (!response || !response.ok()) {
+//       console.log(`❌ Не открылся: ${link}`);
+//       continue;
+//     }
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+//     // ждём стабилизации DOM
+//     await page.waitForFunction(
+//       () => document.readyState === "complete",
+//       { timeout: 10000 }
+//     );
+
+//     // микро-пауза против редиректов
+//     await page.waitForTimeout(300);
+
+//     const result = await page.evaluate(() => {
+//       const usd = document.querySelector(".usd");
+//       if (!usd) return "⚠️ iPeople: Нет .usd";
+
+//       return `iPeople: ${usd.innerText.replace(/\s+/g, " ").trim()}`;
+//     });
+
+//     console.log(result);
+
+//     // антибан
+//     await page.waitForTimeout(600);
+
+//   } catch (err) {
+//     console.log(`❌ Ошибка / редирект: ${link}`);
+//   }
+// }
   for (let i = 0; i < arrLinkEstoreAWS10andUltra2024.length; i += 1) {
     await page.goto(arrLinkEstoreAWS10andUltra2024[i]);
     const n = await page.$("#txt");

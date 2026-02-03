@@ -556,24 +556,23 @@ async function f() {
     console.log(err.message);
   }
 }
-  for (let i = 0; i < arrLinkEstoreStarlink.length; i += 1) {
-    await page.goto(arrLinkEstoreStarlink[i]);
-    const n = await page.$("#txt");
+  for (const link of arrLinkEstoreStarlink) {
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("p .price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector("p .price").innerText
-        );
-      } else {
-        return "Нет";
-      }
-    });
+  const ok = await safeGoto(page, link);
+  if (!ok) continue;
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  const result = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText?.trim();
+    const price = document.querySelector("p .price")?.innerText?.trim();
+
+    if (!title || !price) return "Нет";
+
+    return `${title} — Estore: ${price}`;
+  });
+
+  console.log(result);
+  await new Promise(r => setTimeout(r, 700));
+}
   for (let i = 0; i < arrLinkiPeopleStarlink.length; i += 1) {
     await page.goto(arrLinkiPeopleStarlink[i]);
     const n = await page.$("#txt");
