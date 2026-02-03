@@ -1536,45 +1536,45 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(`❌ CRS: не открылся ${link}`);
   }
 }
-//   for (let i = 0; i < arrLinkiPeople16.length; i++) {
-//   const link = arrLinkiPeople16[i];
+  for (let i = 0; i < arrLinkiPeople16.length; i++) {
+  const link = arrLinkiPeople16[i];
 
-//   try {
-//     const response = await page.goto(link, {
-//       waitUntil: "domcontentloaded",
-//       timeout: 20000,
-//     });
+  try {
+    const response = await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-//     if (!response || !response.ok()) {
-//       console.log(`❌ iPeople16: не открылся ${link}`);
-//       continue;
-//     }
+    if (!response || !response.ok()) {
+      console.log(`❌ iPeople16: не открылся ${link}`);
+      continue;
+    }
 
-//     await page.waitForSelector("body", { timeout: 5000 });
+    await page.waitForSelector("body", { timeout: 5000 });
 
-//     const result = await page.evaluate(() => {
-//       const clean = (t) =>
-//         typeof t === "string"
-//           ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
-//           : "";
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+          : "";
 
-//       const title = clean(document.querySelector("h1")?.innerText);
-//       const usd = clean(document.querySelector(".usd")?.innerText);
+      const title = clean(document.querySelector("h1")?.innerText);
+      const usd = clean(document.querySelector(".usd")?.innerText);
 
-//       if (!title) return "❌ iPeople16: страница без товара";
+      if (!title) return "❌ iPeople16: страница без товара";
 
-//       return usd
-//         ? `${title} iPeople: ${usd}`
-//         : `${title} iPeople: нет цены`;
-//     });
+      return usd
+        ? `${title} iPeople: ${usd}`
+        : `${title} iPeople: нет цены`;
+    });
 
-//     console.log(result);
-//     await new Promise(r => setTimeout(r, 600));
+    console.log(result);
+    await new Promise(r => setTimeout(r, 600));
 
-//   } catch (err) {
-//     console.log(`❌ iPeople16: не открылся ${link}`);
-//   }
-// }
+  } catch (err) {
+    console.log(`❌ iPeople16: не открылся ${link}`);
+  }
+}
 
   for (let i = 0; i < arrLinkYua16.length; i += 1) {
     await page.goto(arrLinkYua16[i]);
@@ -1716,45 +1716,45 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-//   for (let i = 0; i < arrLinkiPeople16e.length; i++) {
-//   const link = arrLinkiPeople16e[i];
+  for (let i = 0; i < arrLinkiPeople16e.length; i++) {
+  const link = arrLinkiPeople16e[i];
 
-//   try {
-//     const response = await page.goto(link, {
-//       waitUntil: "domcontentloaded",
-//       timeout: 20000,
-//     });
+  try {
+    const response = await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-//     if (!response || !response.ok()) {
-//       console.log(`❌ iPeople16e: не открылся ${link}`);
-//       continue;
-//     }
+    if (!response || !response.ok()) {
+      console.log(`❌ iPeople16e: не открылся ${link}`);
+      continue;
+    }
 
-//     await page.waitForSelector("body", { timeout: 5000 });
+    await page.waitForSelector("body", { timeout: 5000 });
 
-//     const result = await page.evaluate(() => {
-//       const clean = (t) =>
-//         typeof t === "string"
-//           ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
-//           : "";
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+          : "";
 
-//       const title = clean(document.querySelector("h1")?.innerText);
-//       const usd = clean(document.querySelector(".usd")?.innerText);
+      const title = clean(document.querySelector("h1")?.innerText);
+      const usd = clean(document.querySelector(".usd")?.innerText);
 
-//       if (!title) return "❌ iPeople16e: страница без товара";
+      if (!title) return "❌ iPeople16e: страница без товара";
 
-//       return usd
-//         ? `${title} iPeople: ${usd}`
-//         : `${title} iPeople: нет цены`;
-//     });
+      return usd
+        ? `${title} iPeople: ${usd}`
+        : `${title} iPeople: нет цены`;
+    });
 
-//     console.log(result);
-//     await new Promise(r => setTimeout(r, 500));
+    console.log(result);
+    await new Promise(r => setTimeout(r, 500));
 
-//   } catch (err) {
-//     console.log(`❌ iPeople16e: не открылся ${link}`);
-//   }
-// }
+  } catch (err) {
+    console.log(`❌ iPeople16e: не открылся ${link}`);
+  }
+}
 
 
   

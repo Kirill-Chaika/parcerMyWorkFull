@@ -1489,45 +1489,45 @@ async function f() {
     console.log(err.message);
   }
 }
-//  for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i++) {
-//   const link = arrLinkiPeopleAWS10andUltra2024[i];
+ for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i++) {
+  const link = arrLinkiPeopleAWS10andUltra2024[i];
 
-//   try {
-//     const response = await page.goto(link, {
-//       waitUntil: "domcontentloaded",
-//       timeout: 20000,
-//     });
+  try {
+    const response = await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-//     if (!response || !response.ok()) {
-//       console.log(`❌ Не открылся: ${link}`);
-//       continue;
-//     }
+    if (!response || !response.ok()) {
+      console.log(`❌ Не открылся: ${link}`);
+      continue;
+    }
 
-//     // ждём стабилизации DOM
-//     await page.waitForFunction(
-//       () => document.readyState === "complete",
-//       { timeout: 10000 }
-//     );
+    // ждём стабилизации DOM
+    await page.waitForFunction(
+      () => document.readyState === "complete",
+      { timeout: 10000 }
+    );
 
-//     // микро-пауза против редиректов
-//     await page.waitForTimeout(300);
+    // микро-пауза против редиректов
+    await page.waitForTimeout(300);
 
-//     const result = await page.evaluate(() => {
-//       const usd = document.querySelector(".usd");
-//       if (!usd) return "⚠️ iPeople: Нет .usd";
+    const result = await page.evaluate(() => {
+      const usd = document.querySelector(".usd");
+      if (!usd) return "⚠️ iPeople: Нет .usd";
 
-//       return `iPeople: ${usd.innerText.replace(/\s+/g, " ").trim()}`;
-//     });
+      return `iPeople: ${usd.innerText.replace(/\s+/g, " ").trim()}`;
+    });
 
-//     console.log(result);
+    console.log(result);
 
-//     // антибан
-//     await page.waitForTimeout(600);
+    // антибан
+    await page.waitForTimeout(600);
 
-//   } catch (err) {
-//     console.log(`❌ Ошибка / редирект: ${link}`);
-//   }
-// }
+  } catch (err) {
+    console.log(`❌ Ошибка / редирект: ${link}`);
+  }
+}
   for (let i = 0; i < arrLinkEstoreAWS10andUltra2024.length; i += 1) {
     await page.goto(arrLinkEstoreAWS10andUltra2024[i]);
     const n = await page.$("#txt");
