@@ -556,22 +556,51 @@ async function f() {
     console.log(err.message);
   }
 }
-  for (const link of arrLinkEstoreStarlink) {
+  for (let i = 0; i < arrLinkEstoreStarlink.length; i++) {
+  const link = arrLinkEstoreStarlink[i];
 
-  const ok = await safeGoto(page, link);
-  if (!ok) continue;
+  try {
+    const response = await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
 
-  const result = await page.evaluate(() => {
-    const title = document.querySelector("h1")?.innerText?.trim();
-    const price = document.querySelector("p .price")?.innerText?.trim();
+    if (!response || !response.ok()) {
+      console.log(`❌ Не открылся: ${link}`);
+      continue;
+    }
 
-    if (!title || !price) return "Нет";
+    // ждём полной стабилизации страницы
+    await page.waitForFunction(
+      () => document.readyState === "complete",
+      { timeout: 10000 }
+    );
 
-    return `${title} — Estore: ${price}`;
-  });
+    // пауза против авто-редиректов
+    await page.waitForTimeout(300);
 
-  console.log(result);
-  await new Promise(r => setTimeout(r, 700));
+    const result = await page.evaluate(() => {
+      const title = document.querySelector("h1")?.innerText
+        ?.replace(/\s+/g, " ")
+        .trim();
+
+      const price = document.querySelector("p .price")?.innerText
+        ?.replace(/\s+/g, " ")
+        .trim();
+
+      if (!title) return "Нет";
+
+      return price ? `${title} Estore: ${price}` : "Нет";
+    });
+
+    console.log(result);
+
+    // антибан
+    await page.waitForTimeout(600);
+
+  } catch (err) {
+    console.log(`❌ Ошибка / редирект: ${link}`);
+  }
 }
   for (let i = 0; i < arrLinkiPeopleStarlink.length; i += 1) {
     await page.goto(arrLinkiPeopleStarlink[i]);
