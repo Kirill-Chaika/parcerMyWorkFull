@@ -265,21 +265,42 @@ async function f() {
   }
 }
 
-  for (let i = 0; i < arrLinkTouchGadjetApple.length; i++) {
+ for (let i = 0; i < arrLinkTouchGadjetApple.length; i++) {
+  const link = arrLinkTouchGadjetApple[i];
+
+  // ✅ если это заглушка Google — просто выводим и идём дальше
+  if (link.includes('google.com')) {
+    console.log('--- GOOGLE PLACEHOLDER ---');
+    continue;
+  }
+
   try {
-    await page.goto(arrLinkTouchGadjetApple[i], { waitUntil: 'domcontentloaded' });
+    await page.goto(link, { waitUntil: 'domcontentloaded' });
 
-    const arr2 = await page.evaluate(() => {
-      const h1 = document.querySelector("h1");
-      const priceEl = document.querySelector(".price");
-      const title = h1 ? h1.innerText : "No title";
-      const price = priceEl ? priceEl.innerText : null;
-      return price ? `${title} Touch: ${price}` : title;
-    });
+    await page.waitForSelector('h1', { timeout: 7000 });
 
-    console.log(arr2);
+    const title = await page.$eval('h1', el =>
+      el.innerText.replace(/\s+/g, ' ').trim()
+    );
+
+    let price = '';
+    const priceEl = await page.$('.price');
+    if (priceEl) {
+      price = await page.$eval('.price', el =>
+        el.innerText.replace(/\s+/g, ' ').trim()
+      );
+    }
+
+    if (price) {
+      console.log(`${title} Touch: ${price}`);
+    } else {
+      console.log(title);
+    }
+
+    await page.waitForTimeout(1200);
+
   } catch (err) {
-    console.error(`Ошибка на странице ${arrLinkTouchGadjetApple[i]}:`, err);
+    // молча пропускаем реальные ошибки
   }
 }
 
