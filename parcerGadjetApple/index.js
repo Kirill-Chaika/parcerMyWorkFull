@@ -38,13 +38,13 @@ const arrLinkGroGadjetApple = [
 "https://grokholsky.com/ua/product/apple/accessories/homepod/homepod-mini-yellow-mj2e3/",
 "https://grokholsky.com/ua/product/apple/accessories/homepod/homepod-mini-orange-mj2d3/",
 "https://grokholsky.com/ua/product/apple/accessories/homepod/homepod-mini-space-gray-my5g2/",
-"https://www.google.com",
+"https://example.com/",
 "https://grokholsky.com/ua/product/apple/accessories/homepod/homepod-2-white-mqj83-mqja3/",
 "https://grokholsky.com/ua/product/apple/accessories/homepod/homepod-2-midnight-mqj73-mqj93/",
 ]
 
 const arrLinkJabkoGadjetApple = [
-     "https://jabko.ua/gadzheti-i-drugoe/apple-airtag212/apple-airtag",
+"https://jabko.ua/gadzheti-i-drugoe/apple-airtag212/apple-airtag",
 "https://jabko.ua/gadzheti-i-drugoe/apple-airtag212/apple-airtag-4-pack--mx542-",
 "https://jabko.ua/aksessuari/aksessuari-dlja-ipad/apple-pencil/apple-pencil-tips--4-sht-",
  "https://jabko.ua/aksessuari/aksessuari-dlja-ipad/apple-pencil/apple-pencil-2024",
@@ -79,42 +79,153 @@ const arrLinkJabkoGadjetApple = [
 "https://jabko.ua/gadzheti-i-drugoe/gadzheti-apple/apple-homepod/apple-homepod-mini--yellow-",
 "https://jabko.ua/gadzheti-i-drugoe/gadzheti-apple/apple-homepod/apple-homepod-mini--orange-",
 "https://jabko.ua/gadzheti-i-drugoe/gadzheti-apple/apple-homepod/apple-homepod-mini",
-"https://www.google.com",
+"https://www.google.com/",
 "https://jabko.ua/gadzheti-i-drugoe/gadzheti-apple/apple-homepod/apple-homepod-2--white---mqj83-",
 "https://jabko.ua/gadzheti-i-drugoe/gadzheti-apple/apple-homepod/apple-homepod-2--midnight---mqj73-",
 ]
 
 const arrLinkYuaGadjetApple = [
+  "https://www.google.com",
+"https://www.google.com",
+"https://y.ua/apple-pencil-tips-mlun2-for-apple-ipad-pro/p245820/",
+
+"https://y.ua/stilus-apple-pencil-pro-mx2d3-2024/p1294342/",
+"https://y.ua/stilus-apple-pencil-usb-c-muwa3/p1199017/",
+"https://www.google.com",
+"https://y.ua/apple-pencil-2-mu8f2-for-ipad-pro-2018/p415688/",
+
+"https://y.ua/apple-magic-mouse-mk2e3-2021/p833901/",
+"https://y.ua/apple-magic-mouse-with-black-multi-touch-surface-mmmq3-2022/p913309/",
+"https://y.ua/apple-magic-mouse-usbc-white-multi-touch-surface-mxk53-2024-1402070/p1402070/",
+"https://www.google.com",
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://y.ua/apple-magic-keyboard-for-ipad-pro-11inch-m4-white-mwr03/p1443318/",
+"https://www.google.com",
+"https://y.ua/apple-magic-keyboard-for-ipad-pro-13inch-m4-black-mwr53/p1442789/",
+"https://y.ua/apple-magic-keyboard-for-ipad-pro-13inch-m4-ukrainian-white-mwr43uaa/p1357558/",
+"https://y.ua/apple-tv-4k-wifi-plus-ethernet-128gb-mn893-2022/p999488/",
+"https://y.ua/apple-tv-4k-wifi-64gb-mn873-2022/p999489/", 
+"https://y.ua/apple-homepod-mini-white/p690500/",
+"https://www.google.com",
+"https://y.ua/apple-homepod-mini-blue-mj2c3/p846794/",
+"https://y.ua/apple-homepod-mini-yellow-mj2e3/p846796/",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
 ]
 
 const arrLinkTouchGadjetApple = [
+  "https://touch.com.ua/ua/item/brelok-dlya-poiska-veshchey-apple-airtag-1sht-mx532/",
+"https://touch.com.ua/ua/item/brelok-dlya-poiska-veshchey-apple-airtag-4sht-mx542/",
+"https://touch.com.ua/ua/item/nakonechniki-dlya-stilusa-apple-pencil-tips-4-sht-mlun2/",
+"https://touch.com.ua/ua/item/apple-pencil-pro-mx2d3/",
+"https://touch.com.ua/ua/item/apple-pencil-usb-c-muwa3/",
+"https://touch.com.ua/ua/item/apple-pencil-1st-gen-mqly3/",
+"https://touch.com.ua/ua/item/stilus-apple-pencil-2nd-generation-dlya-ipad-pro-2018-mu8f2/",
+"https://touch.com.ua/ua/item/mysh-apple-magic-mouse-2021-mk2e3/",
+"https://www.google.com",
+"https://touch.com.ua/ua/item/mysh-apple-magic-mouse-white-multi-touch-surface-mxk53/",
+"https://touch.com.ua/ua/item/mysh-apple-magic-mouse-black-multi-touch-surface-mxk63/",
+"https://touch.com.ua/ua/item/apple-magic-trackpad-white-multi-touch-surface-mxk93-trekpad-122933/",
+"https://touch.com.ua/ua/item/tachpad-apple-magic-trackpad-black-mxka3-/",
+"https://www.google.com",
+"https://touch.com.ua/ua/item/klaviatura-apple-magic-keyboard-2021-mk2a3/",
+"https://www.google.com",
+"https://www.google.com",
+"https://touch.com.ua/ua/item/klaviatura-apple-magic-keyboard-with-touch-id-bluetooth-mk293/",
+"https://www.google.com",
+"https://www.google.com",
+"https://touch.com.ua/ua/item/apple-smart-keyboard-folio-for-ipad-10-9-2022-10gen-gen-white-mqdp3-chekhol-klaviatura/",
+"https://touch.com.ua/ua/item/chekhol-klaviatura-apple-magic-keyboard-dlya-ipad-pro-11-1th-4th-ipad-air-4th-5th-ipad-air-11-m2-whi/",
+"https://touch.com.ua/ua/item/chekhol-klaviatura-apple-magic-keyboard-dlya-ipad-air-13-2024-2025-m2-m3-white-mdfw4/",
+"https://touch.com.ua/ua/item/apple-magic-keyboard-for-ipad-pro-11-2024-m4-white-mwr03ll-a-chekhol-klaviatura/",
+"https://touch.com.ua/ua/item/apple-magic-keyboard-for-ipad-pro-11-2024-m4-black-mwr23ll-a-chekhol-klaviatura/",
+"https://touch.com.ua/ua/item/apple-magic-keyboard-for-ipad-pro-13-2024-m4-white-mwr43ll-a-chekhol-klaviatura/",
+"https://touch.com.ua/ua/item/apple-magic-keyboard-for-ipad-pro-13-2024-m4-black-mwr53ll-a-chekhol-klaviatura/",
+"https://touch.com.ua/ua/item/apple-tv-4k-2022-128gb-mn893-tv-pristavka/",
+"https://touch.com.ua/ua/item/apple-tv-4k-2022-64gb-mn873-tv-pristavka/", 
+"https://touch.com.ua/ua/item/akusticheskaya-kolonka-apple-homepod-mini-white/",
+"https://touch.com.ua/ua/item/apple-homepod-mini-midnight-mtjt3-118385-umnye-kolonki-rozumni-kolonki/",
+"https://touch.com.ua/ua/item/akusticheskaya-kolonka-apple-homepod-mini-blue/",
+"https://touch.com.ua/ua/item/akusticheskaya-kolonka-apple-homepod-mini-yellow/",
+"https://touch.com.ua/ua/item/akusticheskaya-kolonka-apple-homepod-mini-orange/",
+"https://touch.com.ua/ua/item/akusticheskaya-kolonka-apple-homepod-mini-space-gray/",
+"https://www.google.com",
+"https://touch.com.ua/ua/item/apple-homepod-2-white-mqj83/",
+"https://touch.com.ua/ua/item/apple-homepod-2-midnight-mqj73/",
 ]
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({
+    headless: false,
+    ignoreHTTPSErrors: true, // ✅ убирает ERR_CERT_COMMON_NAME_INVALID
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-web-security",
+      "--disable-features=IsolateOrigins,site-per-process",
+    ],
+  });
+
   const page = await browser.newPage();
-  await page.setDefaultNavigationTimeout(0);
-  await page.setDefaultTimeout(0);
 
+  // ❗ лучше ставить после newPage
+  page.setDefaultNavigationTimeout(30000);
+  page.setDefaultTimeout(30000);
   
-  for (let i = 0; i < arrLinkGroGadjetApple.length; i += 1) {
-    await page.goto(arrLinkGroGadjetApple[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkGroGadjetApple.length; i++) {
+  const link = arrLinkGroGadjetApple[i];
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+    const response = await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
+    // если сайт не открылся
+    if (!response || !response.ok()) {
+      console.log(`❌ Gro: не открылось — ${link}`);
+      continue;
+    }
+
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const sku = document.querySelector(".sku");
+      if (!sku) return "⚠️ Gro: не товарная страница";
+
+      const price = document.querySelector(".product-price-value");
+
+      return price
+        ? `${clean(sku.innerText)} Gro: ${clean(price.innerText)}`
+        : `${clean(sku.innerText)} Gro: нет цены`;
+    });
+
+    console.log(result);
+
+    // небольшая пауза (антибан + стабильность)
+    await new Promise(r => setTimeout(r, 500));
+
+  } catch (err) {
+    console.log(`❌ Gro: ошибка или не открылось — ${link}`);
   }
+}
   
   for (let i = 0; i < arrLinkJabkoGadjetApple.length; i += 1) {
   try {
@@ -136,41 +247,41 @@ async function f() {
   }
   }
  
-  for (let i = 0; i < arrLinkYuaGadjetApple.length; i += 1) {
-    await page.goto(arrLinkYuaGadjetApple[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkYuaGadjetApple.length; i++) {
+  try {
+    await page.goto(arrLinkYuaGadjetApple[i], { waitUntil: 'domcontentloaded' });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price .regular") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price .regular").innerText
-        );
-      } else {
-        return text2;
-      }
+    const arr2 = await page.evaluate(() => {
+      const h1 = document.querySelector("h1");
+      const priceEl = document.querySelector(".price .regular");
+      const title = h1 ? h1.innerText.replace(/\s+/g, ' ').trim() : "No title";
+      const price = priceEl ? priceEl.innerText.replace(/\s+/g, ' ').trim() : null;
+      return price ? `${title} Yua: ${price}` : title;
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+  } catch (err) {
+    console.error(`Ошибка на странице ${arrLinkYuaGadjetApple[i]}:`, err);
   }
+}
 
-  for (let i = 0; i < arrLinkTouchGadjetApple.length; i += 1) {
-    await page.goto(arrLinkTouchGadjetApple[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkTouchGadjetApple.length; i++) {
+  try {
+    await page.goto(arrLinkTouchGadjetApple[i], { waitUntil: 'domcontentloaded' });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return text2 + "Touch: " + document.querySelector(".price").innerText;
-      } else {
-        return text2;
-      }
+    const arr2 = await page.evaluate(() => {
+      const h1 = document.querySelector("h1");
+      const priceEl = document.querySelector(".price");
+      const title = h1 ? h1.innerText : "No title";
+      const price = priceEl ? priceEl.innerText : null;
+      return price ? `${title} Touch: ${price}` : title;
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+  } catch (err) {
+    console.error(`Ошибка на странице ${arrLinkTouchGadjetApple[i]}:`, err);
   }
+}
 
 
 
