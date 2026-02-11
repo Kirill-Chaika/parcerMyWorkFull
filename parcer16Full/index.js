@@ -1979,24 +1979,43 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(`❌ CRS: не открылся ${arrLinkCts17ProIPHinfo[i]}`);
   }
 }
-   for (let i = 0; i < arrLinkSkay17ProIPH.length; i += 1) {
-    await page.goto(arrLinkSkay17ProIPH[i]);
-    const n = await page.$("#txt");
+   for (let i = 0; i < arrLinkSkay17ProIPH.length; i++) {
+  const link = arrLinkSkay17ProIPH[i];
 
-    let arr1 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".products-item-cost") != null) {
-        return (
-          text2 + "S: " + document.querySelector(".products-item-cost").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+    const response = await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
     });
 
-    console.log(arr1);
-    await page.setDefaultNavigationTimeout(0);
+    // сайт не открылся
+    if (!response || !response.ok()) {
+      console.log(`❌ S: не открылось — ${link}`);
+      continue;
+    }
+
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+      if (!h1) return "⚠️ S: нет H1";
+
+      const price = document.querySelector(".products-item-cost");
+
+      return price
+        ? `${clean(h1.innerText)} S: ${clean(price.innerText)}`
+        : `${clean(h1.innerText)} S: нет цены`;
+    });
+
+    console.log(result);
+
+    await new Promise(r => setTimeout(r, 500));
+
+  } catch (err) {
+    console.log(`❌ S: ошибка или не открылось — ${link}`);
   }
+}
   
   for (let i = 0; i < arrLinkJabko17ProIPHeSim.length; i += 1) {
   await page.goto(arrLinkJabko17ProIPHeSim[i], {
