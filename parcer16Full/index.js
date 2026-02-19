@@ -1783,8 +1783,8 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
       timeout: 20000
     });
 
-    // небольшая пауза — КЛЮЧЕВО
-    await page.waitForTimeout(500);
+    // ⏳ универсальная пауза (вместо waitForTimeout)
+    await new Promise(resolve => setTimeout(resolve, 500));
 
     const arr2 = await page.evaluate(() => {
       const h1 = document.querySelector("h1");
@@ -1904,27 +1904,27 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   try {
     await page.goto(arrLinkYabloki17Pro[i], {
       waitUntil: "domcontentloaded",
-      timeout: 0,
+      timeout: 20000
     });
 
-    // небольшая пауза — ОБЯЗАТЕЛЬНО
-    await page.waitForTimeout(500);
+    // универсальная пауза
+    await new Promise(resolve => setTimeout(resolve, 500));
 
     const arr2 = await page.evaluate(() => {
       const h1 = document.querySelector("h1");
       const price = document.querySelector(".product-price-title");
 
-      const title = h1 ? h1.innerText.trim() : "Без названия";
-      const cost = price ? price.innerText.trim() : "нет цены";
+      const title = h1?.innerText?.trim() || "Без названия";
+      const priceText = price?.innerText?.trim() || "нет цены";
 
-      return `${title} Yabloki: ${cost}`;
+      return `${title} Yabloki Pro: ${priceText}`;
     });
 
     console.log(arr2);
 
-  } catch (e) {
-    console.log("❌ ошибка на ссылке:", arrLinkYabloki17Pro[i]);
-    console.log(e.message);
+  } catch (err) {
+    console.log("❌ Ошибка при загрузке:", arrLinkYabloki17Pro[i]);
+    console.log(err.message);
   }
 }
    for (let i = 0; i < arrLinkCts17ProIPH.length; i++) {
@@ -2202,26 +2202,26 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   try {
     await page.goto(arrLinkYabloki17[i], {
       waitUntil: "domcontentloaded",
-      timeout: 0,
+      timeout: 20000
     });
 
-    // обязательно дать странице чуть времени
-    await page.waitForTimeout(500);
+    // универсальная пауза (вместо waitForTimeout)
+    await new Promise(resolve => setTimeout(resolve, 500));
 
     const arr2 = await page.evaluate(() => {
       const h1 = document.querySelector("h1");
       const price = document.querySelector(".product-price-title");
 
-      const title = h1 ? h1.innerText.trim() : "Без названия";
-      const cost = price ? price.innerText.trim() : "нет цены";
+      const title = h1?.innerText?.trim() || "Без названия";
+      const priceText = price?.innerText?.trim() || "нет цены";
 
-      return `${title} Yabloki: ${cost}`;
+      return `${title} Yabloki: ${priceText}`;
     });
 
     console.log(arr2);
 
   } catch (err) {
-    console.log("❌ Ошибка на странице:", arrLinkYabloki17[i]);
+    console.log("❌ Ошибка при загрузке:", arrLinkYabloki17[i]);
     console.log(err.message);
   }
 }
