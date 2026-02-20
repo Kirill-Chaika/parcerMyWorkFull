@@ -2087,29 +2087,38 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkEstore17ProIPHeSim.length; i += 1) {
-    await page.goto(arrLinkEstore17ProIPHeSim[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkEstore17ProIPHeSim.length; i++) {
+  const url = arrLinkEstore17ProIPHeSim[i];
 
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
+  const page = await browser.newPage(); // новая вкладка
 
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
+  try {
+    await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000
+    });
+
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    const arr2 = await page.evaluate(() => {
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".regular-price");
+
+      const title = h1?.innerText?.trim() || "⚠️ Нет H1";
+      const priceText = price?.innerText?.trim() || "нет цены";
+
+      return `${title} Estore: ${priceText}`;
+    });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+    console.log("❌ Ошибка:", url);
+    console.log(err.message);
   }
+
+  await page.close(); // обязательно закрываем вкладку
+}
 
   for (let i = 0; i < arrLinkJabko17IPH.length; i += 1) {
   await page.goto(arrLinkJabko17IPH[i], {
