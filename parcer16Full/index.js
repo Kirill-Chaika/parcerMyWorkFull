@@ -1383,6 +1383,92 @@ const arrLinkYabloki17 = [
 "https://www.google.com/",
 ]
 
+const arrLinkJabko17eIPH = [
+  "https://jabko.ua/product/apple-iphone-17e-256gb-soft-pink",
+"https://jabko.ua/product/apple-iphone-17e-256gb-white",
+"https://jabko.ua/product/apple-iphone-17e-256gb-black",
+ 
+"https://jabko.ua/product/apple-iphone-17e-512gb-soft-pink",
+"https://jabko.ua/product/apple-iphone-17e-512gb-white",
+"https://jabko.ua/product/apple-iphone-17e-512gb-black",
+ 
+"https://jabko.ua/product/apple-iphone-17e-256gb-soft-pink-e-sim",
+"https://jabko.ua/product/apple-iphone-17e-256gb-white-e-sim",
+"https://jabko.ua/product/apple-iphone-17e-256gb-black-e-sim",
+ 
+"https://jabko.ua/product/apple-iphone-17e-512gb-soft-pink-e-sim",
+"https://jabko.ua/product/apple-iphone-17e-512gb-white-e-sim",
+"https://jabko.ua/product/apple-iphone-17e-512gb-black-e-sim",
+]
+const arrLinkMobilePlanet17eIPH = [
+  "https://mobileplanet.ua/apple-iphone-17e-256gb-soft-pink-mhrx4-377235",
+"https://mobileplanet.ua/apple-iphone-17e-256gb-white-mhrw4-377236",
+"https://mobileplanet.ua/apple-iphone-17e-256gb-black-mhrv4-377234",
+ 
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+ 
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+ 
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+]
+const arrLinkGro17eIPH = [
+  "https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-256gb-soft-pink-mhrx4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-256gb-white-mhrw4/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-256gb-black-mhrv4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-512gb-soft-pink-mhu34/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-512gb-white-mhu04/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-512gb-black-mhry4/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-256gb-esim-soft-pink/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-256gb-esim-white/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-256gb-esim-black/",
+ 
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-512gb-esim-soft-pink/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-512gb-esim-white/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-17e/smartfon-apple-iphone-17e-512gb-esim-black/",
+]
+const arrLinkEstore17eIPH = [
+  "https://estore.ua/ua/iphone-17e-256gb-soft-pink/?q=mhrx4",
+"https://estore.ua/ua/iphone-17e-256gb-white/?q=mhrw4",
+"https://estore.ua/ua/iphone-17e-256gb-black/?q=mhrv4",
+ 
+"https://estore.ua/ua/iphone-17e-512gb-soft-pink/?q=mhu34",
+"https://estore.ua/ua/iphone-17e-512gb-white/?q=mhu04",
+"https://estore.ua/ua/iphone-17e-512gb-black/?q=mhry4",
+ 
+"https://estore.ua/ua/iphone-17e-256gb-soft-pink-esim/?q=mhrq4",
+"https://estore.ua/ua/iphone-17e-256gb-white-esim/?q=mhrp4",
+"https://estore.ua/ua/iphone-17e-256gb-black-esim/",
+ 
+"https://estore.ua/ua/iphone-17e-512gb-soft-pink-esim/?q=mhru4",
+"https://estore.ua/ua/iphone-17e-512gb-white-esim/?q=mhrt4",
+"https://estore.ua/ua/iphone-17e-512gb-black-esim/?q=mhrr4",
+]
+const arrLinkYabloki17e = [
+  "https://yabloki.ua/iphone-17e-256gb-lavender-78215.html",
+"https://yabloki.ua/iphone-17e-256gb-white-78214.html",
+"https://yabloki.ua/iphone-17e-256gb-black-78213.html",
+ 
+"https://yabloki.ua/iphone-17e-512gb-lavender-78218.html",
+"https://yabloki.ua/iphone-17e-512gb-white-78217.html",
+"https://yabloki.ua/iphone-17e-512gb-black-78216.html",
+ 
+"https://yabloki.ua/iphone-17e-256gb-soft-pink-e-sim-mhrq4-78391.html",
+"https://yabloki.ua/iphone-17e-256gb-white-e-sim-mhrp4-78392.html",
+"https://yabloki.ua/iphone-17e-256gb-black-e-sim-mhrn4-78390.html",
+ 
+"https://yabloki.ua/iphone-17e-512gb-soft-pink-e-sim-mhru4-78394.html",
+"https://yabloki.ua/iphone-17e-512gb-white-e-sim-mhrt4-78395.html",
+"https://yabloki.ua/iphone-17e-512gb-black-e-sim-mhrr4-78393.html",
+] 
+
 
 
 
@@ -2236,6 +2322,120 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
 }
 
 
+for (let i = 0; i < arrLinkJabko17eIPH.length; i += 1) {
+  await page.goto(arrLinkJabko17eIPH[i], {
+    waitUntil: "domcontentloaded",
+  });
+
+  const result = await page.evaluate(() => {
+    const clean = (t) =>
+      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+    const title = clean(document.querySelector("h1")?.innerText);
+    const price = clean(
+      document.querySelector(".price-new__uah")?.innerText
+    );
+
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(result);
+}
+for (let i = 0; i < arrLinkMobilePlanet17eIPH.length; i += 1) {
+  try {
+    await page.goto(arrLinkMobilePlanet17eIPH[i], { waitUntil: "domcontentloaded" });
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".price-value");
+
+      if (h1) {
+        const text2 = h1.innerText.trim();
+        if (price) {
+          return `${text2} MP: ${price.innerText.trim()}`;
+        } else {
+          return `${text2} MP: нет цены`;
+        }
+      } else {
+        return "⚠️ Нет H1";
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  } catch (err) {
+    console.log(`❌ Ошибка на ссылке ${arrLinkMobilePlanet17IPH[i]}: ${err.message}`);
+  }
+}
+for (let i = 0; i < arrLinkGro17eIPH.length; i += 1) {
+    await page.goto(arrLinkGro17eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return "text2";
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore17eIPH.length; i += 1) {
+    await page.goto(arrLinkEstore17eIPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
+      } else {
+        return text2;
+      }
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYabloki17e.length; i++) {
+  try {
+    await page.goto(arrLinkYabloki17e[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000
+    });
+
+    // универсальная пауза (вместо waitForTimeout)
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    const arr2 = await page.evaluate(() => {
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".product-price-title");
+
+      const title = h1?.innerText?.trim() || "Без названия";
+      const priceText = price?.innerText?.trim() || "нет цены";
+
+      return `${title} Yabloki: ${priceText}`;
+    });
+
+    console.log(arr2);
+
+  } catch (err) {
+    console.log("❌ Ошибка при загрузке:", arrLinkYabloki17[i]);
+    console.log(err.message);
+  }
+}
   // for (let i = 0; i < arrLinkCts16IPHiNfo.length; i += 1) {
   //   await page.goto(arrLinkCts16IPHiNfo[i]);
   //   const n = await page.$("#txt");
