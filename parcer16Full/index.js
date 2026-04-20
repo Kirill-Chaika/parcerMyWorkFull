@@ -1030,7 +1030,6 @@ const arrLinkCts17ProIPHinfo = [
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-cosmic-orange-apple-775233.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-deep-blue-apple-775235.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-silver-apple-775237.html",
-"https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-512gb-silver-apple-775237.html",
  
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-cosmic-orange-apple-775239.html",
 "https://www.ctrs.com.ua/smartfony/iphone-17-pro-max-1tb-deep-blue-apple-775240.html",
