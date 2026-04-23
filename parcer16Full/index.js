@@ -1469,6 +1469,37 @@ const arrLinkYabloki17e = [
 "https://yabloki.ua/iphone-17e-512gb-black-e-sim-mhrr4-78393.html",
 ] 
 
+const arrLinkJabko13IPH = [
+"https://www.google.com",
+"https://jabko.ua/iphone/apple-iphone-13/apple-iphone-13-128gb-midnight",
+"https://jabko.ua/iphone/apple-iphone-13/apple-iphone-13-128gb--starlight-",
+]
+const arrLinkMobilePlanet13IPH = [
+"https://mobileplanet.ua/apple-iphone-13-128gb-blue-228329",
+"https://mobileplanet.ua/apple-iphone-13-128gb-black-228320",
+"https://mobileplanet.ua/apple-iphone-13-128gb-srarlight-228326",
+]
+const arrLinkGro13IPH = [
+"https://grokholsky.com/ua/product/apple/iphone/iphone-13/iphone-13-128gb-blue-mlpk3/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-13/iphone-13-128gb-midnight-mlpf3/",
+"https://grokholsky.com/ua/product/apple/iphone/iphone-13/iphone-13-128gb-starlight-mlpg3/",
+]
+const arrLinkEstore13IPH = [
+"https://estore.ua/ua/iphone-13-128gb-blue/?q=mlpk3",
+"https://estore.ua/ua/iphone-13-128gb-midnight/?q=mlpf3",
+"https://estore.ua/ua/iphone-13-128gb-starlight/?q=mlpg3",
+]
+const arrLinkYua13 = [
+"https://www.google.com",
+"https://y.ua/apple-iphone-13-128gb-midnight-mlpf3-ua/p834183/",
+"https://y.ua/apple-iphone-13-128gb-starlight-mlpg3-ua/p834261/",
+]
+
+
+
+
+
+
 
 
 
@@ -2454,6 +2485,115 @@ for (let i = 0; i < arrLinkGro17eIPH.length; i += 1) {
   //   console.log(arr2);
   //   await page.setDefaultNavigationTimeout(0);
   // }
+
+
+
+  for (let i = 0; i < arrLinkJabko13IPH.length; i += 1) {
+  await page.goto(arrLinkJabko13IPH[i], {
+    waitUntil: "domcontentloaded",
+  });
+
+  const result = await page.evaluate(() => {
+    const clean = (t) =>
+      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+    const title = clean(document.querySelector("h1")?.innerText);
+    const price = clean(
+      document.querySelector(".price-new__uah")?.innerText
+    );
+
+    return price ? `${title} J: ${price}` : title;
+  });
+
+  console.log(result);
+}
+for (let i = 0; i < arrLinkMobilePlanet13IPH.length; i += 1) {
+  try {
+    await page.goto(arrLinkMobilePlanet13IPH[i], { waitUntil: "domcontentloaded" });
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".price-value");
+
+      if (h1) {
+        const text2 = h1.innerText.trim();
+        if (price) {
+          return `${text2} MP: ${price.innerText.trim()}`;
+        } else {
+          return `${text2} MP: нет цены`;
+        }
+      } else {
+        return "⚠️ Нет H1";
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  } catch (err) {
+    console.log(`❌ Ошибка на ссылке ${arrLinkMobilePlanet17IPH[i]}: ${err.message}`);
+  }
+}
+for (let i = 0; i < arrLinkGro13IPH.length; i += 1) {
+    await page.goto(arrLinkGro13IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return "text2";
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstore13IPH.length; i += 1) {
+    await page.goto(arrLinkEstore13IPH[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+    const h1 = document.querySelector("h1");
+    const price = document.querySelector(".regular-price");
+
+    if (h1) {
+      const text2 = h1.innerText.trim();
+      if (price) {
+        return `${text2} Estore: ${price.innerText.trim()}`;
+      } else {
+        return text2;
+      }
+    } else {
+      return "⚠️ Нет H1";
+    }
+  });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkYua13.length; i += 1) {
+    await page.goto(arrLinkYua13[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price .regular") != null) {
+        return (
+          text2 + "Yua: " + document.querySelector(".price .regular").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+
 
 
 }
