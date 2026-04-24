@@ -1079,6 +1079,7 @@ const arrLinkGroM5 = [
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
+  const delay = (ms) => new Promise(res => setTimeout(res, ms));
   await page.setDefaultNavigationTimeout(0);
   await page.setDefaultTimeout(0);
 
@@ -1194,23 +1195,42 @@ async function f() {
 
 
   for (let i = 0; i < arrLinkMobilePlanetMacM3.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetMacM3[i]);
-    const n = await page.$("#txt");
 
-    let arr5 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+
+    await page.goto(arrLinkMobilePlanetMacM3[i], {
+
+      waitUntil: "domcontentloaded",
+
+      timeout: 15000
+
     });
 
-    console.log(arr5);
-    await page.setDefaultNavigationTimeout(0);
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    const arr5 = await page.evaluate(() => {
+
+      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(document.querySelector(".price-value")?.innerText);
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr5 + "\n");
+
+    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+
+  } catch (e) {
+
+    process.stdout.write("ERROR: " + e.message + "\n");
+
   }
+
+}
   for (let i = 0; i < arrLinkIstoreMacM3.length; i++) {
   await page.goto(arrLinkIstoreMacM3[i], { waitUntil: "domcontentloaded", timeout: 0 });
 
@@ -1279,23 +1299,42 @@ async function f() {
   console.log(arr4);
 }
   for (let i = 0; i < arrLinkMobilePlanetMacM4.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetMacM4[i]);
-    const n = await page.$("#txt");
 
-    let arr5 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+
+    await page.goto(arrLinkMobilePlanetMacM4[i], {
+
+      waitUntil: "domcontentloaded",
+
+      timeout: 15000
+
     });
 
-    console.log(arr5);
-    await page.setDefaultNavigationTimeout(0);
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    const arr5 = await page.evaluate(() => {
+
+      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(document.querySelector(".price-value")?.innerText);
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr5 + "\n");
+
+    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+
+  } catch (e) {
+
+    process.stdout.write("ERROR: " + e.message + "\n");
+
   }
+
+}
   for (let i = 0; i < arrLinkGroMacM4.length; i += 1) {
     await page.goto(arrLinkGroMacM4[i]);
     const n = await page.$("#txt");
@@ -1347,24 +1386,43 @@ async function f() {
 
   console.log(arr4);
 }
-  for (let i = 0; i < arrLinkMobilePlanetMac16Ram.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetMac16Ram[i]);
-    const n = await page.$("#txt");
+ for (let i = 0; i < arrLinkMobilePlanetMac16Ram.length; i += 1) {
 
-    let arr5 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+
+    await page.goto(arrLinkMobilePlanetMac16Ram[i], {
+
+      waitUntil: "domcontentloaded",
+
+      timeout: 15000
+
     });
 
-    console.log(arr5);
-    await page.setDefaultNavigationTimeout(0);
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    const arr5 = await page.evaluate(() => {
+
+      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(document.querySelector(".price-value")?.innerText);
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr5 + "\n");
+
+    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+
+  } catch (e) {
+
+    process.stdout.write("ERROR: " + e.message + "\n");
+
   }
+
+}
   for (let i = 0; i < arrLinkGroMac16Ram.length; i += 1) {
     await page.goto(arrLinkGroMac16Ram[i]);
     const n = await page.$("#txt");
@@ -1425,23 +1483,42 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkMobilePlanetMacAirM4.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetMacAirM4[i]);
-    const n = await page.$("#txt");
 
-    let arr5 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+
+    await page.goto(arrLinkMobilePlanetMacAirM4[i], {
+
+      waitUntil: "domcontentloaded",
+
+      timeout: 15000
+
     });
 
-    console.log(arr5);
-    await page.setDefaultNavigationTimeout(0);
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    const arr5 = await page.evaluate(() => {
+
+      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(document.querySelector(".price-value")?.innerText);
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr5 + "\n");
+
+    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+
+  } catch (e) {
+
+    process.stdout.write("ERROR: " + e.message + "\n");
+
   }
+
+}
   for (let i = 0; i < arrLinkGroMacAirM4.length; i += 1) {
     await page.goto(arrLinkGroMacAirM4[i]);
     const n = await page.$("#txt");
@@ -1494,23 +1571,42 @@ async function f() {
   console.log(result);
 }
   for (let i = 0; i < arrLinkMobilePlanetMacMini.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetMacMini[i]);
-    const n = await page.$("#txt");
 
-    let arr5 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+
+    await page.goto(arrLinkMobilePlanetMacMini[i], {
+
+      waitUntil: "domcontentloaded",
+
+      timeout: 15000
+
     });
 
-    console.log(arr5);
-    await page.setDefaultNavigationTimeout(0);
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    const arr5 = await page.evaluate(() => {
+
+      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(document.querySelector(".price-value")?.innerText);
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr5 + "\n");
+
+    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+
+  } catch (e) {
+
+    process.stdout.write("ERROR: " + e.message + "\n");
+
   }
+
+}
   for (let i = 0; i < arrLinkGroMacMini.length; i += 1) {
     await page.goto(arrLinkGroMacMini[i]);
     const n = await page.$("#txt");
@@ -1579,17 +1675,42 @@ async function f() {
   console.log(arr4);
   }
   for (let i = 0; i < arrLinkMobilePlanetM5.length; i += 1) {
-  await page.goto(arrLinkMobilePlanetM5[i], { waitUntil: "domcontentloaded" });
 
-  let arr5 = await page.evaluate(() => {
-    const title = document.querySelector("h1")?.innerText || "NO TITLE";
-    const price = document.querySelector(".price-value")?.innerText;
+  try {
 
-    return price ? `${title} MP: ${price}` : title;
-  });
+    await page.goto(arrLinkMobilePlanetM5[i], {
 
-  console.log(arr5);
+      waitUntil: "domcontentloaded",
+
+      timeout: 15000
+
+    });
+
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    const arr5 = await page.evaluate(() => {
+
+      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(document.querySelector(".price-value")?.innerText);
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr5 + "\n");
+
+    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+
+  } catch (e) {
+
+    process.stdout.write("ERROR: " + e.message + "\n");
+
   }
+
+}
   for (let i = 0; i < arrLinkGroM5.length; i += 1) {
   await page.goto(arrLinkGroM5[i], { waitUntil: "domcontentloaded" });
 

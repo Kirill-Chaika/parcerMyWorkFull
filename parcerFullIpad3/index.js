@@ -935,6 +935,8 @@ const arrLinkGroIPADM5 = [
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
+  const delay = (ms) => new Promise(res => setTimeout(res, ms));
+  
   for (let i = 0; i < arrLinkJabkoIPAD.length; i++) {
   try {
     await page.goto(arrLinkJabkoIPAD[i], {
@@ -1000,24 +1002,65 @@ async function f() {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkMPIpadNew.length; i += 1) {
-    await page.goto(arrLinkMPIpadNew[i]);
-    const n = await page.$("#txt");
+ for (let i = 0; i < arrLinkMPIpadNew.length; i += 1) {
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return;
-      }
+  const url = arrLinkMPIpadNew[i];
+
+  try {
+
+    await page.goto(url, {
+
+      waitUntil: "domcontentloaded", // быстрее чем networkidle
+
+      timeout: 15000
+
     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
+    // 👉 короткое ожидание (не 4-5 сек)
+
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    // 👉 МИНИ-пауза (почти сразу парсим)
+
+    await delay(300 + Math.random() * 500);
+
+    const arr3 = await page.evaluate(() => {
+
+      const clean = (text) =>
+
+        text ? text.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(
+
+        document.querySelector(".price-value")?.innerText ||
+
+        document.querySelector(".product-price-value")?.innerText ||
+
+        document.querySelector(".price")?.innerText
+
+      );
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr3 + "\n");
+
+    // 👉 минимальная пауза между страницами
+
+    await delay(500 + Math.random() * 700);
+
+  } catch (err) {
+
+    process.stdout.write("ERROR: " + err.message + "\n");
+
+    await delay(1000);
+
   }
+
+}
   for (let i = 0; i < arrLinkGroIPAD.length; i += 1) {
     await page.goto(arrLinkGroIPAD[i]);
     const n = await page.$("#txt");
