@@ -1075,6 +1075,57 @@ const arrLinkGroM5 = [
 "https://grokholsky.com/ua/product/apple/mac/macbook/macbook-pro-14-m5-late-2025/noutbuk-apple-macbook-pro-14-late-2025-silver-mde64/"
 ]
 
+const arrLinkJabkoNeo = [
+   
+"https://jabko.ua/product/macbook-neo-13-retina-blush-256gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+"https://jabko.ua/product/macbook-neo-13-retina-citrus-256gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+"https://jabko.ua/product/macbook-neo-13-retina-indigo-256gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+"https://jabko.ua/product/macbook-neo-13-retina-silver-256gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+ 
+"https://jabko.ua/product/macbook-neo-13-retina-blush-512gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+"https://jabko.ua/product/macbook-neo-13-retina-citrus-512gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+"https://jabko.ua/product/macbook-neo-13-retina-indigo-512gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+"https://jabko.ua/product/macbook-neo-13-retina-silver-512gb-6-cpu--5-gpu-8gb-ram-with-apple-a18-pro-2026",
+]
+const arrLinkIStoreNeo = [
+   
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-256gb-blush-mhfh4/",
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-256gb-citrus-mhfd4/",
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-256gb-indigo-mhff4/",
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-256gb-silver-mhfa4/",
+ 
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-512gb-blush-mhfj4/",
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-512gb-citrus-mhfe4/",
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-512gb-indigo-mhfg4/",
+"https://www.istore.ua/ua/item/apple-macbook-neo-8-512gb-silver-mhfc4/",
+]
+const arrLinkMobilePlanetNeo = [
+  "https://mobileplanet.ua/apple-macbook-neo-256gb-blush-mhfh4-377094",
+"https://mobileplanet.ua/apple-macbook-neo-256gb-citrus-mhfd4-377095",
+"https://mobileplanet.ua/apple-macbook-neo-256gb-indigo-mhff4-377096",
+"https://mobileplanet.ua/apple-macbook-neo-256gb-silver-mhfa4-377097",
+ 
+"https://mobileplanet.ua/apple-macbook-neo-512gb-blush-mhfj4-377240",
+"https://mobileplanet.ua/apple-macbook-neo-512gb-citrus-mhfe4-377241",
+"https://mobileplanet.ua/apple-macbook-neo-512gb-indigo-mhfg4-377242",
+"https://mobileplanet.ua/apple-macbook-neo-512gb-silver-mhfc4-377243",
+]
+const arrLinkGroNeo = [
+  "https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-256gb-blush-mhfh4/",
+"https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-256gb-citrus-mhfd4/",
+"https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-256gb-indigo-mhff4/",
+"https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-256gb-silver-mhfa4/",
+ 
+"https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-512gb-blush-mhfj4/",
+"https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-512gb-citrus-mhfe4/",
+"https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-512gb-indigo-mhfg4/",
+"https://grokholsky.com/ua/product/apple/mac/macbook-neo/noutbuk-apple-macbook-neo-512gb-silver-mhfc4/",
+]
+
+
+
+
+
 
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
@@ -1713,6 +1764,85 @@ async function f() {
 }
   for (let i = 0; i < arrLinkGroM5.length; i += 1) {
   await page.goto(arrLinkGroM5[i], { waitUntil: "domcontentloaded" });
+
+  let arr3 = await page.evaluate(() => {
+    const sku = document.querySelector(".sku")?.innerText || "NO SKU";
+    const price = document.querySelector(".product-price-value")?.innerText;
+
+    return price ? `${sku} Gro: ${price}` : sku;
+  });
+
+  console.log(arr3);
+  }
+
+    for (let i = 0; i < arrLinkJabkoNeo.length; i++) {
+  try {
+    await page.goto(arrLinkJabkoNeo[i], { waitUntil: "domcontentloaded", timeout: 0 });
+
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
+    });
+
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoMacM5[i]);
+    console.log(err.message);
+  }
+}
+  for (let i = 0; i < arrLinkIStoreNeo.length; i += 1) {
+  await page.goto(arrLinkIStoreNeo[i], { waitUntil: "domcontentloaded" });
+
+  let arr4 = await page.evaluate(() => {
+    const title = document.querySelector("h1")?.innerText || "NO TITLE";
+    const price = document.querySelector(".product_price")?.innerText;
+
+    return price ? `${title} I: ${price}` : title;
+  });
+
+  console.log(arr4);
+  }
+  for (let i = 0; i < arrLinkMobilePlanetNeo.length; i += 1) {
+
+  try {
+
+    await page.goto(arrLinkMobilePlanetNeo[i], {
+
+      waitUntil: "domcontentloaded",
+
+      timeout: 15000
+
+    });
+
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    const arr5 = await page.evaluate(() => {
+
+      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(document.querySelector(".price-value")?.innerText);
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr5 + "\n");
+
+    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+
+  } catch (e) {
+
+    process.stdout.write("ERROR: " + e.message + "\n");
+
+  }
+
+}
+  for (let i = 0; i < arrLinkGroNeo.length; i += 1) {
+  await page.goto(arrLinkGroNeo[i], { waitUntil: "domcontentloaded" });
 
   let arr3 = await page.evaluate(() => {
     const sku = document.querySelector(".sku")?.innerText || "NO SKU";
