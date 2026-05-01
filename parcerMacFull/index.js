@@ -1225,7 +1225,7 @@ const arrLinkGroAirM5 = [
   "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
 "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
 "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",  
+"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
 "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
 "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
 "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
