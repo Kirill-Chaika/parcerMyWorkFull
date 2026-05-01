@@ -1533,42 +1533,41 @@ async function f() {
     console.log(arr4);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkMobilePlanetMacAirM4.length; i += 1) {
+  for (let i = 0; i < arrLinkMobilePlanetMacAirM4.length; i++) {
+  const link = arrLinkMobilePlanetMacAirM4[i];
 
   try {
+    // создаём новую страницу каждый раз (КЛЮЧЕВО!)
+    const p = await browser.newPage();
 
-    await page.goto(arrLinkMobilePlanetMacAirM4[i], {
-
+    await p.goto(link, {
       waitUntil: "domcontentloaded",
+      timeout: 20000,
+    }).catch(() => {});
 
-      timeout: 15000
+    await p.waitForSelector("body", { timeout: 5000 }).catch(() => {});
 
-    });
-
-    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
-
-    const arr5 = await page.evaluate(() => {
-
-      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+    const result = await p.evaluate(() => {
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
       const title = clean(document.querySelector("h1")?.innerText);
-
       const price = clean(document.querySelector(".price-value")?.innerText);
 
+      if (!title) return "❌ MP: страница без товара";
+
       return `${title} MP: ${price || "NO PRICE"}`;
+    }).catch(() => "❌ MP: ошибка evaluate");
 
-    });
+    process.stdout.write(result + "\n");
 
-    process.stdout.write(arr5 + "\n");
+    await p.close(); // закрываем страницу
 
-    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+    await new Promise(r => setTimeout(r, 500 + Math.random() * 500));
 
   } catch (e) {
-
-    process.stdout.write("ERROR: " + e.message + "\n");
-
+    process.stdout.write(`❌ MP: ${link}\n`);
   }
-
 }
   for (let i = 0; i < arrLinkGroMacAirM4.length; i += 1) {
     await page.goto(arrLinkGroMacAirM4[i]);
