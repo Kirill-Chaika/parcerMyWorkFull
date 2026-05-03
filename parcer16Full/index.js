@@ -2576,23 +2576,26 @@ for (let i = 0; i < arrLinkGro13IPH.length; i += 1) {
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkYua13.length; i += 1) {
-    await page.goto(arrLinkYua13[i]);
-    const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price .regular") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price .regular").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  await page.goto(arrLinkYua13[i], { waitUntil: "domcontentloaded" });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  let arr2 = await page.evaluate(() => {
+
+    const h1 = document.querySelector("h1");
+
+    const price = document.querySelector(".price .regular");
+
+    let title = h1 ? h1.innerText : "NO_TITLE";
+
+    let priceText = price ? price.innerText : "NO_PRICE";
+
+    return `${title} Yua: ${priceText}`;
+
+  });
+
+  console.log(arr2);
+
+}
 
 
 

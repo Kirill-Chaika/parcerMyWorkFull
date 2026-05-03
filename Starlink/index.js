@@ -640,46 +640,69 @@ async function f() {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkiPulsePadStarlink.length; i += 1) {
-    await page.goto(arrLinkiPulsePadStarlink[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkiPulsePadStarlink.length; i++) {
+  const link = arrLinkiPulsePadStarlink[i];
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".page-title").innerText;
-      if (document.querySelector(".fn_price") != null) {
-        return (
-          text2 + "PulsePad: " + document.querySelector(".fn_price").innerText
-        );
-      } else {
-        return "Нет";
-      }
+  try {
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 15000
     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
+    await page.waitForSelector("body", { timeout: 5000 }).catch(() => {});
+
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector(".page-title")?.innerText);
+      const price = clean(document.querySelector(".fn_price")?.innerText);
+
+      if (!title) return "❌ PulsePad: нет товара";
+
+      return price
+        ? `${title} PulsePad: ${price}`
+        : `${title} PulsePad: нет цены`;
+    });
+
+    console.log(result);
+
+    await new Promise(r => setTimeout(r, 400));
+
+  } catch (e) {
+    console.log(`❌ PulsePad ошибка: ${link}`);
   }
-  for (let i = 0; i < arrLinkiChinaGadjetStarlink.length; i += 1) {
-  await page.goto(arrLinkiChinaGadjetStarlink[i]);
-  const n = await page.$("#txt");
+}
+  for (let i = 0; i < arrLinkiChinaGadjetStarlink.length; i++) {
+  const link = arrLinkiChinaGadjetStarlink[i];
 
-  let arr3 = await page.evaluate(() => {
-    const name = document.querySelector(".product-name");
-    const price = document.querySelector(".price");
+  try {
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 15000
+    });
 
-    if (name) {
-      const text2 = name.innerText.trim();
-      if (price) {
-        return `${text2} ChinaGadjet: ${price.innerText.trim()}`;
-      } else {
-        return `${text2} ChinaGadjet: нет цены`;
-      }
-    } else {
-      return "⚠️ Нет .product-name";
-    }
-  });
+    await page.waitForSelector("body", { timeout: 5000 }).catch(() => {});
 
-  console.log(arr3);
-  await page.setDefaultNavigationTimeout(0);
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const name = clean(document.querySelector(".product-name")?.innerText);
+      const price = clean(document.querySelector(".price")?.innerText);
+
+      if (!name) return "❌ ChinaGadjet: нет товара";
+
+      return `${name} ChinaGadjet: ${price || "нет цены"}`;
+    });
+
+    console.log(result);
+
+    await new Promise(r => setTimeout(r, 400));
+
+  } catch (e) {
+    console.log(`❌ ChinaGadjet ошибка: ${link}`);
+  }
 }
 
 }
