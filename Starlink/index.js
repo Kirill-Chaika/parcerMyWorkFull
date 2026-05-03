@@ -1,4 +1,11 @@
 console.log("Hello world");
+const normalizeOutput = (str) => {
+  if (!str) return str;
+
+  return str.replace(/(\d[\d\s]*)/g, (match) =>
+    match.replace(/\D+/g, "")
+  );
+};
 
 const puppeteer = require("puppeteer");
 const arrLinkMobilePlanetIPAD = [
