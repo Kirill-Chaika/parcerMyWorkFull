@@ -2581,20 +2581,20 @@ for (let i = 0; i < arrLinkGro13IPH.length; i += 1) {
 
   let arr2 = await page.evaluate(() => {
 
-    const h1 = document.querySelector("h1");
+    const clean = (t) =>
+      t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
+    const h1 = document.querySelector("h1");
     const price = document.querySelector(".price .regular");
 
-    let title = h1 ? h1.innerText : "NO_TITLE";
-
-    let priceText = price ? price.innerText : "NO_PRICE";
+    let title = clean(h1?.innerText) || "NO_TITLE";
+    let priceText = clean(price?.innerText) || "NO_PRICE";
 
     return `${title} Yua: ${priceText}`;
 
   });
 
   console.log(arr2);
-
 }
 
 
