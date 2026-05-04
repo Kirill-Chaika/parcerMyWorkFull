@@ -2069,6 +2069,9 @@ async function f() {
   console.log(arr3);
   }
 
+  await browser.close();
+
+process.exit(0);
 
 }
 f();

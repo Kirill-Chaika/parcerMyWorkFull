@@ -2598,6 +2598,9 @@ for (let i = 0; i < arrLinkGro13IPH.length; i += 1) {
 }
 
 
+await browser.close();
+
+process.exit(0);
 
 }
 f();

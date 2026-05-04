@@ -1824,5 +1824,9 @@ async function f() {
     await page.setDefaultNavigationTimeout(0);
   }
 
+  await browser.close();
+
+process.exit(0);
+
 }
 f();

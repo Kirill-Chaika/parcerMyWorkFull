@@ -712,5 +712,9 @@ async function f() {
   }
 }
 
+await browser.close();
+
+process.exit(0);
+
 }
 f();
