@@ -651,79 +651,80 @@ const arrLinkYua16 = [
 ];
 
 const arrLinkYabloki16 = [
-  "https://yabloki.ua/iphone-16-128-gb-black.html",
-"https://yabloki.ua/iphone-16-128-gb-ultramarine.html",
-"https://yabloki.ua/iphone-16-128-gb-white.html",
-"https://yabloki.ua/iphone-16-128-gb-pink.html",
-"https://yabloki.ua/iphone-16-128-gb-teal.html",
+  "https://ya.ua/product/iphone-16-128gb-black-mye73-59136/",
+"https://ya.ua/product/iphone-16-128gb-ultramarine-myec3-59132/",
+"https://ya.ua/product/iphone-16-128gb-white-mye93-59135/",
+"https://ya.ua/product/iphone-16-128gb-pink-myea3-59134/",
+"https://ya.ua/product/iphone-16-128gb-teal-myed3-59133/",
 
-"https://yabloki.ua/iphone-16-256-gb-black.html",
-"https://yabloki.ua/iphone-16-256-gb-ultramarine.html",
-"https://yabloki.ua/iphone-16-256-gb-white.html",
-"https://yabloki.ua/iphone-16-256-gb-pink.html",
-"https://yabloki.ua/iphone-16-256-gb-teal.html",
+"https://ya.ua/product/iphone-16-256gb-black-myee3-59141/",
+"https://ya.ua/product/iphone-16-256gb-ultramarine-myeh3-59137/",
+"https://ya.ua/product/iphone-16-256gb-white-myef3-59140/",
+"https://ya.ua/product/iphone-16-256gb-pink-myeg3-59139/",
+"https://ya.ua/product/iphone-16-256gb-teal-myej3-59138/",
 
-"https://yabloki.ua/iphone-16-512-gb-black.html",
-"https://yabloki.ua/iphone-16-512-gb-ultramarine.html",
-"https://yabloki.ua/iphone-16-512-gb-white.html",
-"https://yabloki.ua/iphone-16-512-gb-pink.html",
-"https://yabloki.ua/iphone-16-512-gb-teal.html",
-
-
-"https://yabloki.ua/iphone-16-plus-128-gb-black.html",
-"https://yabloki.ua/iphone-16-plus-128-gb-ultramarine.html",
-"https://yabloki.ua/iphone-16-plus-128-gb-white.html",
-"https://yabloki.ua/iphone-16-plus-128-gb-pink.html",
-"https://yabloki.ua/iphone-16-plus-128-gb-teal.html",
-
-"https://yabloki.ua/iphone-16-plus-256-gb-black.html",
-"https://yabloki.ua/iphone-16-plus-256-gb-ultramarine.html",
-"https://yabloki.ua/iphone-16-plus-256-gb-white.html",
-"https://yabloki.ua/iphone-16-plus-256-gb-pink.html",
-"https://yabloki.ua/iphone-16-plus-256-gb-teal.html",
-
-"https://yabloki.ua/iphone-16-plus-512-gb-black.html",
-"https://yabloki.ua/iphone-16-plus-512-gb-ultramarine.html",
-"https://yabloki.ua/iphone-16-plus-512-gb-white.html",
-"https://yabloki.ua/iphone-16-plus-512-gb-pink.html",
-"https://yabloki.ua/iphone-16-plus-512-gb-teal.html",
+"https://ya.ua/product/iphone-16-512-gb-black-59146/",
+"https://ya.ua/product/iphone-16-512-gb-ultramarine-59142/",
+"https://ya.ua/product/iphone-16-512-gb-starlight-59145/",
+"https://ya.ua/product/iphone-16-512gb-pink-myeq3-59144/",
+"https://ya.ua/product/iphone-16-512-gb-teal-59143/",
 
 
-"https://yabloki.ua/iphone-16-pro-128-gb-natural-titanium.html",
-"https://yabloki.ua/iphone-16-pro-128-gb-black-titanium.html",
-"https://yabloki.ua/iphone-16-pro-128-gb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-128-gb-desert-titanium.html",
+"https://ya.ua/product/iphone-16-plus-128gb-black-mxvu3-59151/",
+"https://ya.ua/product/iphone-16-plus-128gb-ultramarine-mxvx3-59147/",
+"https://ya.ua/product/iphone-16-plus-128gb-white-mxvv3-59150/",
+"https://ya.ua/product/iphone-16-plus-128gb-pink-mxvw3-59149/",
+"https://ya.ua/product/iphone-16-plus-128gb-teal-mxvy3-59148/",
 
-"https://yabloki.ua/iphone-16-pro-256-gb-natural-titanium.html",
-"https://yabloki.ua/iphone-16-pro-256-gb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-256-gb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-256-gb-natural-titanium.html",
+"https://ya.ua/product/iphone-16-plus-256gb-black-mxwn3-59156/",
+"https://ya.ua/product/iphone-16-plus-256gb-ultramarine-mxy23-59152/",
+"https://ya.ua/product/iphone-16-plus-256gb-white-mxwv3-59155/",
+"https://ya.ua/product/iphone-16-plus-256gb-pink-mxy13-59154/",
+"https://ya.ua/product/iphone-16-plus-256gb-teal-mxy53-59153/",
 
-"https://yabloki.ua/iphone-16-pro-512-gb-natural-titanium.html",
-"https://yabloki.ua/iphone-16-pro-512-gb-black-titanium.html",
-"https://yabloki.ua/iphone-16-pro-512-gb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-512-gb-desert-titanium.html",
-
-"https://yabloki.ua/iphone-16-pro-1-tb-natural-titanium.html",
-"https://yabloki.ua/iphone-16-pro-1-tb-black-titanium.html",
-"https://yabloki.ua/iphone-16-pro-1-tb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-1-tb-desert-titanium.html",
+"https://ya.ua/product/iphone-16-plus-512gb-black-my1p3-59161/",
+"https://ya.ua/product/iphone-16-plus-512gb-ultramarine-my2d3-59157/",
+"https://ya.ua/product/iphone-16-plus-512gb-white-my1x3-59160/",
+"https://ya.ua/product/iphone-16-plus-512gb-pink-my253-59159/",
+"https://ya.ua/product/iphone-16-plus-512gb-teal-my2j3-59158/",
 
 
-"https://yabloki.ua/iphone-16-pro-max-256-gb-natural-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-256-gb-black-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-256-gb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-256-gb-desert-titanium.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
 
-"https://yabloki.ua/iphone-16-pro-max-512-gb-natural-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-512-gb-black-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-512-gb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-512-gb-desert-titanium.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
 
-"https://yabloki.ua/iphone-16-pro-max-1-tb-natural-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-1tb-black-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-1-tb-white-titanium.html",
-"https://yabloki.ua/iphone-16-pro-max-1-tb-desert-titanium.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+
+
+"https://ya.ua/product/iphone-16-pro-max-256gb-natural-titanium-mywy3-59180/",
+"https://ya.ua/product/iphone-16-pro-max-256gb-black-titanium-mywv3-59178/",
+"https://www.google.com/",
+"https://ya.ua/product/iphone-16-pro-max-256gb-desert-titanium-mywx3-59179/",
+
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
+
 ];
 
 
@@ -796,14 +797,14 @@ const arrLinkYua16e = [
 "https://y.ua/apple-iphone-16e-512gb-black-ua/p1418934/",
 ];
 const arrLinkYabloki16e = [
-  "https://yabloki.ua/iphone-16e-128gb-white.html",
-"https://yabloki.ua/iphone-16e-128gb-black.html",
+  "https://ya.ua/product/iphone-16e-128gb-white-md1r4-66459/",
+"https://ya.ua/product/iphone-16e-128gb-black-md1q4-66456/",
 
-"https://yabloki.ua/iphone-16e-256gb-white.html",
-"https://yabloki.ua/iphone-16e-256gb-black.html",
+"https://ya.ua/product/iphone-16e-256gb-white-md1w4-66460/",
+"https://ya.ua/product/iphone-16e-256gb-black-md1t4-66457/",
 
-"https://yabloki.ua/iphone-16e-512gb-white.html",
-"https://yabloki.ua/iphone-16e-512gb-black.html",
+"https://ya.ua/product/iphone-16e-512gb-white-md274-66461/",
+"https://ya.ua/product/iphone-16e-512gb-black-md1x4-66458/",
 
 ];
 
@@ -953,33 +954,33 @@ const arrLinkYua17Pro = [
 "https://y.ua/apple-iphone-17-pro-max-2tb-silver/p1441933/",
 ]
 const arrLinkYabloki17Pro = [
-  "https://yabloki.ua/iphone-17-pro-256-gb-cosmic-orange.html",
-"https://yabloki.ua/iphone-17-pro-256-gb-deep-blue.html",
-"https://yabloki.ua/iphone-17-pro-256-gb-white-silver.html",
+  "https://ya.ua/product/iphone-17-pro-256gb-cosmic-orange-mg8h4-73396/",
+"https://ya.ua/product/iphone-17-pro-256gb-deep-blue-mg8j4-73397/",
+"https://ya.ua/product/iphone-17-pro-256gb-silver-mg8g4-73398/",
  
-"https://yabloki.ua/iphone-17-pro-512-gb-orange-now.html",
-"https://yabloki.ua/iphone-17-pro-512-gb-deep-blue.html",
-"https://yabloki.ua/iphone-17-pro-512-gb-silver.html",
+"https://ya.ua/product/iphone-17-pro-512gb-cosmic-orange-mg8m4-73400/",
+"https://ya.ua/product/iphone-17-pro-512gb-deep-blue-mg8n4-73399/",
+"https://ya.ua/product/iphone-17-pro-512gb-silver-mg8k4-73401/",
  
-"https://yabloki.ua/iphone-17-pro-1-tb-cosmic-orange.html",
-"https://yabloki.ua/iphone-17-pro-1-tb-navy-now.html",
-"https://yabloki.ua/iphone-17-pro-1-tb-silver.html",
+"https://ya.ua/product/iphone-17-pro-1tb-cosmic-orange-mg8q4-73394/",
+"https://ya.ua/product/iphone-17-pro-1tb-deep-blue-mg8r4-73393/",
+"https://ya.ua/product/iphone-17-pro-1tb-silver-mg8p4-73395/",
  
-"https://yabloki.ua/iphone-17-pro-max-256-gb-orange.html",
-"https://yabloki.ua/iphone-17-pro-max-256-gb-deep-blue.html",
-"https://yabloki.ua/iphone-17-pro-max-256-gb-silver.html",
+"https://ya.ua/product/iphone-17-pro-max-256-gb-orange-now-73405/",
+"https://ya.ua/product/iphone-17-pro-max-256gb-deep-blue-mfyp4-73406/",
+"https://ya.ua/product/iphone-17-pro-max-256gb-silver-mfym4-73407/",
  
-"https://yabloki.ua/iphone-17-pro-max-512-gb-orange.html",
-"https://yabloki.ua/iphone-17-pro-max-512-gb-deep-blue.html",
-"https://yabloki.ua/iphone-17-pro-max-512-gb-silver.html",
+"https://ya.ua/product/iphone-17-pro-max-512gb-cosmic-orange-mfyt4-73412/",
+"https://ya.ua/product/iphone-17-pro-max-512gb-deep-blue-mfyu4-73411/",
+"https://ya.ua/product/iphone-17-pro-max-512gb-silver-mfyq4-73413/",
  
-"https://yabloki.ua/iphone-17-pro-max-1-tb-orange.html",
-"https://yabloki.ua/iphone-17-pro-max-1-tb-deep-blue.html",
-"https://yabloki.ua/iphone-17-pro-max-1-tb-silver.html",
+"https://ya.ua/product/iphone-17-pro-max-1tb-cosmic-orange-mfyw4-73403/",
+"https://ya.ua/product/iphone-17-pro-max-1tb-deep-blue-mfyx4-73402/",
+"https://ya.ua/product/iphone-17-pro-max-1tb-silver-mfyv4-73404/",
  
-"https://yabloki.ua/iphone-17-pro-max-2-tb-orange.html",
-"https://yabloki.ua/iphone-17-pro-max-2-tb-deep-blue.html",
-"https://yabloki.ua/iphone-17-pro-max-2-tb-silver.html",
+"https://ya.ua/product/iphone-17-pro-max-2tb-cosmic-orange-mg004-73409/",
+"https://ya.ua/product/iphone-17-pro-max-2tb-deep-blue-mg014-73408/",
+"https://ya.ua/product/iphone-17-pro-max-2tb-silver-mfyy4-73410/",
 ]
 const arrLinkCts17ProIPH = [
   "https://www.ctrs.com.ua/smartfony/iphone-17-pro-256gb-cosmic-orange-apple-775206.html",
@@ -1358,29 +1359,29 @@ const arrLinkEstore17IPH = [
 "https://estore.ua/ua/iphone-17-512gb-lavender-esim-mg4j4/",
 ]
 const arrLinkYabloki17 = [
-"https://yabloki.ua/iphone-17-256-gb-black-now.html",
-"https://yabloki.ua/iphone-17-256gb-white-now.html",
-"https://yabloki.ua/iphone-17-256-gb-purple-lavender-now.html",
-"https://yabloki.ua/iphone-17-256-gb-green-now.html",
-"https://yabloki.ua/iphone-17-256-gb-purple-now.html",
+"https://ya.ua/product/iphone-17-256gb-black-mg6j4-73371/",
+"https://ya.ua/product/iphone-17-256gb-white-mg6k4-73375/",
+"https://ya.ua/product/iphone-17-256gb-mist-blue-mg6l4-73373/",
+"https://ya.ua/product/iphone-17-256gb-sage-mg6n4-73374/",
+"https://ya.ua/product/iphone-17-256gb-lavender-mg6m4-73372/",
 
-"https://yabloki.ua/iphone-17-512-gb-black-now.html",
-"https://yabloki.ua/iphone-17-512gb-white-now.html",
-"https://yabloki.ua/iphone-17-512-gb-purple-lavender-now.html",
-"https://yabloki.ua/iphone-17-512-gb-green-now.html",
-"https://yabloki.ua/iphone-17-512-gb-purple-now.html",
+"https://ya.ua/product/iphone-17-512gb-black-mg6p4-73376/",
+"https://ya.ua/product/iphone-17-512gb-white-mg6q4-73380/",
+"https://ya.ua/product/iphone-17-512gb-mist-blue-mg6t4-73378/",
+"https://ya.ua/product/iphone-17-512gb-sage-mg6v4-73379/",
+"https://ya.ua/product/iphone-17-512gb-lavender-mg6u4-73377/",
 
-"https://www.google.com/",
-"https://www.google.com/",
-"https://www.google.com/",
-"https://www.google.com/",
-"https://www.google.com/",
+"https://ya.ua/product/iphone-17-256gb-black-e-sim-mg464-73520/",
+"https://ya.ua/product/iphone-17-256gb-white-e-sim-mg474-73524/",
+"https://ya.ua/product/iphone-17-256gb-mist-blue-e-sim-mg484-73522/",
+"https://ya.ua/product/iphone-17-256gb-sage-e-sim-mg4a4-73523/",
+"https://ya.ua/product/iphone-17-256gb-lavender-e-sim-mg494-73521/",
 
-"https://www.google.com/",
-"https://www.google.com/",
-"https://www.google.com/",
-"https://www.google.com/",
-"https://www.google.com/",
+"https://ya.ua/product/iphone-17-512gb-black-e-sim-mg4e4-73525/",
+"https://ya.ua/product/iphone-17-512gb-white-e-sim-mg4f4-73529/",
+"https://ya.ua/product/iphone-17-512gb-mist-blue-e-sim-mg4h4-73527/",
+"https://ya.ua/product/iphone-17-512gb-sage-e-sim-mg4q4-73528/",
+"https://ya.ua/product/iphone-17-512gb-lavender-e-sim-mg4j4-73526/",
 ]
 
 const arrLinkJabko17eIPH = [
@@ -1717,9 +1718,9 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
 
     let arr2 = await page.evaluate(() => {
       let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product-price-title") != null) {
+      if (document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale") != null) {
         return (
-          text2 + "Yabloki: " + document.querySelector(".product-price-title").innerText
+          text2 + "Yabloki: " + document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale").innerText
         );
       } else {
         return text2;
@@ -1905,7 +1906,7 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
 
     const arr2 = await page.evaluate(() => {
       const h1 = document.querySelector("h1");
-      const price = document.querySelector(".product-price-title");
+      const price = document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale");
 
       const title = h1?.innerText?.trim() || "Без названия";
       const priceText = price?.innerText?.trim() || "нет цены";
@@ -2029,7 +2030,7 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
 
     const arr2 = await page.evaluate(() => {
       const h1 = document.querySelector("h1");
-      const price = document.querySelector(".product-price-title");
+      const price = document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale");
 
       const title = h1?.innerText?.trim() || "Без названия";
       const priceText = price?.innerText?.trim() || "нет цены";
@@ -2336,7 +2337,7 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
 
     const arr2 = await page.evaluate(() => {
       const h1 = document.querySelector("h1");
-      const price = document.querySelector(".product-price-title");
+      const price = document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale");
 
       const title = h1?.innerText?.trim() || "Без названия";
       const priceText = price?.innerText?.trim() || "нет цены";
