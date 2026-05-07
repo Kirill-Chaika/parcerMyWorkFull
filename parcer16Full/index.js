@@ -1713,23 +1713,43 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
-    await page.goto(arrLinkYabloki16[i]);
-    const n = await page.$("#txt");
+
+  try {
+
+    await page.goto(arrLinkYabloki16[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 15000
+    });
 
     let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale") != null) {
-        return (
-          text2 + "Yabloki: " + document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale").innerText
-        );
-      } else {
-        return text2;
-      }
+
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+
+      const price = document.querySelector(
+        ".ProductPagePurchase-module-scss-module__hEYaYG__price"
+      );
+
+      const title = clean(h1?.innerText) || "NO_TITLE";
+
+      const priceText = clean(price?.innerText);
+
+      return priceText
+        ? `${title} Yabloki: ${priceText}`
+        : `${title} Yabloki: NO_PRICE`;
+
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+
+    console.log(`❌ Ошибка: ${arrLinkYabloki16[i]}`);
+
   }
+}
 
   
   for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {

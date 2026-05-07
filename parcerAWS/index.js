@@ -750,45 +750,46 @@ const arrLinkJabkoAWS10andUltra2024 = [
   "https://jabko.ua/apple-watch/apple-watch-ultra-2/apple-watch-ultra-2-49mm-gps--lte-titanium-case-with-blue-trail-loop-ml",
 ];
 const arrLinkiPeopleAWS10andUltra2024 = [
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-alu-case-w-denim-sport-band---sm-mwwa3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-alu-case-w-denim-sport-band---ml-mwwc3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwd3",
+  "https://www.google.com/",
+  "https://www.google.com/",
+  "https://www.google.com/",
 
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-jet-black-alu-case-w-black-sport-band---sm-mwwe3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-42mm-jet-black-aluminum-case-with-black-sport-band---ml-mxlk3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-jet-black-alu-case-w-ink-sport-loop-mwwg3",
+  "https://www.google.com/",
+  "https://www.google.com/",
+  "https://www.google.com/",
 
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---sm-mwwh3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-42mm-rose-gold-alu-case-w-light-blush-sport-band---ml-mwwj3",
+  "https://www.google.com/",
+  "https://www.google.com/",
 
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---sm-mwwl3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-alu-case-w-denim-sport-band---ml-mwwm3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-silver-aluminum-case-w-blue-cloud-sport-loop-mwwn3",
+  "https://www.google.com/",
+  "https://www.google.com/",
+  "https://www.google.com/",
 
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---sm-mwwp3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-46mm-jet-black-aluminum-case-with-black-sport-band---ml-mwwq3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-jet-black-aluminum-case-w-ink-sport-loop-mwwr3",
+  "https://www.google.com/",
+  "https://www.google.com/",
+  "https://www.google.com/",
 
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-rose-gold-alu-case-w-light-blush-sport-band---sm-mwwt3",
-  "https://www.ipeople.in.ua/products/apple-watch-series-10-gps-46mm-rose-gold-alu-case-w-light-blush-sport-band---ml-mwwu3",
+  "https://www.google.com/",
+  "https://www.google.com/",
 
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-ocean-band-mx4p3",
+  "https://www.google.com/",
+ 
 
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---sm-mx4w3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---ml-mx5u3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-titanium-milanese-loop---xl-mx5v3",
-
-
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---m-mx4r3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-dark-green-alpine-loop---l-mx4t3",
-
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---sm-mx4u3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-black-titanium-case-with-black-trail-loop---ml-mx4v3",
+  "https://www.google.com/",
+  "https://www.google.com/",
+  "https://www.google.com/",
 
 
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---sm-mx4m3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---ml-mx5r3",
-  "https://www.ipeople.in.ua/products/apple-watch-ultra-2-gps--cellular-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---xl-mx5t3",
+  "https://www.google.com/",
+  "https://www.google.com/",
+
+  "https://www.google.com/",
+  "https://www.google.com/",
+
+
+  "https://www.google.com/",
+  "https://www.google.com/",
+  "https://www.google.com/",
 ];
 const arrLinkEstoreAWS10andUltra2024 = [
   "https://estore.ua/ua/apple-watch-series-10-silver-aluminium-case-with-sport-band/?q=mwwa3",
@@ -1490,9 +1491,11 @@ async function f() {
   }
 }
  for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i++) {
+
   const link = arrLinkiPeopleAWS10andUltra2024[i];
 
   try {
+
     const response = await page.goto(link, {
       waitUntil: "domcontentloaded",
       timeout: 20000,
@@ -1503,29 +1506,38 @@ async function f() {
       continue;
     }
 
-    // ждём стабилизации DOM
     await page.waitForFunction(
       () => document.readyState === "complete",
       { timeout: 10000 }
     );
 
-    // микро-пауза против редиректов
-    await page.waitForTimeout(300);
+    // пауза
+    await new Promise(r => setTimeout(r, 300));
 
     const result = await page.evaluate(() => {
-      const usd = document.querySelector(".usd");
-      if (!usd) return "⚠️ iPeople: Нет .usd";
 
-      return `iPeople: ${usd.innerText.replace(/\s+/g, " ").trim()}`;
+      const usd = document.querySelector(".usd");
+
+      if (!usd) {
+        return "⚠️ iPeople: Нет .usd";
+      }
+
+      return `iPeople: ${usd.innerText
+        .replace(/\n+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim()}`;
+
     });
 
     console.log(result);
 
     // антибан
-    await page.waitForTimeout(600);
+    await new Promise(r => setTimeout(r, 600));
 
   } catch (err) {
+
     console.log(`❌ Ошибка / редирект: ${link}`);
+
   }
 }
   for (let i = 0; i < arrLinkEstoreAWS10andUltra2024.length; i += 1) {
