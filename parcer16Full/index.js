@@ -2040,23 +2040,41 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkYua17Pro.length; i += 1) {
-    await page.goto(arrLinkYua17Pro[i]);
-    const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price .regular") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price .regular").innerText
-        );
-      } else {
-        return text2;
-      }
+  const link = arrLinkYua17Pro[i];
+
+  try {
+
+    await page.goto(link, {
+      waitUntil: "domcontentloaded",
+      timeout: 20000
+    });
+
+    const arr2 = await page.evaluate(() => {
+
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".price .regular");
+
+      const title = clean(h1?.innerText) || "NO_TITLE";
+      const priceText = clean(price?.innerText);
+
+      return priceText
+        ? `${title} Yua: ${priceText}`
+        : `${title} Yua: NO_PRICE`;
+
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+
+    console.log(`❌ Ошибка: ${link} | ${err.message}`);
+
   }
+}
   for (let i = 0; i < arrLinkYabloki17Pro.length; i++) {
   try {
     await page.goto(arrLinkYabloki17Pro[i], {
