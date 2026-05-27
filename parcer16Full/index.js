@@ -2382,31 +2382,40 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(arr2);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkYabloki17.length; i++) {
+ for (let i = 0; i < arrLinkYabloki17.length; i++) {
+
+  const link = arrLinkYabloki17[i];
+
   try {
-    await page.goto(arrLinkYabloki17[i], {
+
+    await page.goto(link, {
       waitUntil: "domcontentloaded",
       timeout: 20000
     });
 
-    // универсальная пауза (вместо waitForTimeout)
     await new Promise(resolve => setTimeout(resolve, 500));
 
     const arr2 = await page.evaluate(() => {
-      const h1 = document.querySelector("h1");
-      const price = document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale");
 
-      const title = h1?.innerText?.trim() || "Без названия";
-      const priceText = price?.innerText?.trim() || "нет цены";
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price");
+
+      const title = clean(h1?.innerText) || "Без названия";
+      const priceText = clean(price?.innerText) || "нет цены";
 
       return `${title} Yabloki: ${priceText}`;
+
     });
 
     console.log(arr2);
 
   } catch (err) {
-    console.log("❌ Ошибка при загрузке:", arrLinkYabloki17[i]);
-    console.log(err.message);
+
+    console.log(`❌ Ошибка при загрузке: ${link} | ${err.message}`);
+
   }
 }
 
