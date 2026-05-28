@@ -1042,33 +1042,33 @@ const arrLinkCts17ProIPHinfo = [
 ]
 const arrLinkSkay17ProIPH = [
 
-"https://skay.ua/iphone-17-pro/80210-apple-iphone-17-pro-256gb-cosmic-orange-mg8h4.html",
-"https://skay.ua/iphone-17-pro/80208-apple-iphone-17-pro-256gb-deep-blue-mg8j4.html",
-"https://skay.ua/iphone-17-pro/80209-apple-iphone-17-pro-256gb-silver-mg8g4.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
  
-"https://skay.ua/iphone-17-pro/80243-apple-iphone-17-pro-512gb-cosmic-orange-mg8m4.html",
-"https://skay.ua/iphone-17-pro/80241-apple-iphone-17-pro-512gb-deep-blue-mg8n4.html?search_query=MG8N4&fast_search=fs",
-"https://skay.ua/iphone-17-pro/80242-apple-iphone-17-pro-512gb-silver-mg8k4.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
  
-"https://skay.ua/iphone-17-pro/80246-apple-iphone-17-pro-1tb-cosmic-orange-mg8q4.html",
-"https://skay.ua/iphone-17-pro/80244-apple-iphone-17-pro-1tb-deep-blue-mg8r4.html",
-"https://skay.ua/iphone-17-pro/80245-apple-iphone-17-pro-1tb-silver-mg8p4.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
  
-"https://skay.ua/iphone-17-pro-max/80217-apple-iphone-17-pro-max-256gb-cosmic-orange-mfyn4.html?search_query=MFYN4&fast_search=fs",
-"https://skay.ua/iphone-17-pro-max/80215-apple-iphone-17-pro-max-256gb-deep-blue-mfyp4.html",
-"https://skay.ua/iphone-17-pro-max/80216-apple-iphone-17-pro-max-256gb-silver.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
  
-"https://skay.ua/iphone-17-pro-max/80249-apple-iphone-17-pro-max-512gb-cosmic-orange-mfyt4.html",
-"https://skay.ua/iphone-17-pro-max/80247-apple-iphone-17-pro-max-512gb-deep-blue-mfyu4.html",
-"https://skay.ua/iphone-17-pro-max/80248-apple-iphone-17-pro-max-512gb-silver-mfyq4.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
  
-"https://skay.ua/iphone-17-pro-max/80252-apple-iphone-17-pro-max-1tb-cosmic-orange-mfyw.html",
-"https://skay.ua/iphone-17-pro-max/80250-apple-iphone-17-pro-max-1tb-deep-blue-mfyx4.html",
-"https://skay.ua/iphone-17-pro-max/80251-apple-iphone-17-pro-max-1tb-silver-mfyv4.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
  
-"https://skay.ua/iphone-17-pro-max/80255-apple-iphone-17-pro-max-2tb-cosmic-orange-mg004.html",
-"https://skay.ua/iphone-17-pro-max/80253-apple-iphone-17-pro-max-2tb-deep-blue-mg014.html",
-"https://skay.ua/iphone-17-pro-max/80254-apple-iphone-17-pro-max-2tb-silver-mfyy4.html",
+"https://www.google.com/",
+"https://www.google.com/",
+"https://www.google.com/",
 ]
 
 
@@ -2170,32 +2170,43 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   }
 }
    for (let i = 0; i < arrLinkSkay17ProIPH.length; i++) {
+
   const link = arrLinkSkay17ProIPH[i];
 
   try {
+
     const response = await page.goto(link, {
       waitUntil: "domcontentloaded",
       timeout: 20000,
     });
 
-    // сайт не открылся
+    // если сайт не открылся
     if (!response || !response.ok()) {
       console.log(`❌ S: не открылось — ${link}`);
       continue;
     }
 
+    await new Promise(r => setTimeout(r, 500));
+
     const result = await page.evaluate(() => {
+
       const clean = (t) =>
         t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
       const h1 = document.querySelector("h1");
-      if (!h1) return "⚠️ S: нет H1";
-
       const price = document.querySelector(".products-item-cost");
 
+      // если это не товар (например google)
+      if (!h1) {
+        return "⚠️ S: нет H1";
+      }
+
+      const title = clean(h1.innerText);
+
       return price
-        ? `${clean(h1.innerText)} S: ${clean(price.innerText)}`
-        : `${clean(h1.innerText)} S: нет цены`;
+        ? `${title} S: ${clean(price.innerText)}`
+        : `${title} S: нет цены`;
+
     });
 
     console.log(result);
@@ -2203,7 +2214,9 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     await new Promise(r => setTimeout(r, 500));
 
   } catch (err) {
-    console.log(`❌ S: ошибка или не открылось — ${link}`);
+
+    console.log(`❌ S: ошибка или не открылось — ${link} | ${err.message}`);
+
   }
 }
   
@@ -2417,7 +2430,7 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     console.log(`❌ Ошибка при загрузке: ${link} | ${err.message}`);
 
   }
-}
+} 
 
 
 for (let i = 0; i < arrLinkJabko17eIPH.length; i += 1) {
