@@ -2321,23 +2321,38 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
 }
 
   for (let i = 0; i < arrLinkJabko17IPH.length; i += 1) {
-  await page.goto(arrLinkJabko17IPH[i], {
-    waitUntil: "domcontentloaded",
-  });
 
-  const result = await page.evaluate(() => {
-    const clean = (t) =>
-      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+  try {
 
-    const title = clean(document.querySelector("h1")?.innerText);
-    const price = clean(
-      document.querySelector(".price-new__uah")?.innerText
+    await page.goto(arrLinkJabko17IPH[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
+
+    const result = await page.evaluate(() => {
+
+      const clean = (t) =>
+        t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText);
+      const price = clean(
+        document.querySelector(".price-new__uah")?.innerText
+      );
+
+      return price ? `${title} J: ${price}` : title || "⚠️ Нет H1";
+
+    });
+
+    console.log(result);
+
+  } catch (err) {
+
+    console.log(
+      `❌ J: ${arrLinkJabko17IPH[i]} | ${err.message}`
     );
 
-    return price ? `${title} J: ${price}` : title;
-  });
+  }
 
-  console.log(result);
 }
  for (let i = 0; i < arrLinkMobilePlanet17IPH.length; i += 1) {
   try {
