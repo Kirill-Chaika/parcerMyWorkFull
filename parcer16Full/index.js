@@ -966,7 +966,7 @@ const arrLinkYabloki17Pro = [
 "https://ya.ua/product/iphone-17-pro-1tb-deep-blue-mg8r4-73393/",
 "https://ya.ua/product/iphone-17-pro-1tb-silver-mg8p4-73395/",
  
-"https://ya.ua/product/iphone-17-pro-max-256-gb-orange-now-73405/",
+"https://ya.ua/product/iphone-17-pro-max-256gb-cosmic-orange-mfyn4-73405/",
 "https://ya.ua/product/iphone-17-pro-max-256gb-deep-blue-mfyp4-73406/",
 "https://ya.ua/product/iphone-17-pro-max-256gb-silver-mfym4-73407/",
  
@@ -2088,31 +2088,44 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   }
 }
   for (let i = 0; i < arrLinkYabloki17Pro.length; i++) {
+
   try {
+
     await page.goto(arrLinkYabloki17Pro[i], {
       waitUntil: "domcontentloaded",
       timeout: 20000
     });
 
-    // универсальная пауза
     await new Promise(resolve => setTimeout(resolve, 500));
 
     const arr2 = await page.evaluate(() => {
-      const h1 = document.querySelector("h1");
-      const price = document.querySelector(".ProductPagePurchase-module-scss-module__hEYaYG__price ProductPagePurchase-module-scss-module__hEYaYG__priceSale");
 
-      const title = h1?.innerText?.trim() || "Без названия";
-      const priceText = price?.innerText?.trim() || "нет цены";
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+
+      const price = document.querySelector(
+        ".ProductPagePurchase-module-scss-module__hEYaYG__price"
+      );
+
+      const title = clean(h1?.innerText) || "Без названия";
+      const priceText = clean(price?.innerText) || "нет цены";
 
       return `${title} Yabloki Pro: ${priceText}`;
+
     });
 
     console.log(arr2);
 
   } catch (err) {
-    console.log("❌ Ошибка при загрузке:", arrLinkYabloki17Pro[i]);
-    console.log(err.message);
+
+    console.log(
+      `❌ Ошибка при загрузке: ${arrLinkYabloki17Pro[i]} | ${err.message}`
+    );
+
   }
+
 }
    for (let i = 0; i < arrLinkCts17ProIPH.length; i++) {
   try {
