@@ -1255,130 +1255,130 @@ const arrLinkGroAirM5 = [
 
 
 
-const arrLinkGroProM5 = [
-  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
+// const arrLinkGroProM5 = [
+//   "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
 
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
-]
-const arrLinkGroAirM5 = [
-  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
+// ]
+// const arrLinkGroAirM5 = [
+//   "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
 
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
-]
-const arrLinkGroAirM5 = [
-  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
+// ]
+// const arrLinkGroAirM5 = [
+//   "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
 
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
-]
-const arrLinkGroAirM5 = [
-  "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
+// ]
+// const arrLinkGroAirM5 = [
+//   "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-sky-blue-mdhh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-silver-mdh74/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-midnight-mdhe4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-8-core-gpu-16gb-512gb-starlight-mdha4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdhj4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdh84/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdhf4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdhc4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdhk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdh94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdhg4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-13-6-m5-2026/noutbuk-apple-macbook-air-13-6-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdhd4/",
 
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-sky-blue-mdvq4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-silver-mdv94/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-midnight-mdvh4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-512gb-starlight-mdvd4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-sky-blue-mdvt4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-silver-mdva4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-midnight-mdvk4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-16gb-1tb-starlight-mdve4/",
  
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
-"https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
-]
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-sky-blue-mdvu4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-silver-mdvc4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-midnight-mdvn4/",
+// "https://grokholsky.com/ua/product/apple/mac/apple-macbook-air/macbook-air-15-m5-2026/noutbuk-apple-macbook-air-15-2026-apple-m5-10-core-gpu-24gb-1tb-starlight-mdvf4/",
+// ]
 
 
 
@@ -1397,24 +1397,42 @@ async function f() {
   await page.setDefaultNavigationTimeout(0);
   await page.setDefaultTimeout(0);
 
-  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
-    await page.goto(arrLinkGroMacM3[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkGroMacM3.length; i++) {
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
+  try {
+
+    await page.goto(arrLinkGroMacM3[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000
+    });
+
+    const arr3 = await page.evaluate(() => {
+
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const sku = document.querySelector(".sku");
+      const price = document.querySelector(".product-price-value");
+
+      const title = clean(sku?.innerText) || "⚠️ Нет SKU";
+
+      return price
+        ? `${title} Gro: ${clean(price.innerText)}`
+        : `${title} Gro: нет цены`;
+
     });
 
     console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+
+    console.log(
+      `❌ Gro: ${arrLinkGroMacM3[i]} | ${err.message}`
+    );
+
   }
+
+}
   for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
     await page.goto(arrLinkGroMacM3[i]);
     const n = await page.$("#txt");
