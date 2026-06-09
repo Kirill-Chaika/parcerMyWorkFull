@@ -2090,18 +2090,22 @@ async function f() {
 
 }
   for (let i = 0; i < arrLinkGroAirM5.length; i += 1) {
-  await page.goto(arrLinkGroAirM5[i], { waitUntil: "domcontentloaded" });
 
-  let arr3 = await page.evaluate(() => {
-    const sku = document.querySelector(".sku")?.innerText || "NO SKU";
-    const price = document.querySelector(".product-price-value")?.innerText;
+    await page.goto(arrLinkGroAirM5[i], { waitUntil: "domcontentloaded" });
 
-    return price ? `${sku} Gro: ${price}` : sku;
-  });
+    const arr3 = await page.evaluate(() => {
 
-  console.log(arr3);
+      const sku = document.querySelector(".sku")?.innerText || "NO SKU";
+
+      const price = document.querySelector(".product-price-value")?.innerText;
+
+      return price ? `${sku} Gro: ${price}` : sku;
+
+    });
+
+    console.log(arr3);
+
   }
-
   await browser.close();
 
 process.exit(0);
