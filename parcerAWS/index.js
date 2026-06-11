@@ -1812,29 +1812,47 @@ async function f() {
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
   }
-  for (let i = 0; i < arrLinkEstoreAWSUltraSE32025.length; i += 1) {
-    await page.goto(arrLinkEstoreAWSUltraSE32025[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkEstoreAWSUltraSE32025.length; i++) {
 
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
+  try {
 
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
+    await page.goto(arrLinkEstoreAWSUltraSE32025[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
+
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    const arr2 = await page.evaluate(() => {
+
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".regular-price");
+
+      const title = clean(h1?.innerText) || "⚠️ Нет H1";
+      const priceText = clean(price?.innerText);
+
+      return priceText
+        ? `${title} Estore: ${priceText}`
+        : title;
+
+    });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+
+    console.log(
+      `❌ Estore: ${arrLinkEstoreAWSUltraSE32025[i]} | ${err.message}`
+    );
+
+    continue;
+
   }
+
+}
 
   await browser.close();
 
