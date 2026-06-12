@@ -1474,19 +1474,35 @@ async function f() {
 
   for (let i = 0; i < arrLinkJabkoMacM4.length; i += 1) {
   try {
-    await page.goto(arrLinkJabkoMacM4[i], { waitUntil: "domcontentloaded", timeout: 30000 });
+    await page.goto(arrLinkJabkoMacM4[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 30000
+    });
 
     const result = await page.evaluate(() => {
-      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
-      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
-      const price = clean(document.querySelector(".price-new__uah")?.innerText);
-      return price ? `${title} J: ${price}` : `${title} — нет цены`;
+      const clean = (t) =>
+        t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title =
+        clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+
+      const price = clean(
+        document.querySelector(".price-new__uah")?.innerText
+      );
+
+      return price
+        ? `${title} J: ${price}`
+        : `${title} — нет цены`;
     });
 
     console.log(result);
+
   } catch (err) {
-    console.log("❌ Ошибка страницы:", arrLinkJabkoMacM4[i]);
-    console.log(err.message);
+
+    console.log(
+      `❌ Ошибка страницы: ${arrLinkJabkoMacM4[i]} | ${err.message}`
+    );
+
   }
 }
   for (let i = 0; i < arrLinkIStoreMacM4.length; i++) {
