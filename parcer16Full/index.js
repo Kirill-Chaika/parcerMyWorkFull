@@ -1915,24 +1915,39 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
 
 
   
-  for (let i = 0; i < arrLinkYua16e.length; i += 1) {
-    await page.goto(arrLinkYua16e[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkYua16e.length; i++) {
+  try {
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price") != null) {
-        return (
-          text2 + "Yua: " + document.querySelector(".price").innerText
-        );
-      } else {
-        return text2;
-      }
+    await page.goto(arrLinkYua16e[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000
+    });
+
+    const arr2 = await page.evaluate(() => {
+
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".price");
+
+      const title = clean(h1?.innerText) || "NO_TITLE";
+      const priceText = clean(price?.innerText) || "NO_PRICE";
+
+      return `${title} Yua: ${priceText}`;
+
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+
+    console.log(
+      `❌ Yua16e: ${arrLinkYua16e[i]} | ${err.message}`
+    );
+
   }
+}
  for (let i = 0; i < arrLinkYabloki16e.length; i++) {
 
   try {
