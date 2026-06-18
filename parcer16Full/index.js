@@ -1507,24 +1507,29 @@ const arrLinkYua13 = [
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
+   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
 for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
-    await page.goto(arrLinkGro16IPH[i]);
-    const n = await page.$("#txt");
+  await page.goto(arrLinkGro16IPH[i]);
+  const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+  let arr3 = await page.evaluate(() => {
+    let text2 = document.querySelector(".sku").innerText;
+    if (document.querySelector(".product-price-value") != null) {
+      return (
+        text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+      );
+    } else {
+      return text2;
+    }
+  });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+  console.log(arr3);
+
+  await sleep(3000 + Math.random() * 4000);
+
+  await page.setDefaultNavigationTimeout(0);
+}
   
   for (let i = 0; i < arrLinkJabko16IPH.length; i += 1) {
   await page.goto(arrLinkJabko16IPH[i], { waitUntil: "domcontentloaded" });
@@ -1559,9 +1564,11 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
     });
 
     console.log(result);
+
+    await sleep(3000 + Math.random() * 4000);
+
   } catch (err) {
-    console.log("❌ Ошибка страницы:", link);
-    console.log(err.message);
+    console.log(`❌ Ошибка страницы: ${link} | ${err.message}`);
   }
 }
   for (let link of arrLinkMobilePlanet16IPH) {
@@ -1813,6 +1820,8 @@ for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
   });
 
   console.log(arr4);
+
+  await sleep(3000 + Math.random() * 4000);
 }
   for (let i = 0; i < arrLinkMobilePlanet16eIPH.length; i += 1) {
     await page.goto(arrLinkMobilePlanet16eIPH[i]);
