@@ -966,24 +966,29 @@ async function f() {
     console.log(`❌ J: не открылся ${arrLinkJabkoIPAD[i]}`);
   }
 }
-  for (let i = 0; i < arrLinkIstoreIpadNew.length; i += 1) {
-    await page.goto(arrLinkIstoreIpadNew[i]);
-    const n = await page.$("#txt");
+  for (let i = 0; i < arrLinkIstoreIpadNew.length; i++) {
+  try {
+    await page.goto(arrLinkIstoreIpadNew[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 30000,
+    });
 
     let arr4 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".product_price ") != null) {
-        return (
-          text2 + "I: " + document.querySelector(".product_price ").innerText
-        );
-      } else {
-        return;
-      }
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+      const price = clean(document.querySelector(".product_price")?.innerText);
+
+      return price ? `${title} I: ${price}` : `${title} — нет цены`;
     });
 
     console.log(arr4);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+    console.log(`❌ Istore iPad: ${arrLinkIstoreIpadNew[i]} | ${err.message}`);
   }
+}
   for (let i = 0; i < arrLinkEstoreIpadNew.length; i += 1) {
     await page.goto(arrLinkEstoreIpadNew[i]);
     const n = await page.$("#txt");
@@ -1138,26 +1143,29 @@ async function f() {
     console.log(`❌ J: не открылся ${arrLinkJabkoIPADM5[i]}`);
   }
 }
-  for (let i = 0; i < arrLinkIstoreIpadNewM5.length; i += 1) {
-    await page.goto(arrLinkIstoreIpadNewM5[i], { waitUntil: "domcontentloaded" });
+  for (let i = 0; i < arrLinkIstoreIpadNewM5.length; i++) {
+  try {
+    await page.goto(arrLinkIstoreIpadNewM5[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 30000,
+    });
 
     let arr4 = await page.evaluate(() => {
-        // h1 может отсутствовать
-        const h1 = document.querySelector("h1");
-        const title = h1 ? h1.innerText.trim() : "NO TITLE";
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
-        // price может отсутствовать или загружаться позже
-        const priceEl = document.querySelector(".product_price");
-        const price = priceEl ? priceEl.innerText.trim() : null;
+      const title = clean(document.querySelector("h1")?.innerText) || "NO TITLE";
+      const price = clean(document.querySelector(".product_price")?.innerText);
 
-        if (!price) return null; // если нет цены
-        return `${title} I: ${price}`;
+      return price ? `${title} I: ${price}` : `${title} — нет цены`;
     });
 
     console.log(arr4);
 
-    await page.setDefaultNavigationTimeout(0);
+  } catch (err) {
+    console.log(`❌ Istore iPad M5: ${arrLinkIstoreIpadNewM5[i]} | ${err.message}`);
   }
+}
   for (let i = 0; i < arrLinkGroIPADM5.length; i++) {
     await page.goto(arrLinkGroIPADM5[i]);
 
