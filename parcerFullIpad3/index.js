@@ -1620,24 +1620,34 @@ for (let i = 0; i < arrLinkJabkoIPADAirM5.length; i++) {
     console.log(`❌ J: не открылся ${arrLinkJabkoIPADM5[i]}`);
   }
 }
-for (let i = 0; i < arrLinkEstoreIpadairM5.length; i += 1) {
-    await page.goto(arrLinkEstoreIpadairM5[i]);
-    const n = await page.$("#txt");
+for (let i = 0; i < arrLinkEstoreIpadairM5.length; i++) {
+  try {
+    await page.goto(arrLinkEstoreIpadairM5[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 30000,
+    });
 
-    let arr2 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector("p .price") != null) {
-        return (
-          text2 + "Estore: " + document.querySelector("p .price").innerText
-        );
-      } else {
-        return text2;
-      }
+    const arr2 = await page.evaluate(() => {
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector("p .price");
+
+      const title = clean(h1?.innerText) || "⚠️ Нет H1";
+      const priceText = clean(price?.innerText);
+
+      return priceText
+        ? `${title} Estore: ${priceText}`
+        : `${title} — нет цены`;
     });
 
     console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
+
+  } catch (err) {
+    console.log(`❌ Estore iPad Air M5: ${arrLinkEstoreIpadairM5[i]} | ${err.message}`);
   }
+}
   for (let i = 0; i < arrLinkMPIpadAirM5.length; i += 1) {
 
   const url = arrLinkMPIpadAirM5[i];
