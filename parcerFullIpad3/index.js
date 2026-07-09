@@ -932,6 +932,414 @@ const arrLinkGroIPADM5 = [
 "https://grokholsky.com/ua/product/apple/ipad/ipad-pro-13-2025/planshet-apple-ipad-pro-13-2025-wi-fi-cellular-2tb-silver-me8k4/",
 ];
 
+const arrLinkJabkoIPADAirM5 = [
+  "https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi-starlight-m4-2026",
+
+
+
+"https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-128gb-wi-fi--lte-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-256gb-wi-fi--lte-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-512gb-wi-fi--lte-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-11-1tb-wi-fi--lte-starlight-m4-2026",
+
+
+
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi-starlight-m4-2026",
+
+
+
+
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-128gb-wi-fi--lte-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-256gb-wi-fi--lte-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-512gb-wi-fi--lte-starlight-m4-2026",
+
+
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi--lte-space-gray-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi--lte-blue-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi--lte-purple-m4-2026",
+"https://jabko.ua/product/apple-ipad-air-13-1tb-wi-fi--lte-starlight-m4-2026",
+];
+const arrLinkEstoreIpadairM5 = [
+  "https://estore.ua/ua/ipad-air-m4-11-wi-fi-128gb-space-grey/?q=mh304",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-128gb-blue/?q=mh314",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-128gb-purple/?q=mh344",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-128gb-starlight/?q=mh334",
+
+
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-256gb-space-grey/?q=mh354",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-256gb-blue/?q=mh364",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-256gb-purple/?q=mh394",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-256gb-starlight/?q=mh374",
+
+
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-512gb-space-grey/?q=mh3a4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-512gb-blue/?q=mh3c4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-512gb-purple/?q=mh3e4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-512gb-starlight/?q=mh3d4",
+
+
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-1tb-space-grey/?q=mh3g4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-1tb-blue/?q=mh3h4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-1tb-purple/",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-1tb-starlight/",
+
+
+
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-128gb-space-grey-mh784/?q=mh784",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-128gb-blue-mh794/?q=mh794",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-128gb-purple-mh7c4/?q=mh7c4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-128gb-starlight-mh7a4/?q=mh7a4",
+
+
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-256gb-space-grey-mh7d4/?q=mh7d4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-256gb-blue-mh7e4/?q=mh7e4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-256gb-purple-mh7g4/?q=mh7g4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-256gb-starlight-mh7f4/?q=mh7f4",
+
+
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-512gb-space-grey-mh7h4/?q=mh7h4",
+"https://estore.ua/ua/ipad-air-m4-11-wi-fi-cellular-128gb-blue-mh794/?q=mh794",
+"https://www.google.com",
+"https://www.google.com",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-128gb-space-grey/?q=mh5n4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-128gb-blue/?q=mh5p4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-128gb-purple/?q=mh5t4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-128gb-starlight/?q=mh5q4",
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-256gb-space-grey/?q=mh5u4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-256gb-blue/?q=mh5v4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-256gb-purple/?q=mh5x4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-256gb-starlight/?q=mh5w4",
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-512gb-space-grey/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-512gb-blue/?q=mh604",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-512gb-purple/?q=mh624",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-512gb-starlight/?q=mh614",
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-1tb-space-grey/?q=mh634",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-1tb-blue/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-1tb-purple/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-1tb-starlight/",
+
+
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-128gb-space-grey-mh9d4/?q=mh9d4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-128gb-blue-mh9e4/?q=mh9e4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-128gb-purple-mh9g4/?q=mh9g4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-128gb-starlight-mh9f4/?q=mh9f4",
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-256gb-space-grey-mh9h4/?q=mh9h4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-256gb-blue-mh9j4/?q=mh9j4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-256gb-purple-mh9l4/?q=mh9l4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-256gb-starlight-mh9k4/?q=mh9k4",
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-512gb-space-grey-mh9m4/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-512gb-blue-mh9n4/?q=mh9n4",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-512gb-purple-mh9q4/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-512gb-starlight-mh9p4/",
+
+
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-1tb-space-grey-mh9r4/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-1tb-blue-mh9t4/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-1tb-purple-mh9v4/",
+"https://estore.ua/ua/ipad-air-m4-13-wi-fi-cellular-1tb-starlight-mh9u4/",
+];
+const arrLinkMPIpadAirM5 = [
+
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-128gb-space-gray-mh30-379009",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-128gb-blue-mh314-379007",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-128gb-purple-mh344-379008",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-128gb-starlight-mh334-379010",
+
+
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-256gb-space-gray-mh35-379017",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-256gb-blue-mh364-379015",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-256gb-purple-mh394-379016",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-256gb-starlight-mh374-379018",
+
+
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-512gb-space-gray-mh3a-379021",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+
+ "https://www.google.com",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-cellular-128gb-blue-m-378991",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-cellular-128gb-purple-378992",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-cellular-128gb-starli-378994",
+
+
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-cellular-256gb-space-379001",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-cellular-256gb-blue-m-378999",
+"https://www.google.com",
+"https://mobileplanet.ua/apple-ipad-air-11-2026-wi-fi-cellular-256gb-starli-379002",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-128gb-space-gray-mh5n-379041",
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-128gb-blue-mh5p4-379039",
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-128gb-purple-mh5t4-379040",
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-128gb-starlight-mh5q4-379042",
+
+
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-256gb-space-gray-mh5u-379049",
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-256gb-blue-mh5v4-379047",
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-256gb-purple-mh5x4-379048",
+"https://mobileplanet.ua/apple-ipad-air-13-2026-wi-fi-256gb-starlight-mh5w4-379050",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+
+
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+"https://www.google.com",
+];
+const arrLinkGroIPADAirM5 = [
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-128gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-128gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-128gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-128gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-256gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-256gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-256gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-256gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-512gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-512gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-512gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-512gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-1tb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-1tb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-1tb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-1tb-starlight/",
+
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-128gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-128gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-128gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-128gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-256gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-256gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-256gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-256gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-512gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-512gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-512gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-512gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-1tb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-1tb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-1tb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-11-2026/planshet-apple-ipad-air-11-2026-wi-fi-cellular-1tb-starlight/",
+
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-128gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-128gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-128gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-128gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-256gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-256gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-256gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-256gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-512gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-512gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-512gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-512gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-1tb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-1tb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-1tb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-1tb-starlight/",
+
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-128gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-128gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-128gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-128gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-256gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-256gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-256gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-256gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-512gb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-512gb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-512gb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-512gb-starlight/",
+
+
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-1tb-space-gray/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-1tb-blue/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-1tb-purple/",
+"https://grokholsky.com/ua/product/apple/ipad/ipad-air-13-2026/planshet-apple-ipad-air-13-2026-wi-fi-cellular-1tb-starlight/",
+];
+
+
+
+
+
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -1182,6 +1590,134 @@ async function f() {
 
     console.log(arr3);
 }
+
+for (let i = 0; i < arrLinkJabkoIPADAirM5.length; i++) {
+  try {
+    await page.goto(arrLinkJabkoIPADAirM5[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
+
+    const result = await page.evaluate(() => {
+      const clean = (t) =>
+        typeof t === "string"
+          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+          : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+      if (!title) return "❌ J: страница без товара";
+
+      const price = clean(
+        document.querySelector(".price-new__uah")?.innerText
+      );
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
+    });
+
+    if (result && result.trim()) console.log(result);
+
+  } catch {
+    console.log(`❌ J: не открылся ${arrLinkJabkoIPADM5[i]}`);
+  }
+}
+for (let i = 0; i < arrLinkEstoreIpadairM5.length; i += 1) {
+    await page.goto(arrLinkEstoreIpadairM5[i]);
+    const n = await page.$("#txt");
+
+    let arr2 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector("p .price") != null) {
+        return (
+          text2 + "Estore: " + document.querySelector("p .price").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkMPIpadAirM5.length; i += 1) {
+
+  const url = arrLinkMPIpadAirM5[i];
+
+  try {
+
+    await page.goto(url, {
+
+      waitUntil: "domcontentloaded", // быстрее чем networkidle
+
+      timeout: 15000
+
+    });
+
+    // 👉 короткое ожидание (не 4-5 сек)
+
+    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+
+    // 👉 МИНИ-пауза (почти сразу парсим)
+
+    await delay(300 + Math.random() * 500);
+
+    const arr3 = await page.evaluate(() => {
+
+      const clean = (text) =>
+
+        text ? text.replace(/\s+/g, " ").trim() : "";
+
+      const title = clean(document.querySelector("h1")?.innerText);
+
+      const price = clean(
+
+        document.querySelector(".price-value")?.innerText ||
+
+        document.querySelector(".product-price-value")?.innerText ||
+
+        document.querySelector(".price")?.innerText
+
+      );
+
+      return `${title} MP: ${price || "NO PRICE"}`;
+
+    });
+
+    process.stdout.write(arr3 + "\n");
+
+    // 👉 минимальная пауза между страницами
+
+    await delay(500 + Math.random() * 700);
+
+  } catch (err) {
+
+    process.stdout.write("ERROR: " + err.message + "\n");
+
+    await delay(1000);
+
+  }
+
+}
+ for (let i = 0; i < arrLinkGroIPADAirM5.length; i++) {
+    await page.goto(arrLinkGroIPADAirM5[i]);
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku")?.innerText || "NO SKU";
+
+      let price = document.querySelector(".product-price-value");
+      if (price) {
+        return text2 + " Gro: " + price.innerText;
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+}
+
+
+
+
+
 
 await browser.close();
 
