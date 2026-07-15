@@ -66,46 +66,64 @@ const arrLinkHotlineMacAirM5 = [
   "https://hotline.ua/ua/computer-noutbuki-netbuki/apple-macbook-air-136-2026-apple-m5-8-core-gpu-16gb-512gb-midnight/",
   "https://hotline.ua/ua/computer-noutbuki-netbuki/apple-macbook-air-136-2026-apple-m5-8-core-gpu-16gb-512gb-silver/",
 ];
+
+
+
 async function f() {
 
   const browser = await puppeteer.launch({
+
     headless: false,
+
     defaultViewport: null,
+
   });
 
   const page = await browser.newPage();
+
+  // <<< ВСТАВИТЬ СЮДА >>>
+
+  page.on("response", async (response) => {
+
+    const req = response.request();
+
+    if (
+
+        req.resourceType() !== "xhr" &&
+
+        req.resourceType() !== "fetch"
+
+    ) return;
+
+    const url = response.url();
+
+    if (
+
+        url.includes("hotline.ua")
+
+    ) {
+
+        console.log("\n==========================");
+
+        console.log(url);
+
+        try {
+
+            const text = await response.text();
+
+            console.log(text.substring(0, 1200));
+
+        } catch(e){}
+
+    }
+
+});
 
   // ================= GRO =================
 
   for (let i = 0; i < arrLinkGroMacM3.length; i++) {
 
-    try {
-
-      await page.goto(arrLinkGroMacM3[i], {
-        waitUntil: "domcontentloaded",
-        timeout: 20000
-      });
-
-      const result = await page.evaluate(() => {
-
-        const clean = (t) =>
-          t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
-
-        const sku = clean(document.querySelector(".sku")?.innerText);
-        const price = clean(document.querySelector(".product-price-value")?.innerText);
-
-        return `${sku} Gro: ${price || "нет цены"}`;
-
-      });
-
-      console.log(result);
-
-    } catch (err) {
-
-      console.log(`❌ Gro: ${arrLinkGroMacM3[i]}`);
-      console.log(err.message);
-
-    }
+      
 
   }
 
@@ -113,67 +131,15 @@ async function f() {
 
   for (const link of arrLinkHotlineMacAirM5) {
 
-    await page.goto(link, {
-      waitUntil: "networkidle2",
-      timeout: 60000,
-    });
+      await page.goto(link, {
 
-    await page.waitForSelector("div._39wZYcj8NS7-tlSHz20x", {
-      timeout: 30000,
-    });
+          waitUntil: "networkidle2",
 
-    await new Promise(resolve => setTimeout(resolve, 15000));
+          timeout: 60000,
 
-    const data = await page.evaluate(() => {
+      });
 
-      const clean = t =>
-        t ? t.replace(/\s+/g, " ").trim() : "";
-
-      const title = clean(document.querySelector("h1")?.innerText);
-
-      const offers = [...document.querySelectorAll("div._39wZYcj8NS7-tlSHz20x")];
-
-      return {
-        title,
-        shops: offers.map(card => {
-
-          const shop = clean(
-            card.querySelector("._28nEtZBfCXlOZegmPmnR a")?.innerText
-          );
-
-          let price = "";
-
-          const p1 = card.querySelector("._2nDtLJl1an-IwvrOwFrI");
-
-          if (p1)
-            price = clean(p1.innerText);
-
-          if (!price) {
-
-            const p2 = card.querySelector("._3kMcWsU9RPs0dvyS76CI");
-
-            if (p2)
-              price = clean(p2.innerText);
-
-          }
-
-          return {
-            shop,
-            price
-          };
-
-        })
-      };
-
-    });
-
-    console.log("\n=================================");
-    console.log(data.title);
-    console.log("=================================");
-
-    data.shops.forEach(item => {
-      console.log(`${item.shop} ${item.price}`);
-    });
+      
 
   }
 
