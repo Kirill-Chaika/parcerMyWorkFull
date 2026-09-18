@@ -1271,205 +1271,205 @@ async function f() {
   await page.setDefaultNavigationTimeout(0);
   await page.setDefaultTimeout(0);
 
-  for (let i = 0; i < arrLinkGroMacM3.length; i++) {
+//   for (let i = 0; i < arrLinkGroMacM3.length; i++) {
 
-  try {
+//   try {
 
-    await page.goto(arrLinkGroMacM3[i], {
-      waitUntil: "domcontentloaded",
-      timeout: 20000
-    });
+//     await page.goto(arrLinkGroMacM3[i], {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000
+//     });
 
-    const arr3 = await page.evaluate(() => {
+//     const arr3 = await page.evaluate(() => {
 
-      const clean = (t) =>
-        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+//       const clean = (t) =>
+//         t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
-      const sku = document.querySelector(".sku");
-      const price = document.querySelector(".product-price-value");
+//       const sku = document.querySelector(".sku");
+//       const price = document.querySelector(".product-price-value");
 
-      const title = clean(sku?.innerText) || "⚠️ Нет SKU";
+//       const title = clean(sku?.innerText) || "⚠️ Нет SKU";
 
-      return price
-        ? `${title} Gro: ${clean(price.innerText)}`
-        : `${title} Gro: нет цены`;
+//       return price
+//         ? `${title} Gro: ${clean(price.innerText)}`
+//         : `${title} Gro: нет цены`;
 
-    });
+//     });
 
-    console.log(arr3);
+//     console.log(arr3);
 
-  } catch (err) {
+//   } catch (err) {
 
-    console.log(
-      `❌ Gro: ${arrLinkGroMacM3[i]} | ${err.message}`
-    );
+//     console.log(
+//       `❌ Gro: ${arrLinkGroMacM3[i]} | ${err.message}`
+//     );
 
-  }
+//   }
 
-}
-  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
-    await page.goto(arrLinkGroMacM3[i]);
-    const n = await page.$("#txt");
+// }
+//   for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+//     await page.goto(arrLinkGroMacM3[i]);
+//     const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
-    await page.goto(arrLinkGroMacM3[i]);
-    const n = await page.$("#txt");
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+//     await page.goto(arrLinkGroMacM3[i]);
+//     const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetMac[i]);
-    const n = await page.$("#txt");
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
+//     await page.goto(arrLinkMobilePlanetMac[i]);
+//     const n = await page.$("#txt");
 
-  let arr3 = await page.evaluate(() => {
+//   let arr3 = await page.evaluate(() => {
     
-    let text2 = document.querySelector("h1").innerText;
-    if(document.querySelector(".price-value") != null){
-      return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-    } else {return text2}
+//     let text2 = document.querySelector("h1").innerText;
+//     if(document.querySelector(".price-value") != null){
+//       return text2 + 'MP: ' + document.querySelector(".price-value").innerText
+//     } else {return text2}
     
-  });
+//   });
   
-  console.log(arr3)
-  await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkIstoreMac.length; i += 1) {
-  await page.goto(arrLinkIstoreMac[i], {
-    waitUntil: "domcontentloaded",
-    timeout: 0
-  });
+//   console.log(arr3)
+//   await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkIstoreMac.length; i += 1) {
+//   await page.goto(arrLinkIstoreMac[i], {
+//     waitUntil: "domcontentloaded",
+//     timeout: 0
+//   });
 
-  let arr4 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".product_price");
+//   let arr4 = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".product_price");
 
-    const title = h1 ? h1.innerText : "Нет H1";
-    const priceText = price ? price.innerText : "Нет цены";
+//     const title = h1 ? h1.innerText : "Нет H1";
+//     const priceText = price ? price.innerText : "Нет цены";
 
-    return `${title} I: ${priceText}`;
-  });
+//     return `${title} I: ${priceText}`;
+//   });
 
-  console.log(arr4);
-  await page.setDefaultNavigationTimeout(0);
-}
-  for (let i = 0; i < arrLinkJabkoMac.length; i += 1) {
-  try {
-    await page.goto(arrLinkJabkoMac[i], { waitUntil: "domcontentloaded", timeout: 30000 });
+//   console.log(arr4);
+//   await page.setDefaultNavigationTimeout(0);
+// }
+//   for (let i = 0; i < arrLinkJabkoMac.length; i += 1) {
+//   try {
+//     await page.goto(arrLinkJabkoMac[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    const result = await page.evaluate(() => {
-      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+//     const result = await page.evaluate(() => {
+//       const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
-      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+//       const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+//       const price = clean(document.querySelector(".price-new__uah")?.innerText);
 
-      return price ? `${title} J: ${price}` : `${title} — нет цены`;
-    });
+//       return price ? `${title} J: ${price}` : `${title} — нет цены`;
+//     });
 
-    console.log(result);
-  } catch (err) {
-    console.log("❌ Ошибка страницы:", arrLinkJabkoMac[i]);
-    console.log(err.message);
-  }
-}
+//     console.log(result);
+//   } catch (err) {
+//     console.log("❌ Ошибка страницы:", arrLinkJabkoMac[i]);
+//     console.log(err.message);
+//   }
+// }
   
 
 
-  for (let i = 0; i < arrLinkMobilePlanetMacM3.length; i += 1) {
+//   for (let i = 0; i < arrLinkMobilePlanetMacM3.length; i += 1) {
 
-  try {
+//   try {
 
-    await page.goto(arrLinkMobilePlanetMacM3[i], {
+//     await page.goto(arrLinkMobilePlanetMacM3[i], {
 
-      waitUntil: "domcontentloaded",
+//       waitUntil: "domcontentloaded",
 
-      timeout: 15000
+//       timeout: 15000
 
-    });
+//     });
 
-    await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
+//     await page.waitForSelector("h1", { timeout: 2000 }).catch(() => {});
 
-    const arr5 = await page.evaluate(() => {
+//     const arr5 = await page.evaluate(() => {
 
-      const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
+//       const clean = (t) => t ? t.replace(/\s+/g, " ").trim() : "";
 
-      const title = clean(document.querySelector("h1")?.innerText);
+//       const title = clean(document.querySelector("h1")?.innerText);
 
-      const price = clean(document.querySelector(".price-value")?.innerText);
+//       const price = clean(document.querySelector(".price-value")?.innerText);
 
-      return `${title} MP: ${price || "NO PRICE"}`;
+//       return `${title} MP: ${price || "NO PRICE"}`;
 
-    });
+//     });
 
-    process.stdout.write(arr5 + "\n");
+//     process.stdout.write(arr5 + "\n");
 
-    await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
+//     await new Promise(r => setTimeout(r, 400 + Math.random() * 500));
 
-  } catch (e) {
+//   } catch (e) {
 
-    process.stdout.write("ERROR: " + e.message + "\n");
+//     process.stdout.write("ERROR: " + e.message + "\n");
 
-  }
+//   }
 
-}
-  for (let i = 0; i < arrLinkIstoreMacM3.length; i++) {
-  await page.goto(arrLinkIstoreMacM3[i], { waitUntil: "domcontentloaded", timeout: 0 });
+// }
+//   for (let i = 0; i < arrLinkIstoreMacM3.length; i++) {
+//   await page.goto(arrLinkIstoreMacM3[i], { waitUntil: "domcontentloaded", timeout: 0 });
 
-  let arr7 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".product_price");
+//   let arr7 = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".product_price");
 
-    const title = h1 ? h1.innerText : "Нет H1";
-    const priceText = price ? price.innerText : "Нет цены";
+//     const title = h1 ? h1.innerText : "Нет H1";
+//     const priceText = price ? price.innerText : "Нет цены";
 
-    return `${title} I: ${priceText}`;
-  });
+//     return `${title} I: ${priceText}`;
+//   });
 
-  console.log(arr7);
-}
-  for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
-    await page.goto(arrLinkGroMacM3[i]);
-    const n = await page.$("#txt");
+//   console.log(arr7);
+// }
+//   for (let i = 0; i < arrLinkGroMacM3.length; i += 1) {
+//     await page.goto(arrLinkGroMacM3[i]);
+//     const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
 
 
   for (let i = 0; i < arrLinkJabkoMacM4.length; i += 1) {
