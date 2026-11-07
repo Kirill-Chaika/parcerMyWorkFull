@@ -1509,493 +1509,493 @@ async function f() {
   const page = await browser.newPage();
    const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
-  await page.goto(arrLinkGro16IPH[i]);
-  const n = await page.$("#txt");
+// for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
+//   await page.goto(arrLinkGro16IPH[i]);
+//   const n = await page.$("#txt");
 
-  let arr3 = await page.evaluate(() => {
-    let text2 = document.querySelector(".sku").innerText;
-    if (document.querySelector(".product-price-value") != null) {
-      return (
-        text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-      );
-    } else {
-      return text2;
-    }
-  });
+//   let arr3 = await page.evaluate(() => {
+//     let text2 = document.querySelector(".sku").innerText;
+//     if (document.querySelector(".product-price-value") != null) {
+//       return (
+//         text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//       );
+//     } else {
+//       return text2;
+//     }
+//   });
 
-  console.log(arr3);
+//   console.log(arr3);
 
-  await sleep(3000 + Math.random() * 4000);
+//   await sleep(3000 + Math.random() * 4000);
 
-  await page.setDefaultNavigationTimeout(0);
-}
+//   await page.setDefaultNavigationTimeout(0);
+// }
   
-  for (let i = 0; i < arrLinkJabko16IPH.length; i += 1) {
-  await page.goto(arrLinkJabko16IPH[i], { waitUntil: "domcontentloaded" });
-
-  let arr8 = await page.evaluate(() => {
-    const normalize = (text) =>
-      text
-        ?.replace(/\n+/g, " ")   // убираем переносы строк
-        .replace(/\s+/g, " ")    // убираем лишние пробелы
-        .trim();
-
-    const title = normalize(document.querySelector("h1")?.innerText);
-    const price = normalize(document.querySelector(".price-new__uah")?.innerText);
-
-    return price ? `${title} J: ${price}` : title;
-  });
-
-  console.log(arr8);
-}
-  for (let link of arrLinkIstore16IPH) {
-  try {
-    await page.goto(link, { waitUntil: "domcontentloaded" });
-
-    const result = await page.evaluate(() => {
-      const title =
-        document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
-
-      const price =
-        document.querySelector(".product_price")?.innerText?.trim();
-
-      return price ? `${title} I: ${price}` : `${title} — нет цены`;
-    });
-
-    console.log(result);
-
-    await sleep(3000 + Math.random() * 4000);
-
-  } catch (err) {
-    console.log(`❌ Ошибка страницы: ${link} | ${err.message}`);
-  }
-}
-  for (let link of arrLinkMobilePlanet16IPH) {
-  await page.goto(link, { timeout: 0 });
-
-  let result = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".price-value");
-
-    if (!h1 && !price) return "❌ MP: страница без товара";
-
-    return `${h1?.innerText || "Товар"} MP: ${price?.innerText || "нет цены"}`;
-  });
-
-  console.log(result);
-}
-  for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
-    await page.goto(arrLinkGro16IPH[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkEstore16IPH.length; i += 1) {
-    await page.goto(arrLinkEstore16IPH[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
-
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkCts16IPH.length; i++) {
-  const link = arrLinkCts16IPH[i];
-
-  try {
-    await page.goto(link, {
-      waitUntil: "domcontentloaded",
-      timeout: 15000,
-    });
+//   for (let i = 0; i < arrLinkJabko16IPH.length; i += 1) {
+//   await page.goto(arrLinkJabko16IPH[i], { waitUntil: "domcontentloaded" });
+
+//   let arr8 = await page.evaluate(() => {
+//     const normalize = (text) =>
+//       text
+//         ?.replace(/\n+/g, " ")   // убираем переносы строк
+//         .replace(/\s+/g, " ")    // убираем лишние пробелы
+//         .trim();
+
+//     const title = normalize(document.querySelector("h1")?.innerText);
+//     const price = normalize(document.querySelector(".price-new__uah")?.innerText);
+
+//     return price ? `${title} J: ${price}` : title;
+//   });
+
+//   console.log(arr8);
+// }
+//   for (let link of arrLinkIstore16IPH) {
+//   try {
+//     await page.goto(link, { waitUntil: "domcontentloaded" });
+
+//     const result = await page.evaluate(() => {
+//       const title =
+//         document.querySelector("h1")?.innerText?.trim() || "NO TITLE";
+
+//       const price =
+//         document.querySelector(".product_price")?.innerText?.trim();
+
+//       return price ? `${title} I: ${price}` : `${title} — нет цены`;
+//     });
+
+//     console.log(result);
+
+//     await sleep(3000 + Math.random() * 4000);
+
+//   } catch (err) {
+//     console.log(`❌ Ошибка страницы: ${link} | ${err.message}`);
+//   }
+// }
+//   for (let link of arrLinkMobilePlanet16IPH) {
+//   await page.goto(link, { timeout: 0 });
+
+//   let result = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".price-value");
+
+//     if (!h1 && !price) return "❌ MP: страница без товара";
+
+//     return `${h1?.innerText || "Товар"} MP: ${price?.innerText || "нет цены"}`;
+//   });
+
+//   console.log(result);
+// }
+//   for (let i = 0; i < arrLinkGro16IPH.length; i += 1) {
+//     await page.goto(arrLinkGro16IPH[i]);
+//     const n = await page.$("#txt");
+
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
+
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkEstore16IPH.length; i += 1) {
+//     await page.goto(arrLinkEstore16IPH[i]);
+//     const n = await page.$("#txt");
+
+//     let arr2 = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".regular-price");
+
+//     if (h1) {
+//       const text2 = h1.innerText.trim();
+//       if (price) {
+//         return `${text2} Estore: ${price.innerText.trim()}`;
+//       } else {
+//         return text2;
+//       }
+//     } else {
+//       return "⚠️ Нет H1";
+//     }
+//   });
+
+//     console.log(arr2);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkCts16IPH.length; i++) {
+//   const link = arrLinkCts16IPH[i];
+
+//   try {
+//     await page.goto(link, {
+//       waitUntil: "domcontentloaded",
+//       timeout: 15000,
+//     });
 
-    const result = await page.evaluate(() => {
-      const clean = (t) =>
-        typeof t === "string"
-          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
-          : "";
+//     const result = await page.evaluate(() => {
+//       const clean = (t) =>
+//         typeof t === "string"
+//           ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+//           : "";
 
-      const title = clean(document.querySelector("h1")?.innerText);
-      const price = clean(document.querySelector(".price")?.innerText);
+//       const title = clean(document.querySelector("h1")?.innerText);
+//       const price = clean(document.querySelector(".price")?.innerText);
 
-      // если это не товар (google, редирект, пустая страница)
-      if (!title || title.length < 3) {
-        return "❌ CRS: страница без товара";
-      }
+//       // если это не товар (google, редирект, пустая страница)
+//       if (!title || title.length < 3) {
+//         return "❌ CRS: страница без товара";
+//       }
 
-      return price ? `${title} CRS: ${price}` : `${title} CRS: нет цены`;
-    });
+//       return price ? `${title} CRS: ${price}` : `${title} CRS: нет цены`;
+//     });
 
-    // печатаем ТОЛЬКО если строка нормальная
-    if (result && result.trim()) {
-      console.log(result);
-    }
+//     // печатаем ТОЛЬКО если строка нормальная
+//     if (result && result.trim()) {
+//       console.log(result);
+//     }
 
-  } catch (err) {
-    console.log(`❌ CRS: не открылся ${link}`);
-  }
-}
-  for (let i = 0; i < arrLinkiPeople16.length; i++) {
-  const link = arrLinkiPeople16[i];
+//   } catch (err) {
+//     console.log(`❌ CRS: не открылся ${link}`);
+//   }
+// }
+//   for (let i = 0; i < arrLinkiPeople16.length; i++) {
+//   const link = arrLinkiPeople16[i];
 
-  try {
-    const response = await page.goto(link, {
-      waitUntil: "domcontentloaded",
-      timeout: 20000,
-    });
+//   try {
+//     const response = await page.goto(link, {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000,
+//     });
 
-    if (!response || !response.ok()) {
-      console.log(`❌ iPeople16: не открылся ${link}`);
-      continue;
-    }
+//     if (!response || !response.ok()) {
+//       console.log(`❌ iPeople16: не открылся ${link}`);
+//       continue;
+//     }
 
-    await page.waitForSelector("body", { timeout: 5000 });
+//     await page.waitForSelector("body", { timeout: 5000 });
 
-    const result = await page.evaluate(() => {
-      const clean = (t) =>
-        typeof t === "string"
-          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
-          : "";
+//     const result = await page.evaluate(() => {
+//       const clean = (t) =>
+//         typeof t === "string"
+//           ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+//           : "";
 
-      const title = clean(document.querySelector("h1")?.innerText);
-      const usd = clean(document.querySelector(".usd")?.innerText);
+//       const title = clean(document.querySelector("h1")?.innerText);
+//       const usd = clean(document.querySelector(".usd")?.innerText);
 
-      if (!title) return "❌ iPeople16: страница без товара";
+//       if (!title) return "❌ iPeople16: страница без товара";
 
-      return usd
-        ? `${title} iPeople: ${usd}`
-        : `${title} iPeople: нет цены`;
-    });
+//       return usd
+//         ? `${title} iPeople: ${usd}`
+//         : `${title} iPeople: нет цены`;
+//     });
 
-    console.log(result);
-    await new Promise(r => setTimeout(r, 600));
+//     console.log(result);
+//     await new Promise(r => setTimeout(r, 600));
 
-  } catch (err) {
-    console.log(`❌ iPeople16: не открылся ${link}`);
-  }
-}
+//   } catch (err) {
+//     console.log(`❌ iPeople16: не открылся ${link}`);
+//   }
+// }
 
-  for (let i = 0; i < arrLinkYua16.length; i += 1) {
+//   for (let i = 0; i < arrLinkYua16.length; i += 1) {
 
-  const link = arrLinkYua16[i];
+//   const link = arrLinkYua16[i];
 
-  try {
+//   try {
 
-    await page.goto(link, {
-      waitUntil: "domcontentloaded",
-      timeout: 20000
-    });
+//     await page.goto(link, {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000
+//     });
 
-    let arr2 = await page.evaluate(() => {
+//     let arr2 = await page.evaluate(() => {
 
-      const clean = (t) =>
-        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+//       const clean = (t) =>
+//         t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
-      const h1 = document.querySelector("h1");
-      const price = document.querySelector(".price .regular");
+//       const h1 = document.querySelector("h1");
+//       const price = document.querySelector(".price .regular");
 
-      const title = clean(h1?.innerText) || "NO_TITLE";
-      const priceText = clean(price?.innerText);
+//       const title = clean(h1?.innerText) || "NO_TITLE";
+//       const priceText = clean(price?.innerText);
 
-      return priceText
-        ? `${title} Yua: ${priceText}`
-        : `${title} Yua: NO_PRICE`;
+//       return priceText
+//         ? `${title} Yua: ${priceText}`
+//         : `${title} Yua: NO_PRICE`;
 
-    });
+//     });
 
-    console.log(arr2);
+//     console.log(arr2);
 
-  } catch (err) {
+//   } catch (err) {
 
-    console.log(`❌ Ошибка: ${link}`);
-    console.log(err.message);
+//     console.log(`❌ Ошибка: ${link}`);
+//     console.log(err.message);
 
-  }
-}
-  for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
+//   }
+// }
+//   for (let i = 0; i < arrLinkYabloki16.length; i += 1) {
 
-  try {
+//   try {
 
-    await page.goto(arrLinkYabloki16[i], {
-      waitUntil: "domcontentloaded",
-      timeout: 15000
-    });
+//     await page.goto(arrLinkYabloki16[i], {
+//       waitUntil: "domcontentloaded",
+//       timeout: 15000
+//     });
 
-    let arr2 = await page.evaluate(() => {
+//     let arr2 = await page.evaluate(() => {
 
-      const clean = (t) =>
-        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+//       const clean = (t) =>
+//         t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
-      const h1 = document.querySelector("h1");
+//       const h1 = document.querySelector("h1");
 
-      const price = document.querySelector(
-        ".ProductPagePurchase-module-scss-module__hEYaYG__price"
-      );
+//       const price = document.querySelector(
+//         ".ProductPagePurchase-module-scss-module__hEYaYG__price"
+//       );
 
-      const title = clean(h1?.innerText) || "NO_TITLE";
+//       const title = clean(h1?.innerText) || "NO_TITLE";
 
-      const priceText = clean(price?.innerText);
-
-      return priceText
-        ? `${title} Yabloki: ${priceText}`
-        : `${title} Yabloki: NO_PRICE`;
-
-    });
+//       const priceText = clean(price?.innerText);
 
-    console.log(arr2);
-
-  } catch (err) {
-
-    console.log(`❌ Ошибка: ${arrLinkYabloki16[i]}`);
-
-  }
-}
-
-  
-  for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
-  await page.goto(arrLinkJabko16eIPH[i], {
-    waitUntil: "domcontentloaded",
-  });
-
-  const result = await page.evaluate(() => {
-    const clean = (t) =>
-      t
-        ?.replace(/\n+/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-
-    const title = clean(
-      document.querySelector("h1")?.innerText ||
-      document.querySelector(".sku")?.innerText ||
-      "NO TITLE"
-    );
-
-    const price = clean(
-      document.querySelector(".price-new__uah")?.innerText ||
-      document.querySelector(".product-price-title")?.innerText ||
-      document.querySelector(".product-price-value")?.innerText
-    );
-
-    return price ? `${title} J: ${price}` : title;
-  });
-
-  console.log(result);
-}
-  for (let i = 0; i < arrLinkIstore16eIPH.length; i += 1) {
-  await page.goto(arrLinkIstore16eIPH[i], {
-    waitUntil: "domcontentloaded",
-  });
-
-  let arr4 = await page.evaluate(() => {
-    const title = document.querySelector("h1")?.innerText || "NO TITLE";
-    const price = document.querySelector(".product_price")?.innerText;
-
-    return price ? `${title} I: ${price}` : title;
-  });
-
-  console.log(arr4);
-
-  await sleep(3000 + Math.random() * 4000);
-}
-  for (let i = 0; i < arrLinkMobilePlanet16eIPH.length; i += 1) {
-    await page.goto(arrLinkMobilePlanet16eIPH[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkGro16eIPH.length; i += 1) {
-    await page.goto(arrLinkGro16eIPH[i]);
-    const n = await page.$("#txt");
-
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
-
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkEstore16eIPH.length; i += 1) {
-    await page.goto(arrLinkEstore16eIPH[i]);
-    const n = await page.$("#txt");
-
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
-
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
-
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkiPeople16e.length; i++) {
-  const link = arrLinkiPeople16e[i];
-
-  try {
-    const response = await page.goto(link, {
-      waitUntil: "domcontentloaded",
-      timeout: 20000,
-    });
-
-    if (!response || !response.ok()) {
-      console.log(`❌ iPeople16e: не открылся ${link}`);
-      continue;
-    }
-
-    await page.waitForSelector("body", { timeout: 5000 });
-
-    const result = await page.evaluate(() => {
-      const clean = (t) =>
-        typeof t === "string"
-          ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
-          : "";
-
-      const title = clean(document.querySelector("h1")?.innerText);
-      const usd = clean(document.querySelector(".usd")?.innerText);
-
-      if (!title) return "❌ iPeople16e: страница без товара";
-
-      return usd
-        ? `${title} iPeople: ${usd}`
-        : `${title} iPeople: нет цены`;
-    });
-
-    console.log(result);
-    await new Promise(r => setTimeout(r, 500));
-
-  } catch (err) {
-    console.log(`❌ iPeople16e: не открылся ${link}`);
-  }
-}
+//       return priceText
+//         ? `${title} Yabloki: ${priceText}`
+//         : `${title} Yabloki: NO_PRICE`;
 
+//     });
+
+//     console.log(arr2);
+
+//   } catch (err) {
+
+//     console.log(`❌ Ошибка: ${arrLinkYabloki16[i]}`);
+
+//   }
+// }
 
   
-  for (let i = 0; i < arrLinkYua16e.length; i++) {
-  try {
+//   for (let i = 0; i < arrLinkJabko16eIPH.length; i += 1) {
+//   await page.goto(arrLinkJabko16eIPH[i], {
+//     waitUntil: "domcontentloaded",
+//   });
 
-    await page.goto(arrLinkYua16e[i], {
-      waitUntil: "domcontentloaded",
-      timeout: 20000
-    });
+//   const result = await page.evaluate(() => {
+//     const clean = (t) =>
+//       t
+//         ?.replace(/\n+/g, " ")
+//         .replace(/\s+/g, " ")
+//         .trim();
 
-    const arr2 = await page.evaluate(() => {
+//     const title = clean(
+//       document.querySelector("h1")?.innerText ||
+//       document.querySelector(".sku")?.innerText ||
+//       "NO TITLE"
+//     );
 
-      const clean = (t) =>
-        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+//     const price = clean(
+//       document.querySelector(".price-new__uah")?.innerText ||
+//       document.querySelector(".product-price-title")?.innerText ||
+//       document.querySelector(".product-price-value")?.innerText
+//     );
 
-      const h1 = document.querySelector("h1");
-      const price = document.querySelector(".price");
+//     return price ? `${title} J: ${price}` : title;
+//   });
 
-      const title = clean(h1?.innerText) || "NO_TITLE";
-      const priceText = clean(price?.innerText) || "NO_PRICE";
+//   console.log(result);
+// }
+//   for (let i = 0; i < arrLinkIstore16eIPH.length; i += 1) {
+//   await page.goto(arrLinkIstore16eIPH[i], {
+//     waitUntil: "domcontentloaded",
+//   });
 
-      return `${title} Yua: ${priceText}`;
+//   let arr4 = await page.evaluate(() => {
+//     const title = document.querySelector("h1")?.innerText || "NO TITLE";
+//     const price = document.querySelector(".product_price")?.innerText;
 
-    });
+//     return price ? `${title} I: ${price}` : title;
+//   });
 
-    console.log(arr2);
+//   console.log(arr4);
 
-  } catch (err) {
+//   await sleep(3000 + Math.random() * 4000);
+// }
+//   for (let i = 0; i < arrLinkMobilePlanet16eIPH.length; i += 1) {
+//     await page.goto(arrLinkMobilePlanet16eIPH[i]);
+//     const n = await page.$("#txt");
 
-    console.log(
-      `❌ Yua16e: ${arrLinkYua16e[i]} | ${err.message}`
-    );
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector("h1").innerText;
+//       if (document.querySelector(".price-value") != null) {
+//         return (
+//           text2 + "MP: " + document.querySelector(".price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
 
-  }
-}
- for (let i = 0; i < arrLinkYabloki16e.length; i++) {
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkGro16eIPH.length; i += 1) {
+//     await page.goto(arrLinkGro16eIPH[i]);
+//     const n = await page.$("#txt");
 
-  try {
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
 
-    await page.goto(arrLinkYabloki16e[i], {
-      waitUntil: "domcontentloaded",
-      timeout: 20000
-    });
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkEstore16eIPH.length; i += 1) {
+//     await page.goto(arrLinkEstore16eIPH[i]);
+//     const n = await page.$("#txt");
 
-    await new Promise(resolve => setTimeout(resolve, 500));
+//     let arr2 = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".regular-price");
 
-    const arr2 = await page.evaluate(() => {
+//     if (h1) {
+//       const text2 = h1.innerText.trim();
+//       if (price) {
+//         return `${text2} Estore: ${price.innerText.trim()}`;
+//       } else {
+//         return text2;
+//       }
+//     } else {
+//       return "⚠️ Нет H1";
+//     }
+//   });
 
-      const clean = (t) =>
-        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+//     console.log(arr2);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkiPeople16e.length; i++) {
+//   const link = arrLinkiPeople16e[i];
 
-      const h1 = document.querySelector("h1");
+//   try {
+//     const response = await page.goto(link, {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000,
+//     });
 
-      const price = document.querySelector(
-        ".ProductPagePurchase-module-scss-module__hEYaYG__price"
-      );
+//     if (!response || !response.ok()) {
+//       console.log(`❌ iPeople16e: не открылся ${link}`);
+//       continue;
+//     }
 
-      const title = clean(h1?.innerText) || "Без названия";
-      const priceText = clean(price?.innerText) || "нет цены";
+//     await page.waitForSelector("body", { timeout: 5000 });
 
-      return `${title} Yabloki: ${priceText}`;
+//     const result = await page.evaluate(() => {
+//       const clean = (t) =>
+//         typeof t === "string"
+//           ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim()
+//           : "";
 
-    });
+//       const title = clean(document.querySelector("h1")?.innerText);
+//       const usd = clean(document.querySelector(".usd")?.innerText);
 
-    console.log(arr2);
+//       if (!title) return "❌ iPeople16e: страница без товара";
 
-  } catch (err) {
+//       return usd
+//         ? `${title} iPeople: ${usd}`
+//         : `${title} iPeople: нет цены`;
+//     });
 
-    console.log(
-      `❌ Ошибка при загрузке: ${arrLinkYabloki16e[i]} | ${err.message}`
-    );
+//     console.log(result);
+//     await new Promise(r => setTimeout(r, 500));
 
-  }
-}
+//   } catch (err) {
+//     console.log(`❌ iPeople16e: не открылся ${link}`);
+//   }
+// }
+
+
+  
+//   for (let i = 0; i < arrLinkYua16e.length; i++) {
+//   try {
+
+//     await page.goto(arrLinkYua16e[i], {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000
+//     });
+
+//     const arr2 = await page.evaluate(() => {
+
+//       const clean = (t) =>
+//         t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+//       const h1 = document.querySelector("h1");
+//       const price = document.querySelector(".price");
+
+//       const title = clean(h1?.innerText) || "NO_TITLE";
+//       const priceText = clean(price?.innerText) || "NO_PRICE";
+
+//       return `${title} Yua: ${priceText}`;
+
+//     });
+
+//     console.log(arr2);
+
+//   } catch (err) {
+
+//     console.log(
+//       `❌ Yua16e: ${arrLinkYua16e[i]} | ${err.message}`
+//     );
+
+//   }
+// }
+//  for (let i = 0; i < arrLinkYabloki16e.length; i++) {
+
+//   try {
+
+//     await page.goto(arrLinkYabloki16e[i], {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000
+//     });
+
+//     await new Promise(resolve => setTimeout(resolve, 500));
+
+//     const arr2 = await page.evaluate(() => {
+
+//       const clean = (t) =>
+//         t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+//       const h1 = document.querySelector("h1");
+
+//       const price = document.querySelector(
+//         ".ProductPagePurchase-module-scss-module__hEYaYG__price"
+//       );
+
+//       const title = clean(h1?.innerText) || "Без названия";
+//       const priceText = clean(price?.innerText) || "нет цены";
+
+//       return `${title} Yabloki: ${priceText}`;
+
+//     });
+
+//     console.log(arr2);
+
+//   } catch (err) {
+
+//     console.log(
+//       `❌ Ошибка при загрузке: ${arrLinkYabloki16e[i]} | ${err.message}`
+//     );
+
+//   }
+// }
 
  for (let i = 0; i < arrLinkJabko17ProIPH.length; i += 1) {
   await page.goto(arrLinkJabko17ProIPH[i], {
@@ -2632,114 +2632,114 @@ for (let i = 0; i < arrLinkGro17eIPH.length; i += 1) {
 
 
 
-  for (let i = 0; i < arrLinkJabko13IPH.length; i += 1) {
-  await page.goto(arrLinkJabko13IPH[i], {
-    waitUntil: "domcontentloaded",
-  });
+//   for (let i = 0; i < arrLinkJabko13IPH.length; i += 1) {
+//   await page.goto(arrLinkJabko13IPH[i], {
+//     waitUntil: "domcontentloaded",
+//   });
 
-  const result = await page.evaluate(() => {
-    const clean = (t) =>
-      t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+//   const result = await page.evaluate(() => {
+//     const clean = (t) =>
+//       t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    const title = clean(document.querySelector("h1")?.innerText);
-    const price = clean(
-      document.querySelector(".price-new__uah")?.innerText
-    );
+//     const title = clean(document.querySelector("h1")?.innerText);
+//     const price = clean(
+//       document.querySelector(".price-new__uah")?.innerText
+//     );
 
-    return price ? `${title} J: ${price}` : title;
-  });
+//     return price ? `${title} J: ${price}` : title;
+//   });
 
-  console.log(result);
-}
-for (let i = 0; i < arrLinkMobilePlanet13IPH.length; i += 1) {
-  try {
-    await page.goto(arrLinkMobilePlanet13IPH[i], { waitUntil: "domcontentloaded" });
-    const n = await page.$("#txt");
+//   console.log(result);
+// }
+// for (let i = 0; i < arrLinkMobilePlanet13IPH.length; i += 1) {
+//   try {
+//     await page.goto(arrLinkMobilePlanet13IPH[i], { waitUntil: "domcontentloaded" });
+//     const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      const h1 = document.querySelector("h1");
-      const price = document.querySelector(".price-value");
+//     let arr3 = await page.evaluate(() => {
+//       const h1 = document.querySelector("h1");
+//       const price = document.querySelector(".price-value");
 
-      if (h1) {
-        const text2 = h1.innerText.trim();
-        if (price) {
-          return `${text2} MP: ${price.innerText.trim()}`;
-        } else {
-          return `${text2} MP: нет цены`;
-        }
-      } else {
-        return "⚠️ Нет H1";
-      }
-    });
+//       if (h1) {
+//         const text2 = h1.innerText.trim();
+//         if (price) {
+//           return `${text2} MP: ${price.innerText.trim()}`;
+//         } else {
+//           return `${text2} MP: нет цены`;
+//         }
+//       } else {
+//         return "⚠️ Нет H1";
+//       }
+//     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  } catch (err) {
-    console.log(`❌ Ошибка на ссылке ${arrLinkMobilePlanet17IPH[i]}: ${err.message}`);
-  }
-}
-for (let i = 0; i < arrLinkGro13IPH.length; i += 1) {
-    await page.goto(arrLinkGro13IPH[i]);
-    const n = await page.$("#txt");
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   } catch (err) {
+//     console.log(`❌ Ошибка на ссылке ${arrLinkMobilePlanet17IPH[i]}: ${err.message}`);
+//   }
+// }
+// for (let i = 0; i < arrLinkGro13IPH.length; i += 1) {
+//     await page.goto(arrLinkGro13IPH[i]);
+//     const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return "text2";
-      }
-    });
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return "text2";
+//       }
+//     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkEstore13IPH.length; i += 1) {
-    await page.goto(arrLinkEstore13IPH[i]);
-    const n = await page.$("#txt");
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkEstore13IPH.length; i += 1) {
+//     await page.goto(arrLinkEstore13IPH[i]);
+//     const n = await page.$("#txt");
 
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
+//     let arr2 = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".regular-price");
 
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
+//     if (h1) {
+//       const text2 = h1.innerText.trim();
+//       if (price) {
+//         return `${text2} Estore: ${price.innerText.trim()}`;
+//       } else {
+//         return text2;
+//       }
+//     } else {
+//       return "⚠️ Нет H1";
+//     }
+//   });
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkYua13.length; i += 1) {
+//     console.log(arr2);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkYua13.length; i += 1) {
 
-  await page.goto(arrLinkYua13[i], { waitUntil: "domcontentloaded" });
+//   await page.goto(arrLinkYua13[i], { waitUntil: "domcontentloaded" });
 
-  let arr2 = await page.evaluate(() => {
+//   let arr2 = await page.evaluate(() => {
 
-    const clean = (t) =>
-      t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+//     const clean = (t) =>
+//       t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
 
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".price .regular");
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".price .regular");
 
-    let title = clean(h1?.innerText) || "NO_TITLE";
-    let priceText = clean(price?.innerText) || "NO_PRICE";
+//     let title = clean(h1?.innerText) || "NO_TITLE";
+//     let priceText = clean(price?.innerText) || "NO_PRICE";
 
-    return `${title} Yua: ${priceText}`;
+//     return `${title} Yua: ${priceText}`;
 
-  });
+//   });
 
-  console.log(arr2);
-}
+//   console.log(arr2);
+// }
 
 
 await browser.close();
