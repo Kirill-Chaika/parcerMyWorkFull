@@ -1219,6 +1219,183 @@ const arrLinkEstoreAWSUltraSE32025 = [
 "https://estore.ua/ua/apple-watch-ultra-3-black-titanium-case-with-black-titanium-milanese-loop-medium-mf1q4/?q=mf1q4",
 ]
 
+
+const arrLinkJabkoAWSUltra1232026 = [
+  "https://jabko.ua/product/apple-watch-series-12-gps-42mm-black-aluminum-case-with-black-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-42mm-black-aluminum-case-with-black-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-12-gps-42mm-light-gold-aluminum-case-with-sand-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-42mm-light-gold-aluminum-case-with-sand-sport-band-ml",
+ 
+"https://jabko.ua/product/apple-watch-series-12-gps-42mm-dark-bronze-aluminum-case-with-olive-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-42mm-dark-bronze-aluminum-case-with-olive-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-12-gps-42mm-space-gray-aluminum-case-with-navy-blue-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-42mm-space-gray-aluminum-case-with-navy-blue-sport-band-ml",
+
+
+ 
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-black-aluminum-case-with-black-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-black-aluminum-case-with-black-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-light-gold-aluminum-case-with-sand-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-light-gold-aluminum-case-with-sand-sport-band-ml",
+ 
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-dark-bronze-aluminum-case-with-olive-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-dark-bronze-aluminum-case-with-olive-sport-band-ml",
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-space-gray-aluminum-case-with-navy-blue-sport-band-sm",
+"https://jabko.ua/product/apple-watch-series-12-gps-46mm-space-gray-aluminum-case-with-navy-blue-sport-band-ml",
+
+
+ 
+"https://jabko.ua/product/apple-watch-ultra-4-gps--cellular-49mm-natural-titanium-case-with-translucent-gray-ocean-band",
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-black-titanium-case-with-translucent-black-ocean-band", 
+
+"https://jabko.ua/product/-apple-watch-ultra-4-gps--lte-49mm-black-titanium-case-with-burgundy-alpine-loop---small",
+"https://jabko.ua/product/-apple-watch-ultra-4-gps--lte-49mm-black-titanium-case-with-burgundy-alpine-loop---medium",
+"https://jabko.ua/product/-apple-watch-ultra-4-gps--lte-49mm-black-titanium-case-with-burgundy-alpine-loop---large",
+
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-black-titanium-case-with-black-titanium-milanese-loop---small",
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-black-titanium-case-with-black-titanium-milanese-loop---medium",
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-black-titanium-case-with-black-titanium-milanese-loop---large",
+ 
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-natural-titanium-case-with-desert-alpine-loop---small",
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-natural-titanium-case-with-desert-alpine-loop---medium",
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-natural-titanium-case-with-desert-alpine-loop---large",
+ 
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---small",
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---medium",
+"https://jabko.ua/product/apple-watch-ultra-4-gps--lte-49mm-natural-titanium-case-with-natural-titanium-milanese-loop---large",
+]
+const arrLinkMobilePlanetUltra1232026 = [
+  "https://mobileplanet.ua/apple-watch-series-12-gps-42mm-black-alu-397599",
+"https://www.google.com/?authuser=0",
+"https://mobileplanet.ua/apple-watch-series-12-gps-42mm-light-gol-397604",
+"https://www.google.com/?authuser=0",
+ 
+"https://mobileplanet.ua/apple-watch-series-12-gps-42mm-dark-bron-397602",
+"https://www.google.com/?authuser=0",
+"https://mobileplanet.ua/apple-watch-series-12-gps-42mm-space-gra-397606",
+"https://www.google.com/?authuser=0",
+
+ 
+"https://mobileplanet.ua/apple-watch-series-12-gps-46mm-black-alu-397608",
+"https://mobileplanet.ua/apple-watch-series-12-gps-46mm-black-alu-397607",
+"https://mobileplanet.ua/apple-watch-series-12-gps-46mm-light-gol-397615",
+"https://mobileplanet.ua/apple-watch-series-12-gps-46mm-light-gol-397614",
+ 
+"https://mobileplanet.ua/apple-watch-series-12-gps-46mm-dark-bron-397613",
+"https://mobileplanet.ua/apple-watch-series-12-gps-46mm-dark-bron-397612",
+"https://www.google.com/?authuser=0",
+"https://mobileplanet.ua/apple-watch-series-12-gps-46mm-space-gra-397616",
+
+
+ 
+"https://mobileplanet.ua/apple-watch-ultra-4-natural-titanium-cas-397699",
+"https://mobileplanet.ua/apple-watch-ultra-4-black-titanium-case-397679",
+"https://www.google.com/?authuser=0",
+"https://mobileplanet.ua/apple-watch-ultra-4-black-titanium-case-397663",
+"https://www.google.com/?authuser=0",
+"https://www.google.com/?authuser=0",
+"https://mobileplanet.ua/apple-watch-ultra-4-black-titanium-case-397660",
+"https://mobileplanet.ua/apple-watch-ultra-4-black-titanium-case-397659",
+
+"https://www.google.com/?authuser=0",
+"https://mobileplanet.ua/apple-watch-ultra-4-natural-titanium-cas-397691",
+"https://www.google.com/?authuser=0",
+ 
+"https://www.google.com/?authuser=0",
+"https://www.google.com/?authuser=0",
+"https://www.google.com/?authuser=0",
+]
+
+const arrLinkGroAWS10andUltra1232026 = [
+  "https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-black-aluminum-case-with-black-sport-band-s-m-mjea4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-black-aluminum-case-with-black-sport-band-m-l-mjec4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-light-gold-aluminum-case-with-sand-sport-band-s-m-mjed4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-light-gold-aluminum-case-with-sand-sport-band-m-l-mjee4/",
+ 
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-dark-bronze-aluminum-case-with-olive-sport-band-s-m-mjef4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-dark-bronze-aluminum-case-with-olive-sport-band-m-l-mjeg4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-space-gray-aluminum-case-with-navy-blue-sport-band-s-m-mje74/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-42mm-space-gray-aluminum-case-with-navy-blue-sport-band-m-l-mje94/",
+
+ 
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-black-aluminum-case-with-black-sport-band-s-m-mjek4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-black-aluminum-case-with-black-sport-band-m-l-mjel4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-light-gold-aluminum-case-with-sand-sport-band-s-m-mjen4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-light-gold-aluminum-case-with-sand-sport-band-m-l-mjep4/",
+ 
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-dark-bronze-aluminum-case-with-olive-sport-band-s-m-mjeq4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-dark-bronze-aluminum-case-with-olive-sport-band-m-l-mjeu4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-space-gray-aluminum-case-with-navy-blue-sport-band-s-m-mjeh4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-series-12/smart-godinnik-apple-watch-series-12-gps-46mm-space-gray-aluminum-case-with-navy-blue-sport-band-m-l-mjej4/",
+
+
+ 
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-natural-titanium-case-with-translucent-gray-ocean-band-mjad4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-black-titanium-case-with-translucent-black-ocean-band-mjay4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-black-titanium-case-with-burgundy-alpine-loop-small-mjc04/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-black-titanium-case-with-burgundy-alpine-loop-medium-mjc14/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-black-titanium-case-with-burgundy-alpine-loop-large-mjc24/",
+ 
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-black-titanium-case-with-black-titanium-milanese-loop-small-mjau4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-black-titanium-case-with-black-titanium-milanese-loop-medium-mjav4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-black-titanium-case-with-black-titanium-milanese-loop-large-mjax4/",
+ 
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-natural-titanium-case-with-desert-alpine-loop-small-mjae4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-natural-titanium-case-with-desert-alpine-loop-medium-mjaf4/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-natural-titanium-case-with-desert-alpine-loop-large-mjag4/",
+ 
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-natural-titanium-case-with-natural-titanium-milanese-loop-small-mja84/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-natural-titanium-case-with-natural-titanium-milanese-loop-medium-mja94/",
+"https://gro.ua/product/apple/apple-watch/apple-watch-ultra-4/smart-godinnik-apple-watch-ultra-4-natural-titanium-case-with-natural-titanium-milanese-loop-large-mjaa4/",
+]
+
+const arrLinkEstoreAWSUltra1232026 = [
+  "https://estore.ua/ua/apple-watch-series-12-42mm-black-aluminum-case-with-black-sport-band-sm-mjea4/?q=mjea4",
+"https://estore.ua/ua/apple-watch-series-12-42mm-jet-black-aluminium-case-with-sport-band/?q=mjec4",
+"https://estore.ua/ua/apple-watch-series-12-42mm-light-gold-aluminum-case-with-sand-sport-band-sm-mjed4/?q=mjed4",
+"https://estore.ua/ua/apple-watch-series-12-42mm-light-gold-aluminum-case-with-sand-sport-band-ml-mjee4/?q=mjee4",
+  
+"https://estore.ua/ua/apple-watch-series-12-42mm-dark-bronze-aluminum-case-with-olive-sport-band-sm-mjef4/?q=mjef4",
+"https://estore.ua/ua/apple-watch-series-12-42mm-silver-aluminium-case-with-purple-sport-band/?q=mjeg4",
+"https://estore.ua/ua/apple-watch-series-12-42mm-space-gray-aluminum-case-with-navy-blue-sport-band-sm-mje74/?q=mje74",
+"https://estore.ua/ua/apple-watch-series-12-42mm-space-gray-aluminium-case-with-sport-band/?q=mje94",
+
+
+ 
+"https://estore.ua/ua/apple-watch-series-12-46mm-black-aluminum-case-with-black-sport-band-sm-mjek4/?q=mjek4",
+"https://estore.ua/ua/apple-watch-series-12-46mm-jet-black-aluminium-case-with-sport-band/?q=mjel4",
+"https://estore.ua/ua/apple-watch-series-12-46mm-light-gold-aluminum-case-with-sand-sport-band-sm-mjen4/?q=mjen4",
+"https://estore.ua/ua/apple-watch-series-12-46mm-light-gold-aluminum-case-with-sand-sport-band-ml-mjep4/?q=mjep4",
+ 
+"https://estore.ua/ua/apple-watch-series-12-46mm-dark-bronze-aluminum-case-with-olive-sport-band-sm-mjeq4/?q=mjeq4",
+"https://estore.ua/ua/apple-watch-series-12-46mm-silver-aluminium-case-with-sport-band/?q=mjeu4",
+"https://estore.ua/ua/apple-watch-series-12-46mm-space-gray-aluminum-case-with-navy-blue-sport-band-sm-mjeh4/?q=mjeh4",
+"https://estore.ua/ua/apple-watch-series-12-46mm-space-gray-aluminium-case-with-sport-band/?q=mjej4",
+
+ 
+"https://estore.ua/ua/apple-watch-ultra-4-natural-titanium-case-with-translucent-gray-ocean-band/?q=mjad4",
+"https://estore.ua/ua/apple-watch-ultra-4-black-titanium-case-with-translucent-black-ocean-band/?q=mjay4",
+"https://estore.ua/ua/apple-watch-ultra-4-black-titanium-case-with-burgundy-alpine-loop-small-mjc04/?q=mjc04",
+"https://estore.ua/ua/apple-watch-ultra-4-black-titanium-case-with-burgundy-alpine-loop-medium-mjc14/?q=mjc14",
+"https://estore.ua/ua/apple-watch-ultra-4-black-titanium-case-with-burgundy-alpine-loop/?q=mjc24",
+"https://estore.ua/ua/apple-watch-ultra-4-black-titanium-case-with-black-titanium-milanese-loop-small-mjau4/?q=mjau4",
+"https://estore.ua/ua/apple-watch-ultra-4-black-titanium-case-with-black-titanium-milanese-loop-medium-mjav4/?q=mjav4",
+"https://estore.ua/ua/apple-watch-ultra-4-black-titanium-case-with-black-titanium-milanese-loop-large-mjax4/?q=mjax4",
+ 
+"https://estore.ua/ua/apple-watch-ultra-4-natural-titanium-case-with-desert-alpine-loop-small-mjae4/?q=mjae4",
+"https://estore.ua/ua/apple-watch-ultra-4-natural-titanium-case-with-desert-alpine-loop-medium-mjaf4/?q=mjaf4",
+"https://estore.ua/ua/apple-watch-ultra-4-natural-titanium-case-with-desert-alpine-loop/?q=mjag4",
+ 
+"https://estore.ua/ua/apple-watch-ultra-4-natural-titanium-case-with-natural-titanium-milanese-loop-small-mja84/?q=mja84",
+"https://estore.ua/ua/apple-watch-ultra-4-natural-titanium-case-with-natural-titanium-milanese-loop-medium-mja94/?q=mja94",
+"https://estore.ua/ua/apple-watch-ultra-4-natural-titanium-case-with-natural-titanium-milanese-loop-large-mjaa4/?q=mjaa4",
+]
+
+
+
+
+
+
 async function f() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -1447,163 +1624,163 @@ async function f() {
   
 
 
- for (let i = 0; i < arrLinkGroAWS10andUltra2024.length; i += 1) {
-    await page.goto(arrLinkGroAWS10andUltra2024[i]);
-    const n = await page.$("#txt");
+//  for (let i = 0; i < arrLinkGroAWS10andUltra2024.length; i += 1) {
+//     await page.goto(arrLinkGroAWS10andUltra2024[i]);
+//     const n = await page.$("#txt");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
-
-
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
 
 
 
 
-  for (let i = 0; i < arrLinkJabkoAWS10andUltra2024.length; i += 1) {
-  try {
-    await page.goto(arrLinkJabkoAWS10andUltra2024[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-    const result = await page.evaluate(() => {
-      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
-      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+//   for (let i = 0; i < arrLinkJabkoAWS10andUltra2024.length; i += 1) {
+//   try {
+//     await page.goto(arrLinkJabkoAWS10andUltra2024[i], { waitUntil: "domcontentloaded", timeout: 30000 });
 
-      return price ? `${title} J: ${price}` : `${title} — нет цены`;
-    });
+//     const result = await page.evaluate(() => {
+//       const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
-    console.log(result);
-  } catch (err) {
-    console.log("❌ Ошибка страницы:", arrLinkJabkoAWS10andUltra2024[i]);
-    console.log(err.message);
-  }
-}
- for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i++) {
+//       const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+//       const price = clean(document.querySelector(".price-new__uah")?.innerText);
 
-  const link = arrLinkiPeopleAWS10andUltra2024[i];
+//       return price ? `${title} J: ${price}` : `${title} — нет цены`;
+//     });
 
-  try {
+//     console.log(result);
+//   } catch (err) {
+//     console.log("❌ Ошибка страницы:", arrLinkJabkoAWS10andUltra2024[i]);
+//     console.log(err.message);
+//   }
+// }
+//  for (let i = 0; i < arrLinkiPeopleAWS10andUltra2024.length; i++) {
 
-    const response = await page.goto(link, {
-      waitUntil: "domcontentloaded",
-      timeout: 20000,
-    });
+//   const link = arrLinkiPeopleAWS10andUltra2024[i];
 
-    if (!response || !response.ok()) {
-      console.log(`❌ Не открылся: ${link}`);
-      continue;
-    }
+//   try {
 
-    await page.waitForFunction(
-      () => document.readyState === "complete",
-      { timeout: 10000 }
-    );
+//     const response = await page.goto(link, {
+//       waitUntil: "domcontentloaded",
+//       timeout: 20000,
+//     });
 
-    // пауза
-    await new Promise(r => setTimeout(r, 300));
+//     if (!response || !response.ok()) {
+//       console.log(`❌ Не открылся: ${link}`);
+//       continue;
+//     }
 
-    const result = await page.evaluate(() => {
+//     await page.waitForFunction(
+//       () => document.readyState === "complete",
+//       { timeout: 10000 }
+//     );
 
-      const usd = document.querySelector(".usd");
+//     // пауза
+//     await new Promise(r => setTimeout(r, 300));
 
-      if (!usd) {
-        return "⚠️ iPeople: Нет .usd";
-      }
+//     const result = await page.evaluate(() => {
 
-      return `iPeople: ${usd.innerText
-        .replace(/\n+/g, " ")
-        .replace(/\s+/g, " ")
-        .trim()}`;
+//       const usd = document.querySelector(".usd");
 
-    });
+//       if (!usd) {
+//         return "⚠️ iPeople: Нет .usd";
+//       }
 
-    console.log(result);
+//       return `iPeople: ${usd.innerText
+//         .replace(/\n+/g, " ")
+//         .replace(/\s+/g, " ")
+//         .trim()}`;
 
-    // антибан
-    await new Promise(r => setTimeout(r, 600));
+//     });
 
-  } catch (err) {
+//     console.log(result);
 
-    console.log(`❌ Ошибка / редирект: ${link}`);
+//     // антибан
+//     await new Promise(r => setTimeout(r, 600));
 
-  }
-}
-  for (let i = 0; i < arrLinkEstoreAWS10andUltra2024.length; i += 1) {
-    await page.goto(arrLinkEstoreAWS10andUltra2024[i]);
-    const n = await page.$("#txt");
+//   } catch (err) {
 
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
+//     console.log(`❌ Ошибка / редирект: ${link}`);
 
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
+//   }
+// }
+//   for (let i = 0; i < arrLinkEstoreAWS10andUltra2024.length; i += 1) {
+//     await page.goto(arrLinkEstoreAWS10andUltra2024[i]);
+//     const n = await page.$("#txt");
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkEstoreAWS10andUltra2024Two.length; i += 1) {
-    await page.goto(arrLinkEstoreAWS10andUltra2024Two[i]);
-    const n = await page.$("#txt");
+//     let arr2 = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".regular-price");
 
-    let arr2 = await page.evaluate(() => {
-    const h1 = document.querySelector("h1");
-    const price = document.querySelector(".regular-price");
+//     if (h1) {
+//       const text2 = h1.innerText.trim();
+//       if (price) {
+//         return `${text2} Estore: ${price.innerText.trim()}`;
+//       } else {
+//         return text2;
+//       }
+//     } else {
+//       return "⚠️ Нет H1";
+//     }
+//   });
 
-    if (h1) {
-      const text2 = h1.innerText.trim();
-      if (price) {
-        return `${text2} Estore: ${price.innerText.trim()}`;
-      } else {
-        return text2;
-      }
-    } else {
-      return "⚠️ Нет H1";
-    }
-  });
+//     console.log(arr2);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkEstoreAWS10andUltra2024Two.length; i += 1) {
+//     await page.goto(arrLinkEstoreAWS10andUltra2024Two[i]);
+//     const n = await page.$("#txt");
 
-    console.log(arr2);
-    await page.setDefaultNavigationTimeout(0);
-  }
-  for (let i = 0; i < arrLinkGroAWS10andUltra2024.length; i += 1) {
-    await page.goto(arrLinkGroAWS10andUltra2024[i]);
-    const n = await page.$("#txt");
+//     let arr2 = await page.evaluate(() => {
+//     const h1 = document.querySelector("h1");
+//     const price = document.querySelector(".regular-price");
 
-    let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector(".sku").innerText;
-      if (document.querySelector(".product-price-value") != null) {
-        return (
-          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
-        );
-      } else {
-        return text2;
-      }
-    });
+//     if (h1) {
+//       const text2 = h1.innerText.trim();
+//       if (price) {
+//         return `${text2} Estore: ${price.innerText.trim()}`;
+//       } else {
+//         return text2;
+//       }
+//     } else {
+//       return "⚠️ Нет H1";
+//     }
+//   });
 
-    console.log(arr3);
-    await page.setDefaultNavigationTimeout(0);
-  }
+//     console.log(arr2);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
+//   for (let i = 0; i < arrLinkGroAWS10andUltra2024.length; i += 1) {
+//     await page.goto(arrLinkGroAWS10andUltra2024[i]);
+//     const n = await page.$("#txt");
+
+//     let arr3 = await page.evaluate(() => {
+//       let text2 = document.querySelector(".sku").innerText;
+//       if (document.querySelector(".product-price-value") != null) {
+//         return (
+//           text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+//         );
+//       } else {
+//         return text2;
+//       }
+//     });
+
+//     console.log(arr3);
+//     await page.setDefaultNavigationTimeout(0);
+//   }
 
   for (let i = 0; i < arrLinkJabkoAWSSE2024.length; i += 1) {
   try {
@@ -1853,6 +2030,109 @@ async function f() {
   }
 
 }
+
+
+  for (let i = 0; i < arrLinkJabkoAWSUltra1232026.length; i += 1) {
+  try {
+    await page.goto(arrLinkJabkoAWSUltra1232026[i], { waitUntil: "domcontentloaded", timeout: 30000 });
+
+    const result = await page.evaluate(() => {
+      const clean = (t) => t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
+
+      const title = clean(document.querySelector("h1")?.innerText) || "⚠️ Нет H1";
+      const price = clean(document.querySelector(".price-new__uah")?.innerText);
+
+      return price ? `${title} J: ${price}` : `${title} — нет цены`;
+    });
+
+    console.log(result);
+  } catch (err) {
+    console.log("❌ Ошибка страницы:", arrLinkJabkoAWSUltra1232026[i]);
+    console.log(err.message);
+  }
+}
+  for (let i = 0; i < arrLinkMobilePlanetUltra1232026.length; i += 1) {
+    await page.goto(arrLinkMobilePlanetUltra1232026[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector("h1").innerText;
+      if (document.querySelector(".price-value") != null) {
+        return (
+          text2 + "MP: " + document.querySelector(".price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  } 
+  for (let i = 0; i < arrLinkGroAWS10andUltra1232026.length; i += 1) {
+    await page.goto(arrLinkGroAWS10andUltra1232026[i]);
+    const n = await page.$("#txt");
+
+    let arr3 = await page.evaluate(() => {
+      let text2 = document.querySelector(".sku").innerText;
+      if (document.querySelector(".product-price-value") != null) {
+        return (
+          text2 + "Gro: " + document.querySelector(".product-price-value").innerText
+        );
+      } else {
+        return text2;
+      }
+    });
+
+    console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
+  }
+  for (let i = 0; i < arrLinkEstoreAWSUltra1232026.length; i++) {
+
+  try {
+
+    await page.goto(arrLinkEstoreAWSUltra1232026[i], {
+      waitUntil: "domcontentloaded",
+      timeout: 20000,
+    });
+
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    const arr2 = await page.evaluate(() => {
+
+      const clean = (t) =>
+        t ? t.replace(/\n+/g, " ").replace(/\s+/g, " ").trim() : "";
+
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".regular-price");
+
+      const title = clean(h1?.innerText) || "⚠️ Нет H1";
+      const priceText = clean(price?.innerText);
+
+      return priceText
+        ? `${title} Estore: ${priceText}`
+        : title;
+
+    });
+
+    console.log(arr2);
+
+  } catch (err) {
+
+    console.log(
+      `❌ Estore: ${arrLinkEstoreAWSUltraSE32025[i]} | ${err.message}`
+    );
+
+    continue;
+
+  }
+
+}
+
+
+
+
+
 
   await browser.close();
 
