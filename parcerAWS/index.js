@@ -2052,23 +2052,32 @@ async function f() {
   }
 }
   for (let i = 0; i < arrLinkMobilePlanetUltra1232026.length; i += 1) {
-    await page.goto(arrLinkMobilePlanetUltra1232026[i]);
+  try {
+    await page.goto(arrLinkMobilePlanetUltra1232026[i], { waitUntil: "domcontentloaded" });
     const n = await page.$("#txt");
 
     let arr3 = await page.evaluate(() => {
-      let text2 = document.querySelector("h1").innerText;
-      if (document.querySelector(".price-value") != null) {
-        return (
-          text2 + "MP: " + document.querySelector(".price-value").innerText
-        );
+      const h1 = document.querySelector("h1");
+      const price = document.querySelector(".price-value");
+
+      if (h1) {
+        const text2 = h1.innerText.trim();
+        if (price) {
+          return `${text2} MP: ${price.innerText.trim()}`;
+        } else {
+          return `${text2} MP: нет цены`;
+        }
       } else {
-        return text2;
+        return "⚠️ Нет H1";
       }
     });
 
     console.log(arr3);
     await page.setDefaultNavigationTimeout(0);
-  } 
+  } catch (err) {
+    console.log(`❌ Ошибка на ссылке ${arrLinkMobilePlanetUltra1232026[i]}: ${err.message}`);
+  }
+}
   for (let i = 0; i < arrLinkGroAWS10andUltra1232026.length; i += 1) {
     await page.goto(arrLinkGroAWS10andUltra1232026[i]);
     const n = await page.$("#txt");
