@@ -2002,6 +2002,11 @@ async function f() {
     waitUntil: "domcontentloaded",
   });
 
+  // Случайная задержка 5–7 секунд
+  await new Promise(resolve =>
+    setTimeout(resolve, 5000 + Math.random() * 2000)
+  );
+
   const result = await page.evaluate(() => {
     const clean = (t) =>
       t?.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
